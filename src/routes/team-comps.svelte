@@ -14,6 +14,8 @@
   import SidePengu from "../components/SidePengu.svelte";
   import Comp from "../components/Comp.svelte";
   export let ChamionCost;
+  let ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
 </script>
 
 <div>
@@ -35,16 +37,9 @@
               <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
            </div>
         </div>
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
-        <Comp {ChamionCost} />
+        {#each ids as id}
+          <Comp {ChamionCost} {id} />
+        {/each}
      </div>
      </div>
   </div>
@@ -52,6 +47,10 @@
 
 
 <style>
+  .fixed-top {
+    position: fixed;
+  }
+
       .compsContainer{
         max-width: 980px;
       }

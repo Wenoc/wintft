@@ -49,7 +49,7 @@
     }
 </style>
 
-<div style="margin-top: 100px; margin-bottom: 100px; display: flex; flex-direction: column; align-items: center;">
+<div style="margin-top: 165px; margin-bottom: 100px; display: flex; flex-direction: column; align-items: center;">
     <div class="up">
         <div class="brandtext">
             <img src="brand.svg" alt="brand logo" style="width: 100%;">

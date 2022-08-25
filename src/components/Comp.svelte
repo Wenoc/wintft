@@ -1,6 +1,29 @@
 <script>
     import Champ from "./Champ.svelte";
     export let ChamionCost;
+    export let id;
+
+    let growid = 'grow' + id;
+
+    let rotate = false
+    function clickonArrow(){
+        rotate = !rotate
+        growDivv();
+    }
+    
+    function growDivv(){
+        let growDiv = document.querySelector('.'+growid);
+        if (growDiv.clientHeight) {
+        growDiv.style.height = 0;
+        growDiv.style.borderBottom = 0;
+    } else {
+        growDiv.style.height = 300 + "px";
+        growDiv.style.border = '1px solid #5e5d5d'
+        growDiv.style.borderLeft = 0;
+        growDiv.style.borderTop = 0;
+    }
+    }
+
 </script>
 
 <style>
@@ -69,6 +92,7 @@
         align-items: center;
         justify-content: center;
         color: white;
+        user-select: none;
     }
     .arrow svg {
         cursor: pointer;
@@ -77,7 +101,7 @@
     .compExpanded{
         height: 300px;
         background-color: #22242f;
-        border: 1px solid #5e5d5d;
+        /* border: 1px solid #5e5d5d; */
         border-top: 0;
         display: flex;
         justify-content: center;
@@ -85,13 +109,11 @@
     }
 
     .compExpandedLeft{
-        border-right: 1px solid #5e5d5d;
-        width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-right: 1px solid #5e5d5d;
     }
 
     .compExpandedRight{
@@ -181,6 +203,22 @@
         color: white;
     }
 
+    .fordul {
+        transform:rotate(180deg);
+        -ms-transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+    }
+
+    #grow {
+        -moz-transition: height .4s;
+        -ms-transition: height .4s;
+        -o-transition: height .4s;
+        -webkit-transition: height .4s;
+        transition: height .4s;
+        height: 0;
+        overflow: hidden;
+    }
+
 
     @media(max-width:1200px){
         .compBody{
@@ -233,7 +271,7 @@
     }
 </style>
 
-<div>
+<div style="margin-bottom: 20px;">
     <div class="compHead">
         <!-- nevet valtoztatni -->
         <p>4 Whisperers 2 Trainers</p>
@@ -245,8 +283,8 @@
             </div>
             <div class="compStat">
                 <!-- megvaltoztni ezeket -->
-                <p>Avg Place: <span>3.81</span></p>
-                <p>Pick Rate: <span>0.81</span></p>
+                <p style="text-align: left;">Avg. Placement: <span>3.81</span></p>
+                <p style="text-align: left;">Avg. Play Rate: <span>0.81</span></p>
             </div>
         </div>
         <div class="compBodyRight">
@@ -260,34 +298,34 @@
                 <Champ {ChamionCost}/>
                 <Champ {ChamionCost}/>
             </div>
-            <div class="arrow">
+            <div class="arrow" on:click={clickonArrow} class:fordul={rotate}>
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
             </div>
         </div>
     </div>
-    <div class="compExpanded">
-        <div class="compExpandedLeft">
-            <div class="up">
-                <p style="color: white; font-weight: 400;">Main Traits</p>
-                <div id="traits" style="display: flex; justify-content: center;">
-                    <div class="mainx" style="margin: 0;">
-                        <div class="positionContainer" style="padding: 0; text-align: center;">
-                            <div></div>
-                            <div></div>
+    <div class="compExpanded {growid}"  id='grow'>
+        <div class="compExpandedRight" style="border: 1px solid #5e5d5d;">
+                <div class="up" style="height: 132px">
+                    <p style="color: white; font-weight: 400;">Main Traits</p>
+                    <div id="traits" style="display: flex; justify-content: center;">
+                        <div class="mainx" style="margin: 0;">
+                            <div class="positionContainer" style="padding: 0; text-align: center;">
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="down">
-                <p style="color: white; font-weight: 400;">Carousel</p>
-                <div class="CarouselPrio">
-                    <img src="items/Bloodthirster.png" alt="">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
-                    <img src="items/Bloodthirster.png" alt="">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
-                    <img src="items/Bloodthirster.png" alt="">
+                <div class="down" style="height: 150px;">
+                    <p style="color: white; font-weight: 400;">Carousel</p>
+                    <div class="CarouselPrio">
+                        <img src="items/Bloodthirster.png" alt="">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
+                        <img src="items/Bloodthirster.png" alt="">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
+                        <img src="items/Bloodthirster.png" alt="">
+                    </div>
                 </div>
-            </div>
         </div>
         <div class="compExpandedRight">
             <p style="color: white; font-weight: 400;">Positioning</p>
