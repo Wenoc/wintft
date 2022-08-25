@@ -36,17 +36,17 @@
            </div>
         </div>
         <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
+        <Comp {ChamionCost} />
      </div>
      </div>
-  </div>
-</div>
-<div  class="rightGrid">
-  <div class="penguContainer">
-     <SidePengu>
-        <p style="margin: 0;">
-           If you like our site, please share it the others!
-        </p>
-     </SidePengu>
   </div>
 </div>
 
