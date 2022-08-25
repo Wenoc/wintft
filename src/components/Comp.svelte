@@ -220,9 +220,6 @@
     }
 
     @media(max-width:580px){
-        .compBodyRight{
-            
-        }
         .champs{
             width: 288px;
             flex-wrap: wrap;

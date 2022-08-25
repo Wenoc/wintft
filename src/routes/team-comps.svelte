@@ -65,7 +65,11 @@
           flex-direction: column;
           gap:15px
         }
+          .compsContainer{
+            width: 90%
+        }
       }
+      
     .patchInfo{
         display: flex;
         justify-content: space-between;
