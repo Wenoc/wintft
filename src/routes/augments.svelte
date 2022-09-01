@@ -29,14 +29,11 @@
                         <div style="width: 10%;">
                             <p>Tier</p>
                         </div>
-                        <div style="width: 20%;">
-                            <p>Avg Place</p>
-                        </div>
-                        <div style="width: 40%;">
+                        <div style="width: 60%;">
                             <p>Description </p>  
                         </div>
                     </div>
-                    <Augment />
+                    <Augment Description='If you have exactly 2 copies of a champion on your board, they both gain 22 Attack Damage, Ability Power, Armor, and Magic Resist. When you upgrade to 3-star, gain a 2-star copy.'/>
                 </div>
         </div>
        </div>

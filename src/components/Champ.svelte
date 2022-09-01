@@ -83,7 +83,7 @@
 
 <div style="position: relative;">
     <div class="champContainer" class:augment={augment} class:noaugment={!augment} style="outline: 3px solid {borderColor};">
-        <img src="champs/{Name}.png" alt="" style="max-width:100%;">
+        <img src="ChampIcons/syfen.png" alt="" style="max-width:100%;">
     </div>
     <div class="stars" class:dontShow={!ThreeStar}>
         <div style="position: relative;">

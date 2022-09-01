@@ -3,33 +3,29 @@
     // export let augment = '';
     // export let tier = '';
     // export let avgPlace = '';
-    // export let Descriptio = '';
+    export let Description = '';
 </script>
 
-<div class="augment" class:second={isSecond}>
+<div class="augment" class:second={isSecond} id="outer">
     <div class="section" style="width: 30%; text-align: left;">
         <div style="padding-left: 10px;">
             <p>Augment</p>
         </div>
     </div>
-    <div class="section" style="width: 10%;">
+    <div class="section" style="width: 10%;" id="inner">
         <div style="display: flex; justify-content: center;">
             <div class="SLetter" style="margin: 6px 0;">
                 <p style="border: 0; margin:0; padding:0;">S</p>
             </div>
         </div>
     </div>
-    <div class="section" style="width: 20%;">
-        <p>Avg Place</p>
-    </div>
-    <div class="section" style="width: 40%; text-align: left">
+    <div class="section" style="width: 60%; text-align: left">
         <div style="padding-left: 10px;">
-            <p>Description</p>
+            <p class="description">{Description}</p>
         </div>
     </div>
 </div>
 <style>
-    
         .SLetter{
             height: 32px;
             width: 32px;
@@ -49,7 +45,6 @@
             display: flex;
             background-color: #22242f;
             color: white;
-            height: 44px;
             justify-content: center;
             align-items: center;
             border: 1px solid #5e5d5d;
@@ -57,7 +52,9 @@
             border-right: 0;
         }
         .augment .section{
+            height: auto;
             border-right: 1px solid #5e5d5d;
+            font-weight: normal;
         }
 
         p{
@@ -66,5 +63,9 @@
 
         .second{
             background-color: #2d2f3a;
+        }
+
+        .description{
+            font-size: 14px;
         }
 </style>

@@ -1,4 +1,14 @@
 [
-    { "name": "Aatrox", "cost": 1},
-    { "name": "Bard", "cost": 5}
+    { "name": "Ezreal", "cost": 1, "items": ["Blue Buff", "Infinity Edge", "Jeweled Gauntlet"], "traits": ["Tempest", "Swiftshot"]},
+    { "name": "Karma", "cost": 1, "items": ["Blue Buff", "Infinity Edge", "Jeweled Gauntlet"], "traits": ["Jade", "Dragonmancer"]},
+    { "name": "Leona", "cost": 1, "items": ["Gargoyle Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Mirage", "Guardian"]},
+    { "name": "Malphite", "cost": 1, "items": ["Gargoyle Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Lagoon", "Bruiser"]},
+    { "name": "Nidalee", "cost": 1, "items": ["Deathblade", "Guinsoo's Rageblade", "Quicksilver"], "traits": ["Astral", "Shapeshifter"]},
+    { "name": "Sejuani", "cost": 1, "items": ["Bramble Vest", "Redemption", "Warmog's Armor"], "traits": ["Guild", "Cavalier"]},
+    { "name": "Senna", "cost": 1, "items": ["Chalice of Power", "Zeke's Herald", "Zephyr"], "traits": ["Ragewing", "Cannoneer"]},
+    { "name": "Sett", "cost": 1, "items": ["Giant Slayer", "Guinsoo's Rageblade", "Quicksilver"], "traits": ["Ragewing", "Dragonmancer"]},
+    { "name": "Skarner", "cost": 1, "items": ["Gargoyle Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Astral", "Bruiser"]},
+    { "name": "Taliyah", "cost": 1, "items": ["Spear of Shojin", "Infinity Edge", "Jeweled Gauntlet"], "traits": ["Lagoon", "Mage"]},
+    { "name": "Vladimir", "cost": 1, "items": ["Gargoyle Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Astral", "Mage"]},
+    { "name": "Wukong", "cost": 1, "items": ["Gargoyle Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Jade", "Warrior"]}
 ]

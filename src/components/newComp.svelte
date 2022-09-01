@@ -17,9 +17,9 @@
         growDiv.style.height = 0;
         growDiv.style.borderBottom = 0;
     } else {
-        growDiv.style.height = 300 + "px";
+        growDiv.style.height = 230 + "px";
         growDiv.style.border = '1px solid #5e5d5d'
-        growDiv.style.borderLeft = 0;
+
         growDiv.style.borderTop = 0;
     }
     }
@@ -61,14 +61,14 @@
         align-items: center;
     }
     .SLetter{
-        height: 42px;
-        width: 42px;
+        height: 40px;
+        width: 40px;
         background-color: #f05867;
         border-radius: 3px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 30px;
+        font-size: 28px;
         color: black;
         margin-right: 35px;
     }
@@ -162,12 +162,12 @@
 
     .MiddleUp{
         border-bottom: 1px solid #5e5d5d;
-        min-height: 60%;
+        min-height: 140px;
         width: 100%;
     }
 
     .MiddleDown{
-        min-height: 40%;
+        min-height: 91px;
         width: 100%;
     }
 
@@ -198,12 +198,13 @@
 
     .LeftUp{
         width: 100%;
-        min-height: 40%;
+        min-height: 93px;
         border-bottom: 1px solid #5e5d5d;
     }
 
     .LeftDown{
         width: 100%;
+        min-height: 40%;
     }
 
     .augmentContainer{
@@ -309,6 +310,15 @@
         height: 40px;
         transform: scale(1.6);
     }
+    #grow {
+        -moz-transition: height .4s;
+        -ms-transition: height .4s;
+        -o-transition: height .4s;
+        -webkit-transition: height .4s;
+        transition: height .4s;
+        height: 0;
+        overflow: hidden;
+    }
 </style>
 
 <div style="margin-bottom: 20px; width: 980px;">
@@ -346,7 +356,7 @@
             </div>
         </div>
     </div>
-    <div class="compExpanded">
+    <div class="compExpanded {growid}" id='grow'>
         <div class="compExpandedLeft">
             <div class="LeftUp">
                 <p class="" style="color: white; padding-top: 8px; padding-bottom: 4px; font-size: 14px;">Augments</p>
@@ -381,7 +391,7 @@
                 </div>
             </div>
         </div>
-        <div class="compExpandedMiddle">
+        <div class="compExpandedLeft">
             <div class="MiddleUp">
                 <p class="" style="color: white; padding-top: 8px; padding-bottom: 4px; font-size: 14px;">Traits</p>
                 <div style="display: flex; justify-content: center; align-items: center; height: 65%;">
