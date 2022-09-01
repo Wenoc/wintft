@@ -5,6 +5,8 @@
     export let items;
     let newItems = [];
 
+    $: items
+
     onMount(async () => {
         items.forEach(item => {
         let newItem;

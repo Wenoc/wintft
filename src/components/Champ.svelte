@@ -1,6 +1,6 @@
 
 <script>
-    export let Name = 'Aatrox';
+    // export let Name;
     // export let Rarity;
     export let Items = ['Bloodthirster', 'Bloodthirster', 'Bloodthirster'];
     export let ThreeStar = false;
