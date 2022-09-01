@@ -46,7 +46,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 30px;
+        padding: 0 35px;
     }
 
     .compInfo{
@@ -55,8 +55,8 @@
         align-items: center;
     }
     .SLetter{
-        height: 45px;
-        width: 45px;
+        height: 42px;
+        width: 42px;
         background-color: #f05867;
         border-radius: 3px;
         display: flex;
@@ -88,6 +88,7 @@
     }
 
     .arrow {
+        margin-left: 94px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -146,7 +147,6 @@
         font-size: 0;
         margin: 0;
         padding: 20px;
-        padding-top: 0px;
         padding-left: 33px;
         line-height: normal;
         text-align: left;
@@ -282,9 +282,7 @@
                 S
             </div>
             <div class="compStat">
-                <!-- megvaltoztni ezeket -->
-                <p style="text-align: left;">Avg. Placement: <span>3.81</span></p>
-                <p style="text-align: left;">Avg. Play Rate: <span>0.81</span></p>
+
             </div>
         </div>
         <div class="compBodyRight">

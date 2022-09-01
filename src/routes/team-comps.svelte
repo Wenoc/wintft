@@ -9,12 +9,12 @@
 </script>
 
 <script>
-  import PageLayout from "../components/PageLayout.svelte";
   import Header from "../components/Header.svelte";
   import SidePengu from "../components/SidePengu.svelte";
   import Comp from "../components/Comp.svelte";
+  import NewComp from "../components/newComp.svelte";
   export let ChamionCost;
-  let ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+  let ids = [1];
 
 </script>
 
@@ -38,7 +38,7 @@
            </div>
         </div>
         {#each ids as id}
-          <Comp {ChamionCost} {id} />
+          <NewComp {ChamionCost} {id} />
         {/each}
      </div>
      </div>
@@ -47,9 +47,6 @@
 
 
 <style>
-  .fixed-top {
-    position: fixed;
-  }
 
       .compsContainer{
         max-width: 980px;

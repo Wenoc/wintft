@@ -2,12 +2,13 @@
 <script>
     export let Name = 'Aatrox';
     // export let Rarity;
-    export let Items = ['Bloodthirster', 'Bloodthirster'];
+    export let Items = ['Bloodthirster', 'Bloodthirster', 'Bloodthirster'];
     export let ThreeStar = false;
     // export let ChamionCost;
     // let index = ChamionCost.findIndex(x => x.name === Name);
     // let ChampRaity = ChamionCost[index].cost;
     let borderColor ='#878aa2';
+    export let augment = false;
 
     // let borderColor;
     // if (ChampRaity == 1){
@@ -24,9 +25,17 @@
 </script>
 
 <style>
-    .champContainer{
+    .augment{
+        height: 40px;
+        width: 40px;
+    }
+
+    .noaugment{
         height: 60px;
         width: 60px;
+    }
+
+    .champContainer{
         outline-offset: -3px;
         border-radius: 2px;
     }
@@ -73,7 +82,7 @@
 </style>
 
 <div style="position: relative;">
-    <div class="champContainer" style="outline: 3px solid {borderColor};">
+    <div class="champContainer" class:augment={augment} class:noaugment={!augment} style="outline: 3px solid {borderColor};">
         <img src="champs/{Name}.png" alt="" style="max-width:100%;">
     </div>
     <div class="stars" class:dontShow={!ThreeStar}>
