@@ -27,7 +27,7 @@
                 <div class="champTraits">
                     {#each traits as trait}
                     <div class="traitItem">
-                        <img src="./Traits/Set7_{trait}_w.svg" alt="">
+                        <img src="./Traits/Set7_{trait}_w.svg" alt="" loading="lazy">
                         <p>{trait}</p>
                     </div>
                     {/each}
@@ -40,14 +40,14 @@
         <div class="cardRight">
             <div class="rightUp">
                 <div class="champCost">
-                    <img src="./augments/dragonbane-crown-iii.png" alt="">
+                    <img src="./augments/dragonbane-crown-iii.png" alt="" loading="lazy">
                     <p>1</p>
                 </div>
             </div>
             <div class="rightDown">
                 <div class="champItems">
                     {#each items as item}
-                        <img src="./items/{item}.png" alt="">
+                        <img src="./items/{item}.png" alt="" loading="lazy">
                     {/each}
                 </div>
             </div>
@@ -160,5 +160,6 @@
 
     .champItems img{
         height: 26px;
+        
     }
 </style>
