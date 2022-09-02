@@ -10,11 +10,9 @@
 
 <script>
   import Header from "../components/Header.svelte";
-  // import SidePengu from "../components/SidePengu.svelte";
-  // import Comp from "../components/Comp.svelte";
   import NewComp from "../components/newComp.svelte";
   export let ChamionCost;
-  
+
   let ids = [1, 2];
 
 </script>

@@ -23,7 +23,7 @@ import Champ from "../components/Champ.svelte";
     <div class="championsContainer">
         <div>
             {#each AllChampions as Champ}
-                <ChampionsChamp name={Champ.name} traits={Champ.traits} items={Champ.items}/>
+                <ChampionsChamp name={Champ.name} traits={Champ.traits} items={Champ.items} cost={Champ.cost}/>
             {/each}
         </div>
     </div>
@@ -38,6 +38,7 @@ import Champ from "../components/Champ.svelte";
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
+        margin-bottom: 50px;
     }
 
     .championsContainer{

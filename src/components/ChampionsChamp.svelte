@@ -5,25 +5,22 @@
     export let items;
     let newItems = [];
 
-    $: items
-
-    onMount(async () => {
-        items.forEach(item => {
+    for(let i = 0; i< 3; i++){
         let newItem;
-        newItem = item.replaceAll("\'", "");
+        newItem = items[i].replaceAll("\'", "");
         newItem = newItem.replaceAll(" ", "");
-
-        newItems.push(newItem);
-    });
-    items = newItems;
-    });
+        newItems[i] = newItem
+    }
 
     export let name;
+    let nameToFindChamp = name.replaceAll(" ", "-");
     export let traits;
+
+    export let cost;
 </script>
 
 <div class="opacity">
-    <div class="champCard" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url('/ChampThumbnails/{name}.jpg'); background-size: cover;">
+    <div class="champCard" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url('/ChampThumbnails/{nameToFindChamp}.jpg'); background-size: cover;">
         <div class="cardLeft">
             <div class="leftUp">
                 <div class="champTraits">
@@ -42,13 +39,13 @@
         <div class="cardRight">
             <div class="rightUp">
                 <div class="champCost">
-                    <img src="./augments/dragonbane-crown-iii.png" alt="" loading="lazy">
-                    <p>1</p>
+                    <img src="coins.svg" alt="">
+                    <p>{cost}</p>
                 </div>
             </div>
             <div class="rightDown">
                 <div class="champItems">
-                    {#each items as item}
+                    {#each newItems as item}
                         <img src="./items/{item}.png" alt="" loading="lazy">
                     {/each}
                 </div>
@@ -142,10 +139,11 @@
         justify-content: start;
         align-items: center;
         padding-right: 6px;
+        gap: 4px;
     }
 
     .champCost img{
-        height: 30px;
+        height: 20px;
     }
 
     .champItems{
@@ -163,5 +161,13 @@
     .champItems img{
         height: 26px;
         
+    }
+
+    .champTraits{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2px;
     }
 </style>
