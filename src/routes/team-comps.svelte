@@ -50,7 +50,7 @@
            </div>
         </div>
         {#each compData as comp}
-          <NewComp {AllChampions} id={comp.id} name={comp.name} tier={comp.tier} champions={reverseComp(comp.champions)}
+          <NewComp {AllChampions} id={comp.id} name={comp.name} tier={comp.tier} champions={reverseComp(comp.champions)} carousel={comp.carousel}
               Gtraits={comp.traits[0].gold} Straits={comp.traits[1].silver} Btraits={comp.traits[2].bronze} difficulty={comp.difficulty} type={comp.type} carries={comp.carries} positions={comp.positions}/>
         {/each}
      </div>

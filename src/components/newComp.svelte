@@ -1,16 +1,17 @@
 <script>
     import Champ from "./Champ.svelte";
     export let ChamionCost;
+    export let AllChampions;
+
     export let id;  
     export let name;
     export let tier;
     
     export let positions;
-    export let AllChampions;
     export let carries;
-
     export let difficulty;
     export let type;
+    export let carousel;
 
     let dColor;
     let bdColor;
@@ -473,11 +474,11 @@
             <div class="MiddleDown">
                 <p class="" style="color: white; padding-top: 8px; padding-bottom: 4px; font-size: 14px;">Carousel</p>
                 <div class="carouselContainer">
-                    <img src="./items/Bloodthirster.png" alt="">
+                    <img src="./ItemComponents/{carousel[0]}.png" alt="{carousel[0]}">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
-                    <img src="./items/Bloodthirster.png" alt="">
+                    <img src="./ItemComponents/{carousel[1]}.png" alt="{carousel[1]}">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
-                    <img src="./items/Bloodthirster.png" alt="">
+                    <img src="./ItemComponents/{carousel[2]}.png" alt="{carousel[2]}">
                 </div>
             </div>
         </div>
