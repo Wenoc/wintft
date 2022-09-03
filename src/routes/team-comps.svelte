@@ -1,19 +1,32 @@
 <script context="module">
-  // console.log('module script');
   export async function preload(page, session) {
         const res = await this.fetch('/data.json');
-        const ChamionCost = await res.json();
+        const AllChampions = await res.json();
+  
+        const res2 = await this.fetch('/compData.json');
+        const compData = await res2.json();
+        let combine = [];
+        combine[0] = AllChampions;
+        combine[1] = compData;
 
-        return { ChamionCost };
+        return {combine};
   }
 </script>
+
 
 <script>
   import Header from "../components/Header.svelte";
   import NewComp from "../components/newComp.svelte";
-  export let ChamionCost;
+  
+  export let combine;
+  let AllChampions = combine[0];
+  let compData = combine[1];
 
-  let ids = [1, 2];
+  function reverseComp(comp){
+    let reversed = Object.values(comp)
+    reversed = reversed.reverse();
+    return reversed;
+  }
 
 </script>
 
@@ -36,8 +49,9 @@
               <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
            </div>
         </div>
-        {#each ids as id}
-          <NewComp {ChamionCost} {id} />
+        {#each compData as comp}
+          <NewComp {AllChampions} id={comp.id} name={comp.name} tier={comp.tier} champions={reverseComp(comp.champions)}
+              Gtraits={comp.traits[0].gold} Straits={comp.traits[1].silver} Btraits={comp.traits[2].bronze} difficulty={comp.difficulty} type={comp.type} carries={comp.carries} positions={comp.positions}/>
         {/each}
      </div>
      </div>

@@ -1,27 +1,41 @@
 
 <script>
-    // export let Name;
-    // export let Rarity;
-    export let Items = ['Bloodthirster', 'Bloodthirster', 'Bloodthirster'];
+    import { onMount } from 'svelte';
+    export let name;
+    export let Items = [];
     export let ThreeStar = false;
-    // export let ChamionCost;
-    // let index = ChamionCost.findIndex(x => x.name === Name);
-    // let ChampRaity = ChamionCost[index].cost;
-    let borderColor ='#878aa2';
     export let augment = false;
+    
+    export let cost;
 
-    // let borderColor;
-    // if (ChampRaity == 1){
-    //     borderColor ='#878aa2';
-    // } else if(ChampRaity == 2){
-    //     borderColor ='#11b88e';
-    // } else if(ChampRaity == 3){
-    //     borderColor ='#417deb';
-    // }else if(ChampRaity == 4 || ChampRaity == 8){
-    //     borderColor ='#c92a73';
-    // }else if(ChampRaity == 5 || ChampRaity == 10){
-    //     borderColor ='#f2c530';
-    // }
+    let borderColor ='#878aa2';
+
+    let lname;
+    let nlname;
+    
+    onMount(async () => {
+       lname = name.replace(" ", "-");
+       nlname = lname.toLowerCase();
+	});
+
+    if(Items.length > 1){
+        for(let i = 0; i < Items.length; i++){
+            Items[i] = Items[i].replaceAll("\'", "")
+            Items[i] = Items[i].replaceAll(" ", "")
+        }
+    }
+
+    if (cost == 1){
+        borderColor ='#878aa2';
+    } else if(cost == 2){
+        borderColor ='#11b88e';
+    } else if(cost == 3){
+        borderColor ='#417deb';
+    }else if(cost == 4 || cost == 7){
+        borderColor ='#c92a73';
+    }else if(cost == 5 || cost == 8){
+        borderColor ='#f2c530';
+    }
 </script>
 
 <style>
@@ -83,7 +97,7 @@
 
 <div style="position: relative;">
     <div class="champContainer" class:augment={augment} class:noaugment={!augment} style="outline: 3px solid {borderColor};">
-        <img src="ChampIcons/syfen.png" alt="" style="max-width:100%;">
+        <img src="ChampIcons/{nlname}.png" alt="" style="max-width:100%;">
     </div>
     <div class="stars" class:dontShow={!ThreeStar}>
         <div style="position: relative;">
@@ -93,8 +107,10 @@
         </div>
     </div>
     <div class="items" class:items2={Items.length == 2} class:items3={Items.length == 1}>
-        {#each Items as item}
-        <img src="items/{item}.png" alt="">
-        {/each}
+        {#if Items.length > 0}
+            {#each Items as item}
+            <img src="items/{item}.png" alt="">
+            {/each}
+        {/if}
     </div>
 </div>

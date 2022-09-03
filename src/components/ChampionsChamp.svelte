@@ -26,7 +26,7 @@
                 <div class="champTraits">
                     {#each traits as trait}
                     <div class="traitItem">
-                        <img src="./Traits/Set7_{trait}_w.svg" alt="" loading="lazy">
+                        <img src="./Traits/Set7_{trait}_w.svg" alt="{trait}" loading="lazy">
                         <p>{trait}</p>
                     </div>
                     {/each}
@@ -39,14 +39,14 @@
         <div class="cardRight">
             <div class="rightUp">
                 <div class="champCost">
-                    <img src="coins.svg" alt="">
+                    <img src="coins.svg" alt="coin">
                     <p>{cost}</p>
                 </div>
             </div>
             <div class="rightDown">
                 <div class="champItems">
                     {#each newItems as item}
-                        <img src="./items/{item}.png" alt="" loading="lazy">
+                        <img src="./items/{item}.png" alt="{item}" loading="lazy">
                     {/each}
                 </div>
             </div>

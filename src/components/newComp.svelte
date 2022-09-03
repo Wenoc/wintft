@@ -1,7 +1,49 @@
 <script>
     import Champ from "./Champ.svelte";
     export let ChamionCost;
-    export let id;
+    export let id;  
+    export let name;
+    export let tier;
+    
+    export let positions;
+    export let AllChampions;
+    export let carries;
+
+    export let difficulty;
+    export let type;
+
+    let dColor;
+    let bdColor;
+
+    let tColor;
+    let btColor;
+
+    dColor = '#c32148';
+    bdColor = '#67273c';
+
+    tColor = '#9453a6';
+    btColor = '#543b61';
+
+    if(difficulty == 'Easy'){
+        dColor = '#1ECFA3';
+        bdColor = '#256d60';
+    } else if(difficulty == 'Medium'){
+        dColor = '#ff9966';
+        bdColor = '#7f5748';
+    }
+
+    if(type == "Standard"){
+        tColor = "#3c69e7"
+        btColor = '#31447b';
+    } else if ( type == "Fast 8"){
+        tColor = "#b48395"
+        btColor = '#614e5b';
+    } else if (type == "Hyper Roll"){
+        tColor = "#eedc82"
+        btColor = '#787253';
+    }
+    
+    export let champions;
 
     let growid = 'grow' + id;
 
@@ -24,7 +66,17 @@
     }
     }
 
-    let traits = [1, 2, 3, 4, 5, 6];
+    let traits = ['Assassin', 'Astral'];
+    export let Gtraits;
+    export let Straits
+    export let Btraits
+
+    function determineValue(champ){
+        var result = AllChampions.find(obj => {
+            return obj.name == champ;
+        })
+        return result.cost;
+    }
 
 </script>
 
@@ -247,15 +299,18 @@
     }
 
     .traitContainer{
+        padding: 0 10px;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         gap: 4px;
         margin-bottom: 4px;
     }
 
     .traitContainer div{
-        height: 32px;
+        height: 24px;
+        padding: 4px 0;
         width: 42px;
         background-color: #2d2f3a;
         color: white;
@@ -303,13 +358,7 @@
             #000 0 var(--f));
     }
 
-    .positionContainer div img {
-        position: absolute;
-        top: 9px;
-        left: 5px;
-        height: 40px;
-        transform: scale(1.6);
-    }
+
     #grow {
         -moz-transition: height .4s;
         -ms-transition: height .4s;
@@ -319,37 +368,48 @@
         height: 0;
         overflow: hidden;
     }
+
+    .traitItem img{
+        height: 30px;
+    }
+
+    .positionContainer div img {
+        position: absolute;
+        height: 40px;
+        transform: scale(1);
+    }
 </style>
 
 <div style="margin-bottom: 20px; width: 980px;">
     <div class="compHead">
         <!-- nevet valtoztatni -->
-        <p>4 Whisperers 2 Trainers</p>
+        <p>{name}</p>
     </div>
     <div class="compBody">
         <div class="compInfo">
             <div class="SLetter">
-                S
+                {tier}
             </div>
             <div class="compStat">
-                <div class="difficulty">
-                    <p>Easy</p>
+                <div class="difficulty" style="background-color: {bdColor};">
+                    <p style="color: {dColor};">{difficulty}</p>
                 </div>
-                <div class="type">
-                    <p>Hyper Roll</p>
+                <div class="type" style="background-color: {btColor};">
+                    <p style="color: {tColor};">{type}</p>
                 </div>
             </div>
         </div>
         <div class="compBodyRight">
             <div class="champs">
-                <Champ {ChamionCost}/>
-                <Champ {ChamionCost}/>
-                <Champ {ChamionCost}/>
-                <Champ {ChamionCost}/>
-                <Champ {ChamionCost}/>
-                <Champ {ChamionCost}/>
-                <Champ {ChamionCost}/>
-                <Champ {ChamionCost}/>
+                {#each champions as champ}
+                    {#if champ == carries[0].name}
+                        <Champ {ChamionCost} name={champ} Items={carries[0].items} cost={determineValue(champ)}/>
+                    {:else if champ== carries[1].name}
+                        <Champ {ChamionCost} name={champ} Items={carries[1].items} cost={determineValue(champ)}/>
+                    {:else}
+                        <Champ {ChamionCost} name={champ} cost={determineValue(champ)}/>
+                    {/if}
+                {/each}
             </div>
             <div class="arrow" on:click={clickonArrow} class:fordul={rotate}>
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
@@ -397,15 +457,15 @@
                 <div style="display: flex; justify-content: center; align-items: center; height: 65%;">
                     <div>
                         <div class="traitContainer">
-                            {#each traits as trait}
-                                <div>{trait}</div>
+                            {#each Gtraits as trait}
+                                <div class="traitItem" style="background-color: #d5ac38;"><img src="./Traits/Set7_{trait}_w.svg" alt="{trait}"></div>
                             {/each}
-                        </div>
-                        <div class="traitContainer">
-                            <div>1</div>
-                            <div>2</div>
-                            <div>3</div>
-                            <div>4</div>
+                            {#each Straits as trait}
+                                <div class="traitItem" style="background-color: #8a9c9d"><img src="./Traits/Set7_{trait}_w.svg" alt="{trait}"></div>
+                            {/each}
+                            {#each Btraits as trait}
+                                <div class="traitItem" style="background-color: #966b51"><img src="./Traits/Set7_{trait}_w.svg" alt="{trait}"></div>
+                            {/each}
                         </div>
                     </div>
                 </div>
@@ -425,34 +485,13 @@
             <p class="" style="color: white; padding-top: 8px; padding-bottom: 4px; font-size: 14px; margin-bottom: 20px;">Positioning</p>
             <div class="mainx">
                 <div class="positionContainer">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div><img src="./img/Syfen.png" alt=""></div>
-                    <div><img src="./img/Sylas.png" alt=""></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div><img src="./img/TrainderDragon.webp" alt=""></div>
-                    <div><img src="./img/Sona.png" alt=""></div>
-                    <div><img src="./img/Tristana.png" alt=""></div>
-                    <div></div>
-                    <div><img src="./img/Bard.png" alt=""></div>
-                    <div></div>
-                    <div><img src="./img/Lulu.png" alt=""></div>
-                    <div><img src="./img/Corki.png" alt=""></div>
+                    {#each positions as position}
+                        <div>
+                            {#if position != ""}
+                            <img src="./ChampIcons/{position}.png" alt="{position}">
+                            {/if}
+                        </div>
+                    {/each}
                 </div>
             </div>
         </div>
