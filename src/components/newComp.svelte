@@ -12,6 +12,12 @@
     export let difficulty;
     export let type;
     export let carousel;
+    export let augments;
+    export let lvl9;
+
+    export let optionsChampionsRight;
+    export let optionsChampionsLeft;
+
 
     let dColor;
     let bdColor;
@@ -282,6 +288,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 10px;
     }
 
 
@@ -379,6 +386,20 @@
         height: 40px;
         transform: scale(1);
     }
+
+    .lvl9{
+        border-radius: 2px;
+        background-color: #2d2f3a;
+        color: white;
+        padding: 3px 10px;
+    }
+
+    .option2Right, .option2Left {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 5px;
+    }
 </style>
 
 <div style="margin-bottom: 20px; width: 980px;">
@@ -422,32 +443,32 @@
             <div class="LeftUp">
                 <p class="" style="color: white; padding-top: 8px; padding-bottom: 4px; font-size: 14px;">Augments</p>
                 <div class="augmentContainer">
-                    <img src="./augments/dragonbane-crown-iii.png" alt="">
-                    <img src="./augments/dragonbane-crown-iii.png" alt="">
-                    <img src="./augments/dragonbane-crown-iii.png" alt="">
+                    {#each augments as augment}
+                    <img src="./augments/{augment}.png" alt="">
+                    {/each}
                 </div>
             </div>
             <div class="LeftDown">
                 <p class="" style="color: white; padding-top: 8px; padding-bottom: 4px; font-size: 14px;">Options</p>
                 <div class="optionsContainer">
                     <div class="option1">
-                        <Champ {ChamionCost} Items={[]} augment={true}/>
-                        <!-- more -->
-                        <div class="arrow">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
-                        </div>
-                        <Champ {ChamionCost} Items={[]} augment={true}/>
-                        <!-- more -->
+                        <div class="lvl9"> Lvl 9</div>
+                        <Champ name={lvl9} augment={true} cost={determineValue(lvl9)}/>
                     </div>
                     <div class="option2">
-                        <Champ {ChamionCost} Items={[]} augment={true}/>
-                        <!-- more -->
-
+                        <div class="option2Left">
+                            {#each optionsChampionsLeft as ocl}
+                                <Champ name={ocl} augment={true} cost={determineValue(ocl)}/>
+                            {/each}
+                        </div>
                         <div class="arrow">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
                         </div>
-                        <Champ {ChamionCost} Items={[]} augment={true}/>
-                        <!-- more -->
+                        <div class="option2Right">
+                            {#each optionsChampionsRight as ocr}
+                                <Champ name={ocr} augment={true} cost={determineValue(ocr)}/>
+                            {/each}
+                        </div>
                     </div>
                 </div>
             </div>
