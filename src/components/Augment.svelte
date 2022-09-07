@@ -4,24 +4,27 @@
     // export let tier = '';
     // export let avgPlace = '';
     export let Description = '';
+
 </script>
 
 <div class="augment" class:second={isSecond} id="outer">
-    <div class="section" style="width: 30%; text-align: left;">
-        <div style="padding-left: 10px;">
-            <p>Augment</p>
-        </div>
-    </div>
-    <div class="section" style="width: 10%;" id="inner">
-        <div style="display: flex; justify-content: center;">
-            <div class="SLetter" style="margin: 6px 0;">
-                <p style="border: 0; margin:0; padding:0;">S</p>
+    <div class="container">
+        <div class="section" style="width: 30%; text-align: left;">
+            <div class="augmentNameSection" style="padding-left: 10px;">
+                <p>Augment</p>
             </div>
         </div>
-    </div>
-    <div class="section" style="width: 60%; text-align: left">
-        <div style="padding-left: 10px;">
-            <p class="description">{Description}</p>
+        <div class="section" style="width: 10%; justify-content: center;" id="inner">
+            <div style="display: flex; justify-content: center;">
+                <div class="SLetter" style="margin: 6px 0;">
+                    <p style="border: 0; margin:0; padding:0;">S</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" style="width: 60%; text-align: left;">
+            <div style="padding-left: 10px;">
+                <p class="description">{Description}</p>
+            </div>
         </div>
     </div>
 </div>
@@ -39,6 +42,12 @@
             color: black;
         }
 
+        .container{
+            display: flex;
+            flex: 1 1 auto;
+            min-height: 50px;
+        }
+
         .augment{
             font-weight: 500;
             font-size: 18px;
@@ -50,11 +59,22 @@
             border: 1px solid #5e5d5d;
             border-top: 0;
             border-right: 0;
+            min-height: 50px;
         }
+        
         .augment .section{
-            height: auto;
             border-right: 1px solid #5e5d5d;
             font-weight: normal;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex: 1 1 auto;
+        }
+
+        .augmentNameSection{
+            display: flex;
+            justify-content: start;
+            align-items: center;
         }
 
         p{

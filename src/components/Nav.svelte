@@ -118,13 +118,13 @@
 		<img src="menu.svg" alt="">
 	   </div>
 	   <div class="linkContainer">
-		  <a href="team-comps/" class:selected={segment === 'team-comps/'}>
+		  <a href="team-comps/" class:selected={segment === 'team-comps'}>
 		  	<div class="navItem"> Team Comps </div>
 		  </a>
-		  <a href="augments/" class:selected={segment === 'augments/'}>
+		  <a href="augments/" class:selected={segment === 'augments'}>
 		  	<div class="navItem"> Augments </div>
 		  </a>
-		  <a href="champions/" class:selected={segment === 'champions/'}>
+		  <a href="champions/" class:selected={segment === 'champions'}>
 		  	<div class="navItem">Champions </div>
 		  </a>
 		  <a href="guides" class="guides" class:selected={segment === 'guides'} style="display: flex; justify-content: center; align-items: center;">
