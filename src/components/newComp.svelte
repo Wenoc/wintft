@@ -414,7 +414,7 @@
             </div>
             <div class="compStat">
                 <div class="difficulty" style="background-color: {bdColor};">
-                    <p style="color: {dColor};">{difficulty}</p>
+                    <p style="color: {dColor}; width:55px;">{difficulty}</p>
                 </div>
                 <div class="type" style="background-color: {btColor};">
                     <p style="color: {tColor};">{type}</p>

@@ -9,8 +9,8 @@
             { "name": "Aurelion Sol" ,"items": ["Archangel's Staff", "Mage Emblem", "Spear of Shojin"]}
         ],
         "threeStar" : [],
-        "difficulty": "Easy",
-        "type": "Fast 8",
+        "difficulty": "Medium",
+        "type": "Standard",
         "augments" : ["builtdifferent3", "dizzy-ii", "jade-crest-i"],
         "traits" : [
             {"gold" : ["Bard"]},
@@ -27,14 +27,14 @@
         "id" : "1",
         "name" : "Astral Dragon",
         "tier" : "S",
-        "champions" : ["Skarner", "Lux", "Zyra", "Seraphine", "Sylas", "Bard", "Aurelion Sol"],
+        "champions" : ["Skarner", "Nidalee", "Vladimir", "Lux", "Twitch", "Sylas", "Varus", "Xayah"],
         "carries" : [
             { "name": "Sylas" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
-            { "name": "Aurelion Sol" ,"items": ["Archangel's Staff", "Mage Emblem", "Spear of Shojin"]}
+            { "name": "Varus" ,"items": ["Deathblade", "Guinsoo's Rageblade", "Runaan's Hurricane"]}
         ],
-        "threeStar" : [],
+        "threeStar" : ["Sylas", "Varus"],
         "difficulty": "Easy",
-        "type": "Fast 8",
+        "type": "Hyper Roll",
         "augments" : ["builtdifferent3", "dizzy-ii", "jade-crest-i"],
         "traits" : [
             {"gold" : ["Bard"]},
@@ -57,7 +57,7 @@
             { "name": "Aurelion Sol" ,"items": ["Archangel's Staff", "Mage Emblem", "Spear of Shojin"]}
         ],
         "threeStar" : [],
-        "difficulty": "Easy",
+        "difficulty": "Hard",
         "type": "Fast 8",
         "augments" : ["builtdifferent3", "dizzy-ii", "jade-crest-i"],
         "traits" : [
