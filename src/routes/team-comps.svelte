@@ -32,7 +32,7 @@
 
 <div>
   <div style="text-align: center;">
-     <Header />
+     <Header headerText="Team Comps"/>
      <div></div>
      <div style="display: flex; justify-content:center">
       <div class="compsContainer">

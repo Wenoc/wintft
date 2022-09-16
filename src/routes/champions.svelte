@@ -9,21 +9,66 @@
   </script>
 
 <script>
-import Champ from "../components/Champ.svelte";
-
     import ChampionsChamp from "../components/ChampionsChamp.svelte";
     import Header from "../components/Header.svelte";
+    import { flip } from 'svelte/animate'
+    import {fade, slide, scale} from 'svelte/transition'
     export let AllChampions;
 
+    let kereses = "";
+
+    let searchedChampions = AllChampions;
+
+    function champKereses(){
+        return AllChampions.filter(line => line.name.toLowerCase().includes(kereses) == true);
+    }
+
+    $ : {
+        kereses;
+        searchedChampions = champKereses();
+    }
+
+    function champItems(items){
+        let newItems = [];
+
+        for(let i = 0; i < 3; i++){
+            let newItem;
+            newItem = items[i].replaceAll("\'", "");
+            newItem = newItem.replaceAll(" ", "");
+            newItems[i] = newItem
+        }
+        return newItems;
+    }
+
+    function bg(champ){
+        return champ.replaceAll(" ", "-");
+    }
 
 </script>
 
-<div>
-    <Header />
+<div class="main">
+    <Header headerText="Champions"/>
+    <div class="searchContainer">
+        <div class="searchBox">
+           <div class="input-icons">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="#757575" height="25" width="25" viewBox="0 0 24 24">
+                 <g data-name="Layer 2">
+                    <path d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z" data-name="search"/>
+                 </g>
+              </svg>
+              <input type="text" class="input-field" placeholder="Seach Augment" bind:value="{kereses}">
+           </div>
+        </div>
+        <div class="updateContainer">
+           <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
+        </div>
+     </div>
     <div class="championsContainer">
         <div>
-            {#each AllChampions as Champ}
-                <ChampionsChamp name={Champ.name} traits={Champ.traits} items={Champ.items} cost={Champ.cost}/>
+            {#each searchedChampions as Champ (Champ.name)}
+                <span animate:flip={{duration: 300}}>
+                    <ChampionsChamp name={Champ.name} traits={Champ.traits} items={champItems(Champ.items)} cost={Champ.cost} bg={bg(Champ.name)}/>
+                </span>
             {/each}
         </div>
     </div>
@@ -45,5 +90,61 @@ import Champ from "../components/Champ.svelte";
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .searchContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 974px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .searchBox div input{
+            min-width: 225px;
+            padding-top: 3px;
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 8px;
+            height: 32px;
+            background-color: #2d2f3a;
+            border: 1px solid #5e5d5d;
+            
+        }
+
+    .searchBox div input:active{
+        border: none;
+    } 
+
+    .updateContainer {
+          background-color: #2d2f3a;
+          border: 1px solid #5e5d5d;
+          color: white;
+          padding: 6px 10px;
+          margin: 0;
+          
+      }
+
+    .input-icons svg {
+            position: absolute;
+            height: 30px;
+            padding: 0;
+        }
+          
+    .input-icons {
+        width: 100%;
+        position: relative;
+    }
+          
+    .icon {
+        padding: 10px;
+        left: 202px;
+        top: 5px;
+    }
+          
+    .input-field {
+        color: white;
+        font-weight: 400;
     }
 </style>

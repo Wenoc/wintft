@@ -426,8 +426,10 @@
                 {#each champions as champ}
                     {#if champ == carries[0].name}
                         <Champ {ChamionCost} name={champ} Items={carries[0].items} cost={determineValue(champ)}/>
-                    {:else if champ== carries[1].name}
+                    {:else if champ == carries[1].name}
                         <Champ {ChamionCost} name={champ} Items={carries[1].items} cost={determineValue(champ)}/>
+                    {:else if champ == carries[2].name}
+                        <Champ {ChamionCost} name={champ} Items={carries[2].items} cost={determineValue(champ)}/>
                     {:else}
                         <Champ {ChamionCost} name={champ} cost={determineValue(champ)}/>
                     {/if}

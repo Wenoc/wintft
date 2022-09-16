@@ -3,7 +3,7 @@
 	import NavBlogItem from './NavBlogItem.svelte'
 	import { onMount } from 'svelte';
 	let isHover = false;
-
+	
 	
 </script>
 
@@ -118,16 +118,16 @@
 		<img src="menu.svg" alt="">
 	   </div>
 	   <div class="linkContainer">
-		  <a href="team-comps/" class:selected={segment === 'team-comps'}>
+		  <a rel="external" href="team-comps/" class:selected={segment === 'team-comps'}>
 		  	<div class="navItem"> Team Comps </div>
 		  </a>
-		  <a href="augments/" class:selected={segment === 'augments'}>
+		  <a rel="external" href="augments/" class:selected={segment === 'augments'}>
 		  	<div class="navItem"> Augments </div>
 		  </a>
-		  <a href="champions/" class:selected={segment === 'champions'}>
+		  <a rel="external" href="champions/" class:selected={segment === 'champions'}>
 		  	<div class="navItem">Champions </div>
 		  </a>
-		  <a href="guides" class="guides" class:selected={segment === 'guides'} style="display: flex; justify-content: center; align-items: center;">
+		  <a rel="external" href="guides" class="guides" class:selected={segment === 'guides'} style="display: flex; justify-content: center; align-items: center;">
 			<div>Guides </div>
 			 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
 				<path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>

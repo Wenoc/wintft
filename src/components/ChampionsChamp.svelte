@@ -1,26 +1,18 @@
 
-
 <script>
-    import { onMount } from 'svelte';
     export let items;
-    let newItems = [];
-
-    for(let i = 0; i< 3; i++){
-        let newItem;
-        newItem = items[i].replaceAll("\'", "");
-        newItem = newItem.replaceAll(" ", "");
-        newItems[i] = newItem
-    }
 
     export let name;
-    let nameToFindChamp = name.replaceAll(" ", "-");
-    export let traits;
+    export let bg;
 
+    
+
+    export let traits;
     export let cost;
 </script>
 
 <div class="opacity">
-    <div class="champCard" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url('/ChampThumbnails/{nameToFindChamp}.jpg'); background-size: cover;">
+    <div class="champCard" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url('/ChampThumbnails/{bg}.jpg') top/cover">
         <div class="cardLeft">
             <div class="leftUp">
                 <div class="champTraits">
@@ -45,7 +37,7 @@
             </div>
             <div class="rightDown">
                 <div class="champItems">
-                    {#each newItems as item}
+                    {#each items as item}
                         <img src="./items/{item}.png" alt="{item}" loading="lazy">
                     {/each}
                 </div>

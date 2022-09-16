@@ -1,3 +1,12 @@
+<script>
+    export let headerText;
+    export let description = false;
+    let text = "TFTea helps you with Team Composition guides, so that you'll always be able to start your games one step ahead of your opponents."
+    if(description == false){
+        text = '';
+    }
+</script>
+
 <style>
     .up{
         display: flex;
@@ -6,7 +15,7 @@
     }
     .mainText{
         color: white;
-        font-size: 24px;
+        font-size: 40px;
         line-height: 30px;
         max-width: 300px;
     }
@@ -60,10 +69,10 @@
             </svg>
         </div>
         <div style="margin-left: 28px;">
-            <p class="mainText">The best website for TFT stats and team comps</p>
+            <p class="mainText">{headerText}</p>
         </div>
     </div>
     <div class="down">
-        <p>TFTea helps you with Team Composition guides, so that you'll always be able to start your games one step ahead of your opponents.</p>
+        <p>{text}</p>
     </div>
 </div>

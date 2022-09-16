@@ -1,44 +1,90 @@
+<script context="module">
+    export async function preload(page, session) {
+          const res = await this.fetch('/augmentData.json');
+          const augmentData = await res.json();
+  
+          return {augmentData};
+    }
+  </script>
+
 <script>
     import Header from "../components/Header.svelte";
     import Augment from "../components/Augment.svelte";
-    // export let ChamionCost;
+    export let augmentData;
   
-  </script>
+    let i = 1;
+    function isSecond(){
+        let isIt = false;
+        if(i%2 == 0){
+            isIt = true
+        }
+        i += 1;
+        return isIt;
+    }
+    var ordering = {};
+    const sortOrder = ['S', 'A', 'B', 'C', 'D'];
+
+    for (i=0; i<sortOrder.length; i++){
+        ordering[sortOrder[i]] = i;
+    }
+
+    augmentData.sort( function(a, b) {
+        return (ordering[a.tier] - ordering[b.tier]) || a.tier.localeCompare(b.tier);
+    });
+
+    var kereses = "";
+    let seachedAugments = augmentData;
+
+    function augmentkereses(){
+        return augmentData.filter(line => line.name.toLowerCase().includes(kereses) == true);
+    }
+
+    $ : {
+        kereses;
+        seachedAugments = augmentkereses();
+    }
+</script>
   
-  <div>
+<div>
     <div style="text-align: center;">
-       <Header />
+       <Header headerText="Augments"/>
        <div style="display: flex; justify-content:center; align-items:center;">
-            <div class="augmentContainer">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <div class="searchBox">
-                        <div class="input-icons">
-                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="#757575" height="25" width="25" viewBox="0 0 24 24"><g data-name="Layer 2"><path d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z" data-name="search"/></g></svg>
-                            <input type="text" class="input-field" placeholder="Seach Augment">
-                        </div>
-                    </div>
-                    <div class="updateContainer">
-                        <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
-                    </div>
+          <div class="augmentContainer">
+             <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="searchBox">
+                   <div class="input-icons">
+                      <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="#757575" height="25" width="25" viewBox="0 0 24 24">
+                         <g data-name="Layer 2">
+                            <path d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z" data-name="search"/>
+                         </g>
+                      </svg>
+                      <input type="text" class="input-field" placeholder="Seach Augment" bind:value="{kereses}">
+                   </div>
                 </div>
-                <div>
-                    <div  class="augmentHead">
-                        <div style="width: 30%;">
-                            <p>Augment</p>
-                        </div>
-                        <div style="width: 10%;">
-                            <p>Tier</p>
-                        </div>
-                        <div style="width: 60%;">
-                            <p>Description </p>  
-                        </div>
-                    </div>
-                    <Augment Description='If you have exactly 2 copies of a champion on your board, they both gain 22 Attack Damage, Ability Power, Armor, and Magic Resist. When you upgrade to 3-star, gain a 2-star copy.'/>
+                <div class="updateContainer">
+                   <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
                 </div>
-        </div>
+             </div>
+             <div>
+                <div  class="augmentHead">
+                   <div style="width: 30%;">
+                      <p>Augment</p>
+                   </div>
+                   <div style="width: 10%;">
+                      <p>Tier</p>
+                   </div>
+                   <div style="width: 60%;">
+                      <p>Description </p>
+                   </div>
+                </div>
+                {#each seachedAugments as augment}
+                <Augment name={augment.name} Description={augment.description} tier={augment.tier} src={augment.src} isSecond={isSecond()}/>
+                {/each}
+             </div>
+          </div>
        </div>
     </div>
-  </div>
+ </div>
   
   
   <style>

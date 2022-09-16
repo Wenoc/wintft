@@ -1,9 +1,10 @@
 <script>
     export let isSecond = false;
-    // export let augment = '';
-    // export let tier = '';
+    export let name = '';
+    export let tier = '';
     // export let avgPlace = '';
     export let Description = '';
+    export let src = '';
 
 </script>
 
@@ -11,13 +12,20 @@
     <div class="container">
         <div class="section" style="width: 30%; text-align: left;">
             <div class="augmentNameSection" style="padding-left: 10px;">
-                <p>Augment</p>
+                <div style="display: flex; justify-content: start; align-items: center;">
+                    <div style="width: 60px; padding-top: 6px;">
+                        <img src="/augments/{src}.png" alt="" style="height: 100%; width:100%">
+                    </div>
+                    <div>
+                        <p>{name}</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section" style="width: 10%; justify-content: center;" id="inner">
             <div style="display: flex; justify-content: center;">
                 <div class="SLetter" style="margin: 6px 0;">
-                    <p style="border: 0; margin:0; padding:0;">S</p>
+                    <p style="border: 0; margin:0; padding:0;">{tier}</p>
                 </div>
             </div>
         </div>
@@ -59,7 +67,7 @@
             border: 1px solid #5e5d5d;
             border-top: 0;
             border-right: 0;
-            min-height: 50px;
+            min-height: 73px;
         }
         
         .augment .section{
