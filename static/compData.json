@@ -6,7 +6,7 @@
         "champions" : ["Sett", "Karma", "Kaisa", "Volibear", "Lee Sin", "Nunu", "Hecarim", "Yasuo"],
         "carries" : [
             { "name": "Nunu" ,"items": ["DragonmancerEmblem", "Bloodthirster", "Hand of Justice"]},
-            { "name": "Yasuo" ,"items": ["Blue buff", "Titans resolve"]},
+            { "name": "Yasuo" ,"items": ["Blue Buff", "Titans Resolve"]},
             { "name": "" ,"items": [""]}
         ],
         "threeStar" : ["Nunu"],
@@ -83,7 +83,7 @@
         "champions" : ["Sett", "Karma", "Kaisa", "Volibear", "Lee Sin", "Nunu", "Hecarim", "Yasuo"],
         "carries" : [
             { "name": "Nunu" ,"items": ["DragonmancerEmblem", "Bloodthirster", "Hand of Justice"]},
-            { "name": "Yasuo" ,"items": ["Blue buff", "Titans resolve"]},
+            { "name": "Yasuo" ,"items": ["Blue Buff", "Titans Resolve"]},
             { "name": "" ,"items": [""]}
         ],
         "threeStar" : ["Nunu"],
