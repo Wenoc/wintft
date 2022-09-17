@@ -3,7 +3,7 @@
         "id" : "0",
         "name" : "Dragonmancerer Nunu",
         "tier" : "S",
-        "champions" : ["Sett", "Karma", "Kaisa", "Volibear", "LeeSin", "Nunu", "Hecarim", "Yasuo"],
+        "champions" : ["Sett", "Karma", "Kaisa", "Volibear", "leesin", "Nunu", "Hecarim", "Yasuo"],
         "carries" : [
             { "name": "Nunu" ,"items": ["DragonmancerEmblem", "Bloodthirster", "Hand of Justice"]},
             { "name": "Yasuo" ,"items": ["Blue Buff", "Titans Resolve"]},
@@ -22,6 +22,6 @@
         "optionsChampionsRight" : ["Soraka"],
         "optionsChampionsLeft" : ["Hecarim"],
         "lvl9" : "Bard",
-        "positions" : ["", "", "LeeSin", "", "volibear", "", "sett", "hecarim", "", "", "", "", "", "", "", "", "", "nunu", "", "", "", "karma", "", "", "", "yasuo", "", "kaisa"]
+        "positions" : ["", "", "leesin", "", "volibear", "", "sett", "hecarim", "", "", "", "", "", "", "", "", "", "nunu", "", "", "", "karma", "", "", "", "yasuo", "", "kaisa"]
     }
 ]

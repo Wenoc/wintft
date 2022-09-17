@@ -25,7 +25,7 @@
     { "name": "Zac", "cost": 2, "items": ["Gargoyles Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Lagoon", "Guardian"]},
     { "name": "Zyra", "cost": 2, "items": ["Infinity Edge", "Jeweled Gauntlet", "Spear of Shojin"], "traits": ["Whispers", "Evoker"]},
     { "name": "Diana", "cost": 3, "items": ["Infinity Edge", "Ionic Spark", "Sunfire Cape"], "traits": ["Scalescorn", "Assassin"]},
-    { "name": "LeeSin", "cost": 3, "items": ["Infinity Edge", "Jeweled Gauntlet","Hand of Justice"], "traits": ["Tempest", "Dragonmancer"]},
+    { "name": "leesin", "cost": 3, "items": ["Infinity Edge", "Jeweled Gauntlet","Hand of Justice"], "traits": ["Tempest", "Dragonmancer"]},
     { "name": "Nunu", "cost": 3, "items": ["Gargoyles Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Mirage", "Cavalier"]},
     { "name": "Olaf", "cost": 3, "items": ["Bloodthirster", "Guinsoo's Rageblade","Quicksilver"], "traits": ["Scalescorn", "Bruiser", "Warrior"]},
     { "name": "Rakan", "cost": 3, "items": ["Gargoyles Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Ragewing", "Guardian","Mystic"]},
