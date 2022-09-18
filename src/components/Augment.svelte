@@ -6,13 +6,15 @@
     export let Description = '';
     export let src = '';
 
+    export let color;
+
 </script>
 
 <div class="augment" class:second={isSecond} id="outer">
     <div class="container">
         <div class="section" style="width: 30%; text-align: left;">
             <div class="augmentNameSection" style="padding-left: 10px;">
-                <div style="display: flex; justify-content: start; align-items: center;">
+                <div style="display: flex; justify-content: start; align-items: center; min-height: 73px;">
                     <div style="width: 60px; padding-top: 6px;">
                         <img src="/augments/{src}.png" alt="" style="height: 100%; width:100%">
                     </div>
@@ -24,7 +26,7 @@
         </div>
         <div class="section" style="width: 10%; justify-content: center;" id="inner">
             <div style="display: flex; justify-content: center;">
-                <div class="SLetter" style="margin: 6px 0;">
+                <div class="SLetter" style="margin: 6px 0; background-color: #{color};">
                     <p style="border: 0; margin:0; padding:0;">{tier}</p>
                 </div>
             </div>

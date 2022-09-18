@@ -10,6 +10,7 @@
 <script>
     import Header from "../components/Header.svelte";
     import Augment from "../components/Augment.svelte";
+  import Champ from "../components/Champ.svelte";
     export let augmentData;
   
     let i = 1;
@@ -36,12 +37,20 @@
     let seachedAugments = augmentData;
 
     function augmentkereses(){
-        return augmentData.filter(line => line.name.toLowerCase().includes(kereses) == true);
+        return augmentData.filter(line => line.name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true);
     }
 
     $ : {
         kereses;
         seachedAugments = augmentkereses();
+    }
+
+    function findColor(tTier){
+        if(tTier == 'S') return 'ff7e83';
+        else if(tTier == 'A') return 'ffbf7f';
+        else if(tTier == 'B') return 'ffde7f';
+        else if(tTier == 'C') return 'feff7f';
+        else if(tTier == 'D') return 'bffe7f';
     }
 </script>
   
@@ -78,7 +87,7 @@
                    </div>
                 </div>
                 {#each seachedAugments as augment}
-                <Augment name={augment.name} Description={augment.description} tier={augment.tier} src={augment.src} isSecond={isSecond()}/>
+                <Augment name={augment.name} Description={augment.description} tier={augment.tier} src={augment.src} isSecond={isSecond()} color={findColor(augment.tier)}/>
                 {/each}
              </div>
           </div>
@@ -105,6 +114,7 @@
             margin: 0;
         }
         .searchBox div input{
+            outline: none;
             min-width: 225px;
             padding-top: 3px;
             font-size: 16px;
@@ -115,10 +125,6 @@
             border: 1px solid #5e5d5d;
             
         }
-
-        .searchBox div input:active{
-            border: none;
-        } 
 
         .augmentContainer{
           width: 980px;

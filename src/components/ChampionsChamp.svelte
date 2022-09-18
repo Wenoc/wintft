@@ -5,7 +5,9 @@
     export let name;
     export let bg;
 
-    
+    if(name == "leesin"){
+        name = "Lee Sin";
+    }
 
     export let traits;
     export let cost;
@@ -18,7 +20,7 @@
                 <div class="champTraits">
                     {#each traits as trait}
                     <div class="traitItem">
-                        <img src="./Traits/Set7_{trait}_w.svg" alt="{trait}" loading="lazy">
+                        <img src="./Traits/Set7_{trait}_w.svg" alt="{trait}" loading="lazy" height="30px" width="30px">
                         <p>{trait}</p>
                     </div>
                     {/each}
@@ -31,7 +33,7 @@
         <div class="cardRight">
             <div class="rightUp">
                 <div class="champCost">
-                    <img src="coins.svg" alt="coin">
+                    <img src="coins.svg" alt="coin" height="20px" width="20px">
                     <p>{cost}</p>
                 </div>
             </div>

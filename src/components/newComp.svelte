@@ -202,6 +202,7 @@
         align-items: center;
         justify-content: center;
         border-top: 0;
+        border-bottom: 0;
     }
 
     .compExpandedRight{
@@ -354,7 +355,7 @@
         display: inline-block;
         font-size: initial;
         clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
-        background: #525461;
+        background: #3d4155;
         margin-bottom: calc(var(--m) - var(--s)*0.2885);
     }
     .positionContainer::before {
@@ -389,7 +390,7 @@
 
     .lvl9{
         border-radius: 2px;
-        background-color: #2d2f3a;
+        background-color: #323441;
         color: white;
         padding: 3px 10px;
     }
@@ -512,7 +513,7 @@
                     {#each positions as position}
                         <div>
                             {#if position != ""}
-                            <img src="./ChampIcons/{position}.png" alt="{position}">
+                            <img src="./ChampIcons/{position}.png" alt="{position}" title="{position}">
                             {/if}
                         </div>
                     {/each}

@@ -58,7 +58,7 @@
     }
 </style>
 
-<div style="margin-top: 165px; margin-bottom: 100px; display: flex; flex-direction: column; align-items: center;">
+<div style="margin-top: 134px; margin-bottom: 50px; display: flex; flex-direction: column; align-items: center;">
     <div class="up">
         <div class="brandtext">
             <img src="brand.svg" alt="brand logo" style="width: 100%;">
@@ -69,7 +69,7 @@
             </svg>
         </div>
         <div style="margin-left: 28px;">
-            <p class="mainText">{headerText}</p>
+            <p class="mainText" style="width: 260px; text-align: start;">{headerText}</p>
         </div>
     </div>
     <div class="down">

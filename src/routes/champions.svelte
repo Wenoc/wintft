@@ -20,7 +20,7 @@
     let searchedChampions = AllChampions;
 
     function champKereses(){
-        return AllChampions.filter(line => line.name.toLowerCase().includes(kereses) == true);
+        return AllChampions.filter(line => line.name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true);
     }
 
     $ : {
@@ -110,12 +110,8 @@
             height: 32px;
             background-color: #2d2f3a;
             border: 1px solid #5e5d5d;
-            
+            outline: none;
         }
-
-    .searchBox div input:active{
-        border: none;
-    } 
 
     .updateContainer {
           background-color: #2d2f3a;
