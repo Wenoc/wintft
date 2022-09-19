@@ -27,7 +27,7 @@
     {
         "id" : "1",
         "name" : "Shift-Shots",
-        "tier" : "S",
+        "tier" : "A",
         "champions" : ["Nidalee", "Gnar", "Twitch", "Varus", "Xayah", "Jayce", "Shyvana"],
         "carries" : [
             { "name": "Jayce" ,"items": ["Gargoyle's Stoneplate", "Warmog's Armor"]},
@@ -52,7 +52,7 @@
     {
         "id" : "2",
         "name" : "Astral Dragon",
-        "tier" : "S",
+        "tier" : "B",
         "champions" : ["Skarner", "Lux", "Zyra", "Seraphine", "Sylas", "Bard", "Aurelion Sol"],
         "carries" : [
             { "name": "Sylas" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
@@ -62,6 +62,31 @@
         "threeStar" : [],
         "difficulty": "Hard",
         "type": "Slow Roll",
+        "augments" : ["builtdifferent3", "dizzy-ii", "jade-crest-i"],
+        "traits" : [
+            {"gold" : ["Bard"]},
+            {"silver" : ["Astral", "Evoker"]},
+            {"bronze" : ["Mage", "Whispers", "Evoker", "Bruiser", "Dragon", "Guild"]}
+        ],
+        "carousel" : ["rod", "belt", "bow"],
+        "optionsChampionsRight" : ["Skarner", "Lux"],
+        "optionsChampionsLeft" : ["Jax", "Zoe"],
+        "lvl9" : "Bard",
+        "positions" : ["", "", "", "", "sylas", "skarner", "", "", "", "", "", "", "", "", "", "", "", "", "", "seraphine", "bard", "", "", "", "", "zyra", "lux", "aurelion-sol"]
+    },
+    {
+        "id" : "3",
+        "name" : "Astral Dragon",
+        "tier" : "D",
+        "champions" : ["Skarner", "Lux", "Zyra", "Seraphine", "Sylas", "Bard", "Aurelion Sol"],
+        "carries" : [
+            { "name": "Sylas" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
+            { "name": "Aurelion Sol" ,"items": ["Archangel's Staff", "Mage Emblem", "Spear of Shojin"]},
+            { "name": "" ,"items": ["Archangel's Staff", "Mage Emblem", "Spear of Shojin"]}
+        ],
+        "threeStar" : [],
+        "difficulty": "Medium",
+        "type": "Fast 8",
         "augments" : ["builtdifferent3", "dizzy-ii", "jade-crest-i"],
         "traits" : [
             {"gold" : ["Bard"]},

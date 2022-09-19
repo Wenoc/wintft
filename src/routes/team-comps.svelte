@@ -33,6 +33,14 @@
     return reversed;
   }
 
+  function findColor(tTier){
+        if(tTier == 'S') return 'ff7e83';
+        else if(tTier == 'A') return 'ffbf7f';
+        else if(tTier == 'B') return 'ffde7f';
+        else if(tTier == 'C') return 'feff7f';
+        else if(tTier == 'D') return 'bffe7f';
+    }
+
 </script>
 
 <div>
@@ -55,7 +63,7 @@
            </div>
         </div>
         {#each compData as comp}
-          <NewComp {augmentData} {AllChampions} threeStar={comp.threeStar} id={comp.id} name={comp.name} tier={comp.tier} champions={reverseComp(comp.champions)} carousel={comp.carousel} augments={comp.augments} lvl9={comp.lvl9} optionsChampionsRight={comp.optionsChampionsRight} optionsChampionsLeft={comp.optionsChampionsLeft}
+          <NewComp tiercolor={findColor(comp.tier)} {augmentData} {AllChampions} threeStar={comp.threeStar} id={comp.id} name={comp.name} tier={comp.tier} champions={reverseComp(comp.champions)} carousel={comp.carousel} augments={comp.augments} lvl9={comp.lvl9} optionsChampionsRight={comp.optionsChampionsRight} optionsChampionsLeft={comp.optionsChampionsLeft}
               Gtraits={comp.traits[0].gold} Straits={comp.traits[1].silver} Btraits={comp.traits[2].bronze} difficulty={comp.difficulty} type={comp.type} carries={comp.carries} positions={comp.positions}/>
         {/each}
      </div>

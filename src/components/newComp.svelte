@@ -27,29 +27,31 @@
     let tColor;
     let btColor;
 
-    dColor = '#c32148';
-    bdColor = '#67273c';
+    export let tiercolor;
 
-    tColor = '#9453a6';
-    btColor = '#543b61';
+    dColor = '#FD5C62';
+    bdColor = '#5E0B0D';
+
+    tColor = '#DC7BE9';
+    btColor = '#63386A';
 
     if(difficulty == 'Easy'){
-        dColor = '#1ECFA3';
-        bdColor = '#256d60';
+        dColor = '#23F5C1';
+        bdColor = '#0E6952';
     } else if(difficulty == 'Medium'){
-        dColor = '#ff9966';
-        bdColor = '#7f5748';
+        dColor = '#FFA366';
+        bdColor = '#664227';
     }
 
     if(type == "Standard"){
-        tColor = "#3c69e7"
-        btColor = '#31447b';
+        tColor = "#7BA7FF"
+        btColor = '#203980';
     } else if ( type == "Fast 8"){
-        tColor = "#b48395"
-        btColor = '#614e5b';
+        tColor = "#EECAD5"
+        btColor = '#73535C';
     } else if (type == "Hyper Roll"){
-        tColor = "#eedc82"
-        btColor = '#787253';
+        tColor = "#FFF38B"
+        btColor = '#7A6D44';
     }
     
     export let champions;
@@ -441,7 +443,7 @@
     </div>
     <div class="compBody">
         <div class="compInfo">
-            <div class="SLetter">
+            <div class="SLetter" style="background-color: #{tiercolor};">
                 {tier}
             </div>
             <div class="compStat">

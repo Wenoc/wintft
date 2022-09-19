@@ -59,7 +59,7 @@
         </div>
      </div>
      <div class="otherBlogs">
-        <BlogItem />
+        <BlogItem title="New player guide"/>
         <BlogItem />
         <BlogItem />
      </div>
@@ -78,6 +78,7 @@
     }
 
     .otherBlogs{
+        max-width: 1005px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
