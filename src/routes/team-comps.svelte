@@ -6,8 +6,12 @@
         const res2 = await this.fetch('/compData.json');
         const compData = await res2.json();
         let combine = [];
+
+        const res3 = await this.fetch('/augmentData.json');
+        const augmentData = await res3.json();
         combine[0] = AllChampions;
         combine[1] = compData;
+        combine[2] = augmentData;
 
         return {combine};
   }
@@ -21,6 +25,7 @@
   export let combine;
   let AllChampions = combine[0];
   let compData = combine[1];
+  let augmentData = combine[2];
 
   function reverseComp(comp){
     let reversed = Object.values(comp)
@@ -50,7 +55,7 @@
            </div>
         </div>
         {#each compData as comp}
-          <NewComp {AllChampions} id={comp.id} name={comp.name} tier={comp.tier} champions={reverseComp(comp.champions)} carousel={comp.carousel} augments={comp.augments} lvl9={comp.lvl9} optionsChampionsRight={comp.optionsChampionsRight} optionsChampionsLeft={comp.optionsChampionsLeft}
+          <NewComp {augmentData} {AllChampions} threeStar={comp.threeStar} id={comp.id} name={comp.name} tier={comp.tier} champions={reverseComp(comp.champions)} carousel={comp.carousel} augments={comp.augments} lvl9={comp.lvl9} optionsChampionsRight={comp.optionsChampionsRight} optionsChampionsLeft={comp.optionsChampionsLeft}
               Gtraits={comp.traits[0].gold} Straits={comp.traits[1].silver} Btraits={comp.traits[2].bronze} difficulty={comp.difficulty} type={comp.type} carries={comp.carries} positions={comp.positions}/>
         {/each}
      </div>

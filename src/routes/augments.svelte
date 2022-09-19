@@ -10,7 +10,6 @@
 <script>
     import Header from "../components/Header.svelte";
     import Augment from "../components/Augment.svelte";
-  import Champ from "../components/Champ.svelte";
     export let augmentData;
   
     let i = 1;

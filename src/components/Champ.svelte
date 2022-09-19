@@ -36,6 +36,7 @@
     }else if(cost == 5 || cost == 8){
         borderColor ='#f2c530';
     }
+
 </script>
 
 <style>
@@ -97,7 +98,7 @@
 
 <div style="position: relative;">
     <div class="champContainer" class:augment={augment} class:noaugment={!augment} style="outline: 3px solid {borderColor};">
-        <img src="ChampIcons/{nlname}.png" alt="" style="max-width:100%;">
+        <img src="ChampIcons/{nlname}.png" alt="" style="max-width:100%;" title="{name}">
     </div>
     <div class="stars" class:dontShow={!ThreeStar}>
         <div style="position: relative;">
@@ -109,7 +110,7 @@
     <div class="items" class:items2={Items.length == 2} class:items3={Items.length == 1}>
         {#if Items.length > 0}
             {#each Items as item}
-            <img src="items/{item}.png" alt="">
+            <img src="items/{item}.png" alt="{item}" title="{item}">
             {/each}
         {/if}
     </div>

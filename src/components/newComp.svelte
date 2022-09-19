@@ -15,6 +15,8 @@
     export let augments;
     export let lvl9;
 
+    export let threeStar;
+
     export let optionsChampionsRight;
     export let optionsChampionsLeft;
 
@@ -73,10 +75,11 @@
     }
     }
 
-    let traits = ['Assassin', 'Astral'];
     export let Gtraits;
     export let Straits
     export let Btraits
+
+    export let augmentData;
 
     function determineValue(champ){
         var result = AllChampions.find(obj => {
@@ -85,6 +88,32 @@
         return result.cost;
     }
 
+
+    function isThreeStar(champ){
+        if(threeStar.find(element => element == champ)){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
+    let augNames = [];
+    let l = 0;
+
+    augments.forEach(element => {
+        augmentData.find(x => {
+            if (x.src == element){
+                augNames[l] = x.name;
+                l++;
+            }
+        })
+    });
+
+    l = -1;
+    function augNamesf(){
+        l++;
+        return augNames[l];
+    }
 </script>
 
 <style>
@@ -94,7 +123,7 @@
     }
     .compHead{
         background-color: #2d2f3a;
-        height: 30px;
+        height: 26px;
         color: white;
         font-weight: 600;
         display: flex;
@@ -401,6 +430,8 @@
         justify-content: center;
         gap: 5px;
     }
+
+    
 </style>
 
 <div style="margin-bottom: 20px; width: 980px;">
@@ -426,13 +457,13 @@
             <div class="champs">
                 {#each champions as champ}
                     {#if champ == carries[0].name}
-                        <Champ {ChamionCost} name={champ} Items={carries[0].items} cost={determineValue(champ)}/>
+                        <Champ {ChamionCost} name={champ} Items={carries[0].items} cost={determineValue(champ)} ThreeStar={isThreeStar(champ)}/>
                     {:else if champ == carries[1].name}
-                        <Champ {ChamionCost} name={champ} Items={carries[1].items} cost={determineValue(champ)}/>
+                        <Champ {ChamionCost} name={champ} Items={carries[1].items} cost={determineValue(champ)} ThreeStar={isThreeStar(champ)} />
                     {:else if champ == carries[2].name}
-                        <Champ {ChamionCost} name={champ} Items={carries[2].items} cost={determineValue(champ)}/>
+                        <Champ {ChamionCost} name={champ} Items={carries[2].items} cost={determineValue(champ)} ThreeStar={isThreeStar(champ)}/>
                     {:else}
-                        <Champ {ChamionCost} name={champ} cost={determineValue(champ)}/>
+                        <Champ {ChamionCost} name={champ} cost={determineValue(champ)} ThreeStar={isThreeStar(champ)}/>
                     {/if}
                 {/each}
             </div>
@@ -447,7 +478,7 @@
                 <p class="" style="color: white; padding-top: 8px; padding-bottom: 4px; font-size: 14px;">Augments</p>
                 <div class="augmentContainer">
                     {#each augments as augment}
-                    <img src="./augments/{augment}.png" alt="">
+                        <img src="./augments/{augment}.png" alt="{augment}" title="{augNamesf()}">
                     {/each}
                 </div>
             </div>
@@ -483,13 +514,13 @@
                     <div>
                         <div class="traitContainer">
                             {#each Gtraits as trait}
-                                <div class="traitItem" style="background-color: #d5ac38;"><img src="./Traits/Set7_{trait}_w.svg" alt="{trait}"></div>
+                                <div class="traitItem" style="background-color: #d5ac38;"><img src="./Traits/Set7_{trait.substring(0, trait.length - 1)}_w.svg" alt="{trait.substring(0, trait.length - 1)}" title="{trait.slice(-1)} {trait.substring(0, trait.length - 1)}"></div>
                             {/each}
                             {#each Straits as trait}
-                                <div class="traitItem" style="background-color: #8a9c9d"><img src="./Traits/Set7_{trait}_w.svg" alt="{trait}"></div>
+                                <div class="traitItem" style="background-color: #8a9c9d"><img src="./Traits/Set7_{trait.substring(0, trait.length - 1)}_w.svg" alt="{trait.substring(0, trait.length - 1)}" title="{trait.slice(-1)} {trait.substring(0, trait.length - 1)}"></div>
                             {/each}
                             {#each Btraits as trait}
-                                <div class="traitItem" style="background-color: #966b51"><img src="./Traits/Set7_{trait}_w.svg" alt="{trait}"></div>
+                                <div class="traitItem" style="background-color: #966b51"><img src="./Traits/Set7_{trait.substring(0, trait.length - 1)}_w.svg" alt="{trait.substring(0, trait.length - 1)}" title="{trait.slice(-1)} {trait.substring(0, trait.length - 1)}"></div>
                             {/each}
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 <script>
     export let headerText;
     export let description = false;
-    let text = "TFTea helps you with Team Composition guides, so that you'll always be able to start your games one step ahead of your opponents."
+    export let text = "TFTea helps you with Team Composition guides, so that you'll always be able to start your games one step ahead of your opponents."
     if(description == false){
         text = '';
     }
@@ -56,12 +56,17 @@
             margin-bottom: 40px;
         }
     }
+
+    p{
+        margin: 0;
+        padding-bottom: 6px;
+    }
 </style>
 
 <div style="margin-top: 134px; margin-bottom: 50px; display: flex; flex-direction: column; align-items: center;">
     <div class="up">
-        <div class="brandtext">
-            <img src="brand.svg" alt="brand logo" style="width: 100%;">
+        <div class="brandtext" style="text-align: right;">
+            <img src="brand.svg" alt="brand logo" style="width: 85%;">
         </div>
         <div style="padding-top: 5px;" class="svgContainer">
             <svg id="chart" width="1" height="50">

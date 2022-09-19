@@ -9,14 +9,14 @@
             { "name": "Yasuo" ,"items": ["Blue Buff", "Titans Resolve"]},
             { "name": "" ,"items": [""]}
         ],
-        "threeStar" : ["Nunu"],
+        "threeStar" : ["Nunu", "Yasuo"],
         "difficulty": "Medium",
         "type": "Standard",
         "augments" : ["dragonmancer-crest-ii", "thrillhunt1", "urfs-grab-bag-iii"],
         "traits" : [
-            {"gold" : ["Dragonmancer"]},
+            {"gold" : ["Dragonmancer1"]},
             {"silver" : []},
-            {"bronze" : ["Ragewing", "Mirage", "Cavalier"]}
+            {"bronze" : ["Ragewing3", "Mirage2", "Cavalier3"]}
         ],
         "carousel" : ["rod", "sword", "gloves"],
         "optionsChampionsRight" : ["Soraka"],
@@ -39,9 +39,9 @@
         "type": "Hyper Roll",
         "augments" : ["builtdifferent3", "dizzy-ii", "jade-crest-i"],
         "traits" : [
-            {"gold" : ["Bard"]},
-            {"silver" : ["Astral", "Evoker"]},
-            {"bronze" : ["Mage", "Whispers", "Evoker", "Bruiser", "Dragon", "Guild"]}
+            {"gold" : ["Bard1"]},
+            {"silver" : ["Astral3", "Evoker2"]},
+            {"bronze" : ["Mage3", "Whispers4", "Evoker2", "Bruiser2", "Dragon1", "Guild2"]}
         ],
         "carousel" : ["rod", "belt", "bow"],
         "optionsChampionsRight" : ["Skarner", "Lux"],

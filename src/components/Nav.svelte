@@ -106,7 +106,13 @@
 		}
 	}
 
+	nav {
+		box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+	}
 
+	.navItem{
+		padding-top: 4px;
+	}
 </style>
 
 <nav>
@@ -127,7 +133,7 @@
 		  <a rel="external" href="champions/" class:selected={segment === 'champions'}>
 		  	<div class="navItem">Champions </div>
 		  </a>
-		  <a rel="external" href="guides" class="guides" class:selected={segment === 'guides'} style="display: flex; justify-content: center; align-items: center;">
+		  <a rel="external" href="guides" class="guides navItem" class:selected={segment === 'guides'} style="display: flex; justify-content: center; align-items: center;">
 			<div>Guides </div>
 			 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
 				<path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
