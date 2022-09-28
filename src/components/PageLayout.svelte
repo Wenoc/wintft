@@ -1,61 +1,41 @@
 <script>
-
 </script>
 
 <div class="container">
-    <div class="leftpane">
-        <slot name="left">
-            
-        </slot>
-    </div>
-    <div class="middlepane">
-        <slot name="middle">
-
-        </slot>
-    </div>
-    <div class="rightpane">
-        <slot name="right">
-
-        </slot>
-    </div>
+  <div class="leftpane">
+    <slot name="left" />
   </div>
+  <div class="middlepane">
+    <slot name="middle" />
+  </div>
+  <div class="rightpane">
+    <slot name="right" />
+  </div>
+</div>
 
 <style>
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
-@media (max-width: 980px) 
-	{
-        .leftpane{
-            display: none;
-        }
-        .rightpane{
-            display: none;
-        }
-        .container{
-          display: flex;
-          justify-content: center;
-          
-        }
-    }
+  .container div {
+    width: 100%;
+  }
 
-.container {
-  width: 100%;
-}
+  .middlepane {
+  }
 
-.leftpane {
-    width: 22%;
-    float: left;
-    background-color: rosybrown;
-    border-collapse: collapse;
-}
+  .leftpane {
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+  }
 
-.middlepane {
-    width: 56%;
-    float: left;
-}
-
-.rightpane {
-  width: 22%;
-  float: right;
-  border-collapse: collapse;
-}
+  .rightpane {
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+  }
 </style>
