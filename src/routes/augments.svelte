@@ -1,174 +1,198 @@
 <script context="module">
-    export async function preload(page, session) {
-          const res = await this.fetch('/augmentData.json');
-          const augmentData = await res.json();
-  
-          return {augmentData};
-    }
-  </script>
+  export async function preload(page, session) {
+    const res = await this.fetch("/augmentData.json");
+    const augmentData = await res.json();
+
+    return { augmentData };
+  }
+</script>
 
 <script>
-    import Header from "../components/Header.svelte";
-    import Augment from "../components/Augment.svelte";
-    export let augmentData;
-  
-    let i = 1;
-    function isSecond(){
-        let isIt = false;
-        if(i%2 == 0){
-            isIt = true
-        }
-        i += 1;
-        return isIt;
+  import Header from "../components/Header.svelte";
+  import Augment from "../components/Augment.svelte";
+  export let augmentData;
+
+  let i = 1;
+  function isSecond() {
+    let isIt = false;
+    if (i % 2 == 0) {
+      isIt = true;
     }
-    var ordering = {};
-    const sortOrder = ['S', 'A', 'B', 'C', 'D'];
+    i += 1;
+    return isIt;
+  }
+  var ordering = {};
+  const sortOrder = ["S", "A", "B", "C", "D"];
 
-    for (i=0; i<sortOrder.length; i++){
-        ordering[sortOrder[i]] = i;
-    }
+  for (i = 0; i < sortOrder.length; i++) {
+    ordering[sortOrder[i]] = i;
+  }
 
-    augmentData.sort( function(a, b) {
-        return (ordering[a.tier] - ordering[b.tier]) || a.tier.localeCompare(b.tier);
-    });
+  augmentData.sort(function (a, b) {
+    return ordering[a.tier] - ordering[b.tier] || a.tier.localeCompare(b.tier);
+  });
 
-    var kereses = "";
-    let seachedAugments = augmentData;
+  var kereses = "";
+  let seachedAugments = augmentData;
 
-    function augmentkereses(){
-        return augmentData.filter(line => line.name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true);
-    }
+  function augmentkereses() {
+    return augmentData.filter(
+      (line) =>
+        line.name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true
+    );
+  }
 
-    $ : {
-        kereses;
-        seachedAugments = augmentkereses();
-    }
+  $: {
+    kereses;
+    seachedAugments = augmentkereses();
+  }
 
-    function findColor(tTier){
-        if(tTier == 'S') return 'ff7e83';
-        else if(tTier == 'A') return 'ffbf7f';
-        else if(tTier == 'B') return 'ffde7f';
-        else if(tTier == 'C') return 'feff7f';
-        else if(tTier == 'D') return 'bffe7f';
-    }
+  function findColor(tTier) {
+    if (tTier == "S") return "ff7e83";
+    else if (tTier == "A") return "ffbf7f";
+    else if (tTier == "B") return "ffde7f";
+    else if (tTier == "C") return "feff7f";
+    else if (tTier == "D") return "bffe7f";
+  }
 </script>
-  
+
 <div>
-    <div style="text-align: center;">
-       <Header headerText="Augments"/>
-       <div style="display: flex; justify-content:center; align-items:center;">
-          <div class="augmentContainer">
-             <div style="display: flex; justify-content: space-between; align-items: center;">
-                <div class="searchBox">
-                   <div class="input-icons">
-                      <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="#757575" height="25" width="25" viewBox="0 0 24 24">
-                         <g data-name="Layer 2">
-                            <path d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z" data-name="search"/>
-                         </g>
-                      </svg>
-                      <input type="text" class="input-field" placeholder="Seach Augment" bind:value="{kereses}">
-                   </div>
-                </div>
-                <div class="updateContainer">
-                   <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
-                </div>
-             </div>
-             <div>
-                <div  class="augmentHead">
-                   <div style="width: 30%;">
-                      <p>Augment</p>
-                   </div>
-                   <div style="width: 10%;">
-                      <p>Tier</p>
-                   </div>
-                   <div style="width: 60%;">
-                      <p>Description </p>
-                   </div>
-                </div>
-                {#each seachedAugments as augment}
-                <Augment name={augment.name} Description={augment.description} tier={augment.tier} src={augment.src} isSecond={isSecond()} color={findColor(augment.tier)}/>
-                {/each}
-             </div>
+  <div style="text-align: center;">
+    <Header headerText="Augments" />
+    <div style="display: flex; justify-content:center; align-items:center;">
+      <div class="augmentContainer">
+        <div
+          style="display: flex; justify-content: space-between; align-items: center;"
+        >
+          <div class="searchBox">
+            <div class="input-icons">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#757575"
+                height="25"
+                width="25"
+                viewBox="0 0 24 24"
+              >
+                <g data-name="Layer 2">
+                  <path
+                    d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"
+                    data-name="search"
+                  />
+                </g>
+              </svg>
+              <input
+                type="text"
+                class="input-field"
+                placeholder="Seach Augment"
+                bind:value={kereses}
+              />
+            </div>
           </div>
-       </div>
+          <div class="updateContainer">
+            <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
+          </div>
+        </div>
+        <div>
+          <div class="augmentHead">
+            <div style="width: 30%;">
+              <p>Augment</p>
+            </div>
+            <div style="width: 10%;">
+              <p>Tier</p>
+            </div>
+            <div style="width: 60%;">
+              <p>Description</p>
+            </div>
+          </div>
+          {#each seachedAugments as augment}
+            <Augment
+              name={augment.name}
+              Description={augment.description}
+              tier={augment.tier}
+              src={augment.src}
+              isSecond={isSecond()}
+              color={findColor(augment.tier)}
+            />
+          {/each}
+        </div>
+      </div>
     </div>
- </div>
-  
-  
-  <style>
-        .augmentHead{
-            font-weight: 500;
-            margin-top: 20px;
-            font-size: 18px;
-            display: flex;
-            background-color: #22242f;
-            color: white;
-            height: 38px;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #5e5d5d;
-        }
+  </div>
+</div>
 
-        p{
-            margin: 0;
-        }
-        .searchBox div input{
-            outline: none;
-            min-width: 225px;
-            padding-top: 3px;
-            font-size: 16px;
-            font-weight: 600;
-            padding-left: 8px;
-            height: 32px;
-            background-color: #2d2f3a;
-            border: 1px solid #5e5d5d;
-            
-        }
+<style>
+  .augmentHead {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    background-color: #22242f;
+    color: white;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5e5d5d;
+  }
 
-        .augmentContainer{
-          width: 980px;
-        }
+  p {
+    margin: 0;
+  }
+  .searchBox div input {
+    outline: none;
+    min-width: 225px;
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 8px;
+    height: 32px;
+    background-color: #2d2f3a;
+    border: 1px solid #5e5d5d;
+  }
 
-        @media(max-width:1200px){
-          .augmentContainer{
-            max-width: 83%;
-          }
-        }
-        @media(max-width:580px){
-            .augmentContainer{
-              width: 90%
-          }
-        }
+  .augmentContainer {
+    width: 980px;
+    margin-bottom: 70px;
+  }
 
-      .updateContainer {
-          background-color: #2d2f3a;
-          border: 1px solid #5e5d5d;
-          color: white;
-          padding: 6px 10px;
-          margin: 0;
-          
-      }
+  @media (max-width: 1200px) {
+    .augmentContainer {
+      max-width: 83%;
+    }
+  }
+  @media (max-width: 580px) {
+    .augmentContainer {
+      width: 90%;
+    }
+  }
 
-      .input-icons svg {
-            position: absolute;
-            height: 30px;
-            padding: 0;
-        }
-          
-        .input-icons {
-            width: 100%;
-            position: relative;
-        }
-          
-        .icon {
-            padding: 10px;
-            left: 202px;
-            top: 5px;
-        }
-          
-        .input-field {
-            color: white;
-            font-weight: 400;
-        }
-  </style>
-  
+  .updateContainer {
+    background-color: #2d2f3a;
+    border: 1px solid #5e5d5d;
+    color: white;
+    padding: 6px 10px;
+    margin: 0;
+  }
+
+  .input-icons svg {
+    position: absolute;
+    height: 30px;
+    padding: 0;
+  }
+
+  .input-icons {
+    width: 100%;
+    position: relative;
+  }
+
+  .icon {
+    padding: 10px;
+    left: 202px;
+    top: 5px;
+  }
+
+  .input-field {
+    color: white;
+    font-weight: 400;
+  }
+</style>

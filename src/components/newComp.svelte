@@ -32,8 +32,8 @@
     dColor = '#FD5C62';
     bdColor = '#5E0B0D';
 
-    tColor = '#DC7BE9';
-    btColor = '#63386A';
+    tColor = '#F8A2FC';
+    btColor = '#6D3D74';
 
     if(difficulty == 'Easy'){
         dColor = '#23F5C1';
