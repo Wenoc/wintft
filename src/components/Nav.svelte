@@ -3,6 +3,20 @@
   import NavBlogItem from "./NavBlogItem.svelte";
   import { onMount } from "svelte";
   let isHover = false;
+
+  function showStuff() {
+    let expandNav = document.querySelector(".expand");
+    if (expandNav.clientHeight) {
+      expandNav.style.height = 0;
+      expandNav.style.borderBottom = 0;
+    } else {
+      expandNav.style.height = 150 + "px";
+      expandNav.style.border = "1px solid #5e5d5d";
+      expandNav.style.borderTop = 0;
+      expandNav.style.borderRight = 0;
+      expandNav.style.borderLeft = 0;
+    }
+  }
 </script>
 
 <nav>
@@ -10,7 +24,7 @@
     <div>
       <a href="."><img class="brand" src="brand.svg" alt="brand logo" /></a>
     </div>
-    <div class="burger">
+    <div class="burger" on:click={showStuff}>
       <img src="menu.svg" alt="" />
     </div>
     <div class="linkContainer">
@@ -58,8 +72,35 @@
     </div>
   </div>
 </nav>
+<div class="expand" id="grow">
+  <a
+    rel="external"
+    href="team-comps/"
+    class:selected={segment === "team-comps"}
+  >
+    <div class="navItem">Team Comps</div>
+  </a>
+  <a rel="external" href="augments/" class:selected={segment === "augments"}>
+    <div class="navItem">Augments</div>
+  </a>
+  <a rel="external" href="champions/" class:selected={segment === "champions"}>
+    <div class="navItem">Champions</div>
+  </a>
+  <a rel="external" href="guides/" class:selected={segment === "guides"}>
+    <div class="navItem">Guides</div>
+  </a>
+</div>
 
 <style>
+  #grow {
+    -moz-transition: height 0.4s;
+    -ms-transition: height 0.4s;
+    -o-transition: height 0.4s;
+    -webkit-transition: height 0.4s;
+    transition: height 0.4s;
+    height: 0;
+    overflow: hidden;
+  }
   nav {
     background-color: #22242f;
     height: 65px;
@@ -112,6 +153,7 @@
     padding: 0;
     width: 40px;
     height: 40px;
+    cursor: pointer;
   }
 
   .burger img {
@@ -137,6 +179,33 @@
     transition: color 100ms linear;
   }
 
+  .expand a {
+    color: white;
+    margin-bottom: 0 !important;
+    height: auto;
+  }
+
+  .expand {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    background-color: #16171f;
+  }
+
+  .selected {
+    border: 0 !important;
+  }
+
+  nav {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .navItem {
+    padding-top: 4px;
+  }
+
   @media (max-width: 1200px) {
     .navContainer {
       min-width: 83%;
@@ -156,13 +225,5 @@
     .burger {
       display: block;
     }
-  }
-
-  nav {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  .navItem {
-    padding-top: 4px;
   }
 </style>

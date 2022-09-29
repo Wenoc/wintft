@@ -81,8 +81,12 @@
     }
 
     .mainText {
-      font-size: 32px;
+      font-size: 36px;
       text-align: center;
+    }
+
+    .headerTextContainer {
+      margin: 0;
     }
   }
   p {
