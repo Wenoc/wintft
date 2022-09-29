@@ -752,6 +752,7 @@
     }
     .SLetter {
       margin: 0;
+      
     }
     .compBody {
       flex-direction: column;
