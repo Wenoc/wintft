@@ -173,20 +173,24 @@
 
   @media (max-width: 800px) {
     .champCard {
-      width: 180px;
-      height: 110px;
+      width: 170px;
+      height: 112px;
     }
 
     .champName {
       font-size: 18px;
     }
 
+    .traitItem {
+      height: 22px;
+    }
+
     .traitItem img {
-      width: 25px;
+      width: 22px;
     }
 
     .traitItem p {
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .champItems img {
