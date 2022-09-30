@@ -62,9 +62,7 @@
     <Header headerText="Augments" />
     <div style="display: flex; justify-content:center; align-items:center;">
       <div class="augmentContainer">
-        <div
-          style="display: flex; justify-content: space-between; align-items: center;"
-        >
+        <div class="searchContainer">
           <div class="searchBox">
             <div class="input-icons">
               <svg
@@ -129,6 +127,12 @@
 </PageLayout>
 
 <style>
+  .searchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .augmentHead {
     font-weight: 500;
     margin-top: 20px;
@@ -192,6 +196,10 @@
     }
     .updateContainer {
       display: none;
+    }
+
+    .searchContainer {
+      justify-content: center;
     }
   }
   .updateContainer {

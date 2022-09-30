@@ -13,6 +13,7 @@
   import Header from "../components/Header.svelte";
   import { flip } from "svelte/animate";
   import { fade, slide, scale } from "svelte/transition";
+  import PageLayout from "../components/PageLayout.svelte";
   export let AllChampions;
 
   let kereses = "";
@@ -48,56 +49,70 @@
   }
 </script>
 
-<div class="main">
-  <Header headerText="WinTFT" />
-  <div class="searchContainer">
-    <div class="searchBox">
-      <div class="input-icons">
-        <svg
-          class="icon"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="#757575"
-          height="25"
-          width="25"
-          viewBox="0 0 24 24"
-        >
-          <g data-name="Layer 2">
-            <path
-              d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"
-              data-name="search"
+<PageLayout>
+  <div slot="middle">
+    <Header headerText="Champions" />
+    <div class="champPageContainer">
+      <div class="searchContainer">
+        <div class="searchBox">
+          <div class="input-icons">
+            <svg
+              class="icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#757575"
+              height="25"
+              width="25"
+              viewBox="0 0 24 24"
+            >
+              <g data-name="Layer 2">
+                <path
+                  d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"
+                  data-name="search"
+                />
+              </g>
+            </svg>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Seach Augment"
+              bind:value={kereses}
             />
-          </g>
-        </svg>
-        <input
-          type="text"
-          class="input-field"
-          placeholder="Seach Augment"
-          bind:value={kereses}
-        />
+          </div>
+        </div>
+        <div class="updateContainer">
+          <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
+        </div>
+      </div>
+      <div class="championsContainer">
+        <div>
+          {#each searchedChampions as Champ (Champ.name)}
+            <span animate:flip={{ duration: 300 }}>
+              <ChampionsChamp
+                name={Champ.name}
+                traits={Champ.traits}
+                items={champItems(Champ.items)}
+                cost={Champ.cost}
+                bg={bg(Champ.name)}
+              />
+            </span>
+          {/each}
+        </div>
       </div>
     </div>
-    <div class="updateContainer">
-      <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
-    </div>
   </div>
-  <div class="championsContainer">
-    <div>
-      {#each searchedChampions as Champ (Champ.name)}
-        <span animate:flip={{ duration: 300 }}>
-          <ChampionsChamp
-            name={Champ.name}
-            traits={Champ.traits}
-            items={champItems(Champ.items)}
-            cost={Champ.cost}
-            bg={bg(Champ.name)}
-          />
-        </span>
-      {/each}
-    </div>
+  <div slot="left" class="leftAD">
+    <img src="ad.png" alt="chi" />
   </div>
-</div>
+  <div slot="right" class="leftAD">
+    <img src="ad.png" alt="chi" />
+  </div>
+</PageLayout>
 
 <style>
+  .champPageContainer {
+    width: 1000px;
+  }
+
   .championsContainer div {
     max-width: 980px;
     display: flex;
@@ -118,6 +133,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
     max-width: 974px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -163,5 +179,34 @@
   .input-field {
     color: white;
     font-weight: 400;
+  }
+
+  @media (max-width: 1400px) {
+    .leftAD {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .champPageContainer {
+      width: 644px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .champPageContainer {
+      width: 436px;
+    }
+
+    .championsContainer div {
+      gap: 12px;
+    }
+
+    .updateContainer {
+      display: none;
+    }
+    .searchContainer {
+      justify-content: center;
+    }
   }
 </style>
