@@ -118,12 +118,12 @@
       </div>
     </div>
   </div>
-  <div slot="left" class="leftAD">
+  <!-- <div slot="left" class="leftAD">
     <img src="ad.png" alt="chi" />
   </div>
   <div slot="right" class="leftAD">
     <img src="ad.png" alt="chi" />
-  </div>
+  </div> -->
 </PageLayout>
 
 <style>

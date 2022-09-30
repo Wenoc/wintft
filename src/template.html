@@ -36,12 +36,18 @@
 				background-color: black;
 				font-family: 'Noto Sans', sans-serif;
 				font-weight: 700;
-				background:  linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,0.9)), url('bg23.webp') top/cover;
+				background:  linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,0.9)), url('bg23.webp') center/cover;
 				background-repeat: no-repeat;
 				background-attachment:fixed;
 				background-position: fixed;
 			}
 
+			@media (max-width: 699px) {
+			body {
+				background-size: cover;
+				background-position: center;
+			}
+			}
 	</style>
 </head>
 <body>
