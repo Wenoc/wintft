@@ -10,6 +10,7 @@
 <script>
   import Header from "../components/Header.svelte";
   import Augment from "../components/Augment.svelte";
+  import PageLayout from "../components/PageLayout.svelte";
   export let augmentData;
 
   let i = 1;
@@ -56,8 +57,8 @@
   }
 </script>
 
-<div>
-  <div style="text-align: center;">
+<PageLayout>
+  <div slot="middle">
     <Header headerText="Augments" />
     <div style="display: flex; justify-content:center; align-items:center;">
       <div class="augmentContainer">
@@ -94,7 +95,7 @@
           </div>
         </div>
         <div>
-          <div class="augmentHead">
+          <div class="augmentHead" style="text-align:center">
             <div style="width: 30%;">
               <p>Augment</p>
             </div>
@@ -119,7 +120,13 @@
       </div>
     </div>
   </div>
-</div>
+  <div slot="left" class="leftAD">
+    <img src="ad.png" alt="chi" />
+  </div>
+  <div slot="right" class="leftAD">
+    <img src="ad.png" alt="chi" />
+  </div>
+</PageLayout>
 
 <style>
   .augmentHead {
@@ -155,17 +162,38 @@
     margin-bottom: 70px;
   }
 
-  @media (max-width: 1200px) {
-    .augmentContainer {
-      max-width: 83%;
-    }
-  }
-  @media (max-width: 580px) {
-    .augmentContainer {
-      width: 90%;
+  @media (max-width: 1400px) {
+    .leftAD {
+      display: none;
     }
   }
 
+  @media (max-width: 1200px) {
+    .augmentContainer {
+      max-width: 88%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .augmentHead div:nth-child(3) {
+      display: none;
+    }
+    .augmentHead div:nth-child(1) {
+      width: 80%;
+    }
+    .augmentHead div:nth-child(2) {
+      width: 20%;
+    }
+    .augmentHead {
+      justify-content: space-around;
+    }
+    .augmentContainer {
+      width: 450px;
+    }
+    .updateContainer {
+      display: none;
+    }
+  }
   .updateContainer {
     background-color: #2d2f3a;
     border: 1px solid #5e5d5d;
