@@ -195,7 +195,7 @@
 
   @media (max-width: 800px) {
     .champPageContainer {
-      max-width: 400px;
+      max-width: 370px;
     }
 
     .championsContainer div {
