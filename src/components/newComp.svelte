@@ -69,7 +69,11 @@
       growDiv.style.height = 0;
       growDiv.style.borderBottom = 0;
     } else {
-      growDiv.style.height = 230 + "px";
+      if (growDiv.clientWidth < 400) {
+        growDiv.style.height = 470 + "px";
+      } else {
+        growDiv.style.height = 230 + "px";
+      }
       growDiv.style.border = "1px solid #5e5d5d";
 
       growDiv.style.borderTop = 0;
@@ -501,7 +505,7 @@
     font-weight: 600;
   }
   .compExpanded {
-    height: 230px;
+    height: 600px;
     background-color: #22242f;
     border: 1px solid #5e5d5d;
     display: flex;
@@ -717,7 +721,7 @@
     }
 
     .compBody {
-      height: 180px;
+      height: 190px;
     }
 
     .mainCompContainer {
@@ -735,6 +739,14 @@
 
     .SLetter {
       margin: 0;
+    }
+
+    .compExpandedRight {
+      display: none;
+    }
+
+    .compExpandedLeft:nth-child(2) {
+      border: 0;
     }
   }
 
@@ -778,6 +790,39 @@
     .mainCompContainer {
       width: 346px;
       margin-right: 0;
+    }
+
+    .compExpandedRight {
+      display: none;
+    }
+
+    .compExpanded {
+      flex-direction: column-reverse;
+      height: 350px;
+    }
+
+    .MiddleUp {
+      height: 100%;
+    }
+    .compExpandedLeft {
+      height: auto;
+      border-right: 0;
+    }
+
+    .LeftUp {
+      border-top: 1px solid #5e5d5d;
+    }
+
+    .traitContainer {
+      padding: 0 20px;
+    }
+
+    .option2 .arrow {
+      height: 25px;
+      width: 25px;
+      margin-right: 11px;
+      padding-bottom: 10px;
+      display: block;
     }
   }
 </style>
