@@ -194,6 +194,15 @@
   }
 
   @media (max-width: 800px) {
+    .updateContainer {
+      display: none;
+    }
+    .searchContainer {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 670px) {
     .champPageContainer {
       max-width: 370px;
     }

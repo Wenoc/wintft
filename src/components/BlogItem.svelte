@@ -38,8 +38,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    width: 313px;
+    width: 312px;
     height: 230px;
     background-color: #22242f;
     border: 1px solid #5e5d5d;
@@ -63,5 +62,10 @@
     margin: 0;
     padding: 0;
     color: white;
+  }
+  @media (max-width: 1400px) {
+    .card {
+      width: 338px;
+    }
   }
 </style>
