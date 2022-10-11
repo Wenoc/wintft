@@ -1,6 +1,5 @@
 <script>
   import Champ from "./Champ.svelte";
-  export let ChamionCost;
   export let AllChampions;
 
   export let id;

@@ -68,4 +68,10 @@
       width: 338px;
     }
   }
+  @media (max-width: 820px) {
+    .card {
+      width: 310px;
+      height: 210px;
+    }
+  }
 </style>

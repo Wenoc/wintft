@@ -31,8 +31,8 @@
             style="background: url('/blogBackground/bg3.png') top/cover"
           >
             <div class="highlightedContent">
-              <div style="display:flex; justify-content:space-between">
-                <p title="Recommended">
+              <div class="highlightedUp">
+                <p title="Recommended" class="starContainer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -47,11 +47,7 @@
                 <p>September 24, 2022</p>
               </div>
               <div style="position: relative;">
-                <p
-                  style="position: absolute; bottom: 0; left: 0; font-size:20px"
-                >
-                  Level and Economy Guide
-                </p>
+                <p class="highlightedText">Level and Economy Guide</p>
               </div>
             </div>
           </div>
@@ -60,8 +56,8 @@
             style="background: url('/blogBackground/bg2.png') top/cover"
           >
             <div class="highlightedContent">
-              <div style="display:flex; justify-content:space-between">
-                <p title="Recommended">
+              <div class="highlightedUp">
+                <p title="Recommended" class="starContainer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -77,7 +73,8 @@
               </div>
               <div style="position: relative;">
                 <p
-                  style="position: absolute; bottom: 0; left: 0; font-size:20px"
+                  style="position: absolute; bottom: 0; left: 0;"
+                  class="highlightedText"
                 >
                   Top 10 Tips To Improve In TFT
                 </p>
@@ -135,6 +132,16 @@
 </PageLayout>
 
 <style>
+  .highlightedUp {
+    display: flex;
+    justify-content: space-between;
+  }
+  .highlightedText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+  }
   .page {
     display: flex;
     flex-direction: column;
@@ -300,6 +307,53 @@
     @media (max-width: 1100px) {
       .leftAD {
         display: none;
+      }
+    }
+    @media (max-width: 820px) {
+      .newestBlog {
+        width: 360px;
+        height: 200px;
+      }
+      .newestBlog p {
+        font-size: 18px;
+      }
+      .newestBlog div {
+        padding: 6px;
+      }
+      .highlightedContainer {
+        width: 360px;
+      }
+      .highlighted {
+        height: 120px;
+      }
+
+      .highlightedContent p {
+        font-size: 16px;
+      }
+
+      .highlightedUp p {
+        font-size: 14px;
+      }
+      .starContainer {
+        display: none;
+      }
+      .searchContainer {
+        min-width: 360px;
+        max-width: none;
+        justify-content: center;
+      }
+      .updateContainer {
+        display: none;
+      }
+      .page {
+        max-width: 360px;
+      }
+      .otherBlogs {
+        justify-content: center;
+      }
+      .blogContainer {
+        height: 360px;
+        width: 360px;
       }
     }
   }
