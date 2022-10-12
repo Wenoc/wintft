@@ -25,15 +25,20 @@
   }
 
   .middlepane {
+    width: 50%;
+    display: flex;
   }
 
   .leftpane {
+    width: 24.5%;
     margin-top: 260px;
     display: flex;
     justify-content: center;
   }
 
   .rightpane {
+    width: 24.5%;
+    widows: 470px;
     margin-top: 260px;
     display: flex;
     justify-content: center;

@@ -43,6 +43,12 @@
 </script>
 
 <PageLayout>
+  <div slot="left" class="leftAD">
+    <img src="ad.png" alt="chi" />
+  </div>
+  <div slot="right" class="leftAD">
+    <img src="ad.png" alt="chi" />
+  </div>
   <div slot="middle">
     <Header headerText="Team Comps" />
     <div class="compsContainer">
@@ -86,12 +92,6 @@
         </div>
       {/each}
     </div>
-  </div>
-  <div slot="left" class="leftAD">
-    <img src="ad.png" alt="chi" />
-  </div>
-  <div slot="right" class="leftAD">
-    <img src="ad.png" alt="chi" />
   </div>
 </PageLayout>
 
