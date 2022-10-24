@@ -218,4 +218,28 @@
   li p {
     margin: 10px;
   }
+
+  @media (max-width: 820px) {
+    .blogBody {
+      width: 300px;
+      padding: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 0%;
+    }
+
+    h3 {
+      font-size: 22px;
+      margin-bottom: 0%;
+    }
+  }
 </style>

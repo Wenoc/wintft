@@ -28,7 +28,7 @@
         <div class="highlightedContainer">
           <div
             class="highlighted"
-            style="background: url('/blogBackground/bg3.png') top/cover"
+            style="background: url('/blogBackground/bg3.png') center/cover"
           >
             <div class="highlightedContent">
               <div class="highlightedUp">
@@ -189,7 +189,7 @@
   }
 
   .blogContainer {
-    margin-top: 200px;
+    margin-top: 120px;
     width: 980px;
     height: 400px;
     display: flex;
@@ -312,7 +312,7 @@
     @media (max-width: 820px) {
       .newestBlog {
         width: 360px;
-        height: 200px;
+        height: 23000px;
       }
       .newestBlog p {
         font-size: 18px;
@@ -322,20 +322,27 @@
       }
       .highlightedContainer {
         width: 360px;
+        flex-direction: column;
+        max-height: 220px;
       }
       .highlighted {
         height: 120px;
       }
 
+      .highlighted:nth-child(1) {
+        margin-bottom: 0px;
+      }
+
       .highlightedContent p {
-        font-size: 16px;
+        font-size: 18px;
+        margin-bottom: 4px;
       }
 
       .highlightedUp p {
-        font-size: 14px;
+        font-size: 16px;
       }
       .starContainer {
-        display: none;
+        display: block;
       }
       .searchContainer {
         min-width: 360px;
@@ -352,7 +359,7 @@
         justify-content: center;
       }
       .blogContainer {
-        height: 360px;
+        height: 420px;
         width: 360px;
       }
     }
