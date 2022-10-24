@@ -8,9 +8,7 @@
   }
 </script>
 
-<div
-  style="margin-top: 134px; margin-bottom: 50px; display: flex; flex-direction: column; align-items: center;"
->
+<div style="" class="wrapAll">
   <div class="up">
     <div class="brandtext" style="text-align: right;">
       <img src="brand.svg" alt="brand logo" style="width: 85%;" />
@@ -32,6 +30,14 @@
 </div>
 
 <style>
+  .wrapAll {
+    margin-top: 134px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .headerTextContainer {
     margin-left: 28px;
   }

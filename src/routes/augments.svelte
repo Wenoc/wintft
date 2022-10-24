@@ -60,7 +60,7 @@
 <PageLayout>
   <div slot="middle">
     <Header headerText="Augments" />
-    <div style="display: flex; justify-content:center; align-items:center;">
+    <div style="display: flex; justify-content:center;">
       <div class="augmentContainer">
         <div class="searchContainer">
           <div class="searchBox">
@@ -178,7 +178,7 @@
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     .augmentHead div:nth-child(3) {
       display: none;
     }
@@ -192,7 +192,8 @@
       justify-content: space-around;
     }
     .augmentContainer {
-      width: 450px;
+      width: 350px;
+      max-width: 350px;
     }
     .updateContainer {
       display: none;
