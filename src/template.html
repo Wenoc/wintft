@@ -28,6 +28,8 @@
 		<title>TFTea - TFT Stats and Comps</title>	
 		<meta name="description" content="TFTea helps you with Team Composition guides, so that you'll always be able to start your games one step ahead of your opponents.">
 	</header>
+	<div class="image-hero-area">
+	</div>
 	<style>
 			@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;600;700');
 
@@ -36,16 +38,17 @@
 				font-weight: 700;
 			}
 
-			body:before{
-				background-color: black;
-				content: "";
-				display: block;
+			.image-hero-area {
 				position: fixed;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				z-index: -10;
+				background-color: black;
+				right: 0;
+				bottom: 0;
+				min-width: 100%;
+				min-height: 100%;
+				width: auto;
+				height: auto;
+				z-index: -100;
+				margin: 0;
 				background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,0.9)), url('bg23.webp') no-repeat center center;
 				-webkit-background-size: cover;
 				-moz-background-size: cover;
