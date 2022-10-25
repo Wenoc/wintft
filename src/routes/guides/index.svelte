@@ -30,56 +30,61 @@
             class="highlighted"
             style="background: url('/blogBackground/bg3.png') center/cover"
           >
-            <div class="highlightedContent">
-              <div class="highlightedUp">
-                <p title="Recommended" class="starContainer">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    version="1.2"
-                    fill="white"
-                    ><path
-                      d="m3.1 11.3 3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1L8.7 8.2 4 8.7h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"
-                    /></svg
-                  >
-                </p>
-                <p>September 24, 2022</p>
+            <a href="guides/level-and-economy-guide" rel="external">
+              <div class="highlightedContent">
+                <div class="highlightedUp">
+                  <p title="Recommended" class="starContainer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      version="1.2"
+                      fill="white"
+                      ><path
+                        d="m3.1 11.3 3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1L8.7 8.2 4 8.7h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"
+                      /></svg
+                    >
+                  </p>
+                  <p>September 24, 2022</p>
+                </div>
+                <div style="position: relative;">
+                  <p class="highlightedText">Level and Economy Guide</p>
+                </div>
               </div>
-              <div style="position: relative;">
-                <p class="highlightedText">Level and Economy Guide</p>
-              </div>
-            </div>
+            </a>
           </div>
+
           <div
             class="highlighted"
             style="background: url('/blogBackground/bg2.png') top/cover"
           >
-            <div class="highlightedContent">
-              <div class="highlightedUp">
-                <p title="Recommended" class="starContainer">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    version="1.2"
-                    fill="white"
-                    ><path
-                      d="m3.1 11.3 3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1L8.7 8.2 4 8.7h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"
-                    /></svg
+            <a href="#">
+              <div class="highlightedContent">
+                <div class="highlightedUp">
+                  <p title="Recommended" class="starContainer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      version="1.2"
+                      fill="white"
+                      ><path
+                        d="m3.1 11.3 3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1L8.7 8.2 4 8.7h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"
+                      /></svg
+                    >
+                  </p>
+                  <p>September 24, 2022</p>
+                </div>
+                <div style="position: relative;">
+                  <p
+                    style="position: absolute; bottom: 0; left: 0;"
+                    class="highlightedText"
                   >
-                </p>
-                <p>September 24, 2022</p>
+                    Top 10 Tips To Improve In TFT
+                  </p>
+                </div>
               </div>
-              <div style="position: relative;">
-                <p
-                  style="position: absolute; bottom: 0; left: 0;"
-                  class="highlightedText"
-                >
-                  Top 10 Tips To Improve In TFT
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -115,6 +120,7 @@
       </div>
       <div class="otherBlogs">
         <BlogItem
+          bg="bg3"
           title="Level and Economy Guide"
           link="level-and-economy-guide"
         />
@@ -122,12 +128,6 @@
         <BlogItem />
       </div>
     </div>
-  </div>
-  <div slot="left" class="leftAD">
-    <img src="ad.png" alt="chi" />
-  </div>
-  <div slot="right" class="leftAD">
-    <img src="ad.png" alt="chi" />
   </div>
 </PageLayout>
 
@@ -304,15 +304,11 @@
       min-width: 700px;
       max-width: none;
     }
-    @media (max-width: 1100px) {
-      .leftAD {
-        display: none;
-      }
-    }
+
     @media (max-width: 820px) {
       .newestBlog {
         width: 360px;
-        height: 23000px;
+        height: 200px;
       }
       .newestBlog p {
         font-size: 18px;
@@ -326,11 +322,12 @@
         max-height: 220px;
       }
       .highlighted {
-        height: 120px;
+        height: 100px;
       }
 
       .highlighted:nth-child(1) {
         margin-bottom: 0px;
+        display: none;
       }
 
       .highlightedContent p {
@@ -345,6 +342,8 @@
         display: block;
       }
       .searchContainer {
+        margin-top: 40px;
+        margin-bottom: 20px;
         min-width: 360px;
         max-width: none;
         justify-content: center;
@@ -359,8 +358,17 @@
         justify-content: center;
       }
       .blogContainer {
-        height: 420px;
+        margin-top: 90px;
+        height: 330px;
         width: 360px;
+      }
+      .searchBox div input {
+        width: 348px;
+      }
+      .icon {
+        padding: 10px;
+        left: 328px;
+        top: 5px;
       }
     }
   }

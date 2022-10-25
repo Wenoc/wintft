@@ -2,13 +2,15 @@
   export let title = "Teamfight Tactics Patch 12.15";
   export let date = "August 15, 2022";
   export let link;
+
+  export let bg = "bg4";
 </script>
 
 <a href="/guides/{link}" rel="external">
   <div class="card">
     <div
       class="up"
-      style="background: url('/blogBackground/bg4.png') top/cover;"
+      style="background: url('/blogBackground/{bg}.png') top/cover;"
     />
     <div class="down">
       <div>
@@ -70,7 +72,7 @@
   }
   @media (max-width: 820px) {
     .card {
-      width: 330px;
+      width: 358px;
       height: 210px;
     }
   }

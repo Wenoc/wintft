@@ -1,9 +1,7 @@
 <script>
 </script>
 
-<div
-  style="display:flex; justify-content: center; flex-direction:column; align-items:center; margin-top: 130px;"
->
+<div style="" class="wrapAll">
   <h1>Leveling and Economy Guide</h1>
   <div class="blogBody">
     <p>
@@ -200,6 +198,14 @@
     font-weight: 500;
   }
 
+  .wrapAll {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+  }
+
   .blogBody {
     padding-top: 35px;
     padding-left: 60px;
@@ -219,17 +225,28 @@
     margin: 10px;
   }
 
-  @media (max-width: 820px) {
+  @media (max-width: 1100px) {
+    .blogBody {
+      width: 600px;
+      padding: 20px 50px;
+    }
+  }
+
+  @media (max-width: 750px) {
     .blogBody {
       width: 300px;
       padding: 20px;
+      border-radius: 5px;
     }
     p {
-      font-size: 16px;
+      font-size: 18px;
     }
 
     h1 {
       text-align: center;
+      max-width: 340px;
+      font-size: 34px;
+      margin-bottom: 40px;
     }
 
     h2 {
@@ -240,6 +257,9 @@
     h3 {
       font-size: 22px;
       margin-bottom: 0%;
+    }
+    .wrapAll {
+      margin-top: 100px;
     }
   }
 </style>

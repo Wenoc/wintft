@@ -119,15 +119,11 @@
 
   .selected {
     border-bottom: 3px solid #fa9c43 !important;
-    transform: scale(0.97);
+    transform: scale(0.98);
     transition: border-width 0.1s;
   }
 
   .selected div {
-    color: #fa9c43 !important;
-  }
-
-  .selected svg {
     color: #fa9c43 !important;
   }
 

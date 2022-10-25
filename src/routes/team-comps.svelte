@@ -43,12 +43,6 @@
 </script>
 
 <PageLayout>
-  <div slot="left" class="leftAD">
-    <img src="ad.png" alt="chi" />
-  </div>
-  <div slot="right" class="leftAD">
-    <img src="ad.png" alt="chi" />
-  </div>
   <div slot="middle">
     <Header headerText="Team Comps" />
     <div class="compsContainer">
@@ -131,15 +125,6 @@
   @media (max-width: 1100px) {
     .compsContainer {
       width: 600px;
-    }
-    .leftAD {
-      display: block;
-    }
-  }
-
-  @media (max-width: 1000px) {
-    .leftAD {
-      display: none;
     }
   }
   @media (max-width: 700px) {

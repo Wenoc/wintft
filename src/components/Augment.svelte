@@ -118,15 +118,13 @@
     justify-content: center !important;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1100px) {
     .descriptionx {
       display: none;
     }
-
     .augment div:nth-child(3) {
       display: none;
     }
-
     .nameSec {
       width: 70%;
     }

@@ -161,48 +161,6 @@
     border: 1px solid #5e5d5d;
   }
 
-  .augmentContainer {
-    width: 980px;
-    margin-bottom: 70px;
-  }
-
-  @media (max-width: 1400px) {
-    .leftAD {
-      display: none;
-    }
-  }
-
-  @media (max-width: 1200px) {
-    .augmentContainer {
-      max-width: 88%;
-    }
-  }
-
-  @media (max-width: 700px) {
-    .augmentHead div:nth-child(3) {
-      display: none;
-    }
-    .augmentHead div:nth-child(1) {
-      width: 80%;
-    }
-    .augmentHead div:nth-child(2) {
-      width: 20%;
-    }
-    .augmentHead {
-      justify-content: space-around;
-    }
-    .augmentContainer {
-      width: 350px;
-      max-width: 350px;
-    }
-    .updateContainer {
-      display: none;
-    }
-
-    .searchContainer {
-      justify-content: center;
-    }
-  }
   .updateContainer {
     background-color: #2d2f3a;
     border: 1px solid #5e5d5d;
@@ -231,5 +189,64 @@
   .input-field {
     color: white;
     font-weight: 400;
+  }
+
+  .augmentContainer {
+    width: 980px;
+    margin-bottom: 70px;
+  }
+
+  @media (max-width: 1100px) {
+    .augmentContainer {
+      width: 600px;
+    }
+    .augmentHead {
+      justify-content: space-between;
+    }
+
+    .augmentHead div:nth-child(3) {
+      display: none;
+    }
+    .augmentHead div:nth-child(1) {
+      width: 80%;
+      text-align: left;
+      padding-left: 30px;
+    }
+    .augmentHead div:nth-child(2) {
+      width: 20%;
+      padding-right: 30px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .augmentHead div:nth-child(3) {
+      display: none;
+    }
+    .augmentHead div:nth-child(1) {
+      width: 80%;
+      text-align: left;
+      padding-left: 20px;
+    }
+    .augmentHead div:nth-child(2) {
+      width: 20%;
+      padding-right: 20px;
+    }
+    .augmentHead {
+      justify-content: space-around;
+    }
+    .augmentContainer {
+      width: 350px;
+      max-width: 350px;
+    }
+    .updateContainer {
+      display: none;
+    }
+
+    .augmentHead {
+      justify-content: space-between;
+    }
+    .searchContainer {
+      justify-content: center;
+    }
   }
 </style>

@@ -181,12 +181,6 @@
     font-weight: 400;
   }
 
-  @media (max-width: 1400px) {
-    .leftAD {
-      display: none;
-    }
-  }
-
   @media (max-width: 1100px) {
     .champPageContainer {
       width: 644px;
