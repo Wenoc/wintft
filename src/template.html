@@ -64,19 +64,7 @@
 	     because `src/client.js` references it -->
 		 <div id="sapper">%sapper.html%</div>
 		 <script type='text/javascript'>
-
-			(function()
-			{
-			  if( window.localStorage )
-			  {
-				if( !localStorage.getItem('firstLoad') )
-				{
-				  localStorage['firstLoad'] = true;
-				  window.location.reload();
-				}  
-			  }
-			})();
 			
-			</script>
+		 </script>
 </body>
 </html>

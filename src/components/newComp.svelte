@@ -1,5 +1,6 @@
 <script>
   import Champ from "./Champ.svelte";
+  import { onMount } from "svelte";
   export let AllChampions;
 
   export let id;
@@ -79,6 +80,12 @@
     }
   }
 
+  function getName(namex) {
+    namex = namex.replaceAll(" ", "-");
+    namex = namex.toLowerCase();
+    return namex;
+  }
+
   export let Gtraits;
   export let Straits;
   export let Btraits;
@@ -155,28 +162,28 @@
         {#each champions as champ}
           {#if champ == carries[0].name}
             <Champ
-              name={champ}
+              name={getName(champ)}
               Items={carries[0].items}
               cost={determineValue(champ)}
               ThreeStar={isThreeStar(champ)}
             />
           {:else if champ == carries[1].name}
             <Champ
-              name={champ}
+              name={getName(champ)}
               Items={carries[1].items}
               cost={determineValue(champ)}
               ThreeStar={isThreeStar(champ)}
             />
           {:else if champ == carries[2].name}
             <Champ
-              name={champ}
+              name={getName(champ)}
               Items={carries[2].items}
               cost={determineValue(champ)}
               ThreeStar={isThreeStar(champ)}
             />
           {:else}
             <Champ
-              name={champ}
+              name={getName(champ)}
               cost={determineValue(champ)}
               ThreeStar={isThreeStar(champ)}
             />
@@ -226,12 +233,20 @@
         <div class="optionsContainer">
           <div class="option1">
             <div class="lvl9">Lvl 9</div>
-            <Champ name={lvl9} augment={true} cost={determineValue(lvl9)} />
+            <Champ
+              name={getName(lvl9)}
+              augment={true}
+              cost={determineValue(lvl9)}
+            />
           </div>
           <div class="option2">
             <div class="option2Left">
               {#each optionsChampionsLeft as ocl}
-                <Champ name={ocl} augment={true} cost={determineValue(ocl)} />
+                <Champ
+                  name={getName(ocl)}
+                  augment={true}
+                  cost={determineValue(ocl)}
+                />
               {/each}
             </div>
             <div class="arrow">
@@ -248,7 +263,11 @@
             </div>
             <div class="option2Right">
               {#each optionsChampionsRight as ocr}
-                <Champ name={ocr} augment={true} cost={determineValue(ocr)} />
+                <Champ
+                  name={getName(ocr)}
+                  augment={true}
+                  cost={determineValue(ocr)}
+                />
               {/each}
             </div>
           </div>

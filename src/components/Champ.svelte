@@ -1,5 +1,4 @@
 <script>
-  import { onMount } from "svelte";
   export let name;
   export let Items = [];
   export let ThreeStar = false;
@@ -8,14 +7,6 @@
   export let cost;
 
   let borderColor = "#878aa2";
-
-  let lname;
-  let nlname;
-
-  onMount(async () => {
-    lname = name.replaceAll(" ", "-");
-    nlname = lname.toLowerCase();
-  });
 
   if (Items.length > 1) {
     for (let i = 0; i < Items.length; i++) {
@@ -45,29 +36,17 @@
     style="outline: 3px solid {borderColor};"
   >
     <img
-      src="ChampIcons/{nlname}.png"
-      alt={nlname}
+      src="ChampIcons/{name}.png"
+      alt={name}
       style="max-width:100%;"
       title={name}
     />
   </div>
   <div class="stars" class:dontShow={!ThreeStar}>
     <div style="position: relative;">
-      <img
-        src="star.svg"
-        alt={nlname}
-        style="position: absolute; left: -55px;"
-      />
-      <img
-        src="star.svg"
-        alt={nlname}
-        style="position: absolute; left: -40px;"
-      />
-      <img
-        src="star.svg"
-        alt={nlname}
-        style="position: absolute; left: -25px;"
-      />
+      <img src="star.svg" alt={name} style="position: absolute; left: -55px;" />
+      <img src="star.svg" alt={name} style="position: absolute; left: -40px;" />
+      <img src="star.svg" alt={name} style="position: absolute; left: -25px;" />
     </div>
   </div>
   <div
