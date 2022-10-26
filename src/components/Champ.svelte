@@ -46,16 +46,28 @@
   >
     <img
       src="ChampIcons/{nlname}.png"
-      alt=""
+      alt={nlname}
       style="max-width:100%;"
       title={name}
     />
   </div>
   <div class="stars" class:dontShow={!ThreeStar}>
     <div style="position: relative;">
-      <img src="star.svg" alt="" style="position: absolute; left: -55px;" />
-      <img src="star.svg" alt="" style="position: absolute; left: -40px;" />
-      <img src="star.svg" alt="" style="position: absolute; left: -25px;" />
+      <img
+        src="star.svg"
+        alt={nlname}
+        style="position: absolute; left: -55px;"
+      />
+      <img
+        src="star.svg"
+        alt={nlname}
+        style="position: absolute; left: -40px;"
+      />
+      <img
+        src="star.svg"
+        alt={nlname}
+        style="position: absolute; left: -25px;"
+      />
     </div>
   </div>
   <div

@@ -109,9 +109,6 @@
     display: flex;
     justify-content: center;
   }
-  .brand {
-    height: 50px;
-  }
   .linkContainer {
     display: flex;
     align-items: center;

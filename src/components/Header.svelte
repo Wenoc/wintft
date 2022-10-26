@@ -31,9 +31,9 @@
       </svg>
     </div>
     <div class="headerTextContainer">
-      <p class="mainText" class:homepage={home}>
+      <h1 class="mainText" class:homepage={home}>
         {headerText}
-      </p>
+      </h1>
     </div>
   </div>
   <div class="down" style="margin-top: 10px;">
@@ -52,6 +52,9 @@
 
   .headerTextContainer {
     margin-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .svgContainer {
@@ -74,6 +77,7 @@
     background: #b97331;
     width: 3px;
   }
+
   .down p {
     color: gray;
     text-align: center;
@@ -110,6 +114,13 @@
       margin: 0;
     }
   }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0%;
+  }
+
   p {
     margin: 0;
     padding-bottom: 6px;

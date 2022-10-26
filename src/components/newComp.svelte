@@ -210,6 +210,8 @@
             <img
               src="./augments/{augment}.png"
               alt={augment}
+              loading="lazy"
+              decoding="async"
               title={augNamesf()}
             />
           {/each}
@@ -278,6 +280,8 @@
                       0,
                       trait.length - 1
                     )}"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               {/each}
@@ -293,6 +297,8 @@
                       0,
                       trait.length - 1
                     )}"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               {/each}
@@ -308,6 +314,8 @@
                       0,
                       trait.length - 1
                     )}"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               {/each}
@@ -323,7 +331,12 @@
           Carousel
         </p>
         <div class="carouselContainer">
-          <img src="./ItemComponents/{carousel[0]}.png" alt={carousel[0]} />
+          <img
+            src="./ItemComponents/{carousel[0]}.png"
+            alt={carousel[0]}
+            loading="lazy"
+            decoding="async"
+          />
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -334,7 +347,12 @@
             xmlns="http://www.w3.org/2000/svg"
             ><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" /></svg
           >
-          <img src="./ItemComponents/{carousel[1]}.png" alt={carousel[1]} />
+          <img
+            src="./ItemComponents/{carousel[1]}.png"
+            alt={carousel[1]}
+            loading="lazy"
+            decoding="async"
+          />
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -345,7 +363,12 @@
             xmlns="http://www.w3.org/2000/svg"
             ><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" /></svg
           >
-          <img src="./ItemComponents/{carousel[2]}.png" alt={carousel[2]} />
+          <img
+            src="./ItemComponents/{carousel[2]}.png"
+            alt={carousel[2]}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
     </div>
@@ -365,6 +388,8 @@
                   src="./ChampIcons/{position}.png"
                   alt={position}
                   title={position}
+                  loading="lazy"
+                  decoding="async"
                 />
               {/if}
             </div>

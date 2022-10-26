@@ -19,8 +19,10 @@
           <div style="width: 60px; padding-top: 6px;">
             <img
               src="/augments/{src}.png"
-              alt=""
+              alt={name}
+              decoding="async"
               style="height: 100%; width:100%"
+              loading="lazy"
             />
           </div>
           <div>
