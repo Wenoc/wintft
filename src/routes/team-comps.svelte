@@ -116,12 +116,6 @@
     display: flex;
     justify-content: center;
   }
-  @media (max-width: 1400px) {
-    .leftAD {
-      display: none;
-    }
-  }
-
   @media (max-width: 1100px) {
     .compsContainer {
       width: 600px;

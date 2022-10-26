@@ -18,11 +18,11 @@
               <p>Newest</p>
             </div>
             <div>
-              <p>August 15, 2022</p>
+              <p>October 26, 2022</p>
             </div>
           </div>
           <div class="newTitle">
-            <p>How To Play 3* Seraphine Like A Challenger</p>
+            <p>How To Play Kai'Sa Reroll Like A Challenger</p>
           </div>
         </div>
         <div class="highlightedContainer">
@@ -45,7 +45,7 @@
                       /></svg
                     >
                   </p>
-                  <p>September 24, 2022</p>
+                  <p>October 24, 2022</p>
                 </div>
                 <div style="position: relative;">
                   <p class="highlightedText">Level and Economy Guide</p>
@@ -73,7 +73,7 @@
                       /></svg
                     >
                   </p>
-                  <p>September 24, 2022</p>
+                  <p>October 20, 2022</p>
                 </div>
                 <div style="position: relative;">
                   <p
