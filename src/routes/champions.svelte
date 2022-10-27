@@ -95,7 +95,7 @@
       <div class="championsContainer">
         <div>
           {#each searchedChampions as Champ (Champ.name)}
-            <section animate:flip={{ duration: 300 }}>
+            <main animate:flip={{ duration: 300 }}>
               <ChampionsChamp
                 name={Champ.name}
                 traits={Champ.traits}
@@ -103,7 +103,7 @@
                 cost={Champ.cost}
                 bg={bg(Champ.name)}
               />
-            </section>
+            </main>
           {/each}
         </div>
       </div>
