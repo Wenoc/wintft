@@ -841,7 +841,6 @@
 
     .compExpanded {
       flex-direction: column-reverse;
-      height: 350px;
     }
 
     .MiddleUp {

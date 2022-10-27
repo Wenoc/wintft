@@ -27,8 +27,8 @@
                 alt={trait}
                 loading="lazy"
                 decoding="async"
-                height="30px"
-                width="30px"
+                height="30"
+                width="30"
               />
               <p>{trait}</p>
             </div>
@@ -46,8 +46,8 @@
             src="coins.svg"
             alt="coin"
             decoding="async"
-            height="20px"
-            width="20px"
+            height="20"
+            width="20"
             loading="lazy"
           />
           <p>{cost}</p>
