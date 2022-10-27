@@ -8,7 +8,7 @@
   export let color;
 </script>
 
-<div class="augment" class:second={isSecond} id="outer">
+<div class="augment" class:second={isSecond}>
   <div class="container">
     <div class="section nameSec">
       <div class="augmentNameSection" style="padding-left: 10px;">
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <div class="section tierSec" id="inner">
+    <div class="section tierSec">
       <div style="display: flex; justify-content: center;">
         <div class="SLetter" style="margin: 6px 0; background-color: #{color};">
           <p style="border: 0; margin:0; padding:0;">{tier}</p>
