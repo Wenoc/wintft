@@ -4,7 +4,14 @@
 </script>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title
+    >TFT Comp Comps, Guides and More for Patch 12.20b, Set 7.5 - WinTFT</title
+  >
+  <meta
+    name="description"
+    content="If you want to improve in TFT or try something new, check out our site.
+    We provide the best TFT team comps in every patch and often publish guides to help you get better at the game."
+  />
 </svelte:head>
 
 <PageLayout>

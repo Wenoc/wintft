@@ -49,7 +49,7 @@
       <img
         src="star.svg"
         alt={name}
-        loading="lazy "
+        loading="lazy"
         decoding="async"
         style="position: absolute; left: -55px;"
       />
