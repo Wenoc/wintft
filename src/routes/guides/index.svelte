@@ -5,6 +5,14 @@
   let kereses;
 </script>
 
+<svelte:head>
+  <title>TFT Guides to help you get better at the game -WinTFT</title>
+  <meta
+    name="description"
+    content="Full of high-quality TFT guides. We have you covered if you want to know more about a specific comp or want general advice to improve. - Patch 12.20b, Set 7.5"
+  />
+</svelte:head>
+
 <PageLayout>
   <div slot="middle">
     <div class="page">

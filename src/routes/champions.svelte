@@ -49,6 +49,15 @@
   }
 </script>
 
+<svelte:head>
+  <title>TFT Champions and Item Builds for Patch 12.20b, Set 7.5 - WinTFT</title
+  >
+  <meta
+    name="description"
+    content="If you want to know what the traits of a unit are or what the best items to build for it, you can see it here in one place with WinTFT - Patch 12.20b, Set 7.5"
+  />
+</svelte:head>
+
 <PageLayout>
   <div slot="middle">
     <Header headerText="Champions" />

@@ -9,8 +9,7 @@
   >
   <meta
     name="description"
-    content="If you want to improve in TFT or try something new, check out our site.
-    We provide the best TFT team comps in every patch and often publish guides to help you get better at the game."
+    content="WinTFT provides you with the best TFT team comps in every patch. We also often publish guides to help you get better at the game."
   />
 </svelte:head>
 

@@ -57,6 +57,14 @@
   }
 </script>
 
+<svelte:head>
+  <title>TFT Augment Tier List for Patch 12.20b, Set 7.5 - WinTFT</title>
+  <meta
+    name="description"
+    content="If you want to know what the best augments are at the moment or you don't know what an augment does, WinTFT helps you with that - Patch 12.20b, Set 7.5"
+  />
+</svelte:head>
+
 <PageLayout>
   <div slot="middle">
     <Header headerText="Augments" />
