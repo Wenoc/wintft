@@ -204,7 +204,7 @@
       </div>
     </div>
   </div>
-  <div class="compExpanded {growid}" id="grow">
+  <div class="compExpanded grow {growid}">
     <div class="compExpandedLeft">
       <div class="LeftUp">
         <p
@@ -722,7 +722,7 @@
     );
   }
 
-  #grow {
+  .grow {
     -moz-transition: height 0.4s;
     -ms-transition: height 0.4s;
     -o-transition: height 0.4s;

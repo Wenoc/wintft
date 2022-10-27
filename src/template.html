@@ -25,10 +25,6 @@
 	<!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one --> 
 	%sapper.head%
-	<header>
-		<title>TFTea - TFT Stats and Comps</title>	
-		<meta name="description" content="TFTea helps you with Team Composition guides, so that you'll always be able to start your games one step ahead of your opponents.">
-	</header>
 	<div class="image-hero-area">
 	</div>
 	<style>
@@ -60,11 +56,6 @@
 	</style>
 </head>
 <body>
-	<!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
-		 <div id="sapper">%sapper.html%</div>
-		 <script type='text/javascript'>
-			
-		 </script>
+	<div id="sapper">%sapper.html%</div>
 </body>
 </html>

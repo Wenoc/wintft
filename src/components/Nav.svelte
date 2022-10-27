@@ -1,8 +1,5 @@
 <script>
   export let segment;
-  import NavBlogItem from "./NavBlogItem.svelte";
-  import { onMount } from "svelte";
-  let isHover = false;
 
   function showStuff() {
     let expandNav = document.querySelector(".expand");
@@ -22,7 +19,7 @@
 <nav>
   <div class="navContainer">
     <div style="padding-top: 8px;">
-      <a href="."
+      <a rel="external" href="/"
         ><svg
           width="120"
           height="31"
@@ -43,21 +40,17 @@
     <div class="linkContainer">
       <a
         rel="external"
-        href="team-comps/"
+        href="team-comps"
         class:selected={segment === "team-comps"}
       >
         <div class="navItem">Team Comps</div>
       </a>
-      <a
-        rel="external"
-        href="augments/"
-        class:selected={segment === "augments"}
-      >
+      <a rel="external" href="augments" class:selected={segment === "augments"}>
         <div class="navItem">Augments</div>
       </a>
       <a
         rel="external"
-        href="champions/"
+        href="champions"
         class:selected={segment === "champions"}
       >
         <div class="navItem">Champions</div>
@@ -75,20 +68,16 @@
   </div>
 </nav>
 <div class="expand" id="grow">
-  <a
-    rel="external"
-    href="team-comps/"
-    class:selected={segment === "team-comps"}
-  >
+  <a rel="external" href="team-comps" class:selected={segment === "team-comps"}>
     <div class="navItem">Team Comps</div>
   </a>
-  <a rel="external" href="augments/" class:selected={segment === "augments"}>
+  <a rel="external" href="augments" class:selected={segment === "augments"}>
     <div class="navItem">Augments</div>
   </a>
-  <a rel="external" href="champions/" class:selected={segment === "champions"}>
+  <a rel="external" href="champions" class:selected={segment === "champions"}>
     <div class="navItem">Champions</div>
   </a>
-  <a rel="external" href="guides/" class:selected={segment === "guides"}>
+  <a rel="external" href="guides" class:selected={segment === "guides"}>
     <div class="navItem">Guides</div>
   </a>
 </div>

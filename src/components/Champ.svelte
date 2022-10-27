@@ -38,15 +38,35 @@
     <img
       src="ChampIcons/{name}.png"
       alt={name}
+      loading="lazy"
+      decoding="async"
       style="max-width:100%;"
       title={name}
     />
   </div>
   <div class="stars" class:dontShow={!ThreeStar}>
     <div style="position: relative;">
-      <img src="star.svg" alt={name} style="position: absolute; left: -55px;" />
-      <img src="star.svg" alt={name} style="position: absolute; left: -40px;" />
-      <img src="star.svg" alt={name} style="position: absolute; left: -25px;" />
+      <img
+        src="star.svg"
+        alt={name}
+        loading="lazy "
+        decoding="async"
+        style="position: absolute; left: -55px;"
+      />
+      <img
+        src="star.svg"
+        alt={name}
+        loading="lazy"
+        decoding="async"
+        style="position: absolute; left: -40px;"
+      />
+      <img
+        src="star.svg"
+        alt={name}
+        loading="lazy"
+        decoding="async"
+        style="position: absolute; left: -25px;"
+      />
     </div>
   </div>
   <div
@@ -56,7 +76,13 @@
   >
     {#if Items.length > 0}
       {#each Items as item}
-        <img src="items/{item}.png" alt={item} title={item} />
+        <img
+          src="items/{item}.png"
+          alt={item}
+          title={item}
+          loading="lazy"
+          decoding="async"
+        />
       {/each}
     {/if}
   </div>

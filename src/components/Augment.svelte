@@ -2,7 +2,6 @@
   export let isSecond = false;
   export let name = "";
   export let tier = "";
-  // export let avgPlace = '';
   export let Description = "";
   export let src = "";
 

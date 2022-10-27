@@ -7,7 +7,7 @@
         "carries" : [
             { "name": "Ao Shin" ,"items": ["Hextech Gunblade", "ArchangelsStaff", "Spear of Shojin"]},
             { "name": "Shyvana" ,"items": ["Ionic Spark", "Morellonomicon", "RabadonsDeathcap"]},
-            { "name": "Terra" ,"items": ["Gargoyle's Stoneplate", "Bramble Vest", "dragons claw"]}
+            { "name": "Terra" ,"items": ["Gargoyle's Stoneplate", "Bramble Vest", "DragonsClaw"]}
         ],
         "threeStar" : [],
         "difficulty": "Hard",
@@ -181,7 +181,7 @@
         "champions" : ["Nidalee", "Skarner", "Vladimir", "Lux", "Varus", "Sylas", "Aurelion Sol"],
         "carries" : [
             { "name": "Lux" ,"items": ["Archangel's Staff","Jeweled Gauntlet", "Hextech Gunblade"]},
-            { "name": "Varus" ,"items": ["Mage Emblem","statikk shiv", "Spear of Shojin"]},
+            { "name": "Varus" ,"items": ["Mage Emblem","StatikkShiv", "Spear of Shojin"]},
             { "name": "Aurelion Sol" ,"items": ["BlueBuff", "Mage Emblem"]}
         ],
         "threeStar" : [],

@@ -42,6 +42,14 @@
   }
 </script>
 
+<svelte:head>
+  <title>TFT Comp Tier List for Patch 12.20b, Set 7.5 - WinTFT</title>
+  <meta
+    name="description"
+    content="Discover the strongest TFT team comps that the best players have been playing to always be ahead of your opponents with WinTFT - Patch 12.20b, Set 7.5"
+  />
+</svelte:head>
+
 <PageLayout>
   <div slot="middle">
     <Header headerText="Team Comps" />
