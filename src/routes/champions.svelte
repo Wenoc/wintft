@@ -93,9 +93,9 @@
         </div>
       </div>
       <div class="championsContainer">
-        <div>
+        <div class="divinContainer">
           {#each searchedChampions as Champ (Champ.name)}
-            <main animate:flip={{ duration: 300 }}>
+            <div animate:flip={{ duration: 300 }}>
               <ChampionsChamp
                 name={Champ.name}
                 traits={Champ.traits}
@@ -103,7 +103,7 @@
                 cost={Champ.cost}
                 bg={bg(Champ.name)}
               />
-            </main>
+            </div>
           {/each}
         </div>
       </div>
@@ -122,7 +122,7 @@
     width: 1000px;
   }
 
-  .championsContainer div {
+  .championsContainer .divinContainer {
     max-width: 980px;
     display: flex;
     justify-content: center;
@@ -210,7 +210,7 @@
       max-width: 370px;
     }
 
-    .championsContainer div {
+    .championsContainer .divinContainer {
       gap: 12px;
     }
 
