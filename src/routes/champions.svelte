@@ -83,7 +83,7 @@
             <input
               type="text"
               class="input-field"
-              placeholder="Seach Augment"
+              placeholder="Search"
               bind:value={kereses}
             />
           </div>

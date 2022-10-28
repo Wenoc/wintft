@@ -1,40 +1,36 @@
 <script>
-	export let status;
-	export let error;
+  export let status;
 
-	const dev = process.env.NODE_ENV === 'development';
+  const dev = process.env.NODE_ENV === "development";
 </script>
 
-<style>
-	h1, p {
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
-	<title>{status}</title>
+  <title>{status}</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<div style="margin-top: 100px; text-align:center;">
+  <h2>404: Page not found!</h2>
+  <p>
+    The page you are looking for was moved, removed, renamed, or might have
+    never existed.
+  </p>
+</div>
 
-<p>{error.message}</p>
+<style>
+  h2,
+  p {
+    font-weight: 500;
+    margin: 0 auto;
+    color: white;
+  }
 
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
-{/if}
+  p {
+    margin: 1em auto;
+  }
+
+  @media (min-width: 480px) {
+    h2 {
+      font-size: 4em;
+    }
+  }
+</style>

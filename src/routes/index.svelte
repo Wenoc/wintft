@@ -9,14 +9,14 @@
   >
   <meta
     name="description"
-    content="WinTFT provides you with the best TFT team comps in every patch. We also often publish guides to help you get better at the game."
+    content="WinTFT helps you with TFT Team Compositions and guides so that you'll always be able to start your games one step ahead of your opponents."
   />
 </svelte:head>
 
 <PageLayout>
   <div slot="middle" style="margin-bottom: 100px;">
     <Header
-      headerText="The best website for TFT team comps and guides"
+      headerText="A website for TFT team comps and guides"
       home={true}
       description={true}
     />
@@ -24,31 +24,30 @@
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
-        <div>
+        <div class="textCon">
           <h1>Team Comps</h1>
           <p style="color: #727070;">
             There are various team comps on the site. Every comp comes with a
-            general guideline and some comps have an in-dept guide attached to
-            them.
+            general guideline, and some comps have an in-depth guide.
           </p>
         </div>
       </div>
-      <div style="width: 100%;">
+      <div class="imgCon">
         <img src="tc1.png" alt="exaple of a comp" width="600" />
       </div>
     </div>
     <div class="element2">
-      <div style="width: 100%;">
+      <div class="imgCon">
         <img src="aag1.png" alt="exaple of a augments" width="600" />
       </div>
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
-        <div>
+        <div class="textCon">
           <h1>Augments</h1>
           <p style="color: #727070;">
-            If you can't decide what augment to pick or what an augment does,
-            this page got you covered.
+            All augments in the game are on this page. You can read what it does
+            and see how good it is compared to the other augments.
           </p>
         </div>
       </div>
@@ -57,37 +56,37 @@
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
-        <div>
+        <div class="textCon">
           <h1>Champions</h1>
           <p style="color: #727070;">
-            There is a page on the site, which has all the champs in the game.
-            It shows the unit's cost, traits, and the best items for it.
+            Every champion from TFT is here. You can see the champions' traits,
+            cost, and best items.
           </p>
         </div>
       </div>
-      <div style="width: 100%;">
+      <div class="imgCon">
         <img src="cah1.png" alt="exaple of a comp" width="600" />
       </div>
     </div>
     <div class="element2">
-      <div style="width: 100%;">
+      <div class="imgCon">
         <img src="ga.png" alt="exaple of a augments" width="600" />
       </div>
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
-        <div>
+        <div class="textCon">
           <h1>Guides</h1>
           <p style="color: #727070;">
-            The site has high quality guides. <br /> There are comp specific and
-            also general guides for you to improve at the game.
+            There are a few comp-specific and general guides on the site for you
+            to improve at the game.
           </p>
         </div>
       </div>
     </div>
   </div>
-  <div slot="right">a</div>
-  <div slot="left">a</div>
+  <div slot="right" />
+  <div slot="left" />
 </PageLayout>
 
 <style>
@@ -96,6 +95,11 @@
     display: flex;
     width: 1000px;
     gap: 20px;
+  }
+
+  .imgCon {
+    width: 100%;
+    text-align: center;
   }
 
   .element2 {
@@ -109,5 +113,44 @@
   h1 {
     color: white;
     font-weight: bold;
+  }
+
+  @media (max-width: 1200px) {
+    .element1 {
+      flex-direction: column;
+      width: 700px;
+    }
+    .element2 {
+      flex-direction: column-reverse;
+      width: 700px;
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    .textCon {
+      width: 600px;
+    }
+
+    .imgCon {
+      width: 100%;
+      text-align: center;
+    }
+
+    @media (max-width: 750px) {
+      .element1 {
+        flex-direction: column;
+        width: 400px;
+      }
+      .element2 {
+        flex-direction: column-reverse;
+        width: 400px;
+      }
+      .imgCon img {
+        width: 400px;
+      }
+    }
   }
 </style>

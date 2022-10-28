@@ -3,7 +3,7 @@
   export let description = false;
   export let home = false;
   export let text =
-    "TFTea helps you with Team Composition guides, so that you'll always be able to start your games one step ahead of your opponents.";
+    "WinTFT helps you with Team Compositions and guides so that you'll always be able to start your games one step ahead of your opponents";
   if (description == false) {
     text = "";
   }
@@ -127,5 +127,15 @@
   }
   .homepage {
     font-size: 24px;
+  }
+
+  @media (max-width: 750px) {
+    .homepage {
+      font-size: 30px;
+      line-height: 32px;
+    }
+    .down {
+      display: none;
+    }
   }
 </style>

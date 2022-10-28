@@ -1,8 +1,31 @@
+<script context="module">
+  export async function preload(page, session) {
+    const res = await this.fetch("/blogData.json");
+    const augmentData = await res.json();
+
+    return { augmentData };
+  }
+</script>
+
 <script>
   import BlogItem from "../../components/BlogItem.svelte";
   import PageLayout from "../../components/PageLayout.svelte";
 
-  let kereses;
+  export let augmentData;
+  var kereses = "";
+  let seachedAugments = augmentData;
+
+  function augmentkereses() {
+    return augmentData.filter(
+      (line) =>
+        line.title.toLowerCase().includes(kereses.toLocaleLowerCase()) == true
+    );
+  }
+
+  $: {
+    kereses;
+    seachedAugments = augmentkereses();
+  }
 </script>
 
 <svelte:head>
@@ -46,7 +69,6 @@
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
-                      version="1.2"
                       fill="white"
                       ><path
                         d="m3.1 11.3 3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1L8.7 8.2 4 8.7h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"
@@ -117,7 +139,7 @@
             <input
               type="text"
               class="input-field"
-              placeholder="Seach Augment"
+              placeholder="Search"
               bind:value={kereses}
             />
           </div>
@@ -127,13 +149,9 @@
         </div>
       </div>
       <div class="otherBlogs">
-        <BlogItem
-          bg="bg3"
-          title="Level and Economy Guide"
-          link="level-and-economy-guide"
-        />
-        <BlogItem />
-        <BlogItem />
+        {#each seachedAugments as augment}
+          <BlogItem bg={augment.bg} title={augment.title} link={augment.url} />
+        {/each}
       </div>
     </div>
   </div>
@@ -174,6 +192,7 @@
     gap: 18px;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 80px;
   }
 
   P {
