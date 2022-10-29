@@ -54,7 +54,7 @@
   >
   <meta
     name="description"
-    content="If you want to know what the traits of a unit are or what the best items to build for it, you can see it here in one place with WinTFT - Patch 12.20b, Set 7.5"
+    content="Discover all champions' traits, costs, and the best items you can build on them here in one place with WinTFT - Patch 12.20b, Set 7.5"
   />
 </svelte:head>
 
@@ -87,9 +87,6 @@
               bind:value={kereses}
             />
           </div>
-        </div>
-        <div class="updateContainer">
-          <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
         </div>
       </div>
       <div class="championsContainer">
@@ -160,14 +157,6 @@
     outline: none;
   }
 
-  .updateContainer {
-    background-color: #2d2f3a;
-    border: 1px solid #5e5d5d;
-    color: white;
-    padding: 6px 10px;
-    margin: 0;
-  }
-
   .input-icons svg {
     position: absolute;
     height: 30px;
@@ -197,9 +186,6 @@
   }
 
   @media (max-width: 800px) {
-    .updateContainer {
-      display: none;
-    }
     .searchContainer {
       justify-content: center;
     }
@@ -214,9 +200,6 @@
       gap: 12px;
     }
 
-    .updateContainer {
-      display: none;
-    }
     .searchContainer {
       justify-content: center;
     }

@@ -63,9 +63,6 @@
             <p style="padding: 0; margin: 0;">Patch 12.2</p>
           </div>
         </div>
-        <div class="blockContainer lastUpdated">
-          <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
-        </div>
       </div>
       {#each compData as comp}
         <div class="singleCompContainer">
@@ -90,6 +87,7 @@
             type={comp.type}
             carries={comp.carries}
             positions={comp.positions}
+            guide={comp.guide}
           />
         </div>
       {/each}
@@ -132,9 +130,6 @@
   @media (max-width: 700px) {
     .compsContainer {
       width: 350px;
-    }
-    .lastUpdated {
-      display: none;
     }
 
     .patchInfo div:nth-child(1) {

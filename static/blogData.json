@@ -1,5 +1,26 @@
-[{
-    "url" : "level-and-economy-guide",
-    "title" : "Level and Economy Guide",
-    "bg" : "bg3"
-}]
+[
+    {
+        "url" : "kaisa-reroll",
+        "title" : "Kai'Sa Reroll Guide",
+        "bg" : "kaisa.webp",
+        "date" : "October 26, 2022"
+    },
+    {
+        "url" : "level-and-economy-guide",
+        "title" : "Level and Economy Guide",
+        "bg" : "bg3.png",
+        "date" : "October 24, 2022"
+    },
+    {
+        "url" : "soyfen",
+        "title" : "Soy'fen Guide",
+        "bg" : "shi-oh-yu.jpg",
+        "date" : "October 22, 2022"
+    },
+    {
+        "url" : "5-tips-to-improve",
+        "title" : "5 Tips To Improve In TFT",
+        "bg" : "bg2.png",
+        "date" : "October 20, 2022"
+    }
+]

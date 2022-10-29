@@ -25,7 +25,11 @@
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
         <div class="textCon">
-          <h1>Team Comps</h1>
+          <h1>
+            <a href="team-comps" rel="external" style="text-decoration: none;"
+              >Team Comps</a
+            >
+          </h1>
           <p style="color: #727070;">
             There are various team comps on the site. Every comp comes with a
             general guideline, and some comps have an in-depth guide.
@@ -33,7 +37,7 @@
         </div>
       </div>
       <div class="imgCon">
-        <img src="tc1.png" alt="exaple of a comp" width="600" />
+        <img src="compimg.png" alt="exaple of a comp" width="600" />
       </div>
     </div>
     <div class="element2">
@@ -44,7 +48,11 @@
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
         <div class="textCon">
-          <h1>Augments</h1>
+          <h1>
+            <a href="augments" rel="external" style="text-decoration: none;"
+              >Augments</a
+            >
+          </h1>
           <p style="color: #727070;">
             All augments in the game are on this page. You can read what it does
             and see how good it is compared to the other augments.
@@ -57,7 +65,11 @@
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
         <div class="textCon">
-          <h1>Champions</h1>
+          <h1>
+            <a href="champions" rel="external" style="text-decoration: none;"
+              >Champions</a
+            >
+          </h1>
           <p style="color: #727070;">
             Every champion from TFT is here. You can see the champions' traits,
             cost, and best items.
@@ -65,18 +77,22 @@
         </div>
       </div>
       <div class="imgCon">
-        <img src="cah1.png" alt="exaple of a comp" width="600" />
+        <img src="champimg.webp" alt="exaple of a comp" width="600" />
       </div>
     </div>
     <div class="element2">
       <div class="imgCon">
-        <img src="ga.png" alt="exaple of a augments" width="600" />
+        <img src="blogimg.webp" alt="exaple of a augments" width="600" />
       </div>
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
         <div class="textCon">
-          <h1>Guides</h1>
+          <h1>
+            <a href="guides" rel="external" style="text-decoration: none;"
+              >Guides</a
+            >
+          </h1>
           <p style="color: #727070;">
             There are a few comp-specific and general guides on the site for you
             to improve at the game.
@@ -142,14 +158,14 @@
     @media (max-width: 750px) {
       .element1 {
         flex-direction: column;
-        width: 400px;
+        width: 350px;
       }
       .element2 {
         flex-direction: column-reverse;
-        width: 400px;
+        width: 350px;
       }
       .imgCon img {
-        width: 400px;
+        width: 350px;
       }
     }
   }

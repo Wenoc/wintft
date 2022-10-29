@@ -10,7 +10,7 @@
   <div class="card">
     <div
       class="up"
-      style="background: url('/blogBackground/{bg}.png') top/cover;"
+      style="background: url('/blogBackground/{bg}') top/cover;"
     />
     <div class="down">
       <div>

@@ -1,32 +1,8 @@
 [
     {
-        "id" : "1",
-        "name" : "Dragons",
-        "tier" : "A",
-        "champions" : ["Rakan", "Idas", "Ao Shin", "Terra", "Shyvana"],
-        "carries" : [
-            { "name": "Ao Shin" ,"items": ["Hextech Gunblade", "ArchangelsStaff", "Spear of Shojin"]},
-            { "name": "Shyvana" ,"items": ["Ionic Spark", "Morellonomicon", "RabadonsDeathcap"]},
-            { "name": "Terra" ,"items": ["Gargoyle's Stoneplate", "Bramble Vest", "DragonsClaw"]}
-        ],
-        "threeStar" : [],
-        "difficulty": "Hard",
-        "type": "Fast 8",
-        "augments" : ["portableforge2", "celestialblessing2", "ascension2"],
-        "traits" : [
-            {"gold" : ["Monolith3"]},
-            {"silver" : ["Dragon4", "Ragewing4"]},
-            {"bronze" : ["Tempest3", "Shimmerscale3", "Guardian2"]}
-        ],
-        "carousel" : ["tear", "rod", "belt"],
-        "optionsChampionsRight" : ["Ao Shin"],
-        "optionsChampionsLeft" : ["Aurelion Sol"],
-        "lvl9" : "Bard",
-        "positions" : ["", "", "", "idas", "terra", "", "", "", "", "rakan", "", "", "", "", "", "", "", "", "", "", "", "", "ao-shin", "", "", "shyvana", "", ""]
-    },
-    {
         "id" : "2",
         "name" : "Seraphine Reroll",
+        "guide" : "",
         "tier" : "S",
         "champions" : ["Zac", "Zyra", "Rakan", "Seraphine", "Zeri", "Graves", "Pantheon", "Bard"],
         "carries" : [
@@ -50,33 +26,35 @@
         "positions" : ["", "", "", "zac", "", "", "", "", "", "rakan", "pantheon", "", "", "", "", "", "", "seraphine", "", "", "", "", "bard", "zyra", "zeri", "graves", "", ""]
     },
     {
-        "id" : "3",
-        "name" : "Jade + Soy'fen",
-        "tier" : "A",
-        "champions" : ["Gnar", "Jax", "Shi Oh Yu", "Syfen", "Jayce", "Pantheon"],
+        "id" : "1",
+        "name" : "Dragons",
+        "guide" : "",
+        "tier" : "S",
+        "champions" : ["Rakan", "Idas", "Ao Shin", "Terra", "Shyvana"],
         "carries" : [
-            { "name": "Shi Oh Yu" ,"items": ["Bloodthirster", "Titans Resolve", "Edge of Night"]},
-            { "name": "Syfen" ,"items": ["Bloodthirster", "Titans Resolve", "Giant Slayer"]},
-            { "name": "" ,"items": [""]}
+            { "name": "Ao Shin" ,"items": ["Hextech Gunblade", "ArchangelsStaff", "Spear of Shojin"]},
+            { "name": "Shyvana" ,"items": ["Ionic Spark", "Morellonomicon", "RabadonsDeathcap"]},
+            { "name": "Terra" ,"items": ["Gargoyle's Stoneplate", "Bramble Vest", "DragonsClaw"]}
         ],
-        "threeStar" : [""],
-        "difficulty": "Medium",
-        "type": "Standard",
-        "augments" : ["cqctraining2", "celestialblessing2", "ascension2"],
+        "threeStar" : [],
+        "difficulty": "Hard",
+        "type": "Fast 8",
+        "augments" : ["portableforge2", "celestialblessing2", "ascension2"],
         "traits" : [
-            {"gold" : []},
-            {"silver" : ["Jade5", "Whispers4", "Dragon2"]},
-            {"bronze" : ["Bruiser2","Shapeshifter2", "Guild1"]}
+            {"gold" : ["Monolith3"]},
+            {"silver" : ["Dragon4", "Ragewing4"]},
+            {"bronze" : ["Tempest3", "Shimmerscale3", "Guardian2"]}
         ],
-        "carousel" : ["sword", "bow", "chain"],
-        "optionsChampionsRight" : ["Bard", "Soraka"],
-        "optionsChampionsLeft" : ["Gnar", "Jayce"],
+        "carousel" : ["tear", "rod", "belt"],
+        "optionsChampionsRight" : ["Ao Shin"],
+        "optionsChampionsLeft" : ["Aurelion Sol"],
         "lvl9" : "Bard",
-        "positions" : ["", "jax", "pantheon", "", "syfen", "gnar", "", "shi-oh-yu", "", "", "", "", "jayce", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+        "positions" : ["", "", "", "idas", "terra", "", "", "", "", "rakan", "", "", "", "", "", "", "", "", "", "", "", "", "ao-shin", "", "", "shyvana", "", ""]
     },
     {
         "id" : "4",
         "name" : "Kaisa Reroll",
+        "guide" : "guides/kaisa-reroll",
         "tier" : "S",
         "champions" : ["Nasus", "Malphite", "Karma", "Kaisa", "Zac", "Jax", "Volibear", "leesin"],
         "carries" : [
@@ -100,8 +78,61 @@
         "positions" : ["", "jax", "", "zac", "", "", "malphite", "", "leesin", "", "", "volibear", "", "", "kaisa", "", "", "", "", "", "", "karma", "", "", "", "", "", "nasus"]
     },
     {
+        "id" : "6",
+        "name" : "Guild Xayah",
+        "guide" : "",
+        "tier" : "S",
+        "champions" : ["Twitch", "Rakan", "Hecarim", "Jayce", "Xayah", "Shyvana", "Bard"],
+        "carries" : [
+            { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "Guild Emblem"]},
+            { "name": "Shyvana" ,"items": ["Morellonomicon", "Ionic Spark", "Archangel's Staff"]},
+            { "name": "" ,"items": []}
+        ],
+        "threeStar" : [],
+        "difficulty": "Medium",
+        "type": "Standard",
+        "augments" : ["guild-crest-ii", "thrillhunt1", "cybernetic3"],
+        "traits" : [
+            {"gold" : ["Ragewing6", "Bard1"]},
+            {"silver" : ["Guild3"]},
+            {"bronze" : ["Shapeshifter2","Mystic2", "Swiftshot2", "Dragon1"]}
+        ],
+        "carousel" : ["bow", "sword", "rod"],
+        "optionsChampionsRight" : ["Bard"],
+        "optionsChampionsLeft" : ["Sejuani"],
+        "lvl9" : "Soraka",
+        "positions" : ["", "hecarim", "jayce", "", "shyvana", "rakan", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "bard", "", "", "", "", "twitch", "xayah"]
+    },
+    {
+        "id" : "3",
+        "name" : "Jade + Soy'fen",
+        "guide" : "guides/soyfen",
+        "tier" : "A",
+        "champions" : ["Gnar", "Jax", "Shi Oh Yu", "Syfen", "Jayce", "Pantheon"],
+        "carries" : [
+            { "name": "Shi Oh Yu" ,"items": ["Bloodthirster", "Titans Resolve", "Edge of Night"]},
+            { "name": "Syfen" ,"items": ["Bloodthirster", "Titans Resolve", "Giant Slayer"]},
+            { "name": "" ,"items": [""]}
+        ],
+        "threeStar" : [""],
+        "difficulty": "Medium",
+        "type": "Standard",
+        "augments" : ["cqctraining2", "celestialblessing2", "ascension2"],
+        "traits" : [
+            {"gold" : []},
+            {"silver" : ["Jade5", "Whispers4", "Dragon2"]},
+            {"bronze" : ["Bruiser2","Shapeshifter2", "Guild1"]}
+        ],
+        "carousel" : ["sword", "bow", "chain"],
+        "optionsChampionsRight" : ["Bard", "Soraka"],
+        "optionsChampionsLeft" : ["Gnar", "Jayce"],
+        "lvl9" : "Bard",
+        "positions" : ["", "jax", "pantheon", "", "syfen", "gnar", "", "shi-oh-yu", "", "", "", "", "jayce", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
         "id" : "5",
         "name" : "Jade Jayce",
+        "guide" : "",
         "tier" : "A",
         "champions" : ["Wukong", "Gnar", "Jax", "Olaf", "Jayce", "Shi Oh Yu", "Soraka"],
         "carries" : [
@@ -125,37 +156,13 @@
         "positions" : ["", "", "jax", "", "", "gnar", "", "olaf", "", "", "", "", "shi-oh-yu", "", "", "", "", "", "", "wukong", "", "", "", "", "", "", "jayce", "soraka"]
     },
     {
-        "id" : "6",
-        "name" : "Guild Xayah",
-        "tier" : "B",
-        "champions" : ["Twitch", "Rakan", "Hecarim", "Jayce", "Xayah", "Shyvana", "Bard"],
-        "carries" : [
-            { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "last whisper"]},
-            { "name": "Shyvana" ,"items": ["Morellonomicon", "Ionic Spark", "Archangel's Staff"]},
-            { "name": "" ,"items": []}
-        ],
-        "threeStar" : [],
-        "difficulty": "Medium",
-        "type": "Standard",
-        "augments" : ["guild-crest-ii", "thrillhunt1", "cybernetic3"],
-        "traits" : [
-            {"gold" : ["Ragewing6", "Bard1"]},
-            {"silver" : ["Guild3"]},
-            {"bronze" : ["Shapeshifter2","Mystic2", "Swiftshot2", "Dragon1"]}
-        ],
-        "carousel" : ["bow", "sword", "rod"],
-        "optionsChampionsRight" : ["Bard"],
-        "optionsChampionsLeft" : ["Sejuani"],
-        "lvl9" : "Soraka",
-        "positions" : ["", "hecarim", "jayce", "", "shyvana", "rakan", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "bard", "", "", "", "", "twitch", "xayah"]
-    },
-    {
         "id" : "7",
         "name" : "Guild Zippy",
-        "tier" : "S",
+        "guide" : "",
+        "tier" : "A",
         "champions" : ["Sejuani", "Twitch", "Zippy", "Jayce", "Hecarim", "Xayah", "Bard"],
         "carries" : [
-            { "name": "Zippy" ,"items": ["Bloodthirster","Titans Resolve", "Infinity Edge"]},
+            { "name": "Zippy" ,"items": ["Bloodthirster","Titans Resolve", "Guild Emblem"]},
             { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "last whisper"]},
             { "name": "" ,"items": []}
         ],
@@ -177,6 +184,7 @@
     {
         "id" : "8",
         "name" : "Astral Varus+Lux",
+        "guide" : "",
         "tier" : "B",
         "champions" : ["Nidalee", "Skarner", "Vladimir", "Lux", "Varus", "Sylas", "Aurelion Sol"],
         "carries" : [
@@ -202,6 +210,7 @@
     {
         "id" : "9",
         "name" : "Lagoon Sohm",
+        "guide" : "",
         "tier" : "B",
         "champions" : ["Malphite", "Zyra", "Seraphine", "Sylas", "Sohm", "Nilah", "Zoe"],
         "carries" : [

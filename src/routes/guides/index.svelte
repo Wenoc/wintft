@@ -32,7 +32,7 @@
   <title>TFT Guides to help you get better at the game -WinTFT</title>
   <meta
     name="description"
-    content="Full of high-quality TFT guides. We have you covered if you want to know more about a specific comp or want general advice to improve. - Patch 12.20b, Set 7.5"
+    content="TFT guides of the highest quality. If you want to know more about a specific comp or get general suggestions on how to improve, we've got you covered. - Patch 12.20b, Set 7.5"
   />
 </svelte:head>
 
@@ -40,22 +40,24 @@
   <div slot="middle">
     <div class="page">
       <div class="blogContainer">
-        <div
-          class="newestBlog"
-          style="background: url('/blogBackground/bg1.png') top/cover"
-        >
-          <div class="topSection">
-            <div>
-              <p>Newest</p>
+        <a href="guides/kaisa-reroll" rel="external" class="iDontKnow">
+          <div
+            class="newestBlog"
+            style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0.3)), url('/blogBackground/kaisa2.webp') top/cover"
+          >
+            <div class="topSection">
+              <div>
+                <p>Newest</p>
+              </div>
+              <div>
+                <p>October 26, 2022</p>
+              </div>
             </div>
-            <div>
-              <p>October 26, 2022</p>
+            <div class="newTitle">
+              <p>Kai'Sa Reroll Guide</p>
             </div>
           </div>
-          <div class="newTitle">
-            <p>How To Play Kai'Sa Reroll Like A Challenger</p>
-          </div>
-        </div>
+        </a>
         <div class="highlightedContainer">
           <div
             class="highlighted"
@@ -88,7 +90,7 @@
             class="highlighted"
             style="background: url('/blogBackground/bg2.png') top/cover"
           >
-            <a href="#">
+            <a href="guides/5-tips-to-improve" rel="external">
               <div class="highlightedContent">
                 <div class="highlightedUp">
                   <p title="Recommended" class="starContainer">
@@ -110,7 +112,7 @@
                     style="position: absolute; bottom: 0; left: 0;"
                     class="highlightedText"
                   >
-                    Top 10 Tips To Improve In TFT
+                    5 Tips To Improve In TFT
                   </p>
                 </div>
               </div>
@@ -144,13 +146,15 @@
             />
           </div>
         </div>
-        <div class="updateContainer">
-          <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
-        </div>
       </div>
       <div class="otherBlogs">
         {#each seachedAugments as augment}
-          <BlogItem bg={augment.bg} title={augment.title} link={augment.url} />
+          <BlogItem
+            bg={augment.bg}
+            title={augment.title}
+            link={augment.url}
+            date={augment.date}
+          />
         {/each}
       </div>
     </div>
@@ -158,6 +162,9 @@
 </PageLayout>
 
 <style>
+  .iDontKnow {
+    width: 65%;
+  }
   .highlightedUp {
     display: flex;
     justify-content: space-between;
@@ -227,7 +234,7 @@
   .newestBlog {
     cursor: pointer;
     height: 400px;
-    width: 65%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -274,14 +281,6 @@
     outline: none;
   }
 
-  .updateContainer {
-    background-color: #2d2f3a;
-    border: 1px solid #5e5d5d;
-    color: white;
-    padding: 6px 10px;
-    margin: 0;
-  }
-
   .input-icons svg {
     position: absolute;
     height: 30px;
@@ -305,6 +304,10 @@
   }
 
   @media (max-width: 1400px) {
+    .iDontKnow {
+      width: auto;
+    }
+
     .blogContainer {
       flex-direction: column;
       height: 600px;
@@ -374,9 +377,6 @@
         min-width: 360px;
         max-width: none;
         justify-content: center;
-      }
-      .updateContainer {
-        display: none;
       }
       .page {
         max-width: 360px;

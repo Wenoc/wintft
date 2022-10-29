@@ -61,7 +61,7 @@
   <title>TFT Augment Tier List for Patch 12.20b, Set 7.5 - WinTFT</title>
   <meta
     name="description"
-    content="If you want to know what the best augments are at the moment or you don't know what an augment does, WinTFT helps you with that - Patch 12.20b, Set 7.5"
+    content="In TFT, there are a lot of augments. WinTFT helps you to choose by giving each augments a ranking. It also displays information about them - Patch 12.20b, Set 7.5"
   />
 </svelte:head>
 
@@ -95,9 +95,6 @@
                 bind:value={kereses}
               />
             </div>
-          </div>
-          <div class="updateContainer">
-            <p style="padding: 0; margin: 0;">Last updated: 19, Aug 2022</p>
           </div>
         </div>
         <div>

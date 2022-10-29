@@ -15,6 +15,13 @@
   export let augments;
   export let lvl9;
 
+  export let guide = "";
+
+  let hasGude = false;
+  if (guide != "") {
+    hasGude = true;
+  }
+
   export let threeStar;
 
   export let optionsChampionsRight;
@@ -128,8 +135,12 @@
 
 <div class="mainCompContainer">
   <div class="compHead">
-    <!-- nevet valtoztatni -->
     <p>{name}</p>
+    <div class="guidePic" class:hasGude={!hasGude}>
+      <a href={guide} style="display: flex; align-items:center;" rel="external">
+        <img src="guidePic.png" alt="linktoguide" height="20" />
+      </a>
+    </div>
   </div>
   <div class="compBody">
     <div class="compInfo">
@@ -420,6 +431,15 @@
 </div>
 
 <style>
+  .hasGude {
+    display: none;
+  }
+
+  .guidePic {
+    position: absolute;
+    right: 0;
+  }
+
   p {
     margin: 0;
     padding: 0;
@@ -440,6 +460,7 @@
     justify-content: center;
     border: 1px solid #5e5d5d;
     border-bottom: 0;
+    position: relative;
   }
 
   .compBody {
