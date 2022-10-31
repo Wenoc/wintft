@@ -29,15 +29,19 @@
     <div class="linkContainer">
       <a
         rel="external"
-        href="teamcomps"
-        class:selected={segment === "teamcomps"}
+        href="team-comps"
+        class:selected={segment === "team-comps"}
       >
         <div class="navItem">Team Comps</div>
       </a>
       <a rel="external" href="augments" class:selected={segment === "augments"}>
         <div class="navItem">Augments</div>
       </a>
-      <a rel="external" href="champs" class:selected={segment === "champs"}>
+      <a
+        rel="external"
+        href="champions"
+        class:selected={segment === "champions"}
+      >
         <div class="navItem">Champions</div>
       </a>
       <a
@@ -53,13 +57,13 @@
   </div>
 </nav>
 <div class="expand" id="grow">
-  <a rel="external" href="teamcomps" class:selected={segment === "teamcomps"}>
+  <a rel="external" href="team-comps" class:selected={segment === "team-comps"}>
     <div class="navItem">Team Comps</div>
   </a>
   <a rel="external" href="augments" class:selected={segment === "augments"}>
     <div class="navItem">Augments</div>
   </a>
-  <a rel="external" href="champs" class:selected={segment === "champs"}>
+  <a rel="external" href="champions" class:selected={segment === "champions"}>
     <div class="navItem">Champions</div>
   </a>
   <a rel="external" href="guides" class:selected={segment === "guides"}>
