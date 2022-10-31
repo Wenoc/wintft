@@ -166,14 +166,6 @@
     border: 1px solid #5e5d5d;
   }
 
-  .updateContainer {
-    background-color: #2d2f3a;
-    border: 1px solid #5e5d5d;
-    color: white;
-    padding: 6px 10px;
-    margin: 0;
-  }
-
   .input-icons svg {
     position: absolute;
     height: 30px;
@@ -242,9 +234,6 @@
     .augmentContainer {
       width: 350px;
       max-width: 350px;
-    }
-    .updateContainer {
-      display: none;
     }
 
     .augmentHead {

@@ -163,7 +163,7 @@
         "champions" : ["Sejuani", "Twitch", "Zippy", "Jayce", "Hecarim", "Xayah", "Bard"],
         "carries" : [
             { "name": "Zippy" ,"items": ["Bloodthirster","Titans Resolve", "Guild Emblem"]},
-            { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "last whisper"]},
+            { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "Last Whisper"]},
             { "name": "" ,"items": []}
         ],
         "threeStar" : [],
