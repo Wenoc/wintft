@@ -25,7 +25,7 @@
       </svg>
     </div>
     <div class="headerTextContainer">
-      <h1 class="mainText" class:homepage={home}>
+      <h1 class="mainText" class:homepage={home} style="text-align:center;">
         {headerText}
       </h1>
     </div>
