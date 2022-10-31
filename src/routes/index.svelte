@@ -26,7 +26,7 @@
       >
         <div class="textCon">
           <h1>
-            <a href="team-comps" rel="external" style="text-decoration: none;"
+            <a rel="external" href="teamcomps" style="text-decoration: none;"
               >Team Comps</a
             >
           </h1>
@@ -49,7 +49,7 @@
       >
         <div class="textCon">
           <h1>
-            <a href="augments" rel="external" style="text-decoration: none;"
+            <a rel="external" href="augments" style="text-decoration: none;"
               >Augments</a
             >
           </h1>
@@ -66,7 +66,7 @@
       >
         <div class="textCon">
           <h1>
-            <a href="champions" rel="external" style="text-decoration: none;"
+            <a rel="external" href="champs" style="text-decoration: none;"
               >Champions</a
             >
           </h1>
@@ -89,7 +89,7 @@
       >
         <div class="textCon">
           <h1>
-            <a href="guides" rel="external" style="text-decoration: none;"
+            <a rel="external" href="guides" style="text-decoration: none;"
               >Guides</a
             >
           </h1>
