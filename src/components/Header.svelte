@@ -10,7 +10,7 @@
 </script>
 
 <div style="" class="wrapAll">
-  <div class="up">
+  <div class="up" class:hmp={home}>
     <div class="brandtext" style="text-align: right;">
       <img
         src="finalbrand.png"
@@ -25,7 +25,7 @@
       </svg>
     </div>
     <div class="headerTextContainer">
-      <h1 class="mainText" class:homepage={home} style="text-align:center;">
+      <h1 class="mainText" class:homepage={home} style="text-align:left;">
         {headerText}
       </h1>
     </div>
@@ -36,9 +36,13 @@
 </div>
 
 <style>
+  .hmp {
+    margin-left: 50px !important;
+    margin-bottom: 4px;
+  }
   .wrapAll {
     margin-top: 134px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,6 +59,7 @@
     padding-top: 5px;
   }
   .up {
+    margin-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
