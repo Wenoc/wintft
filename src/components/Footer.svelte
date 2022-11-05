@@ -28,4 +28,12 @@
   .footerContent {
     width: 1000px;
   }
+  @media (max-width: 770px) {
+    .footerContainer {
+      padding: 4px 20px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
 </style>

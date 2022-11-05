@@ -1,7 +1,6 @@
 <script>
   import Header from "../components/Header.svelte";
   import PageLayout from "../components/PageLayout.svelte";
-
 </script>
 
 <svelte:head>
@@ -62,7 +61,6 @@
       </div>
     </div>
     <div class="element1">
-      <optgroup la></optgroup>
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
       >
