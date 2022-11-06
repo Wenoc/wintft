@@ -20,7 +20,7 @@
   <div class="navContainer">
     <div style="padding-top: 8px;">
       <a rel="external" href="/">
-        <img src="finalbrand.png" alt="" height="55" />
+        <img src="navbrand.png" alt="" height="48" />
       </a>
     </div>
     <div class="burger" on:click={showStuff}>
