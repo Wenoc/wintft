@@ -126,7 +126,6 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    margin-bottom: 50px;
   }
 
   .championsContainer {

@@ -190,7 +190,6 @@
 
   .augmentContainer {
     width: 980px;
-    margin-bottom: 70px;
   }
 
   @media (max-width: 1100px) {

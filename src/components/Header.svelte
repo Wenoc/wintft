@@ -25,7 +25,7 @@
       </svg>
     </div>
     <div class="headerTextContainer">
-      <h1 class="mainText" class:homepage={home} style="text-align:left;">
+      <h1 class="mainText" class:homepage={home}>
         {headerText}
       </h1>
     </div>
@@ -55,7 +55,7 @@
     padding-top: 5px;
   }
   .up {
-    margin-left: 50px;
+    margin-left: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +67,7 @@
     max-width: 300px;
     width: 300px;
     text-align: start;
+    text-align: left;
   }
   svg#chart {
     background: #b97331;
@@ -88,7 +89,7 @@
     width: 240px;
     height: 70px;
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     .up {
       flex-direction: column;
       margin-left: 10px;
@@ -126,6 +127,9 @@
   }
 
   @media (max-width: 750px) {
+    .mainText {
+      text-align: center;
+    }
     .homepage {
       font-size: 30px;
       line-height: 32px;

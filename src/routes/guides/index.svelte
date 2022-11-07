@@ -199,7 +199,6 @@
     gap: 18px;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 80px;
   }
 
   P {
