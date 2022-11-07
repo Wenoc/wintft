@@ -5,7 +5,7 @@
 
 <svelte:head>
   <title
-    >TFT Comp Comps, Guides and More for Patch 12.20b, Set 7.5 - WinTFT</title
+    >TFT Comp Comps, Guides and More for Patch 12.21, Set 7.5 - WinTFT</title
   >
   <meta
     name="description"
@@ -26,7 +26,7 @@
       >
         <div class="textCon">
           <h1>
-            <a rel="external" href="team-comps" style="text-decoration: none;"
+            <a rel="external" href="team-comps/" style="text-decoration: none;"
               >Team Comps</a
             >
           </h1>
@@ -49,7 +49,7 @@
       >
         <div class="textCon">
           <h1>
-            <a rel="external" href="augments" style="text-decoration: none;"
+            <a rel="external" href="augments/" style="text-decoration: none;"
               >Augments</a
             >
           </h1>
@@ -66,7 +66,7 @@
       >
         <div class="textCon">
           <h1>
-            <a rel="external" href="champions" style="text-decoration: none;"
+            <a rel="external" href="champions/" style="text-decoration: none;"
               >Champions</a
             >
           </h1>
@@ -89,7 +89,7 @@
       >
         <div class="textCon">
           <h1>
-            <a rel="external" href="guides" style="text-decoration: none;"
+            <a rel="external" href="guides/" style="text-decoration: none;"
               >Guides</a
             >
           </h1>

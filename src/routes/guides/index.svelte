@@ -29,10 +29,10 @@
 </script>
 
 <svelte:head>
-  <title>TFT Guides to help you get better at the game -WinTFT</title>
+  <title>TFT Guides to help you get better at the game - WinTFT</title>
   <meta
     name="description"
-    content="TFT guides of the highest quality. If you want to know more about a specific comp or get general suggestions on how to improve, we've got you covered. - Patch 12.20b, Set 7.5"
+    content="TFT guides of the highest quality. If you want to know more about a specific comp or get general suggestions on how to improve, we've got you covered."
   />
 </svelte:head>
 
@@ -40,10 +40,10 @@
   <div slot="middle">
     <div class="page">
       <div class="blogContainer">
-        <a href="guides/kaisa-reroll" rel="external" class="iDontKnow">
+        <a href="guides/kaisa-reroll/" rel="external" class="iDontKnow">
           <div
             class="newestBlog"
-            style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0.3)), url('/blogBackground/kaisa2.webp') top/cover"
+            style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0.3)), url('/blogBackground/kaisa3.webp') top/cover"
           >
             <div class="topSection">
               <div>
@@ -63,7 +63,7 @@
             class="highlighted"
             style="background: url('/blogBackground/bg3.png') center/cover"
           >
-            <a href="guides/level-and-economy-guide" rel="external">
+            <a href="guides/level-and-economy-guide/" rel="external">
               <div class="highlightedContent">
                 <div class="highlightedUp">
                   <p title="Recommended" class="starContainer">
@@ -90,7 +90,7 @@
             class="highlighted"
             style="background: url('/blogBackground/bg2.png') top/cover"
           >
-            <a href="guides/5-tips-to-improve" rel="external">
+            <a href="guides/5-tips-to-improve/" rel="external">
               <div class="highlightedContent">
                 <div class="highlightedUp">
                   <p title="Recommended" class="starContainer">
@@ -202,8 +202,9 @@
   }
 
   P {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
     color: white;
   }
   .topSection {

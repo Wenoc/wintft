@@ -52,32 +52,6 @@
         "positions" : ["", "", "", "idas", "terra", "", "", "", "", "rakan", "", "", "", "", "", "", "", "", "", "", "", "", "ao-shin", "", "", "shyvana", "", ""]
     },
     {
-        "id" : "4",
-        "name" : "Kaisa Reroll",
-        "guide" : "guides/kaisa-reroll",
-        "tier" : "S",
-        "champions" : ["Nasus", "Malphite", "Karma", "Kaisa", "Zac", "Jax", "Volibear", "leesin"],
-        "carries" : [
-            { "name": "Kaisa" ,"items": ["Blue Buff", "Infinity Edge", "Jeweled Gauntlet"]},
-            { "name": "Zac" ,"items": ["Gargoyles Stoneplate", "Ionic Spark", "Warmog's Armor"]},
-            { "name": "Jax" ,"items": ["SunfireCape"]}
-        ],
-        "threeStar" : ["Kaisa", "Zac"],
-        "difficulty": "Easy",
-        "type": "Slow Roll",
-        "augments" : ["featherweights2", "preparation-ii", "trade2"],
-        "traits" : [
-            {"gold" : []},
-            {"silver" : ["Dragonmancer4"]},
-            {"bronze" : ["Shimmerscale3","Lagoon3", "Bruiser2", "Guardian2"]}
-        ],
-        "carousel" : ["tear", "rod", "gloves"],
-        "optionsChampionsRight" : ["Yasuo"],
-        "optionsChampionsLeft" : ["Karma"],
-        "lvl9" : "Bard",
-        "positions" : ["", "jax", "", "zac", "", "", "malphite", "", "leesin", "", "", "volibear", "", "", "kaisa", "", "", "", "", "", "", "karma", "", "", "", "", "", "nasus"]
-    },
-    {
         "id" : "6",
         "name" : "Guild Xayah",
         "guide" : "",
@@ -104,9 +78,35 @@
         "positions" : ["", "hecarim", "jayce", "", "shyvana", "rakan", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "bard", "", "", "", "", "twitch", "xayah"]
     },
     {
+        "id" : "7",
+        "name" : "Guild Zippy",
+        "guide" : "",
+        "tier" : "S",
+        "champions" : ["Sejuani", "Twitch", "Zippy", "Jayce", "Hecarim", "Xayah", "Bard"],
+        "carries" : [
+            { "name": "Zippy" ,"items": ["Bloodthirster","Titans Resolve", "Guild Emblem"]},
+            { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "Last Whisper"]},
+            { "name": "" ,"items": []}
+        ],
+        "threeStar" : [],
+        "difficulty": "Easy",
+        "type": "Standard",
+        "augments" : ["guild-crest-ii", "thrillhunt1", "celestialblessing2"],
+        "traits" : [
+            {"gold" : ["Guild7", "Bard1"]},
+            {"silver" : ["Dragon2"]},
+            {"bronze" : ["Ragewing3","Shapeshifter2"]}
+        ],
+        "carousel" : ["bow", "sword", "gloves"],
+        "optionsChampionsRight" : ["Soraka"],
+        "optionsChampionsLeft" : ["Yasuo"],
+        "lvl9" : "Soraka",
+        "positions" : ["", "jayce", "", "zippy", "sejuani", "hecarim", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "bard", "twitch", "xayah", "", "", "", ""]
+    },
+    {
         "id" : "3",
         "name" : "Jade + Soy'fen",
-        "guide" : "guides/soyfen",
+        "guide" : "guides/soyfen/",
         "tier" : "A",
         "champions" : ["Gnar", "Jax", "Shi Oh Yu", "Syfen", "Jayce", "Pantheon"],
         "carries" : [
@@ -156,30 +156,30 @@
         "positions" : ["", "", "jax", "", "", "gnar", "", "olaf", "", "", "", "", "shi-oh-yu", "", "", "", "", "", "", "wukong", "", "", "", "", "", "", "jayce", "soraka"]
     },
     {
-        "id" : "7",
-        "name" : "Guild Zippy",
-        "guide" : "",
+        "id" : "4",
+        "name" : "Kaisa Reroll",
+        "guide" : "guides/kaisa-reroll/",
         "tier" : "A",
-        "champions" : ["Sejuani", "Twitch", "Zippy", "Jayce", "Hecarim", "Xayah", "Bard"],
+        "champions" : ["Nasus", "Malphite", "Karma", "Kaisa", "Zac", "Jax", "Volibear", "leesin"],
         "carries" : [
-            { "name": "Zippy" ,"items": ["Bloodthirster","Titans Resolve", "Guild Emblem"]},
-            { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "Last Whisper"]},
-            { "name": "" ,"items": []}
+            { "name": "Kaisa" ,"items": ["Blue Buff", "Infinity Edge", "Jeweled Gauntlet"]},
+            { "name": "Zac" ,"items": ["Gargoyles Stoneplate", "Ionic Spark", "Warmog's Armor"]},
+            { "name": "Jax" ,"items": ["SunfireCape"]}
         ],
-        "threeStar" : [],
+        "threeStar" : ["Kaisa", "Zac"],
         "difficulty": "Easy",
-        "type": "Standard",
-        "augments" : ["guild-crest-ii", "thrillhunt1", "celestialblessing2"],
+        "type": "Slow Roll",
+        "augments" : ["featherweights2", "preparation-ii", "trade2"],
         "traits" : [
-            {"gold" : ["Guild7", "Bard1"]},
-            {"silver" : ["Dragon2"]},
-            {"bronze" : ["Ragewing3","Shapeshifter2"]}
+            {"gold" : []},
+            {"silver" : ["Dragonmancer4"]},
+            {"bronze" : ["Shimmerscale3","Lagoon3", "Bruiser2", "Guardian2"]}
         ],
-        "carousel" : ["bow", "sword", "gloves"],
-        "optionsChampionsRight" : ["Soraka"],
-        "optionsChampionsLeft" : ["Yasuo"],
-        "lvl9" : "Soraka",
-        "positions" : ["", "jayce", "", "zippy", "sejuani", "hecarim", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "bard", "twitch", "xayah", "", "", "", ""]
+        "carousel" : ["tear", "rod", "gloves"],
+        "optionsChampionsRight" : ["Yasuo"],
+        "optionsChampionsLeft" : ["Karma"],
+        "lvl9" : "Bard",
+        "positions" : ["", "jax", "", "zac", "", "", "malphite", "", "leesin", "", "", "volibear", "", "", "kaisa", "", "", "", "", "", "", "karma", "", "", "", "", "", "nasus"]
     },
     {
         "id" : "8",
@@ -223,7 +223,7 @@
         "type": "Standard",
         "augments" : ["lagooncrest-2", "blue-battery-i", "jeweled-lotus-ii"],
         "traits" : [
-            {"gold" : ["spell-thief1"]},
+            {"gold" : ["Spell-Thief1"]},
             {"silver" : ["Lagoon6"]},
             {"bronze" : ["Mage3","Bruiser2", "Dragon1", "Whispers2", "Evoker2"]}
         ],

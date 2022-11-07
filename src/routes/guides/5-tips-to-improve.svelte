@@ -1,6 +1,14 @@
 <script>
 </script>
 
+<svelte:head>
+  <title>5 Tips to Improve in TFT - WinTFT</title>
+  <meta
+    name="description"
+    content="This TFT guide introduces 5 aspects that you can improve on to get better at the game."
+  />
+</svelte:head>
+
 <div style="" class="wrapAll">
   <h1>5 Tips to Improve in TFT</h1>
   <div class="blogBody">
@@ -86,12 +94,19 @@
     </p>
     <p>
       I hope you learned something. Check out some other guides we made if you
-      liked this. Have a great day!
+      liked this: <a href="guides/level-and-economy-guide/"
+        >Level and Economy Guide</a
+      >,
+      <a href="guides/kaisa-reroll/">Kai'Sa Reroll Guide</a>
     </p>
   </div>
 </div>
 
 <style>
+  a {
+    text-decoration: none;
+    color: #fa9c43 !important;
+  }
   h1 {
     color: #f5f1f1;
     font-weight: 600;

@@ -1,6 +1,14 @@
 <script>
 </script>
 
+<svelte:head>
+  <title>Leveling and Economy Guide - WinTFT</title>
+  <meta
+    name="description"
+    content="A guide about leveling and economy in TFT."
+  />
+</svelte:head>
+
 <div style="" class="wrapAll">
   <h1>Leveling and Economy Guide</h1>
   <div class="blogBody">
@@ -167,10 +175,21 @@
       look around, and maybe you will find that the unit you're looking for is
       out of the pool.
     </p>
+    <p>
+      I hope you learned something. Check out some other guides we made if you
+      liked this: <a href="guides/5-tips-to-improve/"
+        >5 Tips To Improve In TFT</a
+      >,
+      <a href="guides/soyfen/">Jade + Soy'Fen Guide</a>
+    </p>
   </div>
 </div>
 
 <style>
+  a {
+    text-decoration: none;
+    color: #fa9c43 !important;
+  }
   h1 {
     color: #f5f1f1;
     font-weight: 600;

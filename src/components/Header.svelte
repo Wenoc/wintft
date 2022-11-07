@@ -10,7 +10,7 @@
 </script>
 
 <div style="" class="wrapAll">
-  <div class="up">
+  <div class="up" class:homepage1={home}>
     <div class="brandtext" style="text-align: right;">
       <img
         src="finalbrand.png"
@@ -124,6 +124,11 @@
   }
   .homepage {
     font-size: 24px;
+    margin-left: 00px !important;
+  }
+
+  .homepage1 {
+    margin-left: 40px !important;
   }
 
   @media (max-width: 750px) {
@@ -133,6 +138,9 @@
     .homepage {
       font-size: 30px;
       line-height: 32px;
+    }
+    .homepage1 {
+      margin: 0 !important;
     }
     .down {
       display: none;

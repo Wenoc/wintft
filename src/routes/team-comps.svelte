@@ -43,10 +43,10 @@
 </script>
 
 <svelte:head>
-  <title>TFT Comp Tier List for Patch 12.20b, Set 7.5 - WinTFT</title>
+  <title>TFT Comp Tier List for Patch 12.21, Set 7.5 - WinTFT</title>
   <meta
     name="description"
-    content="Discover the strongest TFT team comps that the best players have been playing to always be ahead of your opponents with WinTFT - Patch 12.20b, Set 7.5"
+    content="Discover the strongest TFT team comps that the best players have been playing to always be ahead of your opponents with WinTFT - Patch 12.21, Set 7.5"
   />
 </svelte:head>
 
@@ -57,10 +57,10 @@
       <div class="patchInfo" style="margin-bottom: 20px;">
         <div class="infoRight">
           <div class="blockContainer">
-            <p style="padding: 0; margin: 0;">Set 7</p>
+            <p style="padding: 0; margin: 0;">Set 7.5</p>
           </div>
           <div class="blockContainer">
-            <p style="padding: 0; margin: 0;">Patch 12.2</p>
+            <p style="padding: 0; margin: 0;">Patch 12.21</p>
           </div>
         </div>
       </div>

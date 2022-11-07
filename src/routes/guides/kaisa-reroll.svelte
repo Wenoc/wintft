@@ -1,6 +1,11 @@
 <script>
 </script>
 
+<svelte:head>
+  <title>Kai'Sa Reroll Guide - WinTFT</title>
+  <meta name="description" content="A TFT guide on how to play Kai'Sa Reroll" />
+</svelte:head>
+
 <div style="" class="wrapAll">
   <h1>Kai'Sa Reroll Guide</h1>
   <div class="blogBody">
@@ -71,13 +76,20 @@
       <li>Golden Ticket</li>
     </ul>
     <p>
-      If you shared this guide with others, that would help very much, and I
-      would greatly appreciate it.
+      I hope you learned something. Check out some other guides we made if you
+      liked this: <a href="guides/level-and-economy-guide/"
+        >Level and Economy Guide</a
+      >,
+      <a href="guides/soyfen/">Jade + Soy'Fen Guide</a>
     </p>
   </div>
 </div>
 
 <style>
+  a {
+    text-decoration: none;
+    color: #fa9c43 !important;
+  }
   h1 {
     color: #f5f1f1;
     font-weight: 600;

@@ -50,8 +50,7 @@
 </script>
 
 <svelte:head>
-  <title>TFT Champions and Item Builds for Patch 12.20b, Set 7.5 - WinTFT</title
-  >
+  <title>TFT Champions and Item Builds for Patch 12.21, Set 7.5 - WinTFT</title>
   <meta
     name="description"
     content="Discover all champions' traits, costs, and the best items you can build on them here in one place with WinTFT - Patch 12.20b, Set 7.5"

@@ -1,8 +1,16 @@
 <script>
 </script>
 
+<svelte:head>
+  <title>Soy'Fen Reroll Guide - WinTFT</title>
+  <meta
+    name="description"
+    content="A TFT guide on how to play Soy'Fen + Jade"
+  />
+</svelte:head>
+
 <div style="" class="wrapAll">
-  <h1>Jade + Soy'fen Guide</h1>
+  <h1>Soy'fen + Jade Guide</h1>
   <div class="blogBody">
     <p><strong>Note:</strong> This guide was written in patch 12.20</p>
     <p>
@@ -67,13 +75,20 @@
       <li>Ascension</li>
     </ul>
     <p>
-      If you shared this guide with others, that would help very much, and I
-      would greatly appreciate it.
+      I hope you learned something. Check out some other guides I made if you
+      liked this: <a href="guides/level-and-economy-guide/"
+        >Level and Economy Guide</a
+      >,
+      <a href="guides/kaisa-reroll/">Kai'Sa Reroll Guide</a>
     </p>
   </div>
 </div>
 
 <style>
+  a {
+    text-decoration: none;
+    color: #fa9c43 !important;
+  }
   h1 {
     color: #f5f1f1;
     font-weight: 600;

@@ -58,10 +58,10 @@
 </script>
 
 <svelte:head>
-  <title>TFT Augment Tier List for Patch 12.20b, Set 7.5 - WinTFT</title>
+  <title>TFT Augment Tier List for Patch 12.21, Set 7.5 - WinTFT</title>
   <meta
     name="description"
-    content="In TFT, there are a lot of augments. WinTFT helps you to choose by giving each augments a ranking. It also displays information about them - Patch 12.20b, Set 7.5"
+    content="In TFT, there are a lot of augments. WinTFT helps you to choose by giving each augments a ranking. It also displays information about them."
   />
 </svelte:head>
 
