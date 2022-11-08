@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 	<link rel="stylesheet" href="../global.css">
-	<link rel="manifest" href="manifest.json" crossorigin="use-credentials">
 	<link rel="apple-touch-icon" sizes="144x144" href="/favicon_package_v0.16/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16/favicon-16x16.png">
@@ -15,6 +14,7 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="msapplication-config" content="/favicon_package_v0.16/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
+    <title>404 - Page Not Found</title>
 	<div class="image-hero-area">
 	</div>
 	<style>
@@ -53,12 +53,6 @@
           
             p {
               margin: 1em auto;
-            }
-          
-            @media (min-width: 480px) {
-              h2 {
-                font-size: 4em;
-              }
             }
 
             #grow {
@@ -159,6 +153,7 @@
         .selected {
           border: 0 !important;
         }
+
       
         nav {
           box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
@@ -166,6 +161,15 @@
       
         .navItem {
           padding-top: 4px;
+        }
+
+        .errorContainer{
+            margin-top: 100px; text-align:center;
+            padding: 0 10%;
+        }
+
+        .errorContainer h2{
+            font-size: 60px;
         }
       
         @media (max-width: 1200px) {
@@ -187,28 +191,17 @@
           .burger {
             display: block;
           }
+          .errorContainer h2{
+            font-size: 40px;
+            }
+            .errorContainer p{
+                font-size: 14px;
+            }
         }
 
 	</style>
 </head>
 <body>
-      <script>
-      
-        function showStuff() {
-          let expandNav = document.querySelector(".expand");
-          if (expandNav.clientHeight) {
-            expandNav.style.height = 0;
-            expandNav.style.borderBottom = 0;
-          } else {
-            expandNav.style.height = 150 + "px";
-            expandNav.style.border = "1px solid #5e5d5d";
-            expandNav.style.borderTop = 0;
-            expandNav.style.borderRight = 0;
-            expandNav.style.borderLeft = 0;
-          }
-        }
-      </script>
-      
       <nav>
         <div class="navContainer">
           <div style="padding-top: 8px;">
@@ -216,7 +209,7 @@
               <img src="../navbrand.png" alt="" height="48" />
             </a>
           </div>
-          <div class="burger" on:click={showStuff}>
+          <div class="burger" id="burger">
             <img src="../menu.svg" alt="" />
           </div>
           <div class="linkContainer">
@@ -272,7 +265,7 @@
         </a>
       </div>
     
-      <div style="margin-top: 100px; text-align:center;">
+      <div class="errorContainer">
         <h2>404: Page not found!</h2>
         <p>
           The page you are looking for was moved, removed, renamed, or might have
@@ -280,10 +273,8 @@
         </p>
       </div>
       
-	<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-	<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 	<script type='text/javascript'>
-
+        
 		(function()
 		{
 		  if( window.localStorage )
@@ -295,7 +286,25 @@
 			}  
 		  }
 		})();
-		
+
+        document.getElementById("burger").addEventListener("click", showStuff);
+        
+
+        function showStuff() {
+          let expandNav = document.querySelector(".expand");
+          if (expandNav.clientHeight) {
+            expandNav.style.height = 0;
+            expandNav.style.borderBottom = 0;
+          } else {
+            expandNav.style.height = 150 + "px";
+            expandNav.style.border = "1px solid #5e5d5d";
+            expandNav.style.borderTop = 0;
+            expandNav.style.borderRight = 0;
+            expandNav.style.borderLeft = 0;
+          }
+        }
 		</script>
+        <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+        <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>
 </html>
