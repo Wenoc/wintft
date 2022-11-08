@@ -17,7 +17,7 @@
       to win more games with this amazing comp.
     </p>
     <p>
-      The strength of this comp is that you can easily access both the front and
+      The strength of this team comp is that you can easily access the font and
       backline. <br /> However, it's quite popular so the chances are high that you
       will be contested.
     </p>
