@@ -67,5 +67,20 @@
 	<!-- 100% privacy friendly analytics -->
 	<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 	<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+	<script type='text/javascript'>
+
+		(function()
+		{
+		  if( window.localStorage )
+		  {
+			if( !localStorage.getItem('firstLoad') )
+			{
+			  localStorage['firstLoad'] = true;
+			  window.location.reload();
+			}  
+		  }
+		})();
+		
+		</script>
 </body>
 </html>
