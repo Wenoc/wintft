@@ -76,10 +76,10 @@
     </ul>
     <p>
       I hope you learned something. Check out some other guides I made if you
-      liked this: <a href="guides/level-and-economy-guide/"
+      liked this: <a href="guides/level-and-economy-guide/" rel="external"
         >Level and Economy Guide</a
       >,
-      <a href="guides/kaisa-reroll/">Kai'Sa Reroll Guide</a>
+      <a href="guides/kaisa-reroll/" rel="external">Kai'Sa Reroll Guide</a>
     </p>
   </div>
 </div>

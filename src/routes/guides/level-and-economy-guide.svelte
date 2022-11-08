@@ -177,10 +177,10 @@
     </p>
     <p>
       I hope you learned something. Check out some other guides we made if you
-      liked this: <a href="guides/5-tips-to-improve/"
+      liked this: <a href="guides/5-tips-to-improve/" rel="external"
         >5 Tips To Improve In TFT</a
       >,
-      <a href="guides/soyfen/">Jade + Soy'Fen Guide</a>
+      <a href="guides/soyfen/" rel="external">Jade + Soy'Fen Guide</a>
     </p>
   </div>
 </div>

@@ -77,10 +77,10 @@
     </ul>
     <p>
       I hope you learned something. Check out some other guides we made if you
-      liked this: <a href="guides/level-and-economy-guide/"
+      liked this: <a href="guides/level-and-economy-guide/" rel="external"
         >Level and Economy Guide</a
       >,
-      <a href="guides/soyfen/">Jade + Soy'Fen Guide</a>
+      <a href="guides/soyfen/" rel="external">Jade + Soy'Fen Guide</a>
     </p>
   </div>
 </div>
