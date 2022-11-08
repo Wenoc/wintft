@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/404/"
+  to = "routes/404.svelte/"
   status = 404

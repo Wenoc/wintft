@@ -1,11 +1,5 @@
-<script>
-  export let status;
-
-  const dev = process.env.NODE_ENV === "development";
-</script>
-
 <svelte:head>
-  <title>{status}</title>
+  <title>404 - Page Not Found</title>
 </svelte:head>
 
 <div style="margin-top: 100px; text-align:center;">
