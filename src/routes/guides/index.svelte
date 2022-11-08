@@ -43,18 +43,18 @@
         <a href="guides/kaisa-reroll/" rel="external" class="iDontKnow">
           <div
             class="newestBlog"
-            style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0.3)), url('/blogBackground/kaisa3.webp') top/cover"
+            style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0.3)), url('/blogBackground/xayah4.jpg') top/cover"
           >
             <div class="topSection">
               <div>
                 <p>Newest</p>
               </div>
               <div>
-                <p>October 26, 2022</p>
+                <p>November 8, 2022</p>
               </div>
             </div>
             <div class="newTitle">
-              <p>Kai'Sa Reroll Guide</p>
+              <p>Guild Xayah Guide</p>
             </div>
           </div>
         </a>
