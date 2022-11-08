@@ -258,7 +258,7 @@
       border-radius: 5px;
     }
     p {
-      font-size: 18px;
+      font-size: 14px;
     }
 
     h1 {
