@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "WinTFT",
+  "description": "WinTFT helps you with Team Compositions and guides so that you'll always be able to start your games one step ahead of your opponents",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
