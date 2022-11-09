@@ -253,7 +253,7 @@
 
   @media (max-width: 750px) {
     .blogBody {
-      width: 76%;
+      width: 80%;
       padding: 20px;
       border-radius: 5px;
     }
