@@ -86,10 +86,7 @@
             </a>
           </div>
 
-          <div
-            class="highlighted"
-            style="background: url('/blogBackground/bg2.png') top/cover"
-          >
+          <div class="highlighted h1mobile">
             <a href="guides/5-tips-to-improve/" rel="external">
               <div class="highlightedContent">
                 <div class="highlightedUp">
@@ -162,6 +159,10 @@
 </PageLayout>
 
 <style>
+  .h1mobile {
+    background: url("/blogBackground/bg2.png") top/cover;
+  }
+
   .iDontKnow {
     width: 65%;
   }
@@ -396,6 +397,9 @@
         padding: 10px;
         left: 328px;
         top: 5px;
+      }
+      .h1mobile {
+        background-position: 0% 40%;
       }
     }
   }

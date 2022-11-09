@@ -3,7 +3,7 @@
   export let description = false;
   export let home = false;
   export let text =
-    "WinTFT helps you with Team Compositions and guides so that you'll always be able to start your games one step ahead of your opponents";
+    "WinTFT helps you with TFT Team Compositions and Guides so that you'll always be able to start your games one step ahead of your opponents";
   if (description == false) {
     text = "";
   }
@@ -89,6 +89,12 @@
     width: 240px;
     height: 70px;
   }
+
+  .homepage {
+    font-size: 22px;
+    margin-left: 00px !important;
+  }
+
   @media (max-width: 1100px) {
     .up {
       flex-direction: column;
@@ -105,6 +111,13 @@
     .mainText {
       font-size: 36px;
       text-align: center;
+      width: 500px;
+      max-width: 500px;
+      line-height: 1.1;
+    }
+
+    .homepage {
+      font-size: 32px;
     }
 
     .headerTextContainer {
@@ -122,10 +135,6 @@
     margin: 0;
     padding-bottom: 6px;
   }
-  .homepage {
-    font-size: 24px;
-    margin-left: 00px !important;
-  }
 
   .homepage1 {
     margin-left: 40px !important;
@@ -134,9 +143,11 @@
   @media (max-width: 750px) {
     .mainText {
       text-align: center;
+      max-width: 300px;
+      width: 300px;
     }
     .homepage {
-      font-size: 30px;
+      font-size: 26px;
       line-height: 32px;
     }
     .homepage1 {
