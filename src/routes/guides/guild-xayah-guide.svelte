@@ -62,11 +62,9 @@
     <h2>Mid Game:</h2>
     <p>If you are on a winstreak, try to keep it.</p>
     <p>Add more frontline units to your board</p>
-    <p>Until you find Shyvana, use Zippy as the item holder</p>
-    <p>
-      At 4-1, go up to level 7, and if you start losing rounds, roll a little
-      more to get stronger.
-    </p>
+    <p>If you find Zippy, you can use him as Shyvana item holder.</p>
+
+    <img src="midgame.png" alt="mid game board" />
 
     <h2>Late Game:</h2>
     <p>
@@ -74,6 +72,7 @@
       units (Xayah, Jayce, Hecarim, Shyvana, Bard).
     </p>
     <p>If you're stable, you can go to level 9 and put in Soraka.</p>
+    <img src="lategame.png" alt="late game board" />
     <h2>Positioning</h2>
     <p>Keep Twitch next to Xayah (extra armor reduction).</p>
     <p>
@@ -183,7 +182,7 @@
 
   @media (max-width: 750px) {
     img {
-      height: 164px;
+      height: 130px;
     }
     .blogBody {
       width: 80%;
