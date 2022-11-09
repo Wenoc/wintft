@@ -142,12 +142,12 @@
 
   @media (max-width: 750px) {
     .blogBody {
-      width: 300px;
+      width: 80%;
       padding: 20px;
       border-radius: 5px;
     }
     p {
-      font-size: 18px;
+      font-size: 16px;
     }
 
     h1 {

@@ -40,7 +40,7 @@
   <div slot="middle">
     <div class="page">
       <div class="blogContainer">
-        <a href="guides/kaisa-reroll/" rel="external" class="iDontKnow">
+        <a href="guides/guild-xayah-guide/" rel="external" class="iDontKnow">
           <div
             class="newestBlog"
             style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0.3)), url('/blogBackground/xayah4.jpg') top/cover"

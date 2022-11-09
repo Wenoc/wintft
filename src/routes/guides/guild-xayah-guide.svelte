@@ -164,8 +164,8 @@
 
   li {
     color: #f5f1f1;
-    font-size: 18px;
   }
+
   @media (max-width: 1100px) {
     .blogBody {
       width: 600px;
@@ -175,18 +175,12 @@
 
   @media (max-width: 750px) {
     .blogBody {
-      width: 300px;
+      width: 80%;
       padding: 20px;
       border-radius: 5px;
     }
-
     p {
-      font-size: 18px;
-    }
-
-    strong {
-      color: white;
-      font-size: 20px;
+      font-size: 16px;
     }
 
     h1 {
