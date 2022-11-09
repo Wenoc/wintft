@@ -13,16 +13,16 @@
   <h1>Guild Xayah Guide</h1>
   <div class="blogBody">
     <p>
-      Hey everyone, welcome to this Guild Xayah guide. <br /> Let me show you how
+      Hey everyone! Welcome to this Guild Xayah guide. <br /> Let me show you how
       to win more games with this amazing comp.
     </p>
     <p>
       The strength of this team comp is that you can easily access the font and
-      backline. <br /> However, it's quite popular so the chances are high that you
-      will be contested.
+      backline. <br /> However, it's quite popular, so the chances are high that
+      you will be contested.
     </p>
     <p>
-      Xayah will deal with the enemy frontline while Shyvana will destroy the
+      Xayah will deal with the enemy frontline, while Shyvana will destroy the
       backline.
     </p>
     <p>Final comp: Twitch, Rakan, Hecarim, Jayce, Xayah, Shyvana, Bard</p>
@@ -36,13 +36,13 @@
     <br /> <br />
     <strong>Shyvana:</strong>
     <p style="display: inline;">
-      Morellonomicon, Ionic Spark, Archangel's Staff <br /> Other options: Jeweled
-      Gauntlet + Infinity Edge, Hand of Justice, Rabadon's Deathcap
+      Morellonomicon, Ionic Spark, Archangel's Staff <br /> Other options include
+      the Jeweled Gauntlet + Infinity Edge, Hand of Justice, and Ranadon's Deathcap.
     </p>
     <br /> <br />
     <strong>Leftover Items:</strong>
     <p style="display: inline;">
-      Jayce: Any tank items (Stoneplate) <br />
+      Jayce: Any tank items (Gargoyle Stoneplate, Warmog's Armor)<br />
       Bard: Any utility items/(Zephyr, Shroud)
     </p>
     <br />
@@ -53,23 +53,25 @@
     </p>
     <p>Try to build Guinsoo's Rageblade as soon as possible.</p>
     <p>
-      Try to go for a winstreak as this comp is very expensive. Meaning slam
-      items and always play Strongest Board.
+      Try to go for a winstreak as this comp is very expensive. In other words,
+      slam items and always play "strongest board."
     </p>
+
+    <img src="early.png" alt="early game board" />
 
     <h2>Mid Game:</h2>
     <p>If you are on a winstreak, try to keep it.</p>
-    <p>Expand you board with more frontline units like</p>
+    <p>Add more frontline units to your board</p>
     <p>Until you find Shyvana, use Zippy as the item holder</p>
     <p>
-      At 4-1 level up to 7, and if you start losing rounds, roll a little to
-      become stronger.
+      At 4-1, go up to level 7, and if you start losing rounds, roll a little
+      more to get stronger.
     </p>
 
     <h2>Late Game:</h2>
     <p>
-      At 5-1 level up to 8 and roll down to find or 2* your higher cost units
-      (Xayah, Jayce, Hecarim, Shyvana, Bard).
+      At 5-1, go up to level 8, and roll down to find or 2* your higher cost
+      units (Xayah, Jayce, Hecarim, Shyvana, Bard).
     </p>
     <p>If you're stable, you can go to level 9 and put in Soraka.</p>
     <h2>Positioning</h2>
@@ -98,7 +100,7 @@
     </p>
     <p>
       <strong>Core: </strong> Xayah, Shyvana - Not replaceable, but if you don't
-      have Shyvana , you can temporarily use Zippy
+      have Shyvana, you can temporarily use Zippy
     </p>
     <br />
     <p>
@@ -114,6 +116,9 @@
 </div>
 
 <style>
+  img {
+    height: 340px;
+  }
   strong {
     color: white;
     font-size: 22px;
@@ -171,9 +176,15 @@
       width: 600px;
       padding: 20px 50px;
     }
+    img {
+      height: 240px;
+    }
   }
 
   @media (max-width: 750px) {
+    img {
+      height: 164px;
+    }
     .blogBody {
       width: 80%;
       padding: 20px;
