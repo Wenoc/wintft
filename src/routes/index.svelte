@@ -9,7 +9,7 @@
   >
   <meta
     name="description"
-    content="WinTFT helps you with TFT Team Compositions and guides so that you'll always be able to start your games one step ahead of your opponents."
+    content="WinTFT helps you with TFT Team Compositions and Guides so that you'll always be able to start your games one step ahead of your opponents."
   />
 </svelte:head>
 
