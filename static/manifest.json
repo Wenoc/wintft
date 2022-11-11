@@ -4,7 +4,7 @@
 	"name": "WinTFT",
 	"short_name": "WinTFT",
 	"display": "minimal-ui",
-	"start_url": "https://wintft.com/",
+	"start_url": "",
 	"icons": [
 		{
 			"src": "favi.png",

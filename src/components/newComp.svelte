@@ -1,12 +1,11 @@
 <script>
   import Champ from "./Champ.svelte";
   import { onMount } from "svelte";
-  export let AllChampions;
 
+  export let AllChampions;
   export let id;
   export let name;
   export let tier;
-
   export let positions;
   export let carries;
   export let difficulty;
@@ -14,16 +13,12 @@
   export let carousel;
   export let augments;
   export let lvl9;
-
   export let guide = "";
-
   let hasGude = false;
   if (guide != "") {
     hasGude = true;
   }
-
   export let threeStar;
-
   export let optionsChampionsRight;
   export let optionsChampionsLeft;
 
@@ -59,7 +54,6 @@
     tColor = "#FFF38B";
     btColor = "#7A6D44";
   }
-
   export let champions;
 
   let growid = "grow" + id;
