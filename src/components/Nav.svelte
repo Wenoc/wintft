@@ -221,6 +221,7 @@
     }
     #demo:checked + label .expand {
       height: 150px;
+      border-bottom: 1px solid #22242f;
     }
   }
 
