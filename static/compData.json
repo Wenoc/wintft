@@ -84,7 +84,7 @@
         "tier" : "S",
         "champions" : ["Sejuani", "Twitch", "Zippy", "Jayce", "Hecarim", "Xayah", "Bard"],
         "carries" : [
-            { "name": "Zippy" ,"items": ["Bloodthirster","Titans Resolve", "Guild Emblem"]},
+            { "name": "Zippy" ,"items": ["Bloodthirster","Titans Resolve", "Infinity Edge"]},
             { "name": "Xayah" ,"items": ["GuinsoosRageblade","Giant Slayer", "Last Whisper"]},
             { "name": "" ,"items": []}
         ],

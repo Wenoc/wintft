@@ -19,6 +19,15 @@ a {
 	color: inherit;
 }
 
+input,
+textarea,
+button,
+select,
+label,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 code {
 	font-family: menlo, inconsolata, monospace;
 	font-size: calc(1em - 2px);
