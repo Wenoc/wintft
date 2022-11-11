@@ -1,33 +1,24 @@
+<script context="module">
+</script>
+
 <script>
   export let segment;
-
-  function showStuff() {
-    let expandNav = document.querySelector(".expand");
-    if (expandNav.clientHeight) {
-      expandNav.style.height = 0;
-      expandNav.style.borderBottom = 0;
-    } else {
-      expandNav.style.height = 150 + "px";
-      expandNav.style.border = "1px solid #5e5d5d";
-      expandNav.style.borderTop = 0;
-      expandNav.style.borderRight = 0;
-      expandNav.style.borderLeft = 0;
-    }
-  }
+  import { onMount } from "svelte";
 </script>
 
 <nav>
   <div class="navContainer">
     <div style="padding-top: 8px;">
-      <a rel="external" href="/">
+      <a rel="external" sapper:prefetch href="/">
         <img src="navbrand.png" alt="" height="48" />
       </a>
     </div>
-    <div class="burger" on:click={showStuff}>
+    <div class="burger" id="burger" style="position: relative;">
       <img src="menu.svg" alt="" />
     </div>
     <div class="linkContainer">
       <a
+        sapper:prefetch
         rel="external"
         href="team-comps/"
         class:selected={segment === "team-comps"}
@@ -35,6 +26,7 @@
         <div class="navItem">Team Comps</div>
       </a>
       <a
+        sapper:prefetch
         rel="external"
         href="augments/"
         class:selected={segment === "augments"}
@@ -42,6 +34,7 @@
         <div class="navItem">Augments</div>
       </a>
       <a
+        sapper:prefetch
         rel="external"
         href="champions/"
         class:selected={segment === "champions"}
@@ -49,6 +42,7 @@
         <div class="navItem">Champions</div>
       </a>
       <a
+        sapper:prefetch
         rel="external"
         href="guides/"
         class="guides navItem"
@@ -60,26 +54,45 @@
     </div>
   </div>
 </nav>
-<div class="expand" id="grow">
-  <a
-    rel="external"
-    href="team-comps/"
-    class:selected={segment === "team-comps"}
-  >
-    <div class="navItem">Team Comps</div>
-  </a>
-  <a rel="external" href="augments/" class:selected={segment === "augments"}>
-    <div class="navItem">Augments</div>
-  </a>
-  <a rel="external" href="champions/" class:selected={segment === "champions"}>
-    <div class="navItem">Champions</div>
-  </a>
-  <a rel="external" href="guides/" class:selected={segment === "guides"}>
-    <div class="navItem">Guides</div>
-  </a>
-</div>
+
+<input type="checkbox" id="demo" />
+<label for="demo">
+  <div class="expand" id="grow">
+    <a
+      rel="external"
+      href="team-comps/"
+      class:selected={segment === "team-comps"}
+    >
+      <div class="navItem">Team Comps</div>
+    </a>
+    <a rel="external" href="augments/" class:selected={segment === "augments"}>
+      <div class="navItem">Augments</div>
+    </a>
+    <a
+      rel="external"
+      href="champions/"
+      class:selected={segment === "champions"}
+    >
+      <div class="navItem">Champions</div>
+    </a>
+    <a rel="external" href="guides/" class:selected={segment === "guides"}>
+      <div class="navItem">Guides</div>
+    </a>
+  </div>
+</label>
 
 <style>
+  #demo {
+    display: block;
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    opacity: 0;
+    cursor: pointer;
+  }
+
   #grow {
     -moz-transition: height 0.4s;
     -ms-transition: height 0.4s;
@@ -205,6 +218,33 @@
     }
     .burger {
       display: block;
+    }
+    #demo:checked + label .expand {
+      height: 150px;
+    }
+  }
+
+  @media (max-width: 780px) {
+    #demo {
+      right: 60px;
+    }
+  }
+
+  @media (max-width: 680px) {
+    #demo {
+      right: 50px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    #demo {
+      right: 40px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    #demo {
+      right: 36px;
     }
   }
 </style>
