@@ -26,7 +26,7 @@
 
   .middlepane {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   .leftpane {

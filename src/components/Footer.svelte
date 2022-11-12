@@ -1,12 +1,11 @@
 <div class="footerContainer">
   <div class="footerContent">
     <p>
-      WinTFT.com isn't endorsed by Riot Games and doesn't reflect the views or
-      opinions of Riot Games or anyone officially involved in producing or
-      managing League of Legends. League of Legends and Riot Games are
-      trademarks or registered trademarks of Riot Games, Inc.
+      © 2022 Copyright: WinTFT.com. WinTFT.com isn't endorsed by Riot Games and
+      doesn't reflect the views or opinions of Riot Games or anyone officially
+      involved in producing or managing League of Legends. League of Legends and
+      Riot Games are trademarks or registered trademarks of Riot Games, Inc.
     </p>
-    <p>©Wintft</p>
   </div>
 </div>
 
@@ -18,8 +17,8 @@
     margin: 0%;
   }
   .footerContainer {
-    background-color: #22242f;
-    padding: 4px 100px;
+    padding: 0 100px;
+    margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,10 +29,7 @@
   }
   @media (max-width: 770px) {
     .footerContainer {
-      padding: 4px 20px;
-    }
-    p {
-      font-size: 10px;
+      padding: 0px 20px;
     }
   }
 </style>
