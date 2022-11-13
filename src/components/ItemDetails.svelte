@@ -59,8 +59,6 @@
             alt={component1}
             height="28"
             width="28"
-            loading="lazy"
-            decoding="async"
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +84,6 @@
             alt={component2}
             height="28"
             width="28"
-            loading="lazy"
-            decoding="async"
           />
         {:else}
           <span> Item Not Craftable </span>
