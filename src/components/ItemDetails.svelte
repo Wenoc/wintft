@@ -3,6 +3,8 @@
   export let hidden = true;
   export let itemData;
 
+  export let cc = false;
+
   let description;
   let actualName;
 
@@ -35,7 +37,7 @@
 </script>
 
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-<div class="absoluteContainer">
+<div class="absoluteContainer" class:absoluteContainerChange={cc}>
   <div
     class="itemDetailContainer"
     class:hidden={hidden == true && hoeverontext == false}
@@ -111,6 +113,12 @@
     z-index: 3;
   }
 
+  .absoluteContainerChange {
+    position: absolute;
+    bottom: 40px !important;
+    right: -170px !important;
+  }
+
   .components {
     display: flex;
     flex-direction: row;
@@ -167,9 +175,20 @@
     color: white;
     line-height: 1.6;
   }
-
+  @media (max-width: 1350px) {
+    .absoluteContainerChange {
+      position: absolute;
+      bottom: 40px !important;
+      right: -60px !important;
+    }
+  }
   @media (max-width: 700px) {
     .absoluteContainer {
+      display: none;
+    }
+  }
+  @media (max-width: 800px) {
+    .absoluteContainerChange {
       display: none;
     }
   }

@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from "svelte";
   import ItemDetails from "./ItemDetails.svelte";
 
   export let itemData;

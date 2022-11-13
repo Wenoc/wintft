@@ -17,6 +17,7 @@
     margin: 0%;
   }
   .footerContainer {
+    margin-top: 90px;
     padding: 0 100px;
     margin-bottom: 16px;
     display: flex;

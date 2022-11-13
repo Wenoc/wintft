@@ -4,7 +4,14 @@
     const res = await this.fetch("/data.json");
     const AllChampions = await res.json();
 
-    return { AllChampions };
+    const res2 = await this.fetch("/itemData.json");
+    const ItemData = await res2.json();
+
+    let combine = [];
+    combine[0] = AllChampions;
+    combine[1] = ItemData;
+
+    return { combine };
   }
 </script>
 
@@ -14,7 +21,10 @@
   import { flip } from "svelte/animate";
   import { fade, slide, scale } from "svelte/transition";
   import PageLayout from "../components/PageLayout.svelte";
-  export let AllChampions;
+
+  export let combine;
+  let AllChampions = combine[0];
+  let itemData = combine[1];
 
   let kereses = "";
 
@@ -93,6 +103,7 @@
           {#each searchedChampions as Champ (Champ.name)}
             <div animate:flip={{ duration: 300 }}>
               <ChampionsChamp
+                {itemData}
                 name={Champ.name}
                 traits={Champ.traits}
                 items={champItems(Champ.items)}

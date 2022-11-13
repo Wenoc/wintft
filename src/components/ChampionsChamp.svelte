@@ -1,6 +1,8 @@
 <script>
+  import ItemDetails from "./ItemDetails.svelte";
   export let items;
 
+  export let itemData;
   export let name;
   export let bg;
 
@@ -10,6 +12,48 @@
 
   export let traits;
   export let cost;
+
+  let hover1x = false;
+
+  function hover1() {
+    setTimeout(() => {
+      hover1x = true;
+    }, 250);
+  }
+
+  function leave1() {
+    setTimeout(() => {
+      hover1x = false;
+    }, 250);
+  }
+
+  let hover2x = false;
+
+  function hover2() {
+    setTimeout(() => {
+      hover2x = true;
+    }, 250);
+  }
+
+  function leave2() {
+    setTimeout(() => {
+      hover2x = false;
+    }, 250);
+  }
+
+  let hover3x = false;
+
+  function hover3() {
+    setTimeout(() => {
+      hover3x = true;
+    }, 250);
+  }
+
+  function leave3() {
+    setTimeout(() => {
+      hover3x = false;
+    }, 250);
+  }
 </script>
 
 <div class="opacity">
@@ -55,14 +99,67 @@
       </div>
       <div class="rightDown">
         <div class="champItems">
-          {#each items as item}
-            <img
-              src="./items/{item}.webp"
-              alt={item}
-              loading="lazy"
-              decoding="async"
-            />
-          {/each}
+          {#if items.length > 0}
+            {#each items as item, i}
+              <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+              {#if i == 0}
+                <div class="itmDetail">
+                  <img
+                    src="items/{item}.webp"
+                    alt={item}
+                    loading="lazy"
+                    decoding="async"
+                    on:mouseover={hover1}
+                    on:mouseleave={leave1}
+                  />
+                  <ItemDetails
+                    {itemData}
+                    name={items[0]}
+                    hidden={!hover1x}
+                    cc={true}
+                  />
+                </div>
+              {/if}
+              {#if i == 1}
+                <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                <div class="itmDetail">
+                  <img
+                    src="items/{item}.webp"
+                    alt={item}
+                    loading="lazy"
+                    decoding="async"
+                    on:mouseover={hover2}
+                    on:mouseleave={leave2}
+                  />
+                  <ItemDetails
+                    {itemData}
+                    name={items[1]}
+                    hidden={!hover2x}
+                    cc={true}
+                  />
+                </div>
+              {/if}
+              {#if i == 2}
+                <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                <div class="itmDetail">
+                  <img
+                    src="items/{item}.webp"
+                    alt={item}
+                    loading="lazy"
+                    decoding="async"
+                    on:mouseover={hover3}
+                    on:mouseleave={leave3}
+                  />
+                  <ItemDetails
+                    {itemData}
+                    name={items[2]}
+                    hidden={!hover3x}
+                    cc={true}
+                  />
+                </div>
+              {/if}
+            {/each}
+          {/if}
         </div>
       </div>
     </div>
@@ -70,6 +167,11 @@
 </div>
 
 <style>
+  .itmDetail {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+  }
   p {
     margin: 0;
     padding: 0;
