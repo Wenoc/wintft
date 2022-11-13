@@ -2,6 +2,8 @@
   import Champ from "./Champ.svelte";
   import { onMount } from "svelte";
 
+  export let itemData;
+
   export let AllChampions;
   export let id;
   export let name;
@@ -167,6 +169,7 @@
         {#each champions as champ}
           {#if champ == carries[0].name}
             <Champ
+              {itemData}
               name={getName(champ)}
               Items={carries[0].items}
               cost={determineValue(champ)}
@@ -174,6 +177,7 @@
             />
           {:else if champ == carries[1].name}
             <Champ
+              {itemData}
               name={getName(champ)}
               Items={carries[1].items}
               cost={determineValue(champ)}
@@ -181,6 +185,7 @@
             />
           {:else if champ == carries[2].name}
             <Champ
+              {itemData}
               name={getName(champ)}
               Items={carries[2].items}
               cost={determineValue(champ)}
@@ -188,6 +193,7 @@
             />
           {:else}
             <Champ
+              {itemData}
               name={getName(champ)}
               cost={determineValue(champ)}
               ThreeStar={isThreeStar(champ)}
@@ -239,6 +245,7 @@
           <div class="option1">
             <div class="lvl9">Lvl 9</div>
             <Champ
+              {itemData}
               name={getName(lvl9)}
               augment={true}
               cost={determineValue(lvl9)}
@@ -248,6 +255,7 @@
             <div class="option2Left">
               {#each optionsChampionsLeft as ocl}
                 <Champ
+                  {itemData}
                   name={getName(ocl)}
                   augment={true}
                   cost={determineValue(ocl)}
@@ -269,6 +277,7 @@
             <div class="option2Right">
               {#each optionsChampionsRight as ocr}
                 <Champ
+                  {itemData}
                   name={getName(ocr)}
                   augment={true}
                   cost={determineValue(ocr)}

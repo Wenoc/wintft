@@ -1,0 +1,325 @@
+[
+    {
+        "name" : "Gargoyle's Stoneplate",
+        "icon" : "GargoylesStoneplate",
+        "description" : "Grants 16 Armor and 16 Magic Resist for each enemy targeting the holder.",
+        "component1" : "belt",
+        "component2" : "chain"
+    },
+    {
+        "name" : "Archangel's Staff",
+        "icon" : "ArchangelsStaff",
+        "description" : "Grant 10 bonus Ability Power. \n \nCombat start: Grant 20 Ability Power every 5 seconds.",
+        "component1" : "rod",
+        "component2" : "tear"
+    },
+    {
+        "name" : "Banshee's Claw",
+        "icon" : "BansheesClaw",
+        "description" : "Combat start: Grant a shield to the holder and allies within 1 hex in the same row that blocks the first enemy Ability, up to 600 damage.",
+        "component1" : "belt",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Bloodthirster",
+        "icon" : "Bloodthirster",
+        "description" : "Grant 25% Omnivamp. \n \nOnce per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds.",
+        "component1" : "sword",
+        "component2" : "cloak"
+    },
+    {
+        "name" : "Blue Buff",
+        "icon" : "BlueBuff",
+        "description" : "Combat Start: Grant 20 bonus starting Mana. After casting an Ability, set Mana to 20.",
+        "component1" : "tear",
+        "component2" : "tear"
+    },
+    {
+        "name" : "BrambleVest",
+        "icon" : "BrambleVest",
+        "description" : "Grant 40 bonus Armor. Negates 75% bonus damage from incoming critical strikes. When struck by an attack, deal 75/100/150★ magic damage to all nearby enemies (once every 2.5 seconds).        ",
+        "component1" : "chain",
+        "component2" : "chain"
+    },
+    {
+        "name" : "Chalice of Power",
+        "icon" : "ChaliceofPower",
+        "description" : "Combat start: Grant 30 Ability Power to the holder and allies within 1 hex in the same row.",
+        "component1" : "cloak",
+        "component2" : "tear"
+    },
+    {
+        "name" : "Deathblade",
+        "icon" : "Deathblade",
+        "description" : "Grant 15/30/45★ bonus Attack Damage.",
+        "component1" : "sword",
+        "component2" : "sword"
+    },
+    {
+        "name" : "Dragon's Claw",
+        "icon" : "DragonsClaw",
+        "description" : "Grant 80 bonus Magic Resist. Every 2 seconds, regenerate 1.2% maximum Health for each enemy targeting the holder. \n\nIf the holder is a Dragon, increase all bonuses and effects by 20%.",
+        "component1" : "cloak",
+        "component2" : "cloak"
+    },
+    {
+        "name" : "Edge of Night",
+        "icon" : "EdgeofNight",
+        "description" : "Once per combat: At 60% Health, briefly become stealthed, becoming untargetable and shedding negative effects. Then, grant 40% bonus Attack Speed.",
+        "component1" : "sword",
+        "component2" : "chain"
+    },
+    {
+        "name" : "Giant Slayer",
+        "icon" : "GiantSlayer",
+        "description" : "Abilities and attacks deal 20% bonus damage. If the target has more than 2200 maximum Health, the bonus increases to 45%.",
+        "component1" : "sword",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Guinsoo's Rageblade",
+        "icon" : "GuinsoosRageblade",
+        "description" : "Attacks grant 6% bonus Attack Speed. This effect stacks.",
+        "component1" : "rod",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Hand of Justice",
+        "icon" : "HandofJustice",
+        "description" : "Grant 2 effects: \n15 Attack Damage and 15 Ability Power. \n15% Omnivamp.\n\nEach round, randomly double 1 of these effects.",
+        "component1" : "tear",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Hextech Gunblade",
+        "icon" : "HextechGunblade",
+        "description" : "Grant 25% Omnivamp. Damage heals the lowest percent Health ally for the same amount.",
+        "component1" : "sword",
+        "component2" : "rod"
+    },
+    {
+        "name" : "Infinity Edge",
+        "icon" : "InfinityEdge",
+        "description" : "Grant 60% bonus Critical Strike Chance and 10% bonus Critical Strike Damage. Each point of Critical Strike Chance above 100% converts to 1% Critical Strike Damage. ",
+        "component1" : "sword",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Ionic Spark",
+        "icon" : "IonicSpark",
+        "description" : "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped for magic damage equal to 185% of their maximum Mana.",
+        "component1" : "rod",
+        "component2" : "cloak"
+    },
+    {
+        "name" : "Jeweled Gauntlet",
+        "icon" : "JeweledGauntlet",
+        "description" : "Grant 10% Critical Strike Damage and 30 bonus Ability Power. \n\nMagic and true damage from an Ability can critically strike.",
+        "component1" : "rod",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Last Whisper",
+        "icon" : "LastWhisper",
+        "description" : "Grant 10% bonus Attack Speed. Dealing physical damage reduces the target's Armor by 50% for 5 seconds. This effect does not stack.",
+        "component1" : "bow",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Locket of the Iron Solari",
+        "icon" : "LocketoftheIronSolari",
+        "description" : "Combat start: Shields the holder and allies within 2 hexes in the same row for 300/350/400★ damage for 15 seconds.",
+        "component1" : "chain",
+        "component2" : "rod"
+    },
+    {
+        "name" : "Morellonomicon",
+        "icon" : "Morellonomicon",
+        "description" : "Grant 20 bonus Ability Power. Magic or true damage from an Ability burns the target, dealing 10% of the target's maximum Health as true damage over 10 seconds, and reducing healing by 50% for the duration.",
+        "component1" : "belt",
+        "component2" : "rod"
+    },
+    {
+        "name" : "Protector's Vow",
+        "icon" : "ProtectorsVow",
+        "description" : "Grant 15 bonus starting Mana. \n\nOnce per combat: At 50% Health, allies within 3 hexes gain a 10% maximum Health shield that lasts up to 2 seconds. Shielded allies gain 15 Armor and 15 Magic Resist for the rest of combat.",
+        "component1" : "chain",
+        "component2" : "tear"
+    },
+    {
+        "name" : "Quicksilver",
+        "icon" : "Quicksilver",
+        "description" : "Grant 20% bonus Attack Speed. \n\nCombat start: Grant immunity to crowd control for 15 seconds.",
+        "component1" : "cloak",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Rabadon's Deathcap",
+        "icon" : "RabadonsDeathcap",
+        "description" : "Grant 55 bonus Ability Power.",
+        "component1" : "rod",
+        "component2" : "rod"
+    },
+    {
+        "name" : "Rapid Firecannon",
+        "icon" : "RapidFirecannon",
+        "description" : "Grant 30% bonus Attack Speed and 1 bonus Attack Range. \n\nAttacks cannot miss.",
+        "component1" : "bow",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Redemption",
+        "icon" : "Redemption",
+        "description" : "Heal allies within 1 hex for 12% of their missing Health every 5 seconds. They also take 25% less multi-target damage for 5 seconds (damage reduction does not stack).",
+        "component1" : "belt",
+        "component2" : "tear"
+    },
+    {
+        "name" : "Runaan's Hurricane",
+        "icon" : "RunaansHurricane",
+        "description" : "Grant 10 bonus Attack Damage. Attacks fire a bolt at a nearby enemy, dealing 70% Attack Damage as physical damage.",
+        "component1" : "cloak",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Shroud of Stillness",
+        "icon" : "ShroudofStillness",
+        "description" : "Combat start: Shoot a beam that increases the maximum Mana of affected enemies by 35% until they cast.",
+        "component1" : "chain",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Spear of Shojin",
+        "icon" : "SpearofShojin",
+        "description" : "Grant 20 bonus Ability Power. Attacks restore 5 additional Mana.",
+        "component1" : "sword",
+        "component2" : "tear"
+    },
+    {
+        "name" : "Statikk Shiv",
+        "icon" : "StatikkShiv",
+        "description" : "Grant 10% bonus Attack Speed. Every 3rd attack unleashes chain lightning that bounces to 4 enemies, dealing 50 magic damage and reducing their Magic Resist by 50% for 5 seconds.",
+        "component1" : "bow",
+        "component2" : "tear"
+    },
+    {
+        "name" : "Sunfire Cape",
+        "icon" : "SunfireCape",
+        "description" : "Grant 150 bonus Health. Every 2 seconds, an enemy within 2 hexes is burned for 10% of their maximum Health as true damage over 10 seconds, and reducing healing by 50% for the duration.",
+        "component1" : "chain",
+        "component2" : "belt"
+    },
+    {
+        "name" : "Tactician's Crown",
+        "icon" : "TacticiansCrown",
+        "description" : "Your team gains +1 maximum team size.",
+        "component1" : "spatula",
+        "component2" : "spatula"
+    },
+    {
+        "name" : "Thief's Gloves",
+        "icon" : "ThiefsGloves",
+        "description" : "Each round: Equip 2 random items.",
+        "component1" : "gloves",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Titan's Resolve",
+        "icon" : "TitansResolve",
+        "description" : "Grants 2 Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times.  \n\nAt full stacks, grant 25 Armor and 25 Magic Resist.",
+        "component1" : "chain",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Warmog's Armor",
+        "icon" : "WarmogsArmor",
+        "description" : "Grant 700 bonus Health.",
+        "component1" : "belt",
+        "component2" : "belt"
+    },
+    {
+        "name" : "Zeke's Herald",
+        "icon" : "ZekesHerald",
+        "description" : "Combat start: Grant 30% Attack Speed to the holder and allies within 1 hex in the same row.",
+        "component1" : "sword",
+        "component2" : "belt"
+    },
+    {
+        "name" : "Zephyr",
+        "icon" : "Zephyr",
+        "description" : "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. ",
+        "component1" : "belt",
+        "component2" : "cloak"
+    },
+    {
+        "name" : "Zz'Rot Portal",
+        "icon" : "ZzRotPortal",
+        "description" : "Combat start: taunt enemies within 4 hexes. On death, a Voidspawn arises, taunting nearby enemies. Voidspawns that arise from summoned units are 25% effective.",
+        "component1" : "belt",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Lagoon Emblem",
+        "icon" : "LagoonEmblem",
+        "description" : "The holder gains the Lagoon trait.",
+        "component1" : "spatula",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Shimmerscale Emblem",
+        "icon" : "ShimmerscaleEmblem",
+        "description" : "The holder gains the Shimmerscale trait.",
+        "component1" : "sword",
+        "component2" : "spatula"
+    },
+    {
+        "name" : "Cavalier Emblem",
+        "icon" : "CavalierEmblem",
+        "description" : "The holder gains the Cavalier trait.",
+        "component1" : "spatula",
+        "component2" : "chain"
+    },
+    {
+        "name" : "Mage Emblem",
+        "icon" : "MageEmblem",
+        "description" : "The holder gains the Mage trait.",
+        "component1" : "spatula",
+        "component2" : "tear"
+    },
+    {
+        "name" : "Swiftshot Emblem",
+        "icon" : "SwiftshotEmblem",
+        "description" : "The holder gains the Swiftshot trait.",
+        "component1" : "spatula",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Mirage Emblem",
+        "icon" : "MirageEmblem",
+        "description" : "The holder gains the Mirage trait.",
+        "component1" : "spatula",
+        "component2" : "cloak"
+    },
+    {
+        "name" : "Guardian Emblem",
+        "icon" : "GuardianEmblem",
+        "description" : "The holder gains the Guardian trait.",
+        "component1" : "spatula",
+        "component2" : "belt"
+    },
+    {
+        "name" : "Dragonmancer Emblem",
+        "icon" : "DragonmancerEmblem",
+        "description" : "The holder gains the Dragonmancer trait.",
+        "component1" : "spatula",
+        "component2" : "rod"
+    },
+    {
+        "name" : "Guild Emblem",
+        "icon" : "GuildEmblem",
+        "description" : "The holder gains the Guild trait.",
+        "component1" : "",
+        "component2" : ""
+    }
+    
+]

@@ -9,9 +9,14 @@
 
     const res3 = await this.fetch("/augmentData.json");
     const augmentData = await res3.json();
+
+    const res4 = await this.fetch("/itemData.json");
+    const itemData = await res4.json();
+
     combine[0] = AllChampions;
     combine[1] = compData;
     combine[2] = augmentData;
+    combine[3] = itemData;
 
     return { combine };
   }
@@ -26,6 +31,7 @@
   let AllChampions = combine[0];
   let compData = combine[1];
   let augmentData = combine[2];
+  let itemData = combine[3];
 
   function reverseComp(comp) {
     let reversed = Object.values(comp);
@@ -67,6 +73,7 @@
       {#each compData as comp}
         <div class="singleCompContainer">
           <NewComp
+            {itemData}
             tiercolor={findColor(comp.tier)}
             {augmentData}
             {AllChampions}

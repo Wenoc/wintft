@@ -1,4 +1,7 @@
 <script>
+  import ItemDetails from "./ItemDetails.svelte";
+
+  export let itemData;
   export let name;
   export let Items = [];
   export let ThreeStar = false;
@@ -26,9 +29,51 @@
   } else if (cost == 5 || cost == 8) {
     borderColor = "#f2c530";
   }
+
+  let hover1x = false;
+
+  function hover1() {
+    setTimeout(() => {
+      hover1x = true;
+    }, 250);
+  }
+
+  function leave1() {
+    setTimeout(() => {
+      hover1x = false;
+    }, 250);
+  }
+
+  let hover2x = false;
+
+  function hover2() {
+    setTimeout(() => {
+      hover2x = true;
+    }, 250);
+  }
+
+  function leave2() {
+    setTimeout(() => {
+      hover2x = false;
+    }, 250);
+  }
+
+  let hover3x = false;
+
+  function hover3() {
+    setTimeout(() => {
+      hover3x = true;
+    }, 250);
+  }
+
+  function leave3() {
+    setTimeout(() => {
+      hover3x = false;
+    }, 250);
+  }
 </script>
 
-<div style="position: relative;">
+<div style="position: relative;" id="max">
   <div
     class="champContainer"
     class:augment
@@ -75,15 +120,48 @@
     class:items3={Items.length == 1}
   >
     {#if Items.length > 0}
-      {#each Items as item}
-        <img
-          src="items/{item}.png"
-          alt={item}
-          title={item}
-          loading="lazy"
-          decoding="async"
-        />
+      {#each Items as item, i}
+        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+        {#if i == 0}
+          <img
+            src="items/{item}.png"
+            alt={item}
+            loading="lazy"
+            decoding="async"
+            on:mouseover={hover1}
+            on:mouseleave={leave1}
+          />
+        {/if}
+        {#if i == 1}
+          <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+          <img
+            src="items/{item}.png"
+            alt={item}
+            loading="lazy"
+            decoding="async"
+            on:mouseover={hover2}
+            on:mouseleave={leave2}
+          />
+        {/if}
+        {#if i == 2}
+          <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+          <img
+            src="items/{item}.png"
+            alt={item}
+            loading="lazy"
+            decoding="async"
+            on:mouseover={hover3}
+            on:mouseleave={leave3}
+          />
+        {/if}
       {/each}
+      <ItemDetails {itemData} name={Items[0]} hidden={!hover1x} />
+      {#if Items[1] != undefined}
+        <ItemDetails {itemData} name={Items[1]} hidden={!hover2x} />
+      {/if}
+      {#if Items[2] != undefined}
+        <ItemDetails {itemData} name={Items[2]} hidden={!hover3x} />
+      {/if}
     {/if}
   </div>
 </div>
