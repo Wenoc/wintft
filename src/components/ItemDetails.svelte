@@ -55,7 +55,7 @@
       <div class="components">
         {#if component1 != ""}
           <img
-            src="./itemComponents/{component1}.png"
+            src="./items/{component1}.png"
             alt={component1}
             height="28"
             width="28"
@@ -82,7 +82,7 @@
             ></svg
           >
           <img
-            src="./itemComponents/{component2}.png"
+            src="./items/{component2}.png"
             alt={component2}
             height="28"
             width="28"
