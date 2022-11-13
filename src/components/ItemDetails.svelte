@@ -45,7 +45,7 @@
     <div class="up">
       <div class="left">
         <img
-          src="items/{name}.png"
+          src="items/{name}.webp"
           alt="ArchangelsStaff"
           height="50"
           width="50"
@@ -56,7 +56,7 @@
         <div class="components">
           {#if component1 != ""}
             <img
-              src="./items/{component1}.png"
+              src="./items/{component1}.webp"
               alt={component1}
               height="28"
               width="28"
@@ -81,7 +81,7 @@
               ></svg
             >
             <img
-              src="./items/{component2}.png"
+              src="./items/{component2}.webp"
               alt={component2}
               height="28"
               width="28"

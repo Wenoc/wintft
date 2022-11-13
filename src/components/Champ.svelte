@@ -124,7 +124,7 @@
         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
         {#if i == 0}
           <img
-            src="items/{item}.png"
+            src="items/{item}.webp"
             alt={item}
             loading="lazy"
             decoding="async"
@@ -135,7 +135,7 @@
         {#if i == 1}
           <!-- svelte-ignore a11y-mouse-events-have-key-events -->
           <img
-            src="items/{item}.png"
+            src="items/{item}.webp"
             alt={item}
             loading="lazy"
             decoding="async"
@@ -146,7 +146,7 @@
         {#if i == 2}
           <!-- svelte-ignore a11y-mouse-events-have-key-events -->
           <img
-            src="items/{item}.png"
+            src="items/{item}.webp"
             alt={item}
             loading="lazy"
             decoding="async"

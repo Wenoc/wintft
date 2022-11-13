@@ -57,7 +57,7 @@
         <div class="champItems">
           {#each items as item}
             <img
-              src="./items/{item}.png"
+              src="./items/{item}.webp"
               alt={item}
               loading="lazy"
               decoding="async"

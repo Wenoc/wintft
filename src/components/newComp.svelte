@@ -365,7 +365,7 @@
         </p>
         <div class="carouselContainer">
           <img
-            src="./items/{carousel[0]}.png"
+            src="./items/{carousel[0]}.webp"
             alt={carousel[0]}
             loading="lazy"
             decoding="async"
@@ -381,7 +381,7 @@
             ><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" /></svg
           >
           <img
-            src="./items/{carousel[1]}.png"
+            src="./items/{carousel[1]}.webp"
             alt={carousel[1]}
             loading="lazy"
             decoding="async"
@@ -397,7 +397,7 @@
             ><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" /></svg
           >
           <img
-            src="./items/{carousel[2]}.png"
+            src="./items/{carousel[2]}.webp"
             alt={carousel[2]}
             loading="lazy"
             decoding="async"
