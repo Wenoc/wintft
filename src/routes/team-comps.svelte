@@ -134,7 +134,7 @@
       width: 600px;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 720px) {
     .compsContainer {
       width: 350px;
     }

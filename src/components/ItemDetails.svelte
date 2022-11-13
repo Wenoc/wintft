@@ -40,7 +40,7 @@
 <div class="absoluteContainer" class:absoluteContainerChange={cc}>
   <div
     class="itemDetailContainer"
-    class:hidden={hidden == true && hoeverontext == false}
+    class:hidden={hidden == true}
     on:mouseover={hoeverontextf}
     on:mouseleave={leaveontext}
   >

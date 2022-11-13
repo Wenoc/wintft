@@ -1,5 +1,9 @@
 [
-    { "name": "Ezreal", "cost": 1, "items": ["Blue Buff", "Archangel's Staff", "Giant Slayer"], "traits": ["Tempest", "Swiftshot"]},
+    {
+        "name": "Ezreal",
+        "cost": 1, "items": ["Blue Buff", "Archangel's Staff", "Giant Slayer"],
+        "traits": ["Tempest", "Swiftshot"]
+    },
     { "name": "Nasus", "cost": 1, "items": ["Ionic Spark", "Sunfire Cape", "Warmog's Armor"], "traits": ["Shimmerscale", "Guardian"]},
     { "name": "Karma", "cost": 1, "items": ["Hand of Justice", "Infinity Edge", "Jeweled Gauntlet"], "traits": ["Jade", "Dragonmancer"]},
     { "name": "Leona", "cost": 1, "items": ["Gargoyles Stoneplate", "Sunfire Cape", "Warmog's Armor"], "traits": ["Mirage", "Guardian"]},

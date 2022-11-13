@@ -1,10 +1,11 @@
 <script>
   import ItemDetails from "../components/ItemDetails.svelte";
   import Champ from "../components/Champ.svelte";
+  import ChampDetails from "../components/champDetails.svelte";
 </script>
 
 <div>
-  <Champ name={"ezreal"} Items={["Bloodthirster"]} />
+  <ChampDetails />
 </div>
 
 <style>

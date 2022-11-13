@@ -5,6 +5,7 @@
   export let itemData;
 
   export let AllChampions;
+
   export let id;
   export let name;
   export let tier;
@@ -169,7 +170,9 @@
         {#each champions as champ}
           {#if champ == carries[0].name}
             <Champ
+              {AllChampions}
               {itemData}
+              actualNamename={champ}
               name={getName(champ)}
               Items={carries[0].items}
               cost={determineValue(champ)}
@@ -177,6 +180,8 @@
             />
           {:else if champ == carries[1].name}
             <Champ
+              {AllChampions}
+              actualNamename={champ}
               {itemData}
               name={getName(champ)}
               Items={carries[1].items}
@@ -185,6 +190,8 @@
             />
           {:else if champ == carries[2].name}
             <Champ
+              actualNamename={champ}
+              {AllChampions}
               {itemData}
               name={getName(champ)}
               Items={carries[2].items}
@@ -193,6 +200,8 @@
             />
           {:else}
             <Champ
+              actualNamename={champ}
+              {AllChampions}
               {itemData}
               name={getName(champ)}
               cost={determineValue(champ)}
@@ -245,6 +254,8 @@
           <div class="option1">
             <div class="lvl9">Lvl 9</div>
             <Champ
+              actualNamename="0"
+              {AllChampions}
               {itemData}
               name={getName(lvl9)}
               augment={true}
@@ -255,6 +266,8 @@
             <div class="option2Left">
               {#each optionsChampionsLeft as ocl}
                 <Champ
+                  actualNamename="0"
+                  {AllChampions}
                   {itemData}
                   name={getName(ocl)}
                   augment={true}
@@ -277,6 +290,8 @@
             <div class="option2Right">
               {#each optionsChampionsRight as ocr}
                 <Champ
+                  actualNamename="0"
+                  {AllChampions}
                   {itemData}
                   name={getName(ocr)}
                   augment={true}
@@ -817,7 +832,7 @@
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 720px) {
     .compInfo {
       margin: 0;
       flex-direction: row;

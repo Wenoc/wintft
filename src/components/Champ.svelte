@@ -1,12 +1,15 @@
 <script>
   import { onMount } from "svelte";
   import ItemDetails from "./ItemDetails.svelte";
+  import ChampDetails from "./champDetails.svelte";
 
   export let itemData;
   export let name;
   export let Items = [];
   export let ThreeStar = false;
   export let augment = false;
+  export let AllChampions;
+  export let actualNamename;
 
   export let cost;
 
@@ -72,22 +75,49 @@
       hover3x = false;
     }, 250);
   }
+
+  let hover1xy = false;
+
+  function hover1y() {
+    setTimeout(() => {
+      hover1xy = true;
+    }, 250);
+  }
+
+  function leave1y() {
+    setTimeout(() => {
+      hover1xy = false;
+    }, 250);
+  }
+  let opt = false;
+  if (actualNamename == 0) {
+    opt = true;
+  }
 </script>
 
 <div style="position: relative;" id="max">
+  <ChampDetails
+    hidden={!hover1xy}
+    {AllChampions}
+    {name}
+    {actualNamename}
+    {opt}
+  />
   <div
     class="champContainer"
     class:augment
     class:noaugment={!augment}
     style="outline: 3px solid {borderColor};"
   >
+    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
     <img
       src="ChampIcons/{name}.png"
       alt={name}
       loading="lazy"
       decoding="async"
       style="max-width:100%;"
-      title={name}
+      on:mouseover={hover1y}
+      on:mouseleave={leave1y}
     />
   </div>
   <div class="stars" class:dontShow={!ThreeStar}>
