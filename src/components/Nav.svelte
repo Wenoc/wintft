@@ -10,7 +10,7 @@
   <div class="navContainer">
     <div style="padding-top: 8px;">
       <a rel="external" sapper:prefetch href="/">
-        <img src="navbrand.png" alt="" height="48" />
+        <img src="navbrand.png" alt="home" height="48" />
       </a>
     </div>
     <div class="burger" id="burger" style="position: relative;">

@@ -54,7 +54,7 @@
     {
         "id" : "6",
         "name" : "Guild Xayah",
-        "guide" : "",
+        "guide" : "guides/guild-xayah-guide/",
         "tier" : "S",
         "champions" : ["Twitch", "Rakan", "Hecarim", "Jayce", "Xayah", "Shyvana", "Bard"],
         "carries" : [
