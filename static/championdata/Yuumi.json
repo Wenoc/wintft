@@ -1,0 +1,28 @@
+{
+    "Name": "Yuumi",
+    "Cost": 2,
+    "Health": "550 / 990 / 1782",
+    "Damage": "40 / 60 / 90",
+    "Mana": "30/75",
+    "Attack_Speed": 0.65,
+    "Armor": 20,
+    "Magic_Resist": 20,
+    "Range": 5,
+    "AbilityName": "Prowling Projectile",
+    "AbilityDescription": "Yuumi fires a curved missile at the furthest target in her attack range, dealing magic damage to the first unit hit.\n\nDamage : 250 / 375 / 575",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "Star Guardian",
+        "Champions": ["Lux", "Rell", "KaiSa", "Nilah", "Ekko", "Taliyah", "Syndra"]
+      },
+      {
+        "Name": "Heart",
+        "Champions": ["Lulu", "LeeSin", "Sona", "Sona", "Soraka", "Syndra"]
+      },
+      {
+        "Name": "Mascot",
+        "Champions": ["Galio", "Nasus", "Malphite", "Alistar", "Nunu"]
+      }
+    ]
+}

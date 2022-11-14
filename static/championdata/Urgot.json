@@ -1,0 +1,19 @@
+{
+    "Name": "Urgot",
+    "Cost": 5,
+    "Health": "1100 / 1980 / 3564",
+    "Damage": "99 / 149 / 223",
+    "Mana": "100/175",
+    "Attack_Speed": 1,
+    "Armor": 50,
+    "Magic_Resist": 50,
+    "Range": 3,
+    "AbilityName": "Undertow",
+    "AbilityDescription": "Passive: Urgot's claw fires 5 attacks per second, each dealing physical damage.\n\nAbility: Urgot summons a gigantic wave behind his enemies that moves towards him, dealing % of their maximum Health as magic damage. The wave collides with enemies knocking them forward 1 hex, stunning them, and grants a chance to dredge up TREASURE.\n\nMax Health : 10% / 15% / 99%\nStun Duration : 1.25 / 1.5 / 5\nTreasure Chance : 12% / 15% / 100%",
+    "Traits": [
+        {
+            "Name": "Threat",
+            "Champions": ["Cho'Gath", "Rammus", "VelKoz", "Zac", "Aurelion Sol", "BelVeth", "FiddleSticks"]
+        }
+    ]
+}

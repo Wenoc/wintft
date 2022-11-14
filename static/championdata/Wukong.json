@@ -1,0 +1,24 @@
+{
+    "Name": "Wukong",
+    "Cost": 1,
+    "Health": "650 / 1170 / 2106",
+    "Damage": "60 / 90 / 135",
+    "Mana": "50/100",
+    "Attack_Speed": 0.6,
+    "Armor": 40,
+    "Magic_Resist": 40,
+    "Range": 1,
+    "AbilityName": "Stone Skin",
+    "AbilityDescription": "Wukong spins his staff around him, dealing magic damage to nearby enemies and gaining Armor and Magic Resist for each enemy hit for 3 seconds\n\nDamage : 160 / 240 / 360\nArmor and Magic Resist : 50 / 75 / 100",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "Mecha: PRIME",
+        "Champions": ["Draven", "Jax", "Sett", "Leona"]
+      },
+      {
+        "Name": "Defender",
+        "Champions": ["Poppy", "Rell", "Riven", "Sett"]
+      }
+    ]
+}

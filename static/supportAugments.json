@@ -1,0 +1,302 @@
+[
+    {
+        "character" : "Ashe",
+        "name" : "Corps Focus",
+        "description": "Gain an Ashe. When you field her, your team gains 20% Attack Speed, doubled while her Ability is active."
+    },
+    {
+        "character" : "Blitzcrank",
+        "name" : "Rocket Grab",
+        "description": "Gain a Blitzcrank. He gains 200 bonus Health. Combat Start: He pulls the farthest enemy and stuns them for 1.5 seconds."
+    },
+    {
+        "character" : "Galio",
+        "name" : "Safety First",
+        "description": "Gain a Galio. When you field him, your team gains 20 Armor and Magic Resist, doubled for 4 seconds after being shielded."
+    },
+    {
+        "character" : "Gangplank",
+        "name" : "Get Paid",
+        "description": "Gain a Gangplank. When you field him, your team has a 25% chance to gain 2 gold on kill."
+    },
+    {
+        "character" : "Kayle",
+        "name" : "Righteous Range",
+        "description": "Gain a Kayle. Combat Start: She and her 2 nearest allies gain +2 Attack Range and 20% Attack Speed."
+    },
+    {
+        "character" : "Lulu",
+        "name" : "Foster Growth",
+        "description": "Gain a Lulu. When you field her, she and her allies gain 35 Ability Power when equipped with an item."
+    },
+    {
+        "character" : "Lux",
+        "name" : "Lucent Barrier",
+        "description": "Gain a Lux. Combat Start: She grants her 2 nearest allies a 400 Health Shield and 40 Ability Power."
+    },
+    {
+        "character" : "Nasus",
+        "name" : "Soul Eater",
+        "description": "Gain a Nasus. When you field him, he and his allies heal 150 Health on takedowns."
+    },
+    {
+        "character" : "Poppy",
+        "name" : "Steadfast Presence",
+        "description": "Gain a Poppy. Combat Start: Your strongest Poppy grants all allies a 275 Health shield."
+    },
+    {
+        "character" : "Renekton",
+        "name" : "Cull the Meek",
+        "description": "Gain a Renekton. When you field him, your team deals 12% bonus damage, tripled against enemies below 50% Health."
+    },
+    {
+        "character" : "Sylas",
+        "name" : "Petricite Chains",
+        "description": "Gain a Sylas. When you field him, your team gains 20 starting Mana and his Ability increases enemies' maximum Mana by 35%."
+    },
+    {
+        "character" : "Talon",
+        "name" : "OX-ian Rage",
+        "description": "Gain a Talon. When you field him, your team gains 12% Attack Damage and 12 Ability Power, tripled when they are below 50% Health."
+    },
+    {
+        "character" : "Wukong",
+        "name" : "Re-Energize",
+        "description": "Gain a Wukong. When you field him, your team restores 50% of their Mana after their first cast each combat."
+    },
+    {
+        "character" : "Annie",
+        "name" : "Burning Spirit",
+        "description": "Gain an Annie. When you field her, your team gains 20 Ability Power, tripled while they are below 50% Health."
+    },
+    {
+        "character" : "Camille",
+        "name" : "Hextech Retribution",
+        "description": "Gain a Camille. When you field her, your team deals 15% bonus damage, increasing by an additional 5% whenever an ally dies."
+    },
+    {
+        "character" : "Draven",
+        "name" : "Ruthless Blades",
+        "description": "Gain a Draven. When you field him, your team gains 35% Critical Strike Chance."
+    },
+    {
+        "character" : "Ezreal",
+        "name" : "Raider's Spoils",
+        "description": "Gain an Ezreal. Combat Start: Your strongest Ezreal grants his nearest ally a temporary Artifact for the rest of combat and gains 1 gold."
+    },
+    {
+        "character" : "Fiora",
+        "name" : "Vitality of the Ox",
+        "description": "Gain a Fiora. When you field her, your team heals 2% of their maximum Health when they attack."
+    },
+    {
+        "character" : "Jinx",
+        "name" : "Everyone Goes BOOM!",
+        "description": "Gain a Jinx. When you field her, your team gains 10% Attack Speed, tripled after the first enemy dies each combat."
+    },
+    {
+        "character" : "Lee Sin",
+        "name" : "Invigorate",
+        "description": "Gain a Lee Sin. When your field him, your team gains 20% Attack Speed, doubled for 3 seconds after being shielded."
+    },
+    {
+        "character" : "Malphite",
+        "name" : "Guardian Spirit",
+        "description": "Gain a Malphite. When you field him, your team restores 15% of their missing Health on cast."
+    }
+    ,    {
+        "character" : "Rell",
+        "name" : "Channeled Ferromancy",
+        "description": "Gain a Rell. When you field her, your team gains 20 Armor and Magic Resist. Each ally gains an additional 5 when they cast (this can stack)."
+    },
+    {
+        "character" : "Sivir",
+        "name" : "Endless Pizza",
+        "description": "Gain a Sivir. When you field her, your team heals 15% of their missing Health and removes all negative effects every 6 seconds."
+    },
+    {
+        "character" : "Vi",
+        "name" : "Boxing Lessons",
+        "description": "Gain a Vi. When you field her, your team gains 250 bonus Health."
+    },
+    {
+        "character" : "Yasuo",
+        "name" : "Spirit of the Exile",
+        "description": "Gain a Yasuo. When you field him, allies who start combat with no adjacent allies gain 25% Attack Speed."
+    },
+    {
+        "character" : "Yuumi",
+        "name" : "Zoomies!",
+        "description": "Gain a Yuumi. When you field her, your team gains 20% Attack Speed and zoom towards their targets."
+    },
+    {
+        "character" : "Alistar",
+        "name" : "Behemoth",
+        "description": "Gain an Alistar. He gains 450 bonus Health and his Ability deals bonus damage equal to 20% of his maximum Health."
+    },
+    {
+        "character" : "Cho'Gath",
+        "name" : "Cosmic Barrier",
+        "description": "Gain a Cho'Gath. When you field Cho'Gath, your team gains 40 Magic Resist, doubled for Cho'Gath."
+    },
+    {
+        "character" : "Jax",
+        "name" : "Evasion",
+        "description": "Gain a Jax. When you field him, your team gains 100% Dodge Chance for 2.5 seconds the first time they fall below 50% Health each combat."
+    },
+    {
+        "character" : "Kai'Sa",
+        "name" : "Star-Crossed",
+        "description": "Gain a Kai'Sa. She grants 100% of her Ability's Attack Speed bonus to her nearest ally."
+    },
+    {
+        "character" : "LeBlanc",
+        "name" : "Mirror Image",
+        "description": "Gain a LeBlanc. Combat Start: Your strongest LeBlanc creates a 60% Health, itemless clone of her nearest ally."
+    },
+    {
+        "character" : "Nilah",
+        "name" : "Jubilant Veil",
+        "description": "Gain a Nilah. Combat Start: She and her 2 nearest allies gain immunity to crowd control for 20 seconds."
+    },
+    {
+        "character" : "Rammus",
+        "name" : "Armored-dillo",
+        "description": "Gain a Rammus. When you field him, your team gains 40 Armor, doubled for himself."
+    },
+    {
+        "character" : "Riven",
+        "name" : "Triumphant Return",
+        "description": "Gain a Riven. Combat Start: She grants herself and adjacent allies a shield for 10 seconds equal to 35% of their maximum Health."
+    },
+    {
+        "character" : "Senna",
+        "name" : "Corps Formation",
+        "description": "Gain a Senna. Combat Start: She grants herself and adjacent allies 30% Attack Damage."
+    },
+    {
+        "character" : "Sona",
+        "name" : "Undercurrent",
+        "description": "Gain a Sona. Combat Start: Your strongest Sona grants her 2 nearest allies 50 Mana."
+    },
+    {
+        "character" : "Vayne",
+        "name" : "Into The Night",
+        "description": "Gain an Edge of Night and a Vayne. When you field her, allies equipped with Edge of Night gain 40% Attack Speed."
+    },
+    {
+        "character" : "Vel'Koz",
+        "name" : "Frozen Tundra",
+        "description": "Gain a Vel'Koz. Combat Start: He slows the Attack Speed of all enemies by 30% for 6 seconds."
+    },
+    {
+        "character" : "Zoe",
+        "name" : "Sleepy Time",
+        "description": "Gain a Zoe. Combat Start: She puts the 3 lowest Health enemies to sleep, stunning them for 4 seconds"
+    },
+    {
+        "character" : "Aurelion Sol",
+        "name" : "Impact Velocity",
+        "description": "Gain an Aurelion Sol. His Ability stuns enemies hit for 1.5 seconds."
+    },
+    {
+        "character" : "Bel'Veth",
+        "name" : "Voidmother",
+        "description": "Gain a Bel'Veth. Combat Start: Your strongest Bel'Veth creates 2 Voidspawns with 75% of their normal Health in front of her"
+    },
+    {
+        "character" : "Ekko",
+        "name" : "Chronobreak",
+        "description": "Gain an Ekko. When you field him, he stuns all enemies for 2 seconds after 10 seconds of combat."
+    },
+    {
+        "character" : "Miss Fortune",
+        "name" : "Make It Rain",
+        "description": "Gain a Miss Fortune. After every 3 player combats fielded, she grants 15 gold."
+    },
+    {
+        "character" : "Samira",
+        "name" : "Daredevil",
+        "description": "Gain a Samira. For every 10 Tactician Health missing, she grants your team 5% Attack Speed."
+    },
+    {
+        "character" : "Sejuani",
+        "name" : "Shatter",
+        "description": "Gain a Sejuani. Her Ability stuns for 0.5 seconds longer and enemies take 20% more damage while stunned."
+    },
+    {
+        "character" : "Sett",
+        "name" : "Shatter",
+        "description": "Gain a Sejuani. Her Ability stuns for 0.5 seconds longer and enemies take 20% more damage while stunned."
+    },
+    {
+        "character" : "Sett",
+        "name" : "Regenerative Shields",
+        "description": "Gain a Locket of the Iron Solari and a Sett. Briefly after the shields of his team break, he recharges them at 40% strength for 3 seconds."
+    },
+    {
+        "character" : "Soraka",
+        "name" : "Infuse",
+        "description": "Gain a Soraka. When you field her, your team restores 15 Mana every 5 seconds."
+    },
+    {
+        "character" : "Taliyah",
+        "name" : "Be the Stone",
+        "description": "Gain a Taliyah. Combat Start: She shields the 3 highest Health allies for 50% of their maximum Health."
+    },
+    {
+        "character" : "Viego",
+        "name" : "Partners in Crime",
+        "description": "Gain a Viego. When you field him, your team gains 15% Omnivamp, tripled when 2 or less allies remain."
+    },
+    {
+        "character" : "Zac",
+        "name" : "Elastic Slingshot",
+        "description": "Gain a Zac. Combat Start: He flings his 2 nearest allies to the enemy backline, knocking up enemies upon impact for 3 seconds."
+    },
+    {
+        "character" : "Zed",
+        "name" : "Contempt for the Weak",
+        "description": "Gain a Zed. When you field him, your team gains 12% Attack Speed. Upon scoring a takedown on their target, they dash to a new one and triple this bonus for 2.5 seconds."
+    },
+    {
+        "character" : "Aphelios",
+        "name" : "Locked and Loaded",
+        "description": "Gain an Aphelios. When you field him, your team gains 15% Attack Damage and an additional 10% every 5 seconds."
+    },
+    {
+        "character" : "Fiddlesticks",
+        "name" : "Absolute Corruption",
+        "description": "Gain a Fiddlesticks. Combat Start: Fiddlesticks grants its nearest ally 30 Ability Power and allows them to share its Corrupted souls."
+    },
+    {
+        "character" : "Janna",
+        "name" : "Exaggerated Reporting",
+        "description": "Gain a Janna. Forecaster's effects are increased by 100%."
+    },
+    {
+        "character" : "Leona",
+        "name" : "Eclipse Prime",
+        "description": "Gain a Leona. When you field her, your team reduces all incoming damage by 25."
+    },
+    {
+        "character" : "Mordekaiser",
+        "name" : "Obliterate",
+        "description": "Gain a Mordekaiser. Combat Start: He reduces enemy Armor and Magic Resist by 20%."
+    },
+    {
+        "character" : "Nunu & Willump",
+        "name" : "Contagious Laughter",
+        "description": "Gain a Nunu. When you field him, your team gains 10 Ability Power and an additional 10 every 5 seconds."
+    },
+    {
+        "character" : "Syndra",
+        "name" : "Empowered Reserves",
+        "description": "Gain a Syndra. When you field her, your team gains 5 Ability Power per unit on your bench."
+    },
+    {
+        "character" : "Undertow",
+        "name" : "Rising Tide",
+        "description": "Gain an Urgot. Combat Start: He grants himself and adjacent allies 15 Ability Power and 15% Attack Speed."
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "Name": "Vel'koz",
+    "Cost": 3,
+    "Health": "750 / 1350 / 2430",
+    "Damage": "50 / 75 / 113",
+    "Mana": "0/80",
+    "Attack_Speed": 0.60,
+    "Armor": 30,
+    "Magic_Resist": 30,
+    "Range": 4,
+    "AbilityName": "Frozen Tomb",
+    "AbilityDescription": "Vel'koz freezes the enemy champion that has dealt the most damage this round for a few seconds, dealing magic damage.\n\nDamage : 280 / 400 / 620\nStun Duration : 1.5 / 2 / 2.5",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "Threat",
+        "Champions": ["Cho'Gath", "Rammus", "Zac", "Aurelion Sol", "BelVeth", "FiddleSticks", "Urgot"]
+      }
+    ]
+}

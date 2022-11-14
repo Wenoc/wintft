@@ -1,0 +1,23 @@
+{
+    "Name": "Sylas",
+    "Cost": 1,
+    "Health": "650 / 1170 / 2106",
+    "Damage": "50 / 75 / 113",
+    "Mana": "30/80",
+    "Attack_Speed": 0.6,
+    "Armor": 40,
+    "Magic_Resist": 40,
+    "Range": 1,
+    "AbilityName": "Battle Blast",
+    "AbilityDescription": "Sylas whirls his chains around him, healing himself for health and dealing magic damage to nearby enemies.\n\nDamage : 150 / 225 / 350\nHeal : 160 / 180 / 210",
+    "Traits": [
+        {
+            "Name": "Anima Squad",
+            "Champions": ["Nasus", "Jinx", "Riven", "Riven", "BelVeth", "MissFortune"]
+        },
+        {
+            "Name": "Renegade",
+            "Champions": ["Talon", "Camille", "Viego", "Leona"]
+        }
+    ]
+}

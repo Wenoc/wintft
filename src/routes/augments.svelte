@@ -8,6 +8,7 @@
 </script>
 
 <script>
+  import { onMount } from "svelte";
   import Header from "../components/Header.svelte";
   import Augment from "../components/Augment.svelte";
   import PageLayout from "../components/PageLayout.svelte";
@@ -55,6 +56,46 @@
     else if (tTier == "C") return "feff7f";
     else if (tTier == "D") return "bffe7f";
   }
+
+  function carryClicked() {
+    document.querySelector(".carry").style.background = "#22242f";
+    document.querySelector(".support").style.background = "#2d2f3a";
+    document.querySelector(".silver").style.background = "#2d2f3a";
+    document.querySelector(".gold").style.background = "#2d2f3a";
+    document.querySelector(".prismatic").style.background = "#2d2f3a";
+  }
+
+  function supportClicked() {
+    document.querySelector(".support").style.background = "#22242f";
+    document.querySelector(".carry").style.background = "#2d2f3a";
+    document.querySelector(".silver").style.background = "#2d2f3a";
+    document.querySelector(".gold").style.background = "#2d2f3a";
+    document.querySelector(".prismatic").style.background = "#2d2f3a";
+  }
+
+  function silverClicked() {
+    document.querySelector(".silver").style.background = "#22242f";
+    document.querySelector(".gold").style.background = "#2d2f3a";
+    document.querySelector(".prismatic").style.background = "#2d2f3a";
+    document.querySelector(".carry").style.background = "#2d2f3a";
+    document.querySelector(".support").style.background = "#2d2f3a";
+  }
+
+  function goldClicked() {
+    document.querySelector(".gold").style.background = "#22242f";
+    document.querySelector(".silver").style.background = "#2d2f3a";
+    document.querySelector(".prismatic").style.background = "#2d2f3a";
+    document.querySelector(".carry").style.background = "#2d2f3a";
+    document.querySelector(".support").style.background = "#2d2f3a";
+  }
+
+  function prismaticClicked() {
+    document.querySelector(".prismatic").style.background = "#22242f";
+    document.querySelector(".gold").style.background = "#2d2f3a";
+    document.querySelector(".silver").style.background = "#2d2f3a";
+    document.querySelector(".carry").style.background = "#2d2f3a";
+    document.querySelector(".support").style.background = "#2d2f3a";
+  }
 </script>
 
 <svelte:head>
@@ -96,16 +137,34 @@
               />
             </div>
           </div>
+          <div class="rightContainer">
+            <div class="heroAugments">
+              <div class="carry" on:click={carryClicked}>
+                <p>Carry</p>
+              </div>
+              <div class="support" on:click={supportClicked}>
+                <p>Support</p>
+              </div>
+            </div>
+            <div class="generalAugments">
+              <div class="silver" on:click={silverClicked}>
+                <p>Silver</p>
+              </div>
+              <div class="gold" on:click={goldClicked}>
+                <p>Gold</p>
+              </div>
+              <div class="prismatic" on:click={prismaticClicked}>
+                <p>Prismatic</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
           <div class="augmentHead" style="text-align:center">
             <div style="width: 30%;">
               <p>Augment</p>
             </div>
-            <div style="width: 10%;">
-              <p>Tier</p>
-            </div>
-            <div style="width: 60%;">
+            <div style="width: 70%;">
               <p>Description</p>
             </div>
           </div>
@@ -113,10 +172,8 @@
             <Augment
               name={augment.name}
               Description={augment.description}
-              tier={augment.tier}
               src={augment.src}
               isSecond={isSecond()}
-              color={findColor(augment.tier)}
             />
           {/each}
         </div>
@@ -132,6 +189,59 @@
 </PageLayout>
 
 <style>
+  .rightContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  .heroAugments {
+    display: flex;
+    align-items: center;
+  }
+
+  .heroAugments div {
+    background-color: #2d2f3a;
+    border: 1px solid #5e5d5d;
+    height: 38px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .heroAugments div:nth-child(1) {
+    border-right: 0;
+  }
+
+  .generalAugments {
+    display: flex;
+    align-items: center;
+  }
+
+  .generalAugments div {
+    background-color: #2d2f3a;
+    border: 1px solid #5e5d5d;
+    height: 38px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .generalAugments div:nth-child(1) {
+    border-right: 0;
+  }
+
+  .generalAugments div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .heroAugments p {
+    font-weight: 400;
+  }
+
   .searchContainer {
     display: flex;
     justify-content: space-between;
@@ -140,7 +250,7 @@
 
   .augmentHead {
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 18px;
     display: flex;
     background-color: #22242f;
@@ -153,6 +263,7 @@
 
   p {
     margin: 0;
+    color: white;
   }
   .searchBox div input {
     outline: none;
@@ -193,6 +304,12 @@
   }
 
   @media (max-width: 1100px) {
+    .searchContainer {
+      flex-direction: column-reverse;
+      justify-content: start;
+      gap: 10px;
+      align-items: flex-start;
+    }
     .augmentContainer {
       width: 600px;
     }
@@ -215,6 +332,9 @@
   }
 
   @media (max-width: 700px) {
+    .rightContainer {
+      flex-direction: column;
+    }
     .augmentHead div:nth-child(3) {
       display: none;
     }

@@ -1,0 +1,24 @@
+{
+    "Name": "Yasuo",
+    "Cost": 2,
+    "Health": "750 / 1350 / 2430",
+    "Damage": "50 / 75 / 113",
+    "Mana": "20/100",
+    "Attack_Speed": 0.7,
+    "Armor": 40,
+    "Magic_Resist": 40,
+    "Range": 1,
+    "AbilityName": "Steel Tempest",
+    "AbilityDescription": "Yasuo fires a whirlwind at his target dealing magic damage and knocking up units hit for a few seconds. If the current position isn't the best, he will dash up to one hex to find a the most units in a line.\n\nMagic Damage : 225 / 325 / 500\n\nDuration : 1.25 / 1.5 / 1.75",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "LaserCorps",
+        "Champions": ["Ashe", "Renekton", "Senna", "Sejuani", "Zed", "Ekko", "Mordekaiser"]
+      },
+      {
+        "Name": "Duelist",
+        "Champions": ["Gangplank", "Kayle", "Fiora", "Nilah", "Vayne", "Zed"]
+      }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "Name": "Viego",
+    "Cost": 4,
+    "Health": "1050 / 1890 / 3402",
+    "Damage": "60 / 90 / 135",
+    "Mana": "0/75",
+    "Attack_Speed": 0.75,
+    "Armor": 50,
+    "Magic_Resist": 50,
+    "Range": 1,
+    "AbilityName": "Heartbreaker",
+    "AbilityDescription": "Viego becomes unstoppable, leaping to the largest cluster of nearby enemies and slamming his sword down on the enemy with the lowest health, dealing magic damage to the primary target and magic damage to enemies nearby. If Viego kills an enemy, he casts again with reduced damage.\n\nDamage : 300 / 400 / 900\nAOE Damage : 150 / 225 / 450\nFalloff Percent : 25% / 20% / 1%",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "Ox Force",
+        "Champions": ["Talon", "Annie", "Fiora", "Alistar", "Aphelios"]
+      },
+      {
+        "Name": "Renegade",
+        "Champions": ["Sylas", "Talon", "Camille", "Leona"]
+      }
+    ]
+}

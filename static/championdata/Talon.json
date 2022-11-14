@@ -1,0 +1,23 @@
+{
+    "Name": "Talon",
+    "Cost": 1,
+    "Health": "550 / 990 / 1782",
+    "Damage": "55 / 83 / 124",
+    "Mana": "0/70",
+    "Attack_Speed": 0.65,
+    "Armor": 25,
+    "Magic_Resist": 25,
+    "Range": 1,
+    "AbilityName": "OX-ian Diplomacy",
+    "AbilityDescription": "Talon jumps to the furthest unit from the center of the board and stabs them magic damage. If this kills them, Talon heals.\n\nDamage : 220 / 330 / 500\nHeal : 150 / 200 / 250",
+    "Traits": [
+        {
+            "Name": "Ox Force",
+            "Champions": ["Annie", "Fiora", "Alistar", "Viego", "Aphelios"]
+        },
+        {
+            "Name": "Renegade",
+            "Champions": ["Sylas", "Camille", "Viego", "Leona"]
+        }
+    ]
+}

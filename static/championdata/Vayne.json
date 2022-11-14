@@ -1,0 +1,27 @@
+{
+    "Name": "Vayne",
+    "Cost": 3,
+    "Health": "850 / 1530 / 2754",
+    "Damage": "50 / 75 / 113",
+    "Mana": "0/40",
+    "Attack_Speed": 0.75,
+    "Armor": 25,
+    "Magic_Resist": 25,
+    "Range": 4,
+    "AbilityName": "Silver Bolt",
+    "AbilityDescription": "Vayne fires a heavy bolt at her target, dealing true damage.\n\nPercent of Attack Damage : 120% / 120% / 130%\nBonus Physical Damage : 20 / 30 /45", "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "Anima Squad",
+        "Champions": ["Nasus", "Sylas", "Jinx", "Riven", "BelVeth", "MissFortune"]
+      },
+      {
+        "Name": "Duelist",
+        "Champions": ["Gangplank", "Kayle", "Fiora", "Yasuo", "Nilah", "Zed"]
+      },
+      {
+        "Name": "Recon",
+        "Champions": ["Ashe", "Ezreal", "KaiSa"]
+      }
+    ]
+}

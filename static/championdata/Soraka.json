@@ -1,0 +1,23 @@
+{
+    "Name": "Soraka",
+    "Cost": 4,
+    "Health": "1000 / 1800 / 3240",
+    "Damage": "50 / 75 / 113",
+    "Mana": "0/200",
+    "Attack_Speed": 0.65,
+    "Armor": 30,
+    "Magic_Resist": 30,
+    "Range": 4,
+    "AbilityName": "Starcall",
+    "AbilityDescription": "Soraka launches a star at her target. Each star deals magic damage and heals Soraka for 10% of her max health. Every 3 casts, she launches stars at the nearest enemies instead.\n\nDamage : 280 / 420 / 650\nEmpowered Stars : 3 / 3 / 6",
+    "Traits": [
+        {
+            "Name": "A.D.M.I.N.",
+            "Champions": ["Nasus", "Camille", "LeBlanc"]
+        },
+        {
+            "Name": "Heart",
+            "Champions": ["Lulu", "LeeSin", "Yummi", "Sona", "Syndra"]
+        }
+    ]
+}

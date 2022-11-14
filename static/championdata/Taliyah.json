@@ -1,0 +1,23 @@
+{
+    "Name": "Taliyah",
+    "Cost": 4,
+    "Health": "700 / 1260 / 2268",
+    "Damage": "45 / 68 / 101",
+    "Mana": "0/90",
+    "Attack_Speed": 0.75,
+    "Armor": 30,
+    "Magic_Resist": 30,
+    "Range": 4,
+    "AbilityName": "Weaver's Wall",
+    "AbilityDescription": "Taliyah summon a torrent of spiraling rocks in a line of enemy units, dealing magic damage to all enemies it hits. After a brief delay, the wall explodes, dealing additional magic damage to nearby enemies.\n\nDamage : 65 / 100 / 250\nExplosion Damage : 220 / 330 / 800",
+     "Traits": [
+        {
+            "Name": "Star Guardian",
+            "Champions": ["Lux", "Rell", "Yuumi", "KaiSa", "Nilah", "Ekko", "Syndra"]
+        },
+        {
+            "Name": "Spellslinger",
+            "Champions": ["Lux", "Annie", "LeBlanc", "Sona"]
+        }
+    ]
+}

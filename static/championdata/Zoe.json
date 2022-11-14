@@ -1,0 +1,28 @@
+{
+    "Name": "Zoe",
+    "Cost": 3,
+    "Health": "850 / 1530 / 2754",
+    "Damage": "40 / 60 / 90",
+    "Mana": "0/40",
+    "Attack_Speed": 0.7,
+    "Armor": 20,
+    "Magic_Resist": 20,
+    "Range": 4,
+    "AbilityName": "Safeguard",
+    "AbilityDescription": "Zoe launches a bubble at the nearest non-infected enemy's location, infecting all enemies hit with a virus that deals magic damage over 10 seconds. Infected enemies take more damage.\n\nDamage : 500 / 750 / 1337\n\nPercent Bonus Damage : 10% / 10% / 20%",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "Gadgeteen",
+        "Champions": ["Lulu", "Poppy", "Annie", "Nunu"]
+      },
+      {
+        "Name": "Hacker",
+        "Champions": ["LeBlanc", "Zed"]
+      },
+      {
+        "Name": "Prankster",
+        "Champions": ["Jinx", "Ekko"]
+      }
+    ]
+}

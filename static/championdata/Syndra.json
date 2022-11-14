@@ -1,0 +1,22 @@
+{
+    "Name": "Syndra",
+    "Cost": 5,
+    "Health": "850 / 1530 / 2754",
+    "Damage": "50 / 75 / 113",
+    "Mana": "100/175",
+    "Attack_Speed": 0.8,
+    "Armor": 40,
+    "Magic_Resist": 40,
+    "Range": 3,
+    "AbilityName": "Force of Will",
+    "AbilityDescription": "Syndra enshrounds a random unit on your bench in an orb, granting them a health shield and fllinging them onto the board towards the closest enemy, knocking up and dealing magic damage to any enemies hit. Traits are unaffected except Corrupted.\n\nShield Amount : 30 / 300 / 3000\nStun Duration : 1 / 1 / 8\nDamage : 50 / 250 / 2000",     "Traits": [
+        {
+            "Name": "Star Guardian",
+            "Champions": ["Lux", "Rell", "Yuumi", "KaiSa", "Nilah", "Ekko", "Taliyah"]
+        },
+        {
+            "Name": "Heart",
+            "Champions": ["Lulu", "LeeSin", "Yuumi", "Sona", "Sona", "Soraka"]
+        }
+    ]
+}

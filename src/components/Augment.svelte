@@ -1,11 +1,8 @@
 <script>
   export let isSecond = false;
   export let name = "";
-  export let tier = "";
   export let Description = "";
   export let src = "";
-
-  export let color;
 </script>
 
 <div class="augment" class:second={isSecond}>
@@ -15,7 +12,7 @@
         <div
           style="display: flex; justify-content: start; align-items: center; min-height: 73px;"
         >
-          <div style="width: 60px; padding-top: 6px;">
+          <div class="augImg">
             <img
               src="/augments/{src}.png"
               alt={name}
@@ -30,13 +27,6 @@
         </div>
       </div>
     </div>
-    <div class="section tierSec">
-      <div style="display: flex; justify-content: center;">
-        <div class="SLetter" style="margin: 6px 0; background-color: #{color};">
-          <p style="border: 0; margin:0; padding:0;">{tier}</p>
-        </div>
-      </div>
-    </div>
     <div class="section descriptionx">
       <div style="padding-left: 10px;">
         <p class="description">{Description}</p>
@@ -46,25 +36,18 @@
 </div>
 
 <style>
+  .augImg {
+    width: 60px;
+    padding-top: 6px;
+  }
+
   .nameSec {
     width: 30%;
     text-align: left;
   }
 
-  .SLetter {
-    height: 32px;
-    width: 32px;
-    background-color: #f05867;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    font-weight: 600;
-    color: black;
-  }
   .descriptionx {
-    width: 60%;
+    width: 70%;
     text-align: left;
   }
   .container {
@@ -114,11 +97,6 @@
     font-size: 14px;
   }
 
-  .tierSec {
-    width: 10%;
-    justify-content: center !important;
-  }
-
   @media (max-width: 1100px) {
     .descriptionx {
       display: none;
@@ -128,6 +106,19 @@
     }
     .nameSec {
       width: 70%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    p {
+      font-size: 14px;
+    }
+    .augImg {
+      width: 50px;
+    }
+
+    .nameSec {
+      width: 90%;
     }
   }
 </style>

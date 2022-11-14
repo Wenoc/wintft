@@ -1,0 +1,28 @@
+{
+    "Name": "Zed",
+    "Cost": 4,
+    "Health": "1150 / 2070 / 3726",
+    "Damage": "90 / 135 / 203",
+    "Mana": "0/40",
+    "Attack_Speed": 0.85,
+    "Armor": 50,
+    "Magic_Resist": 50,
+    "Range": 1,
+    "AbilityName": "Empowered Kill Mode",
+    "AbilityDescription": "Zed teleports behind his target and marks them for death, shredding armor for a few seconds. He then enters an Empowered Kill Mode for a few seconds. While active, Zed's attacks deal an additional bouns physical damage and every third attack damages all adjacent enemies, dealing physical damage to adjacent enemies. \n\nArmor Shred : 15 / 20 / 50\n\nBonus Damage : 30 / 45 / 120\n\nDuration : 6 / 6 / 15",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "LaserCorps",
+        "Champions": ["Ashe", "Renekton", "Yasuo", "Senna", "Sejuani", "Mordekaiser"]
+      },
+      {
+        "Name": "Hacker",
+        "Champions": ["LeBlanc", "Zoe"]
+      },
+      {
+        "Name": "Duelist",
+        "Champions": ["Gangplank", "Kayle", "Fiora", "Yasuo", "Nilah", "Vayne"]
+      }
+    ]
+}

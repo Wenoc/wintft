@@ -1,0 +1,28 @@
+{
+    "Name": "Vi",
+    "Cost": 2,
+    "Health": "700 / 1260 / 2268",
+    "Damage": "60 / 90 / 135",
+    "Mana": "0/80",
+    "Attack_Speed": 0.6,
+    "Armor": 45,
+    "Magic_Resist": 45,
+    "Range": 1,
+    "AbilityName": "Blast Shield",
+    "AbilityDescription": "Vi slams the ground in front of her and releases her stored energy, granting herself a health shield for 4 seconds, reducing the Armor of nearby enemies for 4 seconds and dealing physical damage.\n\nShield Amount : 325 / 400 / 500\nArmor Reduction % : 40% / 50% / 70%",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "Underground",
+        "Champions": ["Kayle", "Ezreal", "Sona", "Samira"]
+      },
+      {
+        "Name": "Aegis",
+        "Champions": ["Alistar", "Ekko", "Leona"]
+      },
+      {
+        "Name": "Brawler",
+        "Champions": ["Blitzcrank", "Renekton", "Jax", "Riven", "Sejuani"]
+      }
+    ]
+}
