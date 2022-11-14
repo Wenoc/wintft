@@ -1,0 +1,30 @@
+{
+  "Name": "Alistar",
+  "Picture": "Alistar",
+  "Cost": "3",
+  "Health": "800 / 1440 / 2592",
+  "Damage": "50 / 75 / 113",
+  "Mana": "75 / 150",
+  "Attack_Speed": 0.55,
+  "Armor": 50,
+  "Magic_Resist": 50,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Pulverize",
+  "AbilityDescription": "Alistar slams the ground underneath his target, dealing magic damage and knocking them up for 1.5 seconds. He then roars, healing himself and the lowest health ally champion for 15% of his maximum health.\n\nDamage : 200 / 300 / 525",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Ox Force",
+      "Champions": ["Talon", "Annie", "Fiora", "Viego", "Aphelios"]
+    },
+    {
+      "Name": "Aegis",
+      "Champions": ["Vi", "Ekko", "Leona"]
+    },
+    {
+      "Name": "Mascot",
+      "Champions": ["Galio", "Nasus", "Yummi", "Nunu"]
+    }
+  ]
+}

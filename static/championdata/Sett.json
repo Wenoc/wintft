@@ -1,0 +1,26 @@
+{
+  "Name": "Sett",
+  "Picture": "Sett",
+  "Cost": 4,
+  "Health": "900 / 1620 / 2916",
+  "Damage": "100 / 150 / 225",
+  "Mana": "30 / 100",
+  "Attack_Speed": 0.65,
+  "Armor": 60,
+  "Magic_Resist": 60,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Mecha SLAM!",
+  "AbilityDescription": "Sett begins charging up, becoming immune to crowd control and gaining a health shield for 2.5 seconds. After the shield breaks or at the end of its duration, he unleashes a blast in a cone at the most enemies in range, dealing physical damage to all enemies inside. The damage increases up depending on how long he charged.\n\nShield Health : 400 / 550 / 1500\n\nMin Attack Damage : 120% / 125% / 200%\n\nMax Attack Damage : 240% / 250% / 400%",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Mecha: PRIME",
+      "Champions": ["Wukong", "Draven", "Jax", "Leona"]
+    },
+    {
+      "Name": "Defender",
+      "Champions": ["Poppy", "Wukong", "Rell", "Riven"]
+    }
+  ]
+}

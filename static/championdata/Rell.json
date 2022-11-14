@@ -1,0 +1,26 @@
+{
+  "Name": "Rell",
+  "Picture": "Rell",
+  "Cost": 2,
+  "Health": "750 / 1350 / 2430",
+  "Damage": "60 / 90 / 135",
+  "Mana": "75 / 175",
+  "Attack_Speed": 0.5,
+  "Armor": 50,
+  "Magic_Resist": 50,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Iron Bond",
+  "AbilityDescription": "Rell forms a tether between herself and her lowest percent health ally, dealing magic damage to all enemies between herself and her bound ally. She also grants herself and her bound ally % of Rell's current Armor and Magic Resist for 4 seconds.\n\n% Armor and Magic Resisit : 40 / 50 / 60\n\nDamage : 150 / 225 / 375",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Star Guardian",
+      "Champions": ["Lux", "Yuumi", "KaiSa", "Nilah", "Ekko", "Taliyah", "Syndra"]
+    },
+    {
+      "Name": "Defender",
+      "Champions": ["Poppy", "Wukong", "Riven", "Sett"]
+    }
+  ]
+}

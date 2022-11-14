@@ -1,0 +1,26 @@
+{
+  "Name": "MissFortune",
+  "Picture": "MissFortune",
+  "Cost": 4,
+  "Health": "750 / 1350 / 2430",
+  "Damage": "60 / 90 / 135",
+  "Mana": "0 / 120",
+  "Attack_Speed": 0.7,
+  "Armor": 30,
+  "Magic_Resist": 30,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Bullet Time",
+  "AbilityDescription": "Miss Fortune channels for 2 seconds, firing 8 waves of bullets in a cone in her target's direction, with each wave dealing magic damage to the first target hit. Enemies hit by bullets in short succession take less magic damage for each bullet instead.\n\nDamage : 45 / 70 / 200\n\nReduce Damage : 25 / 35 / 80",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Anima Squad",
+      "Champions": ["Nasus", "Sylas", "Jinx", "Riven", "Vayne"]
+    },
+    {
+      "Name": "Ace",
+      "Champions": ["Draven", "Samira", "Mordekaiser"]
+    }
+  ]
+}

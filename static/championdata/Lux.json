@@ -1,0 +1,26 @@
+{
+  "Name": "Lux",
+  "Picture": "Lux",
+  "Cost": 1,
+  "Health": "500 / 900 / 1620",
+  "Damage": "40 / 60 / 90",
+  "Mana": "30 / 90",
+  "Attack_Speed": 0.65,
+  "Armor": 15,
+  "Magic_Resist": 15,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Lucent Singularity",
+  "AbilityDescription": "Lux sends a lucent singularity at a random enemy's location that detonates after arrival. dealing to nearby enemies and reducing the Attack Damage of the enemy in the center by 40% for 4 seconds\n\nDamage : 200 / 300 / 450",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Star Guardian",
+      "Champions": ["Rell", "Yuumi", "Kai'Sa", "Nilah", "Ekko", "Taliyah", "Syndra"]
+    },
+    {
+      "Name": "Spellslinger",
+      "Champions": ["Annie", "LeBlanc", "Sona", "Taliyah"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Name": "Mordekaiser",
+  "Picture": "Mordekaiser",
+  "Cost": 5,
+  "Health": "1100 / 1980 / 3564",
+  "Damage": "70 / 105 / 158",
+  "Mana": "50 / 150",
+  "Attack_Speed": 0.7,
+  "Armor": 70,
+  "Magic_Resist": 70,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Skylines",
+  "AbilityDescription": "Mordekaiser transports the board into his realm for a few seconds, shredding the Magic Resist of all enemies, before summoning a building behind him and slamming it onto the board, dealing magic damage to all enemies hit.\n\nDamage : 500 / 750 / 3000\n\nMagic Resist Shred : 50% / 50% / 70%\n\nRealm Duration : 4 / 4 / 6",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "LaserCorps",
+      "Champions": ["Ashe", "Renekton", "Yasuo", "Senna", "Zed"]
+    },
+    {
+      "Name": "Ace",
+      "Champions": ["Draven", "MissFortnue", "Samira"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Rammus",
+  "Picture": "Rammus",
+  "Cost": 3,
+  "Health": "950 / 1710 / 3078",
+  "Damage": "60 / 90 / 135",
+  "Mana": "60 / 120",
+  "Attack_Speed": 0.6,
+  "Armor": 105,
+  "Magic_Resist": 55,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Sand Slam",
+  "AbilityDescription": "Passive: Rammus has increased Armor.\n\nActive: Rammus powers himself up and leaps to the largest group of nearby enemies, dealing magic damage, knocking them up for 1.25 seconds, and reducing their Attack Damage by 40% for 4 seconds.\n\nArmor : 50 / 75 / 125\n\nArmor Ratio : 120% / 160% / 200%\n\nBonus Damage : 40 / 60 / 100",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Threat",
+      "Champions": ["ChoGath", "VelKoz", "AuerlionSol", "BelVeth", "Zac", "Fiddlestick", "Urgot"]
+    }
+  ]
+}

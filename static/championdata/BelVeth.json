@@ -1,0 +1,22 @@
+{
+  "Name": "BelVeth",
+  "Picture": "BelVeth",
+  "Cost": 4,
+  "Health": "1250 / 2250 / 4050",
+  "Damage": "90 / 135 / 203",
+  "Mana": "0 / 20",
+  "Attack_Speed": 0.9,
+  "Armor": 50,
+  "Magic_Resist": 50,
+  "Range": 2,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Endless Banquet",
+  "AbilityDescription": "Bel'Veth dashes around her target and unleashes a flurry of attacks, each dealing physical damage.\n\nEach time this is cast, Bel'Veth gains 25% bouns Attack Speed for the rest of combat.\n\nDamage : 25 / 40 / 160\n\nDefense Shred : 40% / 50% / 70%\n\nPercent of Attack Damage : 50% / 50% / 100%",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Threat",
+      "Champions": ["Cho'Gat", "Rammus", "Velkoz", "Aurelion Sol", "Zac", "Fiddlestick", "Urgot"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Name": "Ashe",
+  "Picture": "Ashe",
+  "Cost": 1,
+  "Health": "500 / 900 / 1620",
+  "Damage": "70 / 105 / 158",
+  "Mana": "0 / 80",
+  "Attack_Speed": 0.7,
+  "Armor": 15,
+  "Magic_Resist": 15,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Ranger's Focus",
+  "AbilityDescription": "Ashe increases her focus for the next 4 seconds. gaining 47 Attack Damage ( Attack Damage + )\n\nPercent Of Attack Damage : 45% / 50% / 55%\n\nDamage : 15 / 25 / 35",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "LaserCorps",
+      "Champions": ["Renekton", "Yasou", "Senna", "Sejuani", "Zed"]
+    },
+    {
+      "Name": "Recon",
+      "Champions": ["Ezreal", "Kai'Sa", "Vayne"]
+    }
+  ]
+}

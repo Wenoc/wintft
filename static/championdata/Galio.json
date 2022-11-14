@@ -1,0 +1,26 @@
+{
+  "Name": "Galio",
+  "Picture": "Galio",
+  "Cost": 2,
+  "Health": "650 / 1170 / 2106",
+  "Damage": "50 / 75 / 113",
+  "Mana": "0 / 80",
+  "Attack_Speed": 0.55,
+  "Armor": 40,
+  "Magic_Resist": 40,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Outta My Way!",
+  "AbilityDescription": "Galio steps back and dashes toward the nearest enemy, dealing magic damage. He then grant himself and the closest ally a health shield for 4 seconds.\n\nDamage : 160 / 240 / 360\n\nShield Amount : 200 / 250 / 325",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Civilian",
+      "Champions": ["Sivir", "Janna"]
+    },
+    {
+      "Name": "Mascot",
+      "Champions": ["Nasus", "Malphite", "Yummi", "Alistar", "Nunu"]
+    }
+  ]
+}

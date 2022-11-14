@@ -1,0 +1,26 @@
+{
+  "Name": "Blitzcrank",
+  "Picture": "Blitzcrank",
+  "Cost": 1,
+  "Health": "650 / 1170 / 2106",
+  "Damage": "50 / 75 / 113",
+  "Mana": "45 / 90",
+  "Attack_Speed": 0.5,
+  "Armor": 40,
+  "Magic_Resist": 40,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Static Defenses",
+  "AbilityDescription": "Blitzcrank creates an empowered field around himself, reducing all damage taken by for 4 seconds.\n\nDamage Reduction : 40% / 50% / 60%",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": " A.D.M.I.N.",
+      "Champions": ["Camille", "LeBlanc", "Soarak"]
+    },
+    {
+      "Name": "Brawler",
+      "Champions": ["Renekton", "Lee Sin", "Vi", "Jax", "Riven", "Sejuani"]
+    }
+  ]
+}

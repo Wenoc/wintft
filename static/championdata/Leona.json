@@ -1,0 +1,30 @@
+{
+  "Name": "Leona",
+  "Picture": "Leona",
+  "Cost": 5,
+  "Health": "1000 / 1800 / 3240",
+  "Damage": "75 / 113 / 169",
+  "Mana": "20 / 80",
+  "Attack_Speed": 0.8,
+  "Armor": 60,
+  "Magic_Resist": 60,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Deus Ex Machina",
+  "AbilityDescription": "Leona locks onto and calls an orbital laser strike onto her target.\n\nAfter a short delay a laser fires on the locked on target dealing true damage per second to the target and dealing magic damage to nearby enemies.\n\nMax Health Reduction Per Sec : 400 / 600 / 5000\n\nDamage : 70 / 100 / 2000",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Mecha: PRIME",
+      "Champions": ["Wukong", "Draven", "Jax", "Sett"]
+    },
+    {
+      "Name": "Aegis",
+      "Champions": ["Vi", "Alistar", "Ekko"]
+    },
+    {
+      "Name": "Renegade",
+      "Champions": ["Sylas", "Talon", "Camille", "Viego"]
+    }
+  ]
+}

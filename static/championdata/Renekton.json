@@ -1,0 +1,26 @@
+{
+  "Name": "Renekton",
+  "Picture": "Renekton",
+  "Cost": 1,
+  "Health": "650 / 1170 / 2106",
+  "Damage": "50 / 75 / 113",
+  "Mana": "0 / 50",
+  "Attack_Speed": 0.65,
+  "Armor": 40,
+  "Magic_Resist": 40,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Dominus",
+  "AbilityDescription": "Renekton empowers himself for 8 seconds, gaining maximun Health, and causing his attacks to deal 6% of his maximum Health as bonus magic damage.\n\nHealth Increase : 250 / 325 / 400",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "LaserCorps",
+      "Champions": ["Ashe", "Yasuo", "Senna", "Sejuani", "Zed", "Mordekaiser"]
+    },
+    {
+      "Name": "Brawler",
+      "Champions": ["Blitzcrank", "Lee Sin", "Vi", "Jax", "Riven", "Sejuani"]
+    }
+  ]
+}

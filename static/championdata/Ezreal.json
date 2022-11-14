@@ -1,0 +1,26 @@
+{
+  "Name": "Ezreal",
+  "Picture": "Ezreal",
+  "Cost": 2,
+  "Health": "550 / 990 / 1782",
+  "Damage": "45 / 68 / 101",
+  "Mana": "75 / 175",
+  "Attack_Speed": 0.7,
+  "Armor": 20,
+  "Magic_Resist": 20,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Sabotage",
+  "AbilityDescription": "Ezreal fires an orb of physical sabotage at his target, reducing their Attack Speed by for 4 seconds. Afterwards, he fires a shot at them dealing magic damage to them and nearby enemies.\n\nAttack Speed Reduction : 30 / 40 / 50\n\nDamage : 200 / 300 / 475",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Underground",
+      "Champions": ["Kayle", "Vi", "Sona", "Samira"]
+    },
+    {
+      "Name": "Recon",
+      "Champions": ["Ashe", "Kai'Sa", "Vayna"]
+    }
+  ]
+}

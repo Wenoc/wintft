@@ -1,0 +1,30 @@
+{
+  "Name": "Samira",
+  "Picture": "Samira",
+  "Cost": 4,
+  "Health": "950 / 1710 / 3078",
+  "Damage": "80 / 120 / 180",
+  "Mana": "30 / 100",
+  "Attack_Speed": 0.75,
+  "Armor": 30,
+  "Magic_Resist": 30,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Flair",
+  "AbilityDescription": "Samira knocks up and juggles her target for 1.5 seconds, rapidly firing bullets that deal a physical damage. The bullets ricochet to nearby enemies, dealing 50% reduced damage.\n\nPercent of Attack Damage : 500% / 525% / 1000%\n\nDamage : 100 / 130 / 666",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Underground",
+      "Champions": ["Kayle", "Ezreal", "Vi", "Sona"]
+    },
+    {
+      "Name": "Ace",
+      "Champions": ["Draven", "Miss Fortnue", "Mordekaiser"]
+    },
+    {
+      "Name": "Sureshot",
+      "Champions": ["Sivir", "Senna", "Aphelios"]
+    }
+  ]
+}

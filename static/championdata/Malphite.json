@@ -1,0 +1,26 @@
+{
+  "Name": "Malphite",
+  "Picture": "Malphite",
+  "Cost": 2,
+  "Health": "700 / 1260 / 2268",
+  "Damage": "60 / 90 / 135",
+  "Mana": "40 / 80",
+  "Attack_Speed": 0.5,
+  "Armor": 45,
+  "Magic_Resist": 45,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Ground Slam",
+  "AbilityDescription": "Malphite slams the ground beneath him, dealing magic damage to nearby enemies and granting himself armor for 4 seconds.\n\nDamage : 140 / 210 / 320\n\nArmor : 80 / 100 / 125",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Supers",
+      "Champions": ["Gangplank", "Lee Sin"]
+    },
+    {
+      "Name": "Mascot",
+      "Champions": ["Galio", "Nasus", "Yuumi", "Alistar"]
+    }
+  ]
+}

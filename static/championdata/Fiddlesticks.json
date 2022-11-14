@@ -1,0 +1,26 @@
+{
+  "Name": "Fiddlesticks",
+  "Picture": "Fiddlesticks",
+  "Cost": 5,
+  "Health": "1200 / 2160 / 3888",
+  "Damage": "50 / 75 / 113",
+  "Mana": "90 / 90",
+  "Attack_Speed": 0.75,
+  "Armor": 50,
+  "Magic_Resist": 50,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Dark Harvest",
+  "AbilityDescription": "Fiddlesticks teleports into the largest cluster of enemies and fears them. For the next a few seconds, Fiddle drains the life from nearby enemies dealing magic damage per second and healing himself for 20% of the damage dealt.\n\nFear Duration : 1 / 1 / 5\n\nMagic Damage : 120 / 180 / 2000\n\nSpell Duration : 5 / 5 / 30",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Threat",
+      "Champions": ["Cho'Gat", "Rammus", "Velkoz", "Aurelions Sol", "Zac", "Fiddlestick", "Urgot"]
+    },
+    {
+      "Name": "Corrupted",
+      "Champions": ["Fiddlestick"]
+    }
+  ]
+}

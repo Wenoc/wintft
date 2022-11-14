@@ -1,0 +1,26 @@
+{
+  "Name": "Jinx",
+  "Picture": "Jinx",
+  "Cost": 2,
+  "Health": "550 / 990 / 1782",
+  "Damage": "45 / 68 / 101",
+  "Mana": "25 / 75",
+  "Attack_Speed": 0.7,
+  "Armor": 20,
+  "Magic_Resist": 20,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Fishbones",
+  "AbilityDescription": "Jinx fires a rocket at her target that explodes on impact, damaging all nearby enemies for magic damage and stunning them for 1.5 seconds.\n\nDamage : 225 / 350 / 525",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Anima Squad",
+      "Champions": ["Nasus", "Sylas", "Riven", "Vayne"]
+    },
+    {
+      "Name": "Prankster",
+      "Champions": ["Zoe", "Ekko"]
+    }
+  ]
+}

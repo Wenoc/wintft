@@ -1,0 +1,22 @@
+{
+  "Name": "Aurelion Sol",
+  "Picture": "Aurelion Sol",
+  "Cost": 1,
+  "Health": "1100 / 1980 / 3564",
+  "Damage": "40 / 60 / 90",
+  "Mana": "0 / 90",
+  "Attack_Speed": 0.7,
+  "Armor": 30,
+  "Magic_Resist": 30,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Meteor Shower",
+  "AbilityDescription": "Aurelion Sol calls down meteors on random enemies that explode on impact. Each meteor deals magic damage and applies a burn for 10 seconds, dealing % of the target's maximum Health as true damage and reducing incoming healing by 25%.\n\nMeteors : 3 / 3 / 6\n\nDamage : 210 / 320 / 450\n\n% Health as Damage : 10 / 10 / 10",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Threat",
+      "Champions": ["Cho'Gat", "Rammus", "Velkoz", "BelVeth", "Zac", "Fiddlestick", "Urgot"]
+    }
+  ]
+}

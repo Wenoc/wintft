@@ -1,0 +1,30 @@
+{
+  "Name": "Aphelios",
+  "Picture": "Aphelios",
+  "Cost": 5,
+  "Health": "800 / 1440 / 2592",
+  "Damage": "90 / 135 / 203",
+  "Mana": "40 / 120",
+  "Attack_Speed": 0.9,
+  "Armor": 30,
+  "Magic_Resist": 30,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Change Weapons",
+  "AbilityDescription": "Player select a weapon when place Aphelios on board.\n\nBinding Eclipse\n\nAphelios casts forth a lunar spotlight towards the largest group of units, dealing physical damage and stunning all enemies in the area.\n\nDuskwave\n\nAphelios unleashes a wave of energy in a cone in his target's direction, dealing magic damage to all units hit and locking on to them. After a delay, Aplhelios fires a volley of attacks at each locked-on target, dealing physical damage.\n\nOnslaught\n\nAphelion enters an onslaught for 1.75 seconds, automatically performing 6 attacks over the duration at the nearest 2 enemies, dealing physical damage to each enemy.\n\nBinding Eclipse Base Damage : 75 / 110 / 2000\n\nBinding Eclipse Stun Duration : 1.5 / 2 / 15\n\nDuskwave Percent of Attack Damage : 250% / 250% / 800%\n\nDuskwave Magic Damage : 75 / 110 / 600\n\nDuskwave Num Bullets : 7 / 7 / 15\n\nOnslaught Base Damage : 75 / 110 / 2000",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Arsenal",
+      "Champions": [""]
+    },
+    {
+      "Name": "Ox Force",
+      "Champions": ["Talon", "Annie", "Fiora", "Alistar", "Viego"]
+    },
+    {
+      "Name": "Sureshot",
+      "Champions": ["Sivir", "Senna", "Samira"]
+    }
+  ]
+}

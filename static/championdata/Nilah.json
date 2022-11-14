@@ -1,0 +1,26 @@
+{
+  "Name": "Nilah",
+  "Picture": "Nilah",
+  "Cost": 3,
+  "Health": "800 / 1440 / 2592",
+  "Damage": "50 / 75 / 113",
+  "Mana": "50 / 150",
+  "Attack_Speed": 0.7,
+  "Armor": 40,
+  "Magic_Resist": 40,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Apotheosis",
+  "AbilityDescription": "Nilah whirls her whip-blade. dealing magic damage to nearby enemies while healing herself and allies health over 1 seconds. She finishes with a burst that deals magic damage.\n\nHeal : 200 / 250 / 325\n\nDamage : 100 / 150 / 250",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Star Guardian",
+      "Champions": ["Lux", "Rell", "Yummi", "Ekko", "Taliyah", "Syndra"]
+    },
+    {
+      "Name": "Duelist",
+      "Champions": ["Gangplank", "Kayle", "Yasuo", "Vayne", "Zed"]
+    }
+  ]
+}

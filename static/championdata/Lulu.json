@@ -1,0 +1,26 @@
+{
+  "Name": "Lulu",
+  "Picture": "Lulu",
+  "Cost": 1,
+  "Health": "500 / 900 / 1620",
+  "Damage": "30 / 45 / 68",
+  "Mana": "20 / 80",
+  "Attack_Speed": 0.7,
+  "Armor": 15,
+  "Magic_Resist": 15,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Glitterlance",
+  "AbilityDescription": "Lulu fires a bolt of magic energy at her target, dealing magic damage to the first enemy and to subsequent enemies.\n\nDamage : 240 / 360 / 540\n\nSecondary Damage : 120 / 180 / 270",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Gadgeteen",
+      "Champions": ["Poppy", "Annie", "Zoe", "Nunu"]
+    },
+    {
+      "Name": "Heart",
+      "Champions": ["Lee Sin", "Yuumi", "Sona", "Soraka", "Syndra"]
+    }
+  ]
+}

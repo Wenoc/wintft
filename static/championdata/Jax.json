@@ -1,0 +1,26 @@
+{
+  "Name": "Jax",
+  "Picture": "Jax",
+  "Cost": 3,
+  "Health": "800 / 1440 / 2592",
+  "Damage": "70 / 105 / 158",
+  "Mana": "0 / 0",
+  "Attack_Speed": 0.9,
+  "Armor": 50,
+  "Magic_Resist": 50,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Adaptive Strike",
+  "AbilityDescription": "Passive: Every third attack, Jax leaps to his target and deals bonus magic damage. The bonus damage increases every third attack up to 10 times.\n\nBase Damage : 120 / 180 / 300\n\nStacking Damage : 50 / 70 / 130",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Mecha: PRIME",
+      "Champions": ["Wukong", "Draven", "Sett", "Leona"]
+    },
+    {
+      "Name": "Brawler",
+      "Champions": ["Blitzcrank", "Renekton", "Lee Sin", "Vi", "Riven", "Sejuani"]
+    }
+  ]
+}

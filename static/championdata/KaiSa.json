@@ -1,0 +1,26 @@
+{
+  "Name": "Kai'Sa",
+  "Picture": "Kai'Sa",
+  "Cost": 3,
+  "Health": "650 / 1170 / 2106",
+  "Damage": "40 / 60 / 90",
+  "Mana": "0 / 60",
+  "Attack_Speed": 0.8,
+  "Armor": 25,
+  "Magic_Resist": 25,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Starcharged",
+  "AbilityDescription": "Passive: Kai'Sa's attacks apply Plasma. Her next attack against a target with 2 stacks of Plasma deal magic damage.\n\nActive: Kai'Sa gains 40% Attack Speed for 6 seconds. This Attack Speed bonus can stack.\n\nAttack Speed % : 40% / 50% / 65%\n\nDamage : 150 / 225 / 350",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Star Guardian",
+      "Champions": ["Lux", "Rell", "Yuumi", "Nilah", "Ekko", "Taliyah", "Syndra"]
+    },
+    {
+      "Name": "Recon",
+      "Champions": ["Ashe", "Ezreal", "Vayne"]
+    }
+  ]
+}

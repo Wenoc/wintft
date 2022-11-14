@@ -1,0 +1,26 @@
+{
+  "Name": "Gangplank",
+  "Picture": "Gangplank",
+  "Cost": 1,
+  "Health": "800 / 1440 / 2592",
+  "Damage": "50 / 75 / 113",
+  "Mana": "0 / 80",
+  "Attack_Speed": 0.65,
+  "Armor": 30,
+  "Magic_Resist": 30,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Trial by Fire",
+  "AbilityDescription": "Gangplank removes all crowd control from himself and fires a flaming bullet at his target. dealing magic damage and reducing healing by 30% for 8 seconds.\n\nDamage : 240 / 360 / 540",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Supers",
+      "Champions": ["Lee Sin", "Malphite"]
+    },
+    {
+      "Name": "Mascot",
+      "Champions": ["Kayle", "Fiora", "Yassuo", "Vayne", "Zed"]
+    }
+  ]
+}

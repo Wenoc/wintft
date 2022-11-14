@@ -16,11 +16,11 @@
 </script>
 
 <script>
-  import ChampionsChamp from "../components/ChampionsChamp.svelte";
-  import Header from "../components/Header.svelte";
+  import ChampionsChamp from "../../components/ChampionsChamp.svelte";
+  import Header from "../../components/Header.svelte";
   import { flip } from "svelte/animate";
   import { fade, slide, scale } from "svelte/transition";
-  import PageLayout from "../components/PageLayout.svelte";
+  import PageLayout from "../../components/PageLayout.svelte";
 
   export let combine;
   let AllChampions = combine[0];

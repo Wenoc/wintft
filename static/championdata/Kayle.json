@@ -1,0 +1,26 @@
+{
+  "Name": "Kayle",
+  "Picture": "Kayle",
+  "Cost": 1,
+  "Health": "500 / 900 / 1620",
+  "Damage": "60 / 90 / 135",
+  "Mana": "0 / 30",
+  "Attack_Speed": 0.65,
+  "Armor": 15,
+  "Magic_Resist": 15,
+  "Range": 4,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Starfire Spellblade",
+  "AbilityDescription": "Kayle's next 3 attacks smite her target, dealing physical damage to them and magic to enemies within one hex of them.\n\n% Attack Damage : 150% / 150% / 150%\n\nDamage : 20 / 30 / 45",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Underground",
+      "Champions": ["Ezreal", "Vi", "Sonna", "Samira"]
+    },
+    {
+      "Name": "Duelist",
+      "Champions": ["Gangplank", "Fiora", "Yasou", "Nilah", "Vayne", "Zed"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Name": "Nasus",
+  "Picture": "Nasus",
+  "Cost": 1,
+  "Health": "650 / 1170 / 2106",
+  "Damage": "70 / 105 / 158",
+  "Mana": "0 / 60",
+  "Attack_Speed": 0.65,
+  "Armor": 40,
+  "Magic_Resist": 40,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Bonk!",
+  "AbilityDescription": "Mordekaiser transports the board into his realm for a few seconds, shredding the Magic Resist of all enemies, before summoning a building behind him and slamming it onto the board, dealing magic damage to all enemies hit.\n\nDamage : 500 / 750 / 3000\n\nMagic Resist Shred : 50% / 50% / 70%\n\nRealm Duration : 4 / 4 / 6",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Anima Squad",
+      "Champions": ["Jinx", "Riven", "Vayne", "MissFortnue"]
+    },
+    {
+      "Name": "Mascot",
+      "Champions": ["Galio", "Malphite", "Yuumi", "Alistar", "Nunu"]
+    }
+  ]
+}

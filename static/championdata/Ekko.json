@@ -1,0 +1,30 @@
+{
+  "Name": "Ekko",
+  "Picture": "Ekko",
+  "Cost": 2,
+  "Health": "1250 / 2250 / 4050",
+  "Damage": "60 / 90 / 135",
+  "Mana": "75 / 175",
+  "Attack_Speed": 0.6,
+  "Armor": 60,
+  "Magic_Resist": 60,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Star Diver",
+  "AbilityDescription": "Ekko dives in, granting himself a shield for 5 seconds and taunts nearby enemies. When the shield breaks, he emits a time field, dealing magic damage to nearby enemies and slowing their attack speed by 50% for 2 seconds.\n\nShield Amount : 500 / 650 / 2000\n\nDamage : 120 / 180 / 1500",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": " Star Guardian",
+      "Champions": ["Lux", "Rell", "Yummi", "Kai'Sa", "Nilah", "Talyah", "Syndra"]
+    },
+    {
+      "Name": "Aegis",
+      "Champions": ["Vi", "Alistar", "Leona"]
+    },
+    {
+      "Name": "Prankster",
+      "Champions": ["Jinx", "Zone"]
+    }
+  ]
+}

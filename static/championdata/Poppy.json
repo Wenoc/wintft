@@ -1,0 +1,26 @@
+{
+  "Name": "Poppy",
+  "Picture": "Poppy",
+  "Cost": 1,
+  "Health": "650 / 1170 / 2106",
+  "Damage": "60 / 90 / 135",
+  "Mana": "50 / 100",
+  "Attack_Speed": 0.55,
+  "Armor": 45,
+  "Magic_Resist": 45,
+  "Range": 1,
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Buckler Toss",
+  "AbilityDescription": "Poppy throws her buckler at the farthest enemy, dealing % of her Armor as magic damage. The buckler then bounces back. granting Poppy a shield that blocks damage.\n\nPercent of Armor as Damage : 175% / 250% / 375%\n\nShield Amount : 250/ 300 / 375",
+  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "Traits": [
+    {
+      "Name": "Gadgeteen",
+      "Champions": ["Lulu", "Annie", "Zoe"]
+    },
+    {
+      "Name": " Defender",
+      "Champions": ["Wukong", "Wukong", "Rell", "Riven", "Sett"]
+    }
+  ]
+}
