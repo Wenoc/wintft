@@ -15,9 +15,9 @@
         "type": "Slow Roll",
         "augments" : ["better-together-ii", "preparation-i", "standunited2"],
         "traits" : [
-            {"gold" : ["Bard1"]},
-            {"silver" : ["Mystic3"]},
-            {"bronze" : ["Lagoon3", "Guardian2", "Whispers2", "Evoker2", "Cannoneer2", "Guild1"]}
+            {"gold" : [""]},
+            {"silver" : [""]},
+            {"bronze" : [""]}
         ],
         "carousel" : ["rod", "sword", "tear"],
         "optionsChampionsRight" : ["Draven"],
