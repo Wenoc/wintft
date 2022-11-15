@@ -9,6 +9,7 @@
     "Magic_Resist": 40,
     "Range": 1,
     "AbilityName": "Battle Blast",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
     "AbilityDescription": "Sylas whirls his chains around him, healing himself for health and dealing magic damage to nearby enemies.\n\nDamage : 150 / 225 / 350\nHeal : 160 / 180 / 210",
     "Traits": [
         {

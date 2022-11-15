@@ -16,11 +16,11 @@
   "Traits": [
     {
       "Name": "Threat",
-      "Champions": ["Cho'Gat", "Rammus", "Velkoz", "Aurelions Sol", "Zac", "Fiddlestick", "Urgot"]
+      "Champions": ["Cho'Gath", "Rammus", "Velkoz", "Aurelion Sol", "Zac", "Fiddlesticks", "Urgot"]
     },
     {
       "Name": "Corrupted",
-      "Champions": ["Fiddlestick"]
+      "Champions": [""]
     }
   ]
 }

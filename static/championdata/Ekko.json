@@ -16,7 +16,7 @@
   "Traits": [
     {
       "Name": " Star Guardian",
-      "Champions": ["Lux", "Rell", "Yummi", "Kai'Sa", "Nilah", "Talyah", "Syndra"]
+      "Champions": ["Lux", "Rell", "Yuumi", "Kai'Sa", "Nilah", "Taliyah", "Syndra"]
     },
     {
       "Name": "Aegis",
@@ -24,7 +24,7 @@
     },
     {
       "Name": "Prankster",
-      "Champions": ["Jinx", "Zone"]
+      "Champions": ["Jinx", "Zoe"]
     }
   ]
 }

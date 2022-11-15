@@ -9,6 +9,7 @@
     "Magic_Resist": 25,
     "Range": 1,
     "AbilityName": "OX-ian Diplomacy",
+    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
     "AbilityDescription": "Talon jumps to the furthest unit from the center of the board and stabs them magic damage. If this kills them, Talon heals.\n\nDamage : 220 / 330 / 500\nHeal : 150 / 200 / 250",
     "Traits": [
         {

@@ -16,11 +16,11 @@
   "Traits": [
     {
       "Name": "Underground",
-      "Champions": ["Ezreal", "Vi", "Sonna", "Samira"]
+      "Champions": ["Ezreal", "Vi", "Sona", "Samira"]
     },
     {
       "Name": "Duelist",
-      "Champions": ["Gangplank", "Fiora", "Yasou", "Nilah", "Vayne", "Zed"]
+      "Champions": ["Gangplank", "Fiora", "Yasuo", "Nilah", "Vayne", "Zed"]
     }
   ]
 }

@@ -20,7 +20,7 @@
     },
     {
       "Name": "Duelist",
-      "Champions": ["Gangplank", "Kayle", "Fiora", "Yasou", "Nilah", "Vayne", "Zed"]
+      "Champions": ["Gangplank", "Kayle", "Fiora", "Yasuo", "Nilah", "Vayne", "Zed"]
     }
   ]
 }

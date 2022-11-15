@@ -31,7 +31,7 @@
   function toLink(nm) {
     nm = nm.replaceAll("-", "");
     nm = nm.replaceAll("'", "");
-    nm = nm.replaceAll("", "");
+    nm = nm.replaceAll(" ", "");
     nm = nm.toLowerCase();
     return nm;
   }
