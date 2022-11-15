@@ -369,10 +369,10 @@
     .container {
       flex-direction: column;
       align-items: center;
-      width: 400px;
+      width: 360px;
     }
     .left {
-      width: 400px;
+      width: 360px;
       height: 620px;
     }
 
@@ -386,7 +386,7 @@
       height: 598px;
     }
     .right {
-      width: 400px;
+      width: 360px;
     }
     .ChampTraits {
       flex-direction: column;
