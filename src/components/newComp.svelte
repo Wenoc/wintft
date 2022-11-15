@@ -316,13 +316,10 @@
         >
           <div>
             <div class="traitContainer">
-              {#each Gtraits as trait}
+              <!-- {#each Gtraits as trait}
                 <div class="traitItem" style="background-color: #d5ac38;">
                   <img
-                    src="./Traits/Set7_{trait.substring(
-                      0,
-                      trait.length - 1
-                    )}_w.svg"
+                    src="./Traits/{trait.substring(0, trait.length - 1)}.webp"
                     alt={trait.substring(0, trait.length - 1)}
                     title="{trait.slice(-1)} {trait.substring(
                       0,
@@ -366,7 +363,7 @@
                     decoding="async"
                   />
                 </div>
-              {/each}
+              {/each} -->
             </div>
           </div>
         </div>
