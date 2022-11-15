@@ -33,6 +33,7 @@
     } else if (t == "Mecha:PRIME") {
       return "mechaprime";
     } else {
+      t = t.toLowerCase();
       return t;
     }
   }
