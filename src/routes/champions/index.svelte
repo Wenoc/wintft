@@ -19,8 +19,8 @@
   import ChampionsChamp from "../../components/ChampionsChamp.svelte";
   import Header from "../../components/Header.svelte";
   import { flip } from "svelte/animate";
-  import { fade, slide, scale } from "svelte/transition";
   import PageLayout from "../../components/PageLayout.svelte";
+  import Champ from "../../components/Champ.svelte";
 
   export let combine;
   let AllChampions = combine[0];
@@ -30,10 +30,22 @@
 
   let searchedChampions = AllChampions;
 
+  function getChampTraits(traits) {
+    let newTraits = [];
+    for (let i = 0; i < traits.length; i++) {
+      let newItem;
+
+      newItem = traits[i].Name.replaceAll("'", "");
+      newTraits[i] = newItem;
+    }
+
+    return newTraits;
+  }
+
   function champKereses() {
     return AllChampions.filter(
       (line) =>
-        line.name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true
+        line.Name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true
     );
   }
 
@@ -100,15 +112,15 @@
       </div>
       <div class="championsContainer">
         <div class="divinContainer">
-          {#each searchedChampions as Champ (Champ.name)}
+          {#each searchedChampions as Champ (Champ.Name)}
             <div animate:flip={{ duration: 300 }}>
               <ChampionsChamp
                 {itemData}
-                name={Champ.name}
-                traits={Champ.traits}
-                items={champItems(Champ.items)}
-                cost={Champ.cost}
-                bg={bg(Champ.name)}
+                name={Champ.Name}
+                traits={getChampTraits(Champ.Traits)}
+                items={Champ.BestItems}
+                cost={Champ.Cost}
+                bg={bg(Champ.Name)}
               />
             </div>
           {/each}

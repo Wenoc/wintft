@@ -10,10 +10,12 @@
   let traits = [];
 
   AllChampions.forEach((item) => {
-    if (item.name == actualNamename) {
-      cost = item.cost;
-      items = item.items;
-      traits = item.traits;
+    if (item.Name == actualNamename) {
+      cost = item.Cost;
+      items = item.BestItems;
+      for (let i = 0; i < item.Traits.length; i++) {
+        traits.push(item.Traits[i].Name);
+      }
     }
   });
 
@@ -23,6 +25,17 @@
       items[i] = items[i].replaceAll(" ", "");
     }
   }
+
+  function traitChange(t) {
+    t = t.replaceAll(" ", "");
+    if (t == "Underground") {
+      return "theunderground";
+    } else if (t == "Mecha:PRIME") {
+      return "mechaprime";
+    } else {
+      return t;
+    }
+  }
 </script>
 
 <div class="ChampDetailContainer" class:hidden={hidden || opt}>
@@ -30,7 +43,7 @@
     <div class="left">
       <div class="lup">
         <div style="border: 2px solid black; height:65px; border-radius:3px">
-          <img src="./ChampIcons/{name}.png" alt="a" height="65" />
+          <img src="./ChampIcons/tft8_{name}.webp" alt="a" height="65" />
         </div>
       </div>
       <div class="ldown">
@@ -41,7 +54,7 @@
       {#each traits as trait}
         <div class="trait">
           <img
-            src="./Traits/Set7_{trait}_w.svg"
+            src="./Traits/{traitChange(trait)}.webp"
             alt="s"
             height="32"
             width="32"
@@ -154,6 +167,11 @@
     display: flex;
     align-items: center;
     gap: 6px;
+  }
+
+  .trait img {
+    height: 24px;
+    width: 24px;
   }
 
   p {

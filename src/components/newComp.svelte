@@ -98,9 +98,9 @@
 
   function determineValue(champ) {
     var result = AllChampions.find((obj) => {
-      return obj.name == champ;
+      return obj.Name == champ;
     });
-    return result.cost;
+    return result.Cost;
   }
 
   function isThreeStar(champ) {
@@ -433,7 +433,7 @@
             <div>
               {#if position != ""}
                 <img
-                  src="./ChampIcons/{position}.png"
+                  src="./ChampIcons/tft8_{position}.webp"
                   alt={position}
                   title={position}
                   loading="lazy"

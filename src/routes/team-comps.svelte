@@ -63,10 +63,10 @@
       <div class="patchInfo" style="margin-bottom: 20px;">
         <div class="infoRight">
           <div class="blockContainer">
-            <p style="padding: 0; margin: 0;">Set 7.5</p>
+            <p style="padding: 0; margin: 0;">Set 8</p>
           </div>
           <div class="blockContainer">
-            <p style="padding: 0; margin: 0;">Patch 12.21</p>
+            <p style="padding: 0; margin: 0;">PBE</p>
           </div>
         </div>
       </div>

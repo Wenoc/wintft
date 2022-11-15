@@ -111,7 +111,7 @@
   >
     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
     <img
-      src="ChampIcons/{name}.png"
+      src="ChampIcons/tft8_{name}.webp"
       alt={name}
       loading="lazy"
       decoding="async"

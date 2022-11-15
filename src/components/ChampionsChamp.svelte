@@ -10,6 +10,31 @@
     name = "Lee Sin";
   }
 
+  function traitChange(t) {
+    t = t.replaceAll(" ", "");
+    if (t == "Underground") {
+      return "theunderground";
+    } else if (t == "Mecha:PRIME") {
+      return "mechaprime";
+    } else {
+      return t;
+    }
+  }
+
+  function changeName(nm) {
+    nm = nm.replaceAll("-", "");
+    nm = nm.replaceAll("'", "");
+    return nm;
+  }
+
+  function toLink(nm) {
+    nm = nm.replaceAll("-", "");
+    nm = nm.replaceAll("'", "");
+    nm = nm.replaceAll("", "");
+    nm = nm.toLowerCase();
+    return nm;
+  }
+
   export let traits;
   export let cost;
 
@@ -56,52 +81,52 @@
   }
 </script>
 
+<!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <div class="opacity">
-  <div
-    class="champCard"
-    style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url('/ChampThumbnails/{bg}.jpg') top/cover"
-  >
-    <div class="cardLeft">
-      <div class="leftUp">
-        <div class="champTraits">
-          {#each traits as trait}
-            <div class="traitItem">
-              <img
-                src="./Traits/Set7_{trait}_w.svg"
-                alt={trait}
-                loading="lazy"
-                decoding="async"
-                height="30"
-                width="30"
-              />
-              <p>{trait}</p>
-            </div>
-          {/each}
+  <a href="champions/{toLink(name)}">
+    <div
+      class="champCard"
+      style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url('/ChampThumbnails/{changeName(
+        bg
+      )}.webp') top/cover"
+    >
+      <div class="cardLeft">
+        <div class="leftUp">
+          <div class="champTraits">
+            {#each traits as trait}
+              <div class="traitItem">
+                <img
+                  src="./Traits/{traitChange(trait)}.webp"
+                  alt={trait}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p>{trait}</p>
+              </div>
+            {/each}
+          </div>
+        </div>
+        <div class="leftDown" style="position: relative;">
+          <p class="champName" style="padding-left: 6px;">{name}</p>
         </div>
       </div>
-      <div class="leftDown" style="position: relative;">
-        <p class="champName" style="padding-left: 6px;">{name}</p>
-      </div>
-    </div>
-    <div class="cardRight">
-      <div class="rightUp">
-        <div class="champCost">
-          <img
-            src="coins.svg"
-            alt="coin"
-            decoding="async"
-            height="20"
-            width="20"
-            loading="lazy"
-          />
-          <p>{cost}</p>
+      <div class="cardRight">
+        <div class="rightUp">
+          <div class="champCost">
+            <img
+              src="coins.svg"
+              alt="coin"
+              decoding="async"
+              height="20"
+              width="20"
+              loading="lazy"
+            />
+            <p>{cost}</p>
+          </div>
         </div>
-      </div>
-      <div class="rightDown">
-        <div class="champItems">
-          {#if items.length > 0}
+        <div class="rightDown">
+          <div class="champItems">
             {#each items as item, i}
-              <!-- svelte-ignore a11y-mouse-events-have-key-events -->
               {#if i == 0}
                 <div class="itmDetail">
                   <img
@@ -121,7 +146,6 @@
                 </div>
               {/if}
               {#if i == 1}
-                <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                 <div class="itmDetail">
                   <img
                     src="items/{item}.webp"
@@ -140,7 +164,6 @@
                 </div>
               {/if}
               {#if i == 2}
-                <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                 <div class="itmDetail">
                   <img
                     src="items/{item}.webp"
@@ -159,11 +182,11 @@
                 </div>
               {/if}
             {/each}
-          {/if}
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
 
 <style>
@@ -173,8 +196,9 @@
     align-items: flex-end;
   }
   p {
-    margin: 0;
+    margin: 2px;
     padding: 0;
+    font-size: 18px;
   }
 
   .champCard {
@@ -191,7 +215,7 @@
 
   .cardRight {
     height: 100%;
-    width: 100%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +224,7 @@
 
   .cardLeft {
     height: 100%;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,8 +262,9 @@
   }
 
   .traitItem img {
-    height: 30px;
+    height: 24px;
     margin-right: 6px;
+    margin-left: 4px;
   }
 
   .champName {
@@ -301,7 +326,7 @@
     }
 
     .traitItem img {
-      width: 22px;
+      height: 18px;
     }
 
     .traitItem p {

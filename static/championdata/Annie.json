@@ -1,7 +1,6 @@
 {
-  "name": "Annie",
-  "picture": "Annie",
-  "cost": 2,
+  "Name": "Annie",
+  "Cost": 2,
   "Health": "750 / 1350 / 2430",
   "Damage": "40 / 60 / 90",
   "Mana": "0 / 65",
@@ -9,21 +8,21 @@
   "Armor": 40,
   "Magic_Resist": 40,
   "Range": 2,
-  "abilityIcon": "abilityIcons/alistar",
-  "abilityName": "Burst Shield",
-  "abilityDescription": "Annie blast a cone of fire, dealing magic damage to enemies in front of her, then creates a health shield on herself for 4 seconds.\n\nDamage : 150 / 225 / 350\n\nShield Amount : 375 / 450 / 550",
-  "bestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "AbilityIcon": "abilityIcons/alistar",
+  "AbilityName": "Burst Shield",
+  "AbilityDescription": "Annie blast a cone of fire, dealing magic damage to enemies in front of her, then creates a health shield on herself for 4 seconds.\n\nDamage : 150 / 225 / 350\n\nShield Amount : 375 / 450 / 550",
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
-      "name": "Gadgeteen",
-      "Champions": ["LuLu, Poppy, Zoe", "Nunu"]
+      "Name": "Gadgeteen",
+      "Champions": ["LuLu", "Poppy", "Zoe", "Nunu"]
     },
     {
-      "name": "Ox Force",
+      "Name": "Ox Force",
       "Champions": ["Talon", "Fiora", "Alistar", "Viego", "Aphelios"]
     },
     {
-      "name": "Spellslinger",
+      "Name": "Spellslinger",
       "Champions": ["Lux", "LeBlanc", "Sona", "Taliyah"]
     }
   ]

@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Pulverize",
   "AbilityDescription": "Alistar slams the ground underneath his target, dealing magic damage and knocking them up for 1.5 seconds. He then roars, healing himself and the lowest health ally champion for 15% of his maximum health.\n\nDamage : 200 / 300 / 525",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Ox Force",
@@ -24,7 +24,7 @@
     },
     {
       "Name": "Mascot",
-      "Champions": ["Galio", "Nasus", "Yummi", "Nunu"]
+      "Champions": ["Nasus", "Galio", "Yuumi", "Nunu"]
     }
   ]
 }
