@@ -12,12 +12,12 @@
 
   function traitChange(t) {
     t = t.replaceAll(" ", "");
-    t = t.toLowerCase();
     if (t == "Underground") {
       return "theunderground";
     } else if (t == "Mecha:PRIME") {
       return "mechaprime";
     } else {
+      t = t.toLowerCase();
       return t;
     }
   }
