@@ -402,5 +402,9 @@
     .Stats {
       margin-top: 12px;
     }
+    .BigTitle {
+      font-size: 28px;
+      line-height: 1.2;
+    }
   }
 </style>

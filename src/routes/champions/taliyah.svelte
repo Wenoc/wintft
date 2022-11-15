@@ -134,16 +134,22 @@
                     <p style="margin-right: 12px">{tr.Name}</p>
                   </div>
                   <div class="TraitsChampions">
-                    {#each tr.Champions as trc}
-                      <a href="/champions/{toBg(trc)}" rel="external">
-                        <img
-                          style="border: 2px solid {borderCol(trc)}"
-                          src="ChampIcons/tft8_{toBg(trc)}.webp"
-                          alt={trc}
-                          height="50"
-                        />
-                      </a>
-                    {/each}
+                    {#if tr.Champions.length > 1}
+                      {#each tr.Champions as trc}
+                        <a
+                          href="/champions/{toBg(trc)}"
+                          rel="external"
+                          style="height: 54px; width:54px"
+                        >
+                          <img
+                            style="border: 2px solid {borderCol(trc)}"
+                            src="ChampIcons/tft8_{toBg(trc)}.webp"
+                            alt={trc}
+                            height="50"
+                          />
+                        </a>
+                      {/each}
+                    {/if}
                   </div>
                 </div>
               {/each}
@@ -164,6 +170,7 @@
   .TraitsChampions {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
   }
   p {
     font-size: 24px;

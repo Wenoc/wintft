@@ -33,7 +33,10 @@
   function borderCol(ch) {
     let cost;
     for (let i = 0; i < AllChamp.length; i++) {
-      if (AllChamp[i].Name == ch) {
+      let changed = AllChamp[i].Name.replaceAll("'", "");
+      changed = changed.replaceAll(" ", "");
+      changed = changed.toLowerCase();
+      if (changed == ch.toLowerCase()) {
         cost = AllChamp[i].Cost;
       }
     }
@@ -57,6 +60,11 @@
 <PageLayout>
   <div slot="middle">
     <div class="container">
+      <div class="arrowContainer">
+        <a href="./champions" rel="external">
+          <img src="arrow.svg" alt="back arrow" /></a
+        >
+      </div>
       <div class="left">
         <div class="left-container">
           <div>
@@ -134,16 +142,22 @@
                     <p style="margin-right: 12px">{tr.Name}</p>
                   </div>
                   <div class="TraitsChampions">
-                    {#each tr.Champions as trc}
-                      <a href="/champions/{toBg(trc)}" rel="external">
-                        <img
-                          style="border: 2px solid {borderCol(trc)}"
-                          src="ChampIcons/tft8_{toBg(trc)}.webp"
-                          alt={trc}
-                          height="50"
-                        />
-                      </a>
-                    {/each}
+                    {#if tr.Champions.length > 1}
+                      {#each tr.Champions as trc}
+                        <a
+                          href="/champions/{toBg(trc)}"
+                          rel="external"
+                          style="height: 54px; width:54px"
+                        >
+                          <img
+                            style="border: 2px solid {borderCol(trc)}"
+                            src="ChampIcons/tft8_{toBg(trc)}.webp"
+                            alt={trc}
+                            height="50"
+                          />
+                        </a>
+                      {/each}
+                    {/if}
                   </div>
                 </div>
               {/each}
@@ -156,6 +170,12 @@
 </PageLayout>
 
 <style>
+  .arrowContainer {
+    text-align: left;
+    width: 360px;
+    height: 40px;
+    display: none;
+  }
   .traitContainer {
     display: flex;
     flex-direction: column;
@@ -163,6 +183,7 @@
   }
   .TraitsChampions {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
   }
   p {
@@ -366,10 +387,14 @@
   }
 
   @media (max-width: 560px) {
+    .arrowContainer {
+      display: block;
+    }
     .container {
       flex-direction: column;
       align-items: center;
       width: 360px;
+      margin-top: 160px;
     }
     .left {
       width: 360px;
@@ -401,6 +426,10 @@
 
     .Stats {
       margin-top: 12px;
+    }
+    .BigTitle {
+      font-size: 26px;
+      line-height: 1.2;
     }
   }
 </style>
