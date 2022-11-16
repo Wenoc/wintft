@@ -32,12 +32,12 @@
   {
     "Name": "Built Different 1",
     "Description": "Your units with no Traits active gain 300 Health and 50% Attack Speed.",
-    "Icon": "BuiltDifferent1.png"
+    "Icon": "BuiltDifferent1x.png"
   },
   {
     "Name": "Celestial Blessing 1",
     "Description": "Your units heal for 10% of the damage dealt by attacks and abilities. Excess healing is converted to a shield up to 300 Health.",
-    "Icon": "CelestialBlessing1.png"
+    "Icon": "CelestialBlessing1x.png"
   },
   {
     "Name": "Combat Training",
@@ -82,17 +82,17 @@
   {
     "Name": "Exiles 1",
     "Description": "Your units that start combat with no adajacent allies gain a 25% maximum Health shield for 10 seconds.",
-    "Icon": "Exiles1.png"
+    "Icon": "Exiles1x.png"
   },
   {
     "Name": "Featherweights 1",
     "Description": "Your 1 and 2 cost units gain 45% movement and Attack Speed.",
-    "Icon": "Featherweights1.png"
+    "Icon": "Featherweights1x.png"
   },
   {
     "Name": "First Aid Kit 1",
     "Description": "All healing and shielding received by your units is increased by 25%.",
-    "Icon": "FirstAidKit1.png"
+    "Icon": "FirstAidKit1x.png"
   },
   {
     "Name": "Future Sight 1",
@@ -102,7 +102,7 @@
   {
     "Name": "Item Grab Bag 1",
     "Description": "Gain 1 random completed item and 1 Reforger.",
-    "Icon": "ItemGrabBag1.png"
+    "Icon": "ItemGrabBag1x.png"
   },
   {
     "Name": "Knife's Edge 1",
@@ -152,7 +152,7 @@
   {
     "Name": "Stand United 1",
     "Description": "Your units gain 2 Attack Damage and Ability Power per Trait active across your team.",
-    "Icon": "StandUnited1.png"
+    "Icon": "StandUnited1x.png"
   },
   {
     "Name": "Thrill Of The Hunt 1",

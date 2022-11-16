@@ -13,7 +13,7 @@
         "threeStar" : ["Annie"],
         "difficulty": "Medium",
         "type": "Slow Roll",
-        "augments" : ["better-together-ii", "preparation-i", "standunited2"],
+        "augments" : [""],
         "traits" : [
             {"gold" : [""]},
             {"silver" : [""]},
