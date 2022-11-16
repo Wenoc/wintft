@@ -84,7 +84,7 @@
 
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <div class="opacity">
-  <a href="champions/{toLink(name)}">
+  <a href="champions/{toLink(name)}" rel="external">
     <div
       class="champCard"
       style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url('/ChampThumbnails/{changeName(

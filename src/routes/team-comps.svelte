@@ -7,7 +7,7 @@
     const compData = await res2.json();
     let combine = [];
 
-    const res3 = await this.fetch("/augmentData.json");
+    const res3 = await this.fetch("/goldAugments.json");
     const augmentData = await res3.json();
 
     const res4 = await this.fetch("/itemData.json");
