@@ -12,7 +12,7 @@
     "AbilityIcon": "abilityIcons/alistar",
     "AbilityName": "Piercing Darkness",
     "AbilityDescription": "Senna fires a laser beam in the direction of a nearby enemy. dealing physical damage to all enemies in a line.\n\nPercent of Attack Damage : 150% / 160% / 180%\n\nBonus Damage : 55 / 75 / 140",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["GuinsoosRageblade", "InfinityEdge", "LastWhisper"],
     "Traits": [
       {
         "Name": "LaserCorps",

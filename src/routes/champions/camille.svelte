@@ -288,7 +288,7 @@
 <style>
   .arrowContainer {
     text-align: left;
-    width: 360px;
+    width: 340px;
     height: 40px;
     display: none;
   }
@@ -506,11 +506,11 @@
     .container {
       flex-direction: column;
       align-items: center;
-      width: 360px;
+      width: 340px;
       margin-top: 160px;
     }
     .left {
-      width: 360px;
+      width: 340px;
       height: 620px;
     }
 
@@ -524,7 +524,7 @@
       height: 598px;
     }
     .right {
-      width: 360px;
+      width: 340px;
     }
     .ChampTraits {
       flex-direction: column;

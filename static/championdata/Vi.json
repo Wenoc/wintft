@@ -10,7 +10,7 @@
     "Range": 1,
     "AbilityName": "Blast Shield",
     "AbilityDescription": "Vi slams the ground in front of her and releases her stored energy, granting herself a health shield for 4 seconds, reducing the Armor of nearby enemies for 4 seconds and dealing physical damage.\n\nShield Amount : 325 / 400 / 500\nArmor Reduction % : 40% / 50% / 70%",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["BrambleVest", "DragonsClaw", "WarmogsArmor"],
     "Traits": [
       {
         "Name": "Underground",

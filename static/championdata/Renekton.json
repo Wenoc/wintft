@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Dominus",
   "AbilityDescription": "Renekton empowers himself for 8 seconds, gaining maximun Health, and causing his attacks to deal 6% of his maximum Health as bonus magic damage.\n\nHealth Increase : 250 / 325 / 400",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["ThiefsGloves", "ZzRotPortal", "WarmogsArmor"],
   "Traits": [
     {
       "Name": "LaserCorps",

@@ -10,7 +10,7 @@
     "Range": 1,
     "AbilityName": "Steel Tempest",
     "AbilityDescription": "Yasuo fires a whirlwind at his target dealing magic damage and knocking up units hit for a few seconds. If the current position isn't the best, he will dash up to one hex to find a the most units in a line.\n\nMagic Damage : 225 / 325 / 500\n\nDuration : 1.25 / 1.5 / 1.75",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["RapidFirecannon", "GuinsoosRageblade", "Bloodthirster"],
     "Traits": [
       {
         "Name": "LaserCorps",

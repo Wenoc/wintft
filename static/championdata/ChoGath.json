@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Cosmic Bellow",
   "AbilityDescription": "Passive: Cho'Gath has increased Magic Resist.\n\nSpell: Cho'Gath breathes a cosmic beam in a forward arc that deals magic damage and increasing their maximum Mana until they cast.\n\nMagic Resist Bonus : 75 / 100 / 150\n\nMagic Resist Ratio : 135% / 180% 225%\n\nMana Cost Increase : 35% / 35% / 50%\n\nBonus Damage : 80 / 120 / 180",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["HextechGunblade", "TitansResolve", "RabadonsDeathcap"],
   "Traits": [
     {
       "Name": "Threat",

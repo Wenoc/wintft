@@ -12,7 +12,7 @@
     "AbilityIcon": "abilityIcons/alistar",
     "AbilityName": "Cryo Grenade",
     "AbilityDescription": "Sejuani throws a cryo grenade at the closest enemy that explodes after a 2-second delay. Enemies within a 3-hex radius are dealt magic damage and are stunned.\n\nDamage : 125 / 200 / 1200\nStun Duration : 1.5 / 2 / 8",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["Morellonomicon", "WarmogsArmor", "ZzRotPortal"],
     "Traits": [
       {
         "Name": "LaserCorps",

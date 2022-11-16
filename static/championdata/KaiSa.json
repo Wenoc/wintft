@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Starcharged",
   "AbilityDescription": "Passive: Kai'Sa's attacks apply Plasma. Her next attack against a target with 2 stacks of Plasma deal magic damage.\n\nActive: Kai'Sa gains 40% Attack Speed for 6 seconds. This Attack Speed bonus can stack.\n\nAttack Speed % : 40% / 50% / 65%\n\nDamage : 150 / 225 / 350",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["ArchangelsStaff", "GiantSlayer", "SpearofShojin"],
   "Traits": [
     {
       "Name": "Star Guardian",

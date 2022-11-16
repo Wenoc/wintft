@@ -11,7 +11,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Burst Shield",
   "AbilityDescription": "Annie blast a cone of fire, dealing magic damage to enemies in front of her, then creates a health shield on herself for 4 seconds.\n\nDamage : 150 / 225 / 350\n\nShield Amount : 375 / 450 / 550",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["TitansResolve", "WarmogsArmor", "IonicSpark"],
   "Traits": [
     {
       "Name": "Gadgeteen",

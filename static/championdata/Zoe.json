@@ -10,7 +10,7 @@
     "Range": 4,
     "AbilityName": "Trouble Bubble",
     "AbilityDescription": "Zoe launches a bubble at the nearest non-infected enemy's location, infecting all enemies hit with a virus that deals magic damage over 10 seconds. Infected enemies take more damage.\n\nDamage : 500 / 750 / 1337\n\nPercent Bonus Damage : 10% / 10% / 20%",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["ChaliceofPower", "StatikkShiv", "ThiefsGloves"],
     "Traits": [
       {
         "Name": "Gadgeteen",

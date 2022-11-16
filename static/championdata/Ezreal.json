@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Sabotage",
   "AbilityDescription": "Ezreal fires an orb of physical sabotage at his target, reducing their Attack Speed by for 4 seconds. Afterwards, he fires a shot at them dealing magic damage to them and nearby enemies.\n\nAttack Speed Reduction : 30 / 40 / 50\n\nDamage : 200 / 300 / 475",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["SpearofShojin", "GiantSlayer", "RabadonsDeathcap"],
   "Traits": [
     {
       "Name": "Underground",

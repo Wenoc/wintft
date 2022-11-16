@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "En Garde!",
   "AbilityDescription": "Fiora lunges at her enemy, dealing physical damage to all enemies hit and activates her Duelist's Soul for 8 seconds, While her Duelist's Soul is active, she takes 20% less damage and her attacks restore Health.\n\nPercent of Attack Damage : 225% / 225% / 250%\n\nHeal : 30 / 40 / 55",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["HandofJustice", "GuinsoosRageblade", "Bloodthirster"],
   "Traits": [
     {
       "Name": "Ox Force",

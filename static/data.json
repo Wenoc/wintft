@@ -1,2387 +1,2445 @@
 [
-    {
-       "Name":"Alistar",
-       "Picture":"Alistar",
-       "Cost":"3",
-       "Health":"800 / 1440 / 2592",
-       "Damage":"50 / 75 / 113",
-       "Mana":"75 / 150",
-       "Attack_Speed":0.55,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Pulverize",
-       "AbilityDescription":"Alistar slams the ground underneath his target, dealing magic damage and knocking them up for 1.5 seconds. He then roars, healing himself and the lowest health ally champion for 15% of his maximum health.\n\nDamage : 200 / 300 / 525",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Ox Force",
-             "Champions":[
-                "Talon",
-                "Annie",
-                "Fiora",
-                "Viego",
-                "Aphelios"
-             ]
-          },
-          {
-             "Name":"Aegis",
-             "Champions":[
-                "Vi",
-                "Ekko",
-                "Leona"
-             ]
-          },
-          {
-             "Name":"Mascot",
-             "Champions":[
-                "Galio",
-                "Nasus",
-                "Yummi",
-                "Nunu"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Annie",
-       "Picture":"Annie",
-       "Cost":2,
-       "Health":"750 / 1350 / 2430",
-       "Damage":"40 / 60 / 90",
-       "Mana":"0 / 65",
-       "Attack_Speed":0.6,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":2,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Burst Shield",
-       "AbilityDescription":"Annie blast a cone of fire, dealing magic damage to enemies in front of her, then creates a health shield on herself for 4 seconds.\n\nDamage : 150 / 225 / 350\n\nShield Amount : 375 / 450 / 550",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Gadgeteen",
-             "Champions":[
-                "LuLu, Poppy, Zoe",
-                "Nunu"
-             ]
-          },
-          {
-             "Name":"Ox Force",
-             "Champions":[
-                "Talon",
-                "Fiora",
-                "Alistar",
-                "Viego",
-                "Aphelios"
-             ]
-          },
-          {
-             "Name":"Spellslinger",
-             "Champions":[
-                "Lux",
-                "LeBlanc",
-                "Sona",
-                "Taliyah"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Aphelios",
-       "Picture":"Aphelios",
-       "Cost":5,
-       "Health":"800 / 1440 / 2592",
-       "Damage":"90 / 135 / 203",
-       "Mana":"40 / 120",
-       "Attack_Speed":0.9,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Change Weapons",
-       "AbilityDescription":"Player select a weapon when place Aphelios on board.\n\nBinding Eclipse\n\nAphelios casts forth a lunar spotlight towards the largest group of units, dealing physical damage and stunning all enemies in the area.\n\nDuskwave\n\nAphelios unleashes a wave of energy in a cone in his target's direction, dealing magic damage to all units hit and locking on to them. After a delay, Aplhelios fires a volley of attacks at each locked-on target, dealing physical damage.\n\nOnslaught\n\nAphelion enters an onslaught for 1.75 seconds, automatically performing 6 attacks over the duration at the nearest 2 enemies, dealing physical damage to each enemy.\n\nBinding Eclipse Base Damage : 75 / 110 / 2000\n\nBinding Eclipse Stun Duration : 1.5 / 2 / 15\n\nDuskwave Percent of Attack Damage : 250% / 250% / 800%\n\nDuskwave Magic Damage : 75 / 110 / 600\n\nDuskwave Num Bullets : 7 / 7 / 15\n\nOnslaught Base Damage : 75 / 110 / 2000",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Arsenal",
-             "Champions":[
-                ""
-             ]
-          },
-          {
-             "Name":"Ox Force",
-             "Champions":[
-                "Talon",
-                "Annie",
-                "Fiora",
-                "Alistar",
-                "Viego"
-             ]
-          },
-          {
-             "Name":"Sureshot",
-             "Champions":[
-                "Sivir",
-                "Senna",
-                "Samira"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Ashe",
-       "Picture":"Ashe",
-       "Cost":1,
-       "Health":"500 / 900 / 1620",
-       "Damage":"70 / 105 / 158",
-       "Mana":"0 / 80",
-       "Attack_Speed":0.7,
-       "Armor":15,
-       "Magic_Resist":15,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Ranger's Focus",
-       "AbilityDescription":"Ashe increases her focus for the next 4 seconds. gaining 47 Attack Damage ( Attack Damage + )\n\nPercent Of Attack Damage : 45% / 50% / 55%\n\nDamage : 15 / 25 / 35",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"LaserCorps",
-             "Champions":[
-                "Renekton",
-                "Yasou",
-                "Senna",
-                "Sejuani",
-                "Zed"
-             ]
-          },
-          {
-             "Name":"Recon",
-             "Champions":[
-                "Ezreal",
-                "Kai'Sa",
-                "Vayne"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Aurelion Sol",
-       "Picture":"Aurelion Sol",
-       "Cost":4,
-       "Health":"1100 / 1980 / 3564",
-       "Damage":"40 / 60 / 90",
-       "Mana":"0 / 90",
-       "Attack_Speed":0.7,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Meteor Shower",
-       "AbilityDescription":"Aurelion Sol calls down meteors on random enemies that explode on impact. Each meteor deals magic damage and applies a burn for 10 seconds, dealing % of the target's maximum Health as true damage and reducing incoming healing by 25%.\n\nMeteors : 3 / 3 / 6\n\nDamage : 210 / 320 / 450\n\n% Health as Damage : 10 / 10 / 10",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "Cho'Gat",
-                "Rammus",
-                "Velkoz",
-                "BelVeth",
-                "Zac",
-                "Fiddlestick",
-                "Urgot"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Bel'Veth",
-       "Picture":"BelVeth",
-       "Cost":4,
-       "Health":"1250 / 2250 / 4050",
-       "Damage":"90 / 135 / 203",
-       "Mana":"0 / 20",
-       "Attack_Speed":0.9,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":2,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Endless Banquet",
-       "AbilityDescription":"Bel'Veth dashes around her target and unleashes a flurry of attacks, each dealing physical damage.\n\nEach time this is cast, Bel'Veth gains 25% bouns Attack Speed for the rest of combat.\n\nDamage : 25 / 40 / 160\n\nDefense Shred : 40% / 50% / 70%\n\nPercent of Attack Damage : 50% / 50% / 100%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "Cho'Gat",
-                "Rammus",
-                "Velkoz",
-                "Aurelion Sol",
-                "Zac",
-                "Fiddlestick",
-                "Urgot"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Blitzcrank",
-       "Picture":"Blitzcrank",
-       "Cost":1,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"50 / 75 / 113",
-       "Mana":"45 / 90",
-       "Attack_Speed":0.5,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Static Defenses",
-       "AbilityDescription":"Blitzcrank creates an empowered field around himself, reducing all damage taken by for 4 seconds.\n\nDamage Reduction : 40% / 50% / 60%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"A.D.M.I.N.",
-             "Champions":[
-                "Camille",
-                "LeBlanc",
-                "Soarak"
-             ]
-          },
-          {
-             "Name":"Brawler",
-             "Champions":[
-                "Renekton",
-                "Lee Sin",
-                "Vi",
-                "Jax",
-                "Riven",
-                "Sejuani"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Camille",
-       "Picture":"Camille",
-       "Cost":2,
-       "Health":"750 / 1350 / 2430",
-       "Damage":"75 / 113 / 169",
-       "Mana":"45 / 90",
-       "Attack_Speed":0.75,
-       "Armor":45,
-       "Magic_Resist":45,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Tactical Sweep",
-       "AbilityDescription":"Camille sweeps with her leg, dealing physical damage and disarming enemies hit.\n\nPercent of Attack Damage : 202% / 222% / 252%\n\nBonus Damage : 60 / 75 / 100\n\nDisarm Duration : 1.5 / 1.6 / 1.75",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"A.D.M.I.N.",
-             "Champions":[
-                "Blitzcrank",
-                "LeBlanc",
-                "Soarak"
-             ]
-          },
-          {
-             "Name":"Renegade",
-             "Champions":[
-                "Sylas",
-                "Talon",
-                "Viego",
-                "Leona"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Cho'Gath",
-       "Picture":"Cho'Gath",
-       "Cost":3,
-       "Health":"1200 / 2160 / 3888",
-       "Damage":"60 / 90 / 135",
-       "Mana":"40 / 120",
-       "Attack_Speed":0.6,
-       "Armor":55,
-       "Magic_Resist":133,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Cosmic Bellow",
-       "AbilityDescription":"Passive: Cho'Gath has increased Magic Resist.\n\nSpell: Cho'Gath breathes a cosmic beam in a forward arc that deals magic damage and increasing their maximum Mana until they cast.\n\nMagic Resist Bonus : 75 / 100 / 150\n\nMagic Resist Ratio : 135% / 180% 225%\n\nMana Cost Increase : 35% / 35% / 50%\n\nBonus Damage : 80 / 120 / 180",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "Rammus",
-                "Velkoz",
-                "Aurelion Sol",
-                "BelVeth",
-                "Zac",
-                "Fiddlestick",
-                "Urgot"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Draven",
-       "Picture":"Draven",
-       "Cost":2,
-       "Health":"600 / 1080 / 1944",
-       "Damage":"75 / 113 / 169",
-       "Mana":"0 / 80",
-       "Attack_Speed":0.7,
-       "Armor":20,
-       "Magic_Resist":20,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Whirling Death",
-       "AbilityDescription":"Draven hurls two massive axes at his target's direction that deal physical damage to all enemies in its path, reduced by 25% for each enemy they pass through. The axes reverse direction at the end of their path, dealing damage to enemies hit along the way back.\n\nDamage : 65 / 100 / 175",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Mecha: PRIME",
-             "Champions":[
-                "Wukong",
-                "Jax",
-                "Sett",
-                "Leona"
-             ]
-          },
-          {
-             "Name":"Ace",
-             "Champions":[
-                "MissFortune",
-                "Samira",
-                "Mordekaiser"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Ekko",
-       "Picture":"Ekko",
-       "Cost":4,
-       "Health":"1250 / 2250 / 4050",
-       "Damage":"60 / 90 / 135",
-       "Mana":"75 / 175",
-       "Attack_Speed":0.6,
-       "Armor":60,
-       "Magic_Resist":60,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Star Diver",
-       "AbilityDescription":"Ekko dives in, granting himself a shield for 5 seconds and taunts nearby enemies. When the shield breaks, he emits a time field, dealing magic damage to nearby enemies and slowing their attack speed by 50% for 2 seconds.\n\nShield Amount : 500 / 650 / 2000\n\nDamage : 120 / 180 / 1500",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Star Guardian",
-             "Champions":[
-                "Lux",
-                "Rell",
-                "Yummi",
-                "Kai'Sa",
-                "Nilah",
-                "Talyah",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Aegis",
-             "Champions":[
-                "Vi",
-                "Alistar",
-                "Leona"
-             ]
-          },
-          {
-             "Name":"Prankster",
-             "Champions":[
-                "Jinx",
-                "Zone"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Ezreal",
-       "Picture":"Ezreal",
-       "Cost":2,
-       "Health":"550 / 990 / 1782",
-       "Damage":"45 / 68 / 101",
-       "Mana":"75 / 175",
-       "Attack_Speed":0.7,
-       "Armor":20,
-       "Magic_Resist":20,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Sabotage",
-       "AbilityDescription":"Ezreal fires an orb of physical sabotage at his target, reducing their Attack Speed by for 4 seconds. Afterwards, he fires a shot at them dealing magic damage to them and nearby enemies.\n\nAttack Speed Reduction : 30 / 40 / 50\n\nDamage : 200 / 300 / 475",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Underground",
-             "Champions":[
-                "Kayle",
-                "Vi",
-                "Sona",
-                "Samira"
-             ]
-          },
-          {
-             "Name":"Recon",
-             "Champions":[
-                "Ashe",
-                "Kai'Sa",
-                "Vayna"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Fiddlesticks",
-       "Picture":"Fiddlesticks",
-       "Cost":5,
-       "Health":"1200 / 2160 / 3888",
-       "Damage":"50 / 75 / 113",
-       "Mana":"90 / 90",
-       "Attack_Speed":0.75,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Dark Harvest",
-       "AbilityDescription":"Fiddlesticks teleports into the largest cluster of enemies and fears them. For the next a few seconds, Fiddle drains the life from nearby enemies dealing magic damage per second and healing himself for 20% of the damage dealt.\n\nFear Duration : 1 / 1 / 5\n\nMagic Damage : 120 / 180 / 2000\n\nSpell Duration : 5 / 5 / 30",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "Cho'Gat",
-                "Rammus",
-                "Velkoz",
-                "Aurelions Sol",
-                "Zac",
-                "Fiddlestick",
-                "Urgot"
-             ]
-          },
-          {
-             "Name":"Corrupted",
-             "Champions":[
-                "Fiddlestick"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Fiora",
-       "Picture":"Fiora",
-       "Cost":2,
-       "Health":"800 / 1440 / 2592",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0 / 80",
-       "Attack_Speed":0.75,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"En Garde!",
-       "AbilityDescription":"Fiora lunges at her enemy, dealing physical damage to all enemies hit and activates her Duelist's Soul for 8 seconds, While her Duelist's Soul is active, she takes 20% less damage and her attacks restore Health.\n\nPercent of Attack Damage : 225% / 225% / 250%\n\nHeal : 30 / 40 / 55",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Ox Force",
-             "Champions":[
-                "Talon",
-                "Annie",
-                "Alistar",
-                "Viego",
-                "Aphelios"
-             ]
-          },
-          {
-             "Name":"Duelist",
-             "Champions":[
-                "Gangplank",
-                "Kayle",
-                "Fiora",
-                "Yasou",
-                "Nilah",
-                "Vayne",
-                "Zed"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Galio",
-       "Picture":"Galio",
-       "Cost":2,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0 / 80",
-       "Attack_Speed":0.55,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Outta My Way!",
-       "AbilityDescription":"Galio steps back and dashes toward the nearest enemy, dealing magic damage. He then grant himself and the closest ally a health shield for 4 seconds.\n\nDamage : 160 / 240 / 360\n\nShield Amount : 200 / 250 / 325",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Civilian",
-             "Champions":[
-                "Sivir",
-                "Janna"
-             ]
-          },
-          {
-             "Name":"Mascot",
-             "Champions":[
-                "Nasus",
-                "Malphite",
-                "Yummi",
-                "Alistar",
-                "Nunu"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Gangplank",
-       "Picture":"Gangplank",
-       "Cost":1,
-       "Health":"800 / 1440 / 2592",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0 / 80",
-       "Attack_Speed":0.65,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Trial by Fire",
-       "AbilityDescription":"Gangplank removes all crowd control from himself and fires a flaming bullet at his target. dealing magic damage and reducing healing by 30% for 8 seconds.\n\nDamage : 240 / 360 / 540",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Supers",
-             "Champions":[
-                "Lee Sin",
-                "Malphite"
-             ]
-          },
-          {
-             "Name":"Mascot",
-             "Champions":[
-                "Kayle",
-                "Fiora",
-                "Yassuo",
-                "Vayne",
-                "Zed"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Janna",
-       "Picture":"Gangplank",
-       "Cost":5,
-       "Health":"800 / 1440 / 2592",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0 / 80",
-       "Attack_Speed":0.75,
-       "Armor":35,
-       "Magic_Resist":35,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Twister!",
-       "AbilityDescription":"Janna sends a twister towards the largest group of units. Enemy units caught by the twister are knocked up for 0.5 seconds. When the twister stops, it expands and all nearby enemies are knocked up for a few seconds and take magic damage each second over 1.5 seconds.\n\nDamage : 210 / 320 / 9000\n\nStun Duration : 1.5 / 2 / 3",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Civilian",
-             "Champions":[
-                "Galio",
-                "Sivir"
-             ]
-          },
-          {
-             "Name":"Forecaster",
-             "Champions":[
-                ""
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Jax",
-       "Picture":"Jax",
-       "Cost":3,
-       "Health":"800 / 1440 / 2592",
-       "Damage":"70 / 105 / 158",
-       "Mana":"0 / 0",
-       "Attack_Speed":0.9,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Adaptive Strike",
-       "AbilityDescription":"Passive: Every third attack, Jax leaps to his target and deals bonus magic damage. The bonus damage increases every third attack up to 10 times.\n\nBase Damage : 120 / 180 / 300\n\nStacking Damage : 50 / 70 / 130",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Mecha: PRIME",
-             "Champions":[
-                "Wukong",
-                "Draven",
-                "Sett",
-                "Leona"
-             ]
-          },
-          {
-             "Name":"Brawler",
-             "Champions":[
-                "Blitzcrank",
-                "Renekton",
-                "Lee Sin",
-                "Vi",
-                "Riven",
-                "Sejuani"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Jinx",
-       "Picture":"Jinx",
-       "Cost":2,
-       "Health":"550 / 990 / 1782",
-       "Damage":"45 / 68 / 101",
-       "Mana":"25 / 75",
-       "Attack_Speed":0.7,
-       "Armor":20,
-       "Magic_Resist":20,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Fishbones",
-       "AbilityDescription":"Jinx fires a rocket at her target that explodes on impact, damaging all nearby enemies for magic damage and stunning them for 1.5 seconds.\n\nDamage : 225 / 350 / 525",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Anima Squad",
-             "Champions":[
-                "Nasus",
-                "Sylas",
-                "Riven",
-                "Vayne"
-             ]
-          },
-          {
-             "Name":"Prankster",
-             "Champions":[
-                "Zoe",
-                "Ekko"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Kai'Sa",
-       "Picture":"Kai'Sa",
-       "Cost":3,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"40 / 60 / 90",
-       "Mana":"0 / 60",
-       "Attack_Speed":0.8,
-       "Armor":25,
-       "Magic_Resist":25,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Starcharged",
-       "AbilityDescription":"Passive: Kai'Sa's attacks apply Plasma. Her next attack against a target with 2 stacks of Plasma deal magic damage.\n\nActive: Kai'Sa gains 40% Attack Speed for 6 seconds. This Attack Speed bonus can stack.\n\nAttack Speed % : 40% / 50% / 65%\n\nDamage : 150 / 225 / 350",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Star Guardian",
-             "Champions":[
-                "Lux",
-                "Rell",
-                "Yuumi",
-                "Nilah",
-                "Ekko",
-                "Taliyah",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Recon",
-             "Champions":[
-                "Ashe",
-                "Ezreal",
-                "Vayne"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"LeBlanc",
-       "Picture":"LeBlanc",
-       "Cost":3,
-       "Health":"900 / 1620 / 2916",
-       "Damage":"45 / 68 / 101",
-       "Mana":"0 / 70",
-       "Attack_Speed":0.7,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Sigil of Malice",
-       "AbilityDescription":"Leblanc fires sigils at her target each dealing magic damage. If the target dies, she continues casting at the nearest target and casts 1 more sigil.\n\nDamage : 80 / 100 / 130\n\nNumber of Sigils : 5 / 6 / 8",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"A.D.M.I.N.",
-             "Champions":[
-                "Blitzcrank",
-                "Camille",
-                "Sora"
-             ]
-          },
-          {
-             "Name":"Hacker",
-             "Champions":[
-                "Zoe",
-                "Zed"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Kayle",
-       "Picture":"Kayle",
-       "Cost":1,
-       "Health":"500 / 900 / 1620",
-       "Damage":"60 / 90 / 135",
-       "Mana":"0 / 30",
-       "Attack_Speed":0.65,
-       "Armor":15,
-       "Magic_Resist":15,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Starfire Spellblade",
-       "AbilityDescription":"Kayle's next 3 attacks smite her target, dealing physical damage to them and magic to enemies within one hex of them.\n\n% Attack Damage : 150% / 150% / 150%\n\nDamage : 20 / 30 / 45",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Underground",
-             "Champions":[
-                "Ezreal",
-                "Vi",
-                "Sonna",
-                "Samira"
-             ]
-          },
-          {
-             "Name":"Duelist",
-             "Champions":[
-                "Gangplank",
-                "Fiora",
-                "Yasou",
-                "Nilah",
-                "Vayne",
-                "Zed"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Lee Sin",
-       "Picture":"Lee Sin",
-       "Cost":2,
-       "Health":"700 / 1260 / 2268",
-       "Damage":"60 / 90 / 135",
-       "Mana":"0 / 70",
-       "Attack_Speed":0.65,
-       "Armor":45,
-       "Magic_Resist":45,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Safeguard",
-       "AbilityDescription":"If there is a nearby ally. Lee Sin dashes towards them, shielding both them and himself for 4 seconds. If there are no nearby allies. Lee Sin gains more health shield instead. Afterwards, he dashes back and deals physical damage to his target.\n\nShield Amount : 180 / 220 / 270\n\nPercent Of Attack Damage : 250% / 250% / 275%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Supers",
-             "Champions":[
-                "Gangplank",
-                "Malphite"
-             ]
-          },
-          {
-             "Name":"Brawler",
-             "Champions":[
-                "Blitzcrank",
-                "Renekton",
-                "Vi",
-                "Jax",
-                "Riven",
-                "Sejuani"
-             ]
-          },
-          {
-             "Name":"Heart",
-             "Champions":[
-                "Lulu",
-                "Yummi",
-                "Sona",
-                "Soraka",
-                "Syndra"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Leona",
-       "Picture":"Leona",
-       "Cost":5,
-       "Health":"1000 / 1800 / 3240",
-       "Damage":"75 / 113 / 169",
-       "Mana":"20 / 80",
-       "Attack_Speed":0.8,
-       "Armor":60,
-       "Magic_Resist":60,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Deus Ex Machina",
-       "AbilityDescription":"Leona locks onto and calls an orbital laser strike onto her target.\n\nAfter a short delay a laser fires on the locked on target dealing true damage per second to the target and dealing magic damage to nearby enemies.\n\nMax Health Reduction Per Sec : 400 / 600 / 5000\n\nDamage : 70 / 100 / 2000",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Mecha: PRIME",
-             "Champions":[
-                "Wukong",
-                "Draven",
-                "Jax",
-                "Sett"
-             ]
-          },
-          {
-             "Name":"Aegis",
-             "Champions":[
-                "Vi",
-                "Alistar",
-                "Ekko"
-             ]
-          },
-          {
-             "Name":"Renegade",
-             "Champions":[
-                "Sylas",
-                "Talon",
-                "Camille",
-                "Viego"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Lulu",
-       "Picture":"Lulu",
-       "Cost":1,
-       "Health":"500 / 900 / 1620",
-       "Damage":"30 / 45 / 68",
-       "Mana":"20 / 80",
-       "Attack_Speed":0.7,
-       "Armor":15,
-       "Magic_Resist":15,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Glitterlance",
-       "AbilityDescription":"Lulu fires a bolt of magic energy at her target, dealing magic damage to the first enemy and to subsequent enemies.\n\nDamage : 240 / 360 / 540\n\nSecondary Damage : 120 / 180 / 270",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Gadgeteen",
-             "Champions":[
-                "Poppy",
-                "Annie",
-                "Zoe",
-                "Nunu"
-             ]
-          },
-          {
-             "Name":"Heart",
-             "Champions":[
-                "Lee Sin",
-                "Yuumi",
-                "Sona",
-                "Soraka",
-                "Syndra"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Lux",
-       "Picture":"Lux",
-       "Cost":1,
-       "Health":"500 / 900 / 1620",
-       "Damage":"40 / 60 / 90",
-       "Mana":"30 / 90",
-       "Attack_Speed":0.65,
-       "Armor":15,
-       "Magic_Resist":15,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Lucent Singularity",
-       "AbilityDescription":"Lux sends a lucent singularity at a random enemy's location that detonates after arrival. dealing to nearby enemies and reducing the Attack Damage of the enemy in the center by 40% for 4 seconds\n\nDamage : 200 / 300 / 450",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Star Guardian",
-             "Champions":[
-                "Rell",
-                "Yuumi",
-                "Kai'Sa",
-                "Nilah",
-                "Ekko",
-                "Taliyah",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Spellslinger",
-             "Champions":[
-                "Annie",
-                "LeBlanc",
-                "Sona",
-                "Taliyah"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Malphite",
-       "Picture":"Malphite",
-       "Cost":2,
-       "Health":"700 / 1260 / 2268",
-       "Damage":"60 / 90 / 135",
-       "Mana":"40 / 80",
-       "Attack_Speed":0.5,
-       "Armor":45,
-       "Magic_Resist":45,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Ground Slam",
-       "AbilityDescription":"Malphite slams the ground beneath him, dealing magic damage to nearby enemies and granting himself armor for 4 seconds.\n\nDamage : 140 / 210 / 320\n\nArmor : 80 / 100 / 125",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Supers",
-             "Champions":[
-                "Gangplank",
-                "Lee Sin"
-             ]
-          },
-          {
-             "Name":"Mascot",
-             "Champions":[
-                "Galio",
-                "Nasus",
-                "Yuumi",
-                "Alistar"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Miss Fortune",
-       "Picture":"MissFortune",
-       "Cost":4,
-       "Health":"750 / 1350 / 2430",
-       "Damage":"60 / 90 / 135",
-       "Mana":"0 / 120",
-       "Attack_Speed":0.7,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Bullet Time",
-       "AbilityDescription":"Miss Fortune channels for 2 seconds, firing 8 waves of bullets in a cone in her target's direction, with each wave dealing magic damage to the first target hit. Enemies hit by bullets in short succession take less magic damage for each bullet instead.\n\nDamage : 45 / 70 / 200\n\nReduce Damage : 25 / 35 / 80",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Anima Squad",
-             "Champions":[
-                "Nasus",
-                "Sylas",
-                "Jinx",
-                "Riven",
-                "Vayne"
-             ]
-          },
-          {
-             "Name":"Ace",
-             "Champions":[
-                "Draven",
-                "Samira",
-                "Mordekaiser"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Mordekaiser",
-       "Picture":"Mordekaiser",
-       "Cost":5,
-       "Health":"1100 / 1980 / 3564",
-       "Damage":"70 / 105 / 158",
-       "Mana":"50 / 150",
-       "Attack_Speed":0.7,
-       "Armor":70,
-       "Magic_Resist":70,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Skylines",
-       "AbilityDescription":"Mordekaiser transports the board into his realm for a few seconds, shredding the Magic Resist of all enemies, before summoning a building behind him and slamming it onto the board, dealing magic damage to all enemies hit.\n\nDamage : 500 / 750 / 3000\n\nMagic Resist Shred : 50% / 50% / 70%\n\nRealm Duration : 4 / 4 / 6",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"LaserCorps",
-             "Champions":[
-                "Ashe",
-                "Renekton",
-                "Yasuo",
-                "Senna",
-                "Zed"
-             ]
-          },
-          {
-             "Name":"Ace",
-             "Champions":[
-                "Draven",
-                "MissFortnue",
-                "Samira"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Nasus",
-       "Picture":"Nasus",
-       "Cost":1,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"70 / 105 / 158",
-       "Mana":"0 / 60",
-       "Attack_Speed":0.65,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Bonk!",
-       "AbilityDescription":"Mordekaiser transports the board into his realm for a few seconds, shredding the Magic Resist of all enemies, before summoning a building behind him and slamming it onto the board, dealing magic damage to all enemies hit.\n\nDamage : 500 / 750 / 3000\n\nMagic Resist Shred : 50% / 50% / 70%\n\nRealm Duration : 4 / 4 / 6",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Anima Squad",
-             "Champions":[
-                "Jinx",
-                "Riven",
-                "Vayne",
-                "MissFortnue"
-             ]
-          },
-          {
-             "Name":"Mascot",
-             "Champions":[
-                "Galio",
-                "Malphite",
-                "Yuumi",
-                "Alistar",
-                "Nunu"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Poppy",
-       "Picture":"Poppy",
-       "Cost":1,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"60 / 90 / 135",
-       "Mana":"50 / 100",
-       "Attack_Speed":0.55,
-       "Armor":45,
-       "Magic_Resist":45,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Buckler Toss",
-       "AbilityDescription":"Poppy throws her buckler at the farthest enemy, dealing % of her Armor as magic damage. The buckler then bounces back. granting Poppy a shield that blocks damage.\n\nPercent of Armor as Damage : 175% / 250% / 375%\n\nShield Amount : 250/ 300 / 375",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Gadgeteen",
-             "Champions":[
-                "Lulu",
-                "Annie",
-                "Zoe"
-             ]
-          },
-          {
-             "Name":"Defender",
-             "Champions":[
-                "Wukong",
-                "Wukong",
-                "Rell",
-                "Riven",
-                "Sett"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Rammus",
-       "Picture":"Rammus",
-       "Cost":3,
-       "Health":"950 / 1710 / 3078",
-       "Damage":"60 / 90 / 135",
-       "Mana":"60 / 120",
-       "Attack_Speed":0.6,
-       "Armor":105,
-       "Magic_Resist":55,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Sand Slam",
-       "AbilityDescription":"Passive: Rammus has increased Armor.\n\nActive: Rammus powers himself up and leaps to the largest group of nearby enemies, dealing magic damage, knocking them up for 1.25 seconds, and reducing their Attack Damage by 40% for 4 seconds.\n\nArmor : 50 / 75 / 125\n\nArmor Ratio : 120% / 160% / 200%\n\nBonus Damage : 40 / 60 / 100",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "ChoGath",
-                "VelKoz",
-                "AuerlionSol",
-                "BelVeth",
-                "Zac",
-                "Fiddlestick",
-                "Urgot"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Rell",
-       "Picture":"Rell",
-       "Cost":2,
-       "Health":"750 / 1350 / 2430",
-       "Damage":"60 / 90 / 135",
-       "Mana":"75 / 175",
-       "Attack_Speed":0.5,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Iron Bond",
-       "AbilityDescription":"Rell forms a tether between herself and her lowest percent health ally, dealing magic damage to all enemies between herself and her bound ally. She also grants herself and her bound ally % of Rell's current Armor and Magic Resist for 4 seconds.\n\n% Armor and Magic Resisit : 40 / 50 / 60\n\nDamage : 150 / 225 / 375",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Star Guardian",
-             "Champions":[
-                "Lux",
-                "Yuumi",
-                "KaiSa",
-                "Nilah",
-                "Ekko",
-                "Taliyah",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Defender",
-             "Champions":[
-                "Poppy",
-                "Wukong",
-                "Riven",
-                "Sett"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Renekton",
-       "Picture":"Renekton",
-       "Cost":1,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0 / 50",
-       "Attack_Speed":0.65,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Dominus",
-       "AbilityDescription":"Renekton empowers himself for 8 seconds, gaining maximun Health, and causing his attacks to deal 6% of his maximum Health as bonus magic damage.\n\nHealth Increase : 250 / 325 / 400",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"LaserCorps",
-             "Champions":[
-                "Ashe",
-                "Yasuo",
-                "Senna",
-                "Sejuani",
-                "Zed",
-                "Mordekaiser"
-             ]
-          },
-          {
-             "Name":"Brawler",
-             "Champions":[
-                "Blitzcrank",
-                "Lee Sin",
-                "Vi",
-                "Jax",
-                "Riven",
-                "Sejuani"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Riven",
-       "Picture":"Riven",
-       "Cost":3,
-       "Health":"750 / 1350 / 2430",
-       "Damage":"50 / 75 / 113",
-       "Mana":"30 / 100",
-       "Attack_Speed":0.65,
-       "Armor":45,
-       "Magic_Resist":45,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Bunny Blade",
-       "AbilityDescription":"Riven gains a Health Shield for 4 seconds and empowers her next 3 basic attacks with bonus magic damage. If her attack target currently has less health than her, her bonus magic damage is increased by 100%.\n\nShield Amount : 400 / 500 / 650\n\nDamage : 80 / 120 / 210",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Anima Squad",
-             "Champions":[
-                "Nasus",
-                "Sylas",
-                "Jinx",
-                "Vayne",
-                "Miss Fortnute"
-             ]
-          },
-          {
-             "Name":"Brawler",
-             "Champions":[
-                "Blitzcrank",
-                "Renekton",
-                "Lee Sin",
-                "Vi",
-                "Jax",
-                "Sejuani"
-             ]
-          },
-          {
-             "Name":"Defender",
-             "Champions":[
-                "Poppy",
-                "Wukong",
-                "Rell",
-                "Sett"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Samira",
-       "Picture":"Samira",
-       "Cost":4,
-       "Health":"950 / 1710 / 3078",
-       "Damage":"80 / 120 / 180",
-       "Mana":"30 / 100",
-       "Attack_Speed":0.75,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Flair",
-       "AbilityDescription":"Samira knocks up and juggles her target for 1.5 seconds, rapidly firing bullets that deal a physical damage. The bullets ricochet to nearby enemies, dealing 50% reduced damage.\n\nPercent of Attack Damage : 500% / 525% / 1000%\n\nDamage : 100 / 130 / 666",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Underground",
-             "Champions":[
-                "Kayle",
-                "Ezreal",
-                "Vi",
-                "Sona"
-             ]
-          },
-          {
-             "Name":"Ace",
-             "Champions":[
-                "Draven",
-                "Miss Fortnue",
-                "Mordekaiser"
-             ]
-          },
-          {
-             "Name":"Sureshot",
-             "Champions":[
-                "Sivir",
-                "Senna",
-                "Aphelios"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Sett",
-       "Picture":"Sett",
-       "Cost":4,
-       "Health":"900 / 1620 / 2916",
-       "Damage":"100 / 150 / 225",
-       "Mana":"30 / 100",
-       "Attack_Speed":0.65,
-       "Armor":60,
-       "Magic_Resist":60,
-       "Range":1,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Mecha SLAM!",
-       "AbilityDescription":"Sett begins charging up, becoming immune to crowd control and gaining a health shield for 2.5 seconds. After the shield breaks or at the end of its duration, he unleashes a blast in a cone at the most enemies in range, dealing physical damage to all enemies inside. The damage increases up depending on how long he charged.\n\nShield Health : 400 / 550 / 1500\n\nMin Attack Damage : 120% / 125% / 200%\n\nMax Attack Damage : 240% / 250% / 400%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Mecha: PRIME",
-             "Champions":[
-                "Wukong",
-                "Draven",
-                "Jax",
-                "Leona"
-             ]
-          },
-          {
-             "Name":"Defender",
-             "Champions":[
-                "Poppy",
-                "Wukong",
-                "Rell",
-                "Riven"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Sivir",
-       "Picture":"Sivir",
-       "Cost":2,
-       "Health":"600 / 1080 / 1944",
-       "Damage":"75 / 113 / 169",
-       "Mana":"0 / 80",
-       "Attack_Speed":0.75,
-       "Armor":20,
-       "Magic_Resist":20,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Pizza Delivery",
-       "AbilityDescription":"Sivir throws her pizza at her target, dealing physical damage. It then splits into slices and gets delivered to the nearest allies, healing them for health.\n\nAllies Healed : 3 / 3 / 3\n\nHealing : 80 / 100 / 125\n\nPercent Of Attack Damage : 350% / 350% / 380%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Civilian",
-             "Champions":[
-                "Galio",
-                "Jana"
-             ]
-          },
-          {
-             "Name":"Sureshot",
-             "Champions":[
-                "Senna",
-                "Samira",
-                "Aphelios"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Sona",
-       "Picture":"Sona",
-       "Cost":3,
-       "Health":"900 / 1620 / 2916",
-       "Damage":"40 / 60 / 90",
-       "Mana":"0 / 40",
-       "Attack_Speed":0.7,
-       "Armor":25,
-       "Magic_Resist":25,
-       "Range":4,
-       "AbilityIcon":"abilityIcons/alistar",
-       "AbilityName":"Crescendo Sequence",
-       "AbilityDescription":"Sona cycles between 3 phases, firing 2 beams that:\n\n1: Deals magic damage to the closest enemies.\n\n2. Heals the lowest health allies.\n\n3. Deals magic damage and stuns the closest enemies.\n\nPhase 1 Damage : 140 / 210 / 360\n\nHealing : 180 / 220 / 300\n\nPhase 3 Damage : 100 / 150 / 225",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Underground",
-             "Champions":[
-                "Kayle",
-                "Ezreal",
-                "Vi",
-                "Samira"
-             ]
-          },
-          {
-             "Name":"Heart",
-             "Champions":[
-                "Lulu",
-                "Lee Sin",
-                "Yuumi",
-                "Soraka",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Spellslinger",
-             "Champions":[
-                "Lux",
-                "Annie",
-                "LeBlanc",
-                "Taliyah"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Soraka",
-       "Cost":4,
-       "Health":"1000 / 1800 / 3240",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0/200",
-       "Attack_Speed":0.65,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityName":"Starcall",
-       "BestItems":[
-         "BrambleVest",
-         "GargoylesStoneplate",
-         "SunfireCape"
-      ],
-       "AbilityDescription":"Soraka launches a star at her target. Each star deals magic damage and heals Soraka for 10% of her max health. Every 3 casts, she launches stars at the nearest enemies instead.\n\nDamage : 280 / 420 / 650\nEmpowered Stars : 3 / 3 / 6",
-       "Traits":[
-          {
-             "Name":"A.D.M.I.N.",
-             "Champions":[
-                "Nasus",
-                "Camille",
-                "LeBlanc"
-             ]
-          },
-          {
-             "Name":"Heart",
-             "Champions":[
-                "Lulu",
-                "LeeSin",
-                "Yummi",
-                "Sona",
-                "Syndra"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Sylas",
-       "Cost":1,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"50 / 75 / 113",
-       "Mana":"30/80",
-       "Attack_Speed":0.6,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityName":"Battle Blast",
-       "BestItems":[
-         "BrambleVest",
-         "GargoylesStoneplate",
-         "SunfireCape"
-      ],
-       "AbilityDescription":"Sylas whirls his chains around him, healing himself for health and dealing magic damage to nearby enemies.\n\nDamage : 150 / 225 / 350\nHeal : 160 / 180 / 210",
-       "Traits":[
-          {
-             "Name":"Anima Squad",
-             "Champions":[
-                "Nasus",
-                "Jinx",
-                "Riven",
-                "Riven",
-                "BelVeth",
-                "MissFortune"
-             ]
-          },
-          {
-             "Name":"Renegade",
-             "Champions":[
-                "Talon",
-                "Camille",
-                "Viego",
-                "Leona"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Syndra",
-       "Cost":5,
-       "Health":"850 / 1530 / 2754",
-       "Damage":"50 / 75 / 113",
-       "Mana":"100/175",
-       "Attack_Speed":0.8,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":3,
-       "AbilityName":"Force of Will",
-       "BestItems":[
-         "BrambleVest",
-         "GargoylesStoneplate",
-         "SunfireCape"
-      ],
-       "AbilityDescription":"Syndra enshrounds a random unit on your bench in an orb, granting them a health shield and fllinging them onto the board towards the closest enemy, knocking up and dealing magic damage to any enemies hit. Traits are unaffected except Corrupted.\n\nShield Amount : 30 / 300 / 3000\nStun Duration : 1 / 1 / 8\nDamage : 50 / 250 / 2000",
-       "Traits":[
-          {
-             "Name":"Star Guardian",
-             "Champions":[
-                "Lux",
-                "Rell",
-                "Yuumi",
-                "KaiSa",
-                "Nilah",
-                "Ekko",
-                "Taliyah"
-             ]
-          },
-          {
-             "Name":"Heart",
-             "Champions":[
-                "Lulu",
-                "LeeSin",
-                "Yuumi",
-                "Sona",
-                "Sona",
-                "Soraka"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Taliyah",
-       "Cost":4,
-       "Health":"700 / 1260 / 2268",
-       "Damage":"45 / 68 / 101",
-       "Mana":"0/90",
-       "Attack_Speed":0.75,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityName":"Weaver's Wall",
-       "BestItems":[
-         "BrambleVest",
-         "GargoylesStoneplate",
-         "SunfireCape"
-      ],
-       "AbilityDescription":"Taliyah summon a torrent of spiraling rocks in a line of enemy units, dealing magic damage to all enemies it hits. After a brief delay, the wall explodes, dealing additional magic damage to nearby enemies.\n\nDamage : 65 / 100 / 250\nExplosion Damage : 220 / 330 / 800",
-       "Traits":[
-          {
-             "Name":"Star Guardian",
-             "Champions":[
-                "Lux",
-                "Rell",
-                "Yuumi",
-                "KaiSa",
-                "Nilah",
-                "Ekko",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Spellslinger",
-             "Champions":[
-                "Lux",
-                "Annie",
-                "LeBlanc",
-                "Sona"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Talon",
-       "Cost":1,
-       "Health":"550 / 990 / 1782",
-       "Damage":"55 / 83 / 124",
-       "Mana":"0/70",
-       "Attack_Speed":0.65,
-       "Armor":25,
-       "Magic_Resist":25,
-       "Range":1,
-       "AbilityName":"OX-ian Diplomacy",
-       "BestItems":[
-         "BrambleVest",
-         "GargoylesStoneplate",
-         "SunfireCape"
-      ],
-       "AbilityDescription":"Talon jumps to the furthest unit from the center of the board and stabs them magic damage. If this kills them, Talon heals.\n\nDamage : 220 / 330 / 500\nHeal : 150 / 200 / 250",
-       "Traits":[
-          {
-             "Name":"Ox Force",
-             "Champions":[
-                "Annie",
-                "Fiora",
-                "Alistar",
-                "Viego",
-                "Aphelios"
-             ]
-          },
-          {
-             "Name":"Renegade",
-             "Champions":[
-                "Sylas",
-                "Camille",
-                "Viego",
-                "Leona"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Urgot",
-       "Cost":5,
-       "Health":"1100 / 1980 / 3564",
-       "Damage":"99 / 149 / 223",
-       "Mana":"100/175",
-       "Attack_Speed":1,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":3,
-       "AbilityName":"Undertow",
-       "BestItems":[
-         "BrambleVest",
-         "GargoylesStoneplate",
-         "SunfireCape"
-      ],
-       "AbilityDescription":"Passive: Urgot's claw fires 5 attacks per second, each dealing physical damage.\n\nAbility: Urgot summons a gigantic wave behind his enemies that moves towards him, dealing % of their maximum Health as magic damage. The wave collides with enemies knocking them forward 1 hex, stunning them, and grants a chance to dredge up TREASURE.\n\nMax Health : 10% / 15% / 99%\nStun Duration : 1.25 / 1.5 / 5\nTreasure Chance : 12% / 15% / 100%",
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "Cho'Gath",
-                "Rammus",
-                "VelKoz",
-                "Zac",
-                "Aurelion Sol",
-                "BelVeth",
-                "FiddleSticks"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Vayne",
-       "Cost":3,
-       "Health":"850 / 1530 / 2754",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0/40",
-       "Attack_Speed":0.75,
-       "Armor":25,
-       "Magic_Resist":25,
-       "Range":4,
-       "AbilityName":"Silver Bolt",
-       
-       "AbilityDescription":"Vayne fires a heavy bolt at her target, dealing true damage.\n\nPercent of Attack Damage : 120% / 120% / 130%\nBonus Physical Damage : 20 / 30 /45",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Anima Squad",
-             "Champions":[
-                "Nasus",
-                "Sylas",
-                "Jinx",
-                "Riven",
-                "BelVeth",
-                "MissFortune"
-             ]
-          },
-          {
-             "Name":"Duelist",
-             "Champions":[
-                "Gangplank",
-                "Kayle",
-                "Fiora",
-                "Yasuo",
-                "Nilah",
-                "Zed"
-             ]
-          },
-          {
-             "Name":"Recon",
-             "Champions":[
-                "Ashe",
-                "Ezreal",
-                "KaiSa"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Vel'koz",
-       "Cost":3,
-       "Health":"750 / 1350 / 2430",
-       "Damage":"50 / 75 / 113",
-       "Mana":"0/80",
-       "Attack_Speed":0.60,
-       "Armor":30,
-       "Magic_Resist":30,
-       "Range":4,
-       "AbilityName":"Frozen Tomb",
-       "AbilityDescription":"Vel'koz freezes the enemy champion that has dealt the most damage this round for a few seconds, dealing magic damage.\n\nDamage : 280 / 400 / 620\nStun Duration : 1.5 / 2 / 2.5",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "Cho'Gath",
-                "Rammus",
-                "Zac",
-                "Aurelion Sol",
-                "BelVeth",
-                "FiddleSticks",
-                "Urgot"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Vi",
-       "Cost":2,
-       "Health":"700 / 1260 / 2268",
-       "Damage":"60 / 90 / 135",
-       "Mana":"0/80",
-       "Attack_Speed":0.6,
-       "Armor":45,
-       "Magic_Resist":45,
-       "Range":1,
-       "AbilityName":"Blast Shield",
-       "AbilityDescription":"Vi slams the ground in front of her and releases her stored energy, granting herself a health shield for 4 seconds, reducing the Armor of nearby enemies for 4 seconds and dealing physical damage.\n\nShield Amount : 325 / 400 / 500\nArmor Reduction % : 40% / 50% / 70%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Underground",
-             "Champions":[
-                "Kayle",
-                "Ezreal",
-                "Sona",
-                "Samira"
-             ]
-          },
-          {
-             "Name":"Aegis",
-             "Champions":[
-                "Alistar",
-                "Ekko",
-                "Leona"
-             ]
-          },
-          {
-             "Name":"Brawler",
-             "Champions":[
-                "Blitzcrank",
-                "Renekton",
-                "Jax",
-                "Riven",
-                "Sejuani"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Viego",
-       "Cost":4,
-       "Health":"1050 / 1890 / 3402",
-       "Damage":"60 / 90 / 135",
-       "Mana":"0/75",
-       "Attack_Speed":0.75,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":1,
-       "AbilityName":"Heartbreaker",
-       "AbilityDescription":"Viego becomes unstoppable, leaping to the largest cluster of nearby enemies and slamming his sword down on the enemy with the lowest health, dealing magic damage to the primary target and magic damage to enemies nearby. If Viego kills an enemy, he casts again with reduced damage.\n\nDamage : 300 / 400 / 900\nAOE Damage : 150 / 225 / 450\nFalloff Percent : 25% / 20% / 1%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Ox Force",
-             "Champions":[
-                "Talon",
-                "Annie",
-                "Fiora",
-                "Alistar",
-                "Aphelios"
-             ]
-          },
-          {
-             "Name":"Renegade",
-             "Champions":[
-                "Sylas",
-                "Talon",
-                "Camille",
-                "Leona"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Wukong",
-       "Cost":1,
-       "Health":"650 / 1170 / 2106",
-       "Damage":"60 / 90 / 135",
-       "Mana":"50/100",
-       "Attack_Speed":0.6,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityName":"Stone Skin",
-       "AbilityDescription":"Wukong spins his staff around him, dealing magic damage to nearby enemies and gaining Armor and Magic Resist for each enemy hit for 3 seconds\n\nDamage : 160 / 240 / 360\nArmor and Magic Resist : 50 / 75 / 100",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Mecha: PRIME",
-             "Champions":[
-                "Draven",
-                "Jax",
-                "Sett",
-                "Leona"
-             ]
-          },
-          {
-             "Name":"Defender",
-             "Champions":[
-                "Poppy",
-                "Rell",
-                "Riven",
-                "Sett"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Yasuo",
-       "Cost":2,
-       "Health":"750 / 1350 / 2430",
-       "Damage":"50 / 75 / 113",
-       "Mana":"20/100",
-       "Attack_Speed":0.7,
-       "Armor":40,
-       "Magic_Resist":40,
-       "Range":1,
-       "AbilityName":"Steel Tempest",
-       "AbilityDescription":"Yasuo fires a whirlwind at his target dealing magic damage and knocking up units hit for a few seconds. If the current position isn't the best, he will dash up to one hex to find a the most units in a line.\n\nMagic Damage : 225 / 325 / 500\n\nDuration : 1.25 / 1.5 / 1.75",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"LaserCorps",
-             "Champions":[
-                "Ashe",
-                "Renekton",
-                "Senna",
-                "Sejuani",
-                "Zed",
-                "Ekko",
-                "Mordekaiser"
-             ]
-          },
-          {
-             "Name":"Duelist",
-             "Champions":[
-                "Gangplank",
-                "Kayle",
-                "Fiora",
-                "Nilah",
-                "Vayne",
-                "Zed"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Yuumi",
-       "Cost":2,
-       "Health":"550 / 990 / 1782",
-       "Damage":"40 / 60 / 90",
-       "Mana":"30/75",
-       "Attack_Speed":0.65,
-       "Armor":20,
-       "Magic_Resist":20,
-       "Range":5,
-       "AbilityName":"Prowling Projectile",
-       "AbilityDescription":"Yuumi fires a curved missile at the furthest target in her attack range, dealing magic damage to the first unit hit.\n\nDamage : 250 / 375 / 575",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Star Guardian",
-             "Champions":[
-                "Lux",
-                "Rell",
-                "KaiSa",
-                "Nilah",
-                "Ekko",
-                "Taliyah",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Heart",
-             "Champions":[
-                "Lulu",
-                "LeeSin",
-                "Sona",
-                "Sona",
-                "Soraka",
-                "Syndra"
-             ]
-          },
-          {
-             "Name":"Mascot",
-             "Champions":[
-                "Galio",
-                "Nasus",
-                "Malphite",
-                "Alistar",
-                "Nunu"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Zac",
-       "Cost":4,
-       "Health":"1050 / 1890 / 3402",
-       "Damage":"75 / 113 / 169",
-       "Mana":"0/100",
-       "Attack_Speed":0.75,
-       "Armor":65,
-       "Magic_Resist":65,
-       "Range":1,
-       "AbilityName":"Symbiotic Split",
-       "AbilityDescription":"Passive: Upon dying, split into smaller Zac Blobs with % of Zac's maximum Health that taunt nearby enemies.\n\nSpell: Zac bounces into the air and slams back down, dealing magic damage to nearby enemies and healing himself for 20% of his missing Health.\n\nBlobs : 2 / 2 / 4\n\nBlob Health : 40% / 40% / 50%\n\nDamage : 100 / 150 / 1000",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Threat",
-             "Champions":[
-                "Cho'Gath",
-                "Rammus",
-                "Velkoz",
-                "Aurelion Sol",
-                "BelVeth",
-                "FiddleSticks",
-                "Urgot"
-             ]
-          }
-       ]
-    },
-    {
-      "Name": "Nilah",
-      "Picture": "Nilah",
-      "Cost": 3,
-      "Health": "800 / 1440 / 2592",
-      "Damage": "50 / 75 / 113",
-      "Mana": "50 / 150",
-      "Attack_Speed": 0.7,
-      "Armor": 40,
-      "Magic_Resist": 40,
-      "Range": 1,
-      "AbilityIcon": "abilityIcons/alistar",
-      "AbilityName": "Apotheosis",
-      "AbilityDescription": "Nilah whirls her whip-blade. dealing magic damage to nearby enemies while healing herself and allies health over 1 seconds. She finishes with a burst that deals magic damage.\n\nHeal : 200 / 250 / 325\n\nDamage : 100 / 150 / 250",
-      "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
-      "Traits": [
-        {
-          "Name": "Star Guardian",
-          "Champions": ["Lux", "Rell", "Yuumi", "Ekko", "Taliyah", "Syndra"]
-        },
-        {
-          "Name": "Duelist",
-          "Champions": ["Gangplank", "Kayle", "Yasuo", "Vayne", "Zed"]
-        }
-      ]
-    }
-,    
-{
-   "Name": "Sejuani",
-   "Picture": "Sejuani",
-   "Cost": 4,
-   "Health": "900 / 1620 / 2916",
-   "Damage": "70 / 105 / 158",
-   "Mana": "50 / 150",
-   "Attack_Speed": 0.55,
-   "Armor": 60,
-   "Magic_Resist": 60,
-   "Range": 1,
-   "AbilityIcon": "abilityIcons/alistar",
-   "AbilityName": "Cryo Grenade",
-   "AbilityDescription": "Sejuani throws a cryo grenade at the closest enemy that explodes after a 2-second delay. Enemies within a 3-hex radius are dealt magic damage and are stunned.\n\nDamage : 125 / 200 / 1200\nStun Duration : 1.5 / 2 / 8",
-   "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
-   "Traits": [
-     {
-       "Name": "LaserCorps",
-       "Champions": ["Ashe", "Renekton", "Yasuo", "Senna", "Zed", "Mordekaiser"]
-     },
-     {
-       "Name": "Brawler",
-       "Champions": ["Renekton", "LeeSin", "Vi", "Jax", "Riven"]
-     }
-   ]
- },
- {
-   "Name": "Senna",
-   "Picture": "Senna",
-   "Cost": 3,
-   "Health": "650 / 1170 / 2106",
-   "Damage": "75 / 113 / 169",
-   "Mana": "0 / 80",
-   "Attack_Speed": 0.7,
-   "Armor": 25,
-   "Magic_Resist": 25,
-   "Range": 4,
-   "AbilityIcon": "abilityIcons/alistar",
-   "AbilityName": "Piercing Darkness",
-   "AbilityDescription": "Senna fires a laser beam in the direction of a nearby enemy. dealing physical damage to all enemies in a line.\n\nPercent of Attack Damage : 150% / 160% / 180%\n\nBonus Damage : 55 / 75 / 140",
-   "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
-   "Traits": [
-     {
-       "Name": "LaserCorps",
-       "Champions": ["Ashe", "Renekton", "Yasuo", "Zed", "Mordekaiser", "Sejuani"]
-     },
-     {
-       "Name": "Sureshot",
-       "Champions": ["Sivir", "Samira", "Aphelios"]
-     }
-   ]
- }
- ,
-    {
-      "Name": "Nunu",
-      "Picture": "Nunu",
-      "Cost": 5,
-      "Health": "1200 / 2160 / 3888",
-      "Damage": "0 / 0 / 0",
-      "Mana": "0 / 90",
-      "Attack_Speed": 0.2,
-      "Armor": 60,
-      "Magic_Resist": 60,
-      "Range": 1,
-      "AbilityIcon": "abilityIcons/alistar",
-      "AbilityName": "Biggest Roboball Ever!",
-      "AbilityDescription": "Passive: Nunu and Willump slowly roll a ball around the board, dealing magic damage to all enemies it passes through, and gaining 30 mana per second.\n\nNuNu and Willump grow the ball, increashing their speed, radius of the ball, and its damage dealt by 50%.\n\nDamage : 150 / 225 / 3333",
-      "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
-      "Traits": [
-        {
-          "Name": "Gadgeteen",
-          "Champions": ["Lulu", "Poppy", "Annie", "Zoe"]
-        },
-        {
-          "Name": "Defender",
-          "Champions": ["Galio", "Nasus", "Malphite", "Yuumi", "Alistar"]
-        }
-      ]
-    }
-,    
-    {
-       "Name":"Zed",
-       "Cost":4,
-       "Health":"1150 / 2070 / 3726",
-       "Damage":"90 / 135 / 203",
-       "Mana":"0/40",
-       "Attack_Speed":0.85,
-       "Armor":50,
-       "Magic_Resist":50,
-       "Range":1,
-       "AbilityName":"Empowered Kill Mode",
-       "AbilityDescription":"Zed teleports behind his target and marks them for death, shredding armor for a few seconds. He then enters an Empowered Kill Mode for a few seconds. While active, Zed's attacks deal an additional bouns physical damage and every third attack damages all adjacent enemies, dealing physical damage to adjacent enemies. \n\nArmor Shred : 15 / 20 / 50\n\nBonus Damage : 30 / 45 / 120\n\nDuration : 6 / 6 / 15",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"LaserCorps",
-             "Champions":[
-                "Ashe",
-                "Renekton",
-                "Yasuo",
-                "Senna",
-                "Sejuani",
-                "Mordekaiser"
-             ]
-          },
-          {
-             "Name":"Hacker",
-             "Champions":[
-                "LeBlanc",
-                "Zoe"
-             ]
-          },
-          {
-             "Name":"Duelist",
-             "Champions":[
-                "Gangplank",
-                "Kayle",
-                "Fiora",
-                "Yasuo",
-                "Nilah",
-                "Vayne"
-             ]
-          }
-       ]
-    },
-    {
-       "Name":"Zoe",
-       "Cost":3,
-       "Health":"850 / 1530 / 2754",
-       "Damage":"40 / 60 / 90",
-       "Mana":"0/40",
-       "Attack_Speed":0.7,
-       "Armor":20,
-       "Magic_Resist":20,
-       "Range":4,
-       "AbilityName":"Safeguard",
-       "AbilityDescription":"Zoe launches a bubble at the nearest non-infected enemy's location, infecting all enemies hit with a virus that deals magic damage over 10 seconds. Infected enemies take more damage.\n\nDamage : 500 / 750 / 1337\n\nPercent Bonus Damage : 10% / 10% / 20%",
-       "BestItems":[
-          "BrambleVest",
-          "GargoylesStoneplate",
-          "SunfireCape"
-       ],
-       "Traits":[
-          {
-             "Name":"Gadgeteen",
-             "Champions":[
-                "Lulu",
-                "Poppy",
-                "Annie",
-                "Nunu"
-             ]
-          },
-          {
-             "Name":"Hacker",
-             "Champions":[
-                "LeBlanc",
-                "Zed"
-             ]
-          },
-          {
-             "Name":"Prankster",
-             "Champions":[
-                "Jinx",
-                "Ekko"
-             ]
-          }
-       ]
-    }
- ]
+	{
+		"Name": "Wukong",
+		"Cost": 1,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "60 / 90 / 135",
+		"Mana": "50/100",
+		"Attack_Speed": 0.6,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityName": "Stone Skin",
+		"AbilityDescription": "Wukong spins his staff around him, dealing magic damage to nearby enemies and gaining Armor and Magic Resist for each enemy hit for 3 seconds\n\nDamage : 160 / 240 / 360\nArmor and Magic Resist : 50 / 75 / 100",
+		"BestItems": [
+			"ZzRotPortal",
+			"ZzRotPortal",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "Mecha: PRIME",
+				"Champions": [
+					"Draven",
+					"Jax",
+					"Sett",
+					"Leona"
+				]
+			},
+			{
+				"Name": "Defender",
+				"Champions": [
+					"Poppy",
+					"Rell",
+					"Riven",
+					"Sett"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Talon",
+		"Cost": 1,
+		"Health": "550 / 990 / 1782",
+		"Damage": "55 / 83 / 124",
+		"Mana": "0/70",
+		"Attack_Speed": 0.65,
+		"Armor": 25,
+		"Magic_Resist": 25,
+		"Range": 1,
+		"AbilityName": "OX-ian Diplomacy",
+		"BestItems": [
+			"Bloodthirster",
+			"RunaansHurricane",
+			"HandofJustice"
+		],
+		"AbilityDescription": "Talon jumps to the furthest unit from the center of the board and stabs them magic damage. If this kills them, Talon heals.\n\nDamage : 220 / 330 / 500\nHeal : 150 / 200 / 250",
+		"Traits": [
+			{
+				"Name": "Ox Force",
+				"Champions": [
+					"Annie",
+					"Fiora",
+					"Alistar",
+					"Viego",
+					"Aphelios"
+				]
+			},
+			{
+				"Name": "Renegade",
+				"Champions": [
+					"Sylas",
+					"Camille",
+					"Viego",
+					"Leona"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Sylas",
+		"Cost": 1,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "50 / 75 / 113",
+		"Mana": "30/80",
+		"Attack_Speed": 0.6,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityName": "Battle Blast",
+		"BestItems": [
+			"ArchangelsStaff",
+			"IonicSpark",
+			"Morellonomicon"
+		],
+		"AbilityDescription": "Sylas whirls his chains around him, healing himself for health and dealing magic damage to nearby enemies.\n\nDamage : 150 / 225 / 350\nHeal : 160 / 180 / 210",
+		"Traits": [
+			{
+				"Name": "Anima Squad",
+				"Champions": [
+					"Nasus",
+					"Jinx",
+					"Riven",
+					"BelVeth",
+					"MissFortune"
+				]
+			},
+			{
+				"Name": "Renegade",
+				"Champions": [
+					"Talon",
+					"Camille",
+					"Viego",
+					"Leona"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Renekton",
+		"Picture": "Renekton",
+		"Cost": 1,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0 / 50",
+		"Attack_Speed": 0.65,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Dominus",
+		"AbilityDescription": "Renekton empowers himself for 8 seconds, gaining maximun Health, and causing his attacks to deal 6% of his maximum Health as bonus magic damage.\n\nHealth Increase : 250 / 325 / 400",
+		"BestItems": [
+			"ThiefsGloves",
+			"ZzRotPortal",
+			"WarmogsArmor"
+		],
+		"Traits": [
+			{
+				"Name": "LaserCorps",
+				"Champions": [
+					"Ashe",
+					"Yasuo",
+					"Senna",
+					"Sejuani",
+					"Zed",
+					"Mordekaiser"
+				]
+			},
+			{
+				"Name": "Brawler",
+				"Champions": [
+					"Blitzcrank",
+					"Lee Sin",
+					"Vi",
+					"Jax",
+					"Riven",
+					"Sejuani"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Poppy",
+		"Picture": "Poppy",
+		"Cost": 1,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "60 / 90 / 135",
+		"Mana": "50 / 100",
+		"Attack_Speed": 0.55,
+		"Armor": 45,
+		"Magic_Resist": 45,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Buckler Toss",
+		"AbilityDescription": "Poppy throws her buckler at the farthest enemy, dealing % of her Armor as magic damage. The buckler then bounces back. granting Poppy a shield that blocks damage.\n\nPercent of Armor as Damage : 175% / 250% / 375%\n\nShield Amount : 250/ 300 / 375",
+		"BestItems": [
+			"WarmogsArmor",
+			"ZzRotPortal",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "Gadgeteen",
+				"Champions": [
+					"Lulu",
+					"Annie",
+					"Zoe"
+				]
+			},
+			{
+				"Name": "Defender",
+				"Champions": [
+					"Wukong",
+					"Rell",
+					"Riven",
+					"Sett"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Nasus",
+		"Picture": "Nasus",
+		"Cost": 1,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "70 / 105 / 158",
+		"Mana": "0 / 60",
+		"Attack_Speed": 0.65,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Bonk!",
+		"AbilityDescription": "Mordekaiser transports the board into his realm for a few seconds, shredding the Magic Resist of all enemies, before summoning a building behind him and slamming it onto the board, dealing magic damage to all enemies hit.\n\nDamage : 500 / 750 / 3000\n\nMagic Resist Shred : 50% / 50% / 70%\n\nRealm Duration : 4 / 4 / 6",
+		"BestItems": [
+			"TitansResolve",
+			"JeweledGauntlet",
+			"HandofJustice"
+		],
+		"Traits": [
+			{
+				"Name": "Anima Squad",
+				"Champions": [
+					"Jinx",
+					"Riven",
+					"Vayne",
+					"MissFortune"
+				]
+			},
+			{
+				"Name": "Mascot",
+				"Champions": [
+					"Galio",
+					"Malphite",
+					"Yuumi",
+					"Alistar",
+					"Nunu"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Lux",
+		"Picture": "Lux",
+		"Cost": 1,
+		"Health": "500 / 900 / 1620",
+		"Damage": "40 / 60 / 90",
+		"Mana": "30 / 90",
+		"Attack_Speed": 0.65,
+		"Armor": 15,
+		"Magic_Resist": 15,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Lucent Singularity",
+		"AbilityDescription": "Lux sends a lucent singularity at a random enemy's location that detonates after arrival. dealing to nearby enemies and reducing the Attack Damage of the enemy in the center by 40% for 4 seconds\n\nDamage : 200 / 300 / 450",
+		"BestItems": [
+			"SpearofShojin",
+			"JeweledGauntlet",
+			"GiantSlayer"
+		],
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Rell",
+					"Yuumi",
+					"Kai'Sa",
+					"Nilah",
+					"Ekko",
+					"Taliyah",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Spellslinger",
+				"Champions": [
+					"Annie",
+					"LeBlanc",
+					"Sona",
+					"Taliyah"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Lulu",
+		"Picture": "Lulu",
+		"Cost": 1,
+		"Health": "500 / 900 / 1620",
+		"Damage": "30 / 45 / 68",
+		"Mana": "20 / 80",
+		"Attack_Speed": 0.7,
+		"Armor": 15,
+		"Magic_Resist": 15,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Glitterlance",
+		"AbilityDescription": "Lulu fires a bolt of magic energy at her target, dealing magic damage to the first enemy and to subsequent enemies.\n\nDamage : 240 / 360 / 540\n\nSecondary Damage : 120 / 180 / 270",
+		"BestItems": [
+			"ChaliceofPower",
+			"ZekesHerald",
+			"Zephyr"
+		],
+		"Traits": [
+			{
+				"Name": "Gadgeteen",
+				"Champions": [
+					"Poppy",
+					"Annie",
+					"Zoe",
+					"Nunu"
+				]
+			},
+			{
+				"Name": "Heart",
+				"Champions": [
+					"Lee Sin",
+					"Yuumi",
+					"Sona",
+					"Soraka",
+					"Syndra"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Kayle",
+		"Picture": "Kayle",
+		"Cost": 1,
+		"Health": "500 / 900 / 1620",
+		"Damage": "60 / 90 / 135",
+		"Mana": "0 / 30",
+		"Attack_Speed": 0.65,
+		"Armor": 15,
+		"Magic_Resist": 15,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Starfire Spellblade",
+		"AbilityDescription": "Kayle's next 3 attacks smite her target, dealing physical damage to them and magic to enemies within one hex of them.\n\n% Attack Damage : 150% / 150% / 150%\n\nDamage : 20 / 30 / 45",
+		"BestItems": [
+			"GuinsoosRageblade",
+			"GiantSlayer",
+			"InfinityEdge"
+		],
+		"Traits": [
+			{
+				"Name": "Underground",
+				"Champions": [
+					"Ezreal",
+					"Vi",
+					"Sona",
+					"Samira"
+				]
+			},
+			{
+				"Name": "Duelist",
+				"Champions": [
+					"Gangplank",
+					"Fiora",
+					"Yasuo",
+					"Nilah",
+					"Vayne",
+					"Zed"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Gangplank",
+		"Picture": "Gangplank",
+		"Cost": 1,
+		"Health": "800 / 1440 / 2592",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.65,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Trial by Fire",
+		"AbilityDescription": "Gangplank removes all crowd control from himself and fires a flaming bullet at his target. dealing magic damage and reducing healing by 30% for 8 seconds.\n\nDamage : 240 / 360 / 540",
+		"BestItems": [
+			"LastWhisper",
+			"InfinityEdge",
+			"RunaansHurricane"
+		],
+		"Traits": [
+			{
+				"Name": "Supers",
+				"Champions": [
+					"Lee Sin",
+					"Malphite"
+				]
+			},
+			{
+				"Name": "Mascot",
+				"Champions": [
+					"Kayle",
+					"Fiora",
+					"Yasuo",
+					"Vayne",
+					"Zed"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Blitzcrank",
+		"Picture": "Blitzcrank",
+		"Cost": 1,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "50 / 75 / 113",
+		"Mana": "45 / 90",
+		"Attack_Speed": 0.5,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Static Defenses",
+		"AbilityDescription": "Blitzcrank creates an empowered field around himself, reducing all damage taken by for 4 seconds.\n\nDamage Reduction : 40% / 50% / 60%",
+		"BestItems": [
+			"WarmogsArmor",
+			"GargoylesStoneplate",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "A.D.M.I.N.",
+				"Champions": [
+					"Camille",
+					"LeBlanc",
+					"Soraka"
+				]
+			},
+			{
+				"Name": "Brawler",
+				"Champions": [
+					"Renekton",
+					"Lee Sin",
+					"Vi",
+					"Jax",
+					"Riven",
+					"Sejuani"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Ashe",
+		"Picture": "Ashe",
+		"Cost": 1,
+		"Health": "500 / 900 / 1620",
+		"Damage": "70 / 105 / 158",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.7,
+		"Armor": 15,
+		"Magic_Resist": 15,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Ranger's Focus",
+		"AbilityDescription": "Ashe increases her focus for the next 4 seconds. gaining 47 Attack Damage ( Attack Damage + )\n\nPercent Of Attack Damage : 45% / 50% / 55%\n\nDamage : 15 / 25 / 35",
+		"BestItems": [
+			"StatikkShiv",
+			"ZekesHerald",
+			"RunaansHurricane"
+		],
+		"Traits": [
+			{
+				"Name": "LaserCorps",
+				"Champions": [
+					"Renekton",
+					"Yasuo",
+					"Senna",
+					"Sejuani",
+					"Zed"
+				]
+			},
+			{
+				"Name": "Recon",
+				"Champions": [
+					"Ezreal",
+					"Kai'Sa",
+					"Vayne"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Yuumi",
+		"Cost": 2,
+		"Health": "550 / 990 / 1782",
+		"Damage": "40 / 60 / 90",
+		"Mana": "30/75",
+		"Attack_Speed": 0.65,
+		"Armor": 20,
+		"Magic_Resist": 20,
+		"Range": 5,
+		"AbilityName": "Prowling Projectile",
+		"AbilityDescription": "Yuumi fires a curved missile at the furthest target in her attack range, dealing magic damage to the first unit hit.\n\nDamage : 250 / 375 / 575",
+		"BestItems": [
+			"ChaliceofPower",
+			"LocketoftheIronSolari",
+			"ZekesHerald"
+		],
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Lux",
+					"Rell",
+					"KaiSa",
+					"Nilah",
+					"Ekko",
+					"Taliyah",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Heart",
+				"Champions": [
+					"Lulu",
+					"LeeSin",
+					"Sona",
+					"Sona",
+					"Soraka",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Mascot",
+				"Champions": [
+					"Galio",
+					"Nasus",
+					"Malphite",
+					"Alistar",
+					"Nunu"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Yasuo",
+		"Cost": 2,
+		"Health": "750 / 1350 / 2430",
+		"Damage": "50 / 75 / 113",
+		"Mana": "20/100",
+		"Attack_Speed": 0.7,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityName": "Steel Tempest",
+		"AbilityDescription": "Yasuo fires a whirlwind at his target dealing magic damage and knocking up units hit for a few seconds. If the current position isn't the best, he will dash up to one hex to find a the most units in a line.\n\nMagic Damage : 225 / 325 / 500\n\nDuration : 1.25 / 1.5 / 1.75",
+		"BestItems": [
+			"RapidFirecannon",
+			"GuinsoosRageblade",
+			"Bloodthirster"
+		],
+		"Traits": [
+			{
+				"Name": "LaserCorps",
+				"Champions": [
+					"Ashe",
+					"Renekton",
+					"Senna",
+					"Sejuani",
+					"Zed",
+					"Ekko",
+					"Mordekaiser"
+				]
+			},
+			{
+				"Name": "Duelist",
+				"Champions": [
+					"Gangplank",
+					"Kayle",
+					"Fiora",
+					"Nilah",
+					"Vayne",
+					"Zed"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Vi",
+		"Cost": 2,
+		"Health": "700 / 1260 / 2268",
+		"Damage": "60 / 90 / 135",
+		"Mana": "0/80",
+		"Attack_Speed": 0.6,
+		"Armor": 45,
+		"Magic_Resist": 45,
+		"Range": 1,
+		"AbilityName": "Blast Shield",
+		"AbilityDescription": "Vi slams the ground in front of her and releases her stored energy, granting herself a health shield for 4 seconds, reducing the Armor of nearby enemies for 4 seconds and dealing physical damage.\n\nShield Amount : 325 / 400 / 500\nArmor Reduction % : 40% / 50% / 70%",
+		"BestItems": [
+			"BrambleVest",
+			"DragonsClaw",
+			"WarmogsArmor"
+		],
+		"Traits": [
+			{
+				"Name": "Underground",
+				"Champions": [
+					"Kayle",
+					"Ezreal",
+					"Sona",
+					"Samira"
+				]
+			},
+			{
+				"Name": "Aegis",
+				"Champions": [
+					"Alistar",
+					"Ekko",
+					"Leona"
+				]
+			},
+			{
+				"Name": "Brawler",
+				"Champions": [
+					"Blitzcrank",
+					"Renekton",
+					"Jax",
+					"Riven",
+					"Sejuani"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Sivir",
+		"Picture": "Sivir",
+		"Cost": 2,
+		"Health": "600 / 1080 / 1944",
+		"Damage": "75 / 113 / 169",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.75,
+		"Armor": 20,
+		"Magic_Resist": 20,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Pizza Delivery",
+		"AbilityDescription": "Sivir throws her pizza at her target, dealing physical damage. It then splits into slices and gets delivered to the nearest allies, healing them for health.\n\nAllies Healed : 3 / 3 / 3\n\nHealing : 80 / 100 / 125\n\nPercent Of Attack Damage : 350% / 350% / 380%",
+		"BestItems": [
+			"GuinsoosRageblade",
+			"GiantSlayer",
+			"StatikkShiv"
+		],
+		"Traits": [
+			{
+				"Name": "Civilian",
+				"Champions": [
+					"Galio",
+					"Janna"
+				]
+			},
+			{
+				"Name": "Sureshot",
+				"Champions": [
+					"Senna",
+					"Samira",
+					"Aphelios"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Rell",
+		"Picture": "Rell",
+		"Cost": 2,
+		"Health": "750 / 1350 / 2430",
+		"Damage": "60 / 90 / 135",
+		"Mana": "75 / 175",
+		"Attack_Speed": 0.5,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Iron Bond",
+		"AbilityDescription": "Rell forms a tether between herself and her lowest percent health ally, dealing magic damage to all enemies between herself and her bound ally. She also grants herself and her bound ally % of Rell's current Armor and Magic Resist for 4 seconds.\n\n% Armor and Magic Resisit : 40 / 50 / 60\n\nDamage : 150 / 225 / 375",
+		"BestItems": [
+			"GargoylesStoneplate",
+			"WarmogsArmor",
+			"ZzRotPortal"
+		],
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Lux",
+					"Yuumi",
+					"KaiSa",
+					"Nilah",
+					"Ekko",
+					"Taliyah",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Defender",
+				"Champions": [
+					"Poppy",
+					"Wukong",
+					"Riven",
+					"Sett"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Malphite",
+		"Picture": "Malphite",
+		"Cost": 2,
+		"Health": "700 / 1260 / 2268",
+		"Damage": "60 / 90 / 135",
+		"Mana": "40 / 80",
+		"Attack_Speed": 0.5,
+		"Armor": 45,
+		"Magic_Resist": 45,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Ground Slam",
+		"AbilityDescription": "Malphite slams the ground beneath him, dealing magic damage to nearby enemies and granting himself armor for 4 seconds.\n\nDamage : 140 / 210 / 320\n\nArmor : 80 / 100 / 125",
+		"BestItems": [
+			"ZzRotPortal",
+			"ZzRotPortal",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "Supers",
+				"Champions": [
+					"Gangplank",
+					"Lee Sin"
+				]
+			},
+			{
+				"Name": "Mascot",
+				"Champions": [
+					"Galio",
+					"Nasus",
+					"Yuumi",
+					"Alistar"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Lee Sin",
+		"Picture": "Lee Sin",
+		"Cost": 2,
+		"Health": "700 / 1260 / 2268",
+		"Damage": "60 / 90 / 135",
+		"Mana": "0 / 70",
+		"Attack_Speed": 0.65,
+		"Armor": 45,
+		"Magic_Resist": 45,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Safeguard",
+		"AbilityDescription": "If there is a nearby ally. Lee Sin dashes towards them, shielding both them and himself for 4 seconds. If there are no nearby allies. Lee Sin gains more health shield instead. Afterwards, he dashes back and deals physical damage to his target.\n\nShield Amount : 180 / 220 / 270\n\nPercent Of Attack Damage : 250% / 250% / 275%",
+		"BestItems": [
+			"WarmogsArmor",
+			"GargoylesStoneplate",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "Supers",
+				"Champions": [
+					"Gangplank",
+					"Malphite"
+				]
+			},
+			{
+				"Name": "Brawler",
+				"Champions": [
+					"Blitzcrank",
+					"Renekton",
+					"Vi",
+					"Jax",
+					"Riven",
+					"Sejuani"
+				]
+			},
+			{
+				"Name": "Heart",
+				"Champions": [
+					"Lulu",
+					"Yuumi",
+					"Sona",
+					"Soraka",
+					"Syndra"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Jinx",
+		"Picture": "Jinx",
+		"Cost": 2,
+		"Health": "550 / 990 / 1782",
+		"Damage": "45 / 68 / 101",
+		"Mana": "25 / 75",
+		"Attack_Speed": 0.7,
+		"Armor": 20,
+		"Magic_Resist": 20,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Fishbones",
+		"AbilityDescription": "Jinx fires a rocket at her target that explodes on impact, damaging all nearby enemies for magic damage and stunning them for 1.5 seconds.\n\nDamage : 225 / 350 / 525",
+		"BestItems": [
+			"GuinsoosRageblade",
+			"StatikkShiv",
+			"SpearofShojin"
+		],
+		"Traits": [
+			{
+				"Name": "Anima Squad",
+				"Champions": [
+					"Nasus",
+					"Sylas",
+					"Riven",
+					"Vayne"
+				]
+			},
+			{
+				"Name": "Prankster",
+				"Champions": [
+					"Zoe",
+					"Ekko"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Galio",
+		"Picture": "Galio",
+		"Cost": 2,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.55,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Outta My Way!",
+		"AbilityDescription": "Galio steps back and dashes toward the nearest enemy, dealing magic damage. He then grant himself and the closest ally a health shield for 4 seconds.\n\nDamage : 160 / 240 / 360\n\nShield Amount : 200 / 250 / 325",
+		"BestItems": [
+			"TitansResolve",
+			"IonicSpark",
+			"ThiefsGloves"
+		],
+		"Traits": [
+			{
+				"Name": "Civilian",
+				"Champions": [
+					"Sivir",
+					"Janna"
+				]
+			},
+			{
+				"Name": "Mascot",
+				"Champions": [
+					"Nasus",
+					"Malphite",
+					"Yuumi",
+					"Alistar",
+					"Nunu"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Fiora",
+		"Picture": "Fiora",
+		"Cost": 2,
+		"Health": "800 / 1440 / 2592",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.75,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "En Garde!",
+		"AbilityDescription": "Fiora lunges at her enemy, dealing physical damage to all enemies hit and activates her Duelist's Soul for 8 seconds, While her Duelist's Soul is active, she takes 20% less damage and her attacks restore Health.\n\nPercent of Attack Damage : 225% / 225% / 250%\n\nHeal : 30 / 40 / 55",
+		"BestItems": [
+			"HandofJustice",
+			"GuinsoosRageblade",
+			"Bloodthirster"
+		],
+		"Traits": [
+			{
+				"Name": "Ox Force",
+				"Champions": [
+					"Talon",
+					"Annie",
+					"Alistar",
+					"Viego",
+					"Aphelios"
+				]
+			},
+			{
+				"Name": "Duelist",
+				"Champions": [
+					"Gangplank",
+					"Kayle",
+					"Fiora",
+					"Yasuo",
+					"Nilah",
+					"Vayne",
+					"Zed"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Ezreal",
+		"Picture": "Ezreal",
+		"Cost": 2,
+		"Health": "550 / 990 / 1782",
+		"Damage": "45 / 68 / 101",
+		"Mana": "75 / 175",
+		"Attack_Speed": 0.7,
+		"Armor": 20,
+		"Magic_Resist": 20,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Sabotage",
+		"AbilityDescription": "Ezreal fires an orb of physical sabotage at his target, reducing their Attack Speed by for 4 seconds. Afterwards, he fires a shot at them dealing magic damage to them and nearby enemies.\n\nAttack Speed Reduction : 30 / 40 / 50\n\nDamage : 200 / 300 / 475",
+		"BestItems": [
+			"SpearofShojin",
+			"GiantSlayer",
+			"RabadonsDeathcap"
+		],
+		"Traits": [
+			{
+				"Name": "Underground",
+				"Champions": [
+					"Kayle",
+					"Vi",
+					"Sona",
+					"Samira"
+				]
+			},
+			{
+				"Name": "Recon",
+				"Champions": [
+					"Ashe",
+					"Kai'Sa",
+					"Vayne"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Draven",
+		"Picture": "Draven",
+		"Cost": 2,
+		"Health": "600 / 1080 / 1944",
+		"Damage": "75 / 113 / 169",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.7,
+		"Armor": 20,
+		"Magic_Resist": 20,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Whirling Death",
+		"AbilityDescription": "Draven hurls two massive axes at his target's direction that deal physical damage to all enemies in its path, reduced by 25% for each enemy they pass through. The axes reverse direction at the end of their path, dealing damage to enemies hit along the way back.\n\nDamage : 65 / 100 / 175",
+		"BestItems": [
+			"GuinsoosRageblade",
+			"InfinityEdge",
+			"LastWhisper"
+		],
+		"Traits": [
+			{
+				"Name": "Mecha: PRIME",
+				"Champions": [
+					"Wukong",
+					"Jax",
+					"Sett",
+					"Leona"
+				]
+			},
+			{
+				"Name": "Ace",
+				"Champions": [
+					"Samira",
+					"MissFortune",
+					"Mordekaiser"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Camille",
+		"Picture": "Camille",
+		"Cost": 2,
+		"Health": "750 / 1350 / 2430",
+		"Damage": "75 / 113 / 169",
+		"Mana": "45 / 90",
+		"Attack_Speed": 0.75,
+		"Armor": 45,
+		"Magic_Resist": 45,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Tactical Sweep",
+		"AbilityDescription": "Camille sweeps with her leg, dealing physical damage and disarming enemies hit.\n\nPercent of Attack Damage : 202% / 222% / 252%\n\nBonus Damage : 60 / 75 / 100\n\nDisarm Duration : 1.5 / 1.6 / 1.75",
+		"BestItems": [
+			"BrambleVest",
+			"ZzRotPortal",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "A.D.M.I.N.",
+				"Champions": [
+					"Blitzcrank",
+					"LeBlanc",
+					"Soraka"
+				]
+			},
+			{
+				"Name": "Renegade",
+				"Champions": [
+					"Sylas",
+					"Talon",
+					"Viego",
+					"Leona"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Annie",
+		"Cost": 2,
+		"Health": "750 / 1350 / 2430",
+		"Damage": "40 / 60 / 90",
+		"Mana": "0 / 65",
+		"Attack_Speed": 0.6,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 2,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Burst Shield",
+		"AbilityDescription": "Annie blast a cone of fire, dealing magic damage to enemies in front of her, then creates a health shield on herself for 4 seconds.\n\nDamage : 150 / 225 / 350\n\nShield Amount : 375 / 450 / 550",
+		"BestItems": [
+			"TitansResolve",
+			"WarmogsArmor",
+			"IonicSpark"
+		],
+		"Traits": [
+			{
+				"Name": "Gadgeteen",
+				"Champions": [
+					"LuLu",
+					"Poppy",
+					"Zoe",
+					"Nunu"
+				]
+			},
+			{
+				"Name": "Ox Force",
+				"Champions": [
+					"Talon",
+					"Fiora",
+					"Alistar",
+					"Viego",
+					"Aphelios"
+				]
+			},
+			{
+				"Name": "Spellslinger",
+				"Champions": [
+					"Lux",
+					"LeBlanc",
+					"Sona",
+					"Taliyah"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Zoe",
+		"Cost": 3,
+		"Health": "850 / 1530 / 2754",
+		"Damage": "40 / 60 / 90",
+		"Mana": "0/40",
+		"Attack_Speed": 0.7,
+		"Armor": 20,
+		"Magic_Resist": 20,
+		"Range": 4,
+		"AbilityName": "Trouble Bubble",
+		"AbilityDescription": "Zoe launches a bubble at the nearest non-infected enemy's location, infecting all enemies hit with a virus that deals magic damage over 10 seconds. Infected enemies take more damage.\n\nDamage : 500 / 750 / 1337\n\nPercent Bonus Damage : 10% / 10% / 20%",
+		"BestItems": [
+			"ChaliceofPower",
+			"StatikkShiv",
+			"ThiefsGloves"
+		],
+		"Traits": [
+			{
+				"Name": "Gadgeteen",
+				"Champions": [
+					"Lulu",
+					"Poppy",
+					"Annie",
+					"Nunu"
+				]
+			},
+			{
+				"Name": "Hacker",
+				"Champions": [
+					"LeBlanc",
+					"Zed"
+				]
+			},
+			{
+				"Name": "Prankster",
+				"Champions": [
+					"Jinx",
+					"Ekko"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Vel'koz",
+		"Cost": 3,
+		"Health": "750 / 1350 / 2430",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0/80",
+		"Attack_Speed": 0.6,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityName": "Frozen Tomb",
+		"AbilityDescription": "Vel'koz freezes the enemy champion that has dealt the most damage this round for a few seconds, dealing magic damage.\n\nDamage : 280 / 400 / 620\nStun Duration : 1.5 / 2 / 2.5",
+		"BestItems": [
+			"SpearofShojin",
+			"JeweledGauntlet",
+			"HextechGunblade"
+		],
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"Cho'Gath",
+					"Rammus",
+					"Zac",
+					"Aurelion Sol",
+					"BelVeth",
+					"FiddleSticks",
+					"Urgot"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Vayne",
+		"Cost": 3,
+		"Health": "850 / 1530 / 2754",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0/40",
+		"Attack_Speed": 0.75,
+		"Armor": 25,
+		"Magic_Resist": 25,
+		"Range": 4,
+		"AbilityName": "Silver Bolt",
+		"AbilityDescription": "Vayne fires a heavy bolt at her target, dealing true damage.\n\nPercent of Attack Damage : 120% / 120% / 130%\nBonus Physical Damage : 20 / 30 /45",
+		"BestItems": [
+			"GuinsoosRageblade",
+			"GiantSlayer",
+			"RunaansHurricane"
+		],
+		"Traits": [
+			{
+				"Name": "Anima Squad",
+				"Champions": [
+					"Nasus",
+					"Sylas",
+					"Jinx",
+					"Riven",
+					"BelVeth",
+					"MissFortune"
+				]
+			},
+			{
+				"Name": "Duelist",
+				"Champions": [
+					"Gangplank",
+					"Kayle",
+					"Fiora",
+					"Yasuo",
+					"Nilah",
+					"Zed"
+				]
+			},
+			{
+				"Name": "Recon",
+				"Champions": [
+					"Ashe",
+					"Ezreal",
+					"KaiSa"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Sona",
+		"Picture": "Sona",
+		"Cost": 3,
+		"Health": "900 / 1620 / 2916",
+		"Damage": "40 / 60 / 90",
+		"Mana": "0 / 40",
+		"Attack_Speed": 0.7,
+		"Armor": 25,
+		"Magic_Resist": 25,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Crescendo Sequence",
+		"AbilityDescription": "Sona cycles between 3 phases, firing 2 beams that:\n\n1: Deals magic damage to the closest enemies.\n\n2. Heals the lowest health allies.\n\n3. Deals magic damage and stuns the closest enemies.\n\nPhase 1 Damage : 140 / 210 / 360\n\nHealing : 180 / 220 / 300\n\nPhase 3 Damage : 100 / 150 / 225",
+		"BestItems": [
+			"SpearofShojin",
+			"ChaliceofPower",
+			"ChaliceofPower"
+		],
+		"Traits": [
+			{
+				"Name": "Underground",
+				"Champions": [
+					"Kayle",
+					"Ezreal",
+					"Vi",
+					"Samira"
+				]
+			},
+			{
+				"Name": "Heart",
+				"Champions": [
+					"Lulu",
+					"Lee Sin",
+					"Yuumi",
+					"Soraka",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Spellslinger",
+				"Champions": [
+					"Lux",
+					"Annie",
+					"LeBlanc",
+					"Taliyah"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Senna",
+		"Picture": "Senna",
+		"Cost": 3,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "75 / 113 / 169",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.7,
+		"Armor": 25,
+		"Magic_Resist": 25,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Piercing Darkness",
+		"AbilityDescription": "Senna fires a laser beam in the direction of a nearby enemy. dealing physical damage to all enemies in a line.\n\nPercent of Attack Damage : 150% / 160% / 180%\n\nBonus Damage : 55 / 75 / 140",
+		"BestItems": [
+			"GuinsoosRageblade",
+			"InfinityEdge",
+			"LastWhisper"
+		],
+		"Traits": [
+			{
+				"Name": "LaserCorps",
+				"Champions": [
+					"Ashe",
+					"Renekton",
+					"Yasuo",
+					"Zed",
+					"Mordekaiser",
+					"Sejuani"
+				]
+			},
+			{
+				"Name": "Sureshot",
+				"Champions": [
+					"Sivir",
+					"Samira",
+					"Aphelios"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Riven",
+		"Picture": "Riven",
+		"Cost": 3,
+		"Health": "750 / 1350 / 2430",
+		"Damage": "50 / 75 / 113",
+		"Mana": "30 / 100",
+		"Attack_Speed": 0.65,
+		"Armor": 45,
+		"Magic_Resist": 45,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Bunny Blade",
+		"AbilityDescription": "Riven gains a Health Shield for 4 seconds and empowers her next 3 basic attacks with bonus magic damage. If her attack target currently has less health than her, her bonus magic damage is increased by 100%.\n\nShield Amount : 400 / 500 / 650\n\nDamage : 80 / 120 / 210",
+		"BestItems": [
+			"IonicSpark",
+			"BrambleVest",
+			"TitansResolve"
+		],
+		"Traits": [
+			{
+				"Name": "Anima Squad",
+				"Champions": [
+					"Nasus",
+					"Sylas",
+					"Jinx",
+					"Vayne",
+					"MissFortune"
+				]
+			},
+			{
+				"Name": "Brawler",
+				"Champions": [
+					"Blitzcrank",
+					"Renekton",
+					"Lee Sin",
+					"Vi",
+					"Jax",
+					"Sejuani"
+				]
+			},
+			{
+				"Name": "Defender",
+				"Champions": [
+					"Poppy",
+					"Wukong",
+					"Rell",
+					"Sett"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Rammus",
+		"Picture": "Rammus",
+		"Cost": 3,
+		"Health": "950 / 1710 / 3078",
+		"Damage": "60 / 90 / 135",
+		"Mana": "60 / 120",
+		"Attack_Speed": 0.6,
+		"Armor": 105,
+		"Magic_Resist": 55,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Sand Slam",
+		"AbilityDescription": "Passive: Rammus has increased Armor.\n\nActive: Rammus powers himself up and leaps to the largest group of nearby enemies, dealing magic damage, knocking them up for 1.25 seconds, and reducing their Attack Damage by 40% for 4 seconds.\n\nArmor : 50 / 75 / 125\n\nArmor Ratio : 120% / 160% / 200%\n\nBonus Damage : 40 / 60 / 100",
+		"BestItems": [
+			"BrambleVest",
+			"TitansResolve",
+			"DragonsClaw"
+		],
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"ChoGath",
+					"VelKoz",
+					"AurelionSol",
+					"BelVeth",
+					"Zac",
+					"Fiddlesticks",
+					"Urgot"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Nilah",
+		"Picture": "Nilah",
+		"Cost": 3,
+		"Health": "800 / 1440 / 2592",
+		"Damage": "50 / 75 / 113",
+		"Mana": "50 / 150",
+		"Attack_Speed": 0.7,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Apotheosis",
+		"AbilityDescription": "Nilah whirls her whip-blade. dealing magic damage to nearby enemies while healing herself and allies health over 1 seconds. She finishes with a burst that deals magic damage.\n\nHeal : 200 / 250 / 325\n\nDamage : 100 / 150 / 250",
+		"BestItems": [
+			"HandofJustice",
+			"Guardbreaker",
+			"Bloodthirster"
+		],
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Lux",
+					"Rell",
+					"Yuumi",
+					"Ekko",
+					"Taliyah",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Duelist",
+				"Champions": [
+					"Gangplank",
+					"Kayle",
+					"Yasuo",
+					"Vayne",
+					"Zed"
+				]
+			}
+		]
+	},
+	{
+		"Name": "LeBlanc",
+		"Picture": "LeBlanc",
+		"Cost": 3,
+		"Health": "900 / 1620 / 2916",
+		"Damage": "45 / 68 / 101",
+		"Mana": "0 / 70",
+		"Attack_Speed": 0.7,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Sigil of Malice",
+		"AbilityDescription": "Leblanc fires sigils at her target each dealing magic damage. If the target dies, she continues casting at the nearest target and casts 1 more sigil.\n\nDamage : 80 / 100 / 130\n\nNumber of Sigils : 5 / 6 / 8",
+		"BestItems": [
+			"BlueBuff",
+			"ArchangelsStaff",
+			"JeweledGauntlet"
+		],
+		"Traits": [
+			{
+				"Name": "A.D.M.I.N.",
+				"Champions": [
+					"Blitzcrank",
+					"Camille",
+					"Soraka"
+				]
+			},
+			{
+				"Name": "Hacker",
+				"Champions": [
+					"Zoe",
+					"Zed"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Kai'Sa",
+		"Picture": "Kai'Sa",
+		"Cost": 3,
+		"Health": "650 / 1170 / 2106",
+		"Damage": "40 / 60 / 90",
+		"Mana": "0 / 60",
+		"Attack_Speed": 0.8,
+		"Armor": 25,
+		"Magic_Resist": 25,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Starcharged",
+		"AbilityDescription": "Passive: Kai'Sa's attacks apply Plasma. Her next attack against a target with 2 stacks of Plasma deal magic damage.\n\nActive: Kai'Sa gains 40% Attack Speed for 6 seconds. This Attack Speed bonus can stack.\n\nAttack Speed % : 40% / 50% / 65%\n\nDamage : 150 / 225 / 350",
+		"BestItems": [
+			"ArchangelsStaff",
+			"GiantSlayer",
+			"SpearofShojin"
+		],
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Lux",
+					"Rell",
+					"Yuumi",
+					"Nilah",
+					"Ekko",
+					"Taliyah",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Recon",
+				"Champions": [
+					"Ashe",
+					"Ezreal",
+					"Vayne"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Jax",
+		"Picture": "Jax",
+		"Cost": 3,
+		"Health": "800 / 1440 / 2592",
+		"Damage": "70 / 105 / 158",
+		"Mana": "0 / 0",
+		"Attack_Speed": 0.9,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Adaptive Strike",
+		"AbilityDescription": "Passive: Every third attack, Jax leaps to his target and deals bonus magic damage. The bonus damage increases every third attack up to 10 times.\n\nBase Damage : 120 / 180 / 300\n\nStacking Damage : 50 / 70 / 130",
+		"BestItems": [
+			"WarmogsArmor",
+			"Guardbreaker",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "Mecha: PRIME",
+				"Champions": [
+					"Wukong",
+					"Draven",
+					"Sett",
+					"Leona"
+				]
+			},
+			{
+				"Name": "Brawler",
+				"Champions": [
+					"Blitzcrank",
+					"Renekton",
+					"Lee Sin",
+					"Vi",
+					"Riven",
+					"Sejuani"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Cho'Gath",
+		"Picture": "Cho'Gath",
+		"Cost": 3,
+		"Health": "1200 / 2160 / 3888",
+		"Damage": "60 / 90 / 135",
+		"Mana": "40 / 120",
+		"Attack_Speed": 0.6,
+		"Armor": 55,
+		"Magic_Resist": 133,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Cosmic Bellow",
+		"AbilityDescription": "Passive: Cho'Gath has increased Magic Resist.\n\nSpell: Cho'Gath breathes a cosmic beam in a forward arc that deals magic damage and increasing their maximum Mana until they cast.\n\nMagic Resist Bonus : 75 / 100 / 150\n\nMagic Resist Ratio : 135% / 180% 225%\n\nMana Cost Increase : 35% / 35% / 50%\n\nBonus Damage : 80 / 120 / 180",
+		"BestItems": [
+			"HextechGunblade",
+			"TitansResolve",
+			"RabadonsDeathcap"
+		],
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"Rammus",
+					"Velkoz",
+					"Aurelion Sol",
+					"BelVeth",
+					"Zac",
+					"Fiddlesticks",
+					"Urgot"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Alistar",
+		"Picture": "Alistar",
+		"Cost": "3",
+		"Health": "800 / 1440 / 2592",
+		"Damage": "50 / 75 / 113",
+		"Mana": "75 / 150",
+		"Attack_Speed": 0.55,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Pulverize",
+		"AbilityDescription": "Alistar slams the ground underneath his target, dealing magic damage and knocking them up for 1.5 seconds. He then roars, healing himself and the lowest health ally champion for 15% of his maximum health.\n\nDamage : 200 / 300 / 525",
+		"BestItems": [
+			"BrambleVest",
+			"GargoylesStoneplate",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "Ox Force",
+				"Champions": [
+					"Talon",
+					"Annie",
+					"Fiora",
+					"Viego",
+					"Aphelios"
+				]
+			},
+			{
+				"Name": "Aegis",
+				"Champions": [
+					"Vi",
+					"Ekko",
+					"Leona"
+				]
+			},
+			{
+				"Name": "Mascot",
+				"Champions": [
+					"Nasus",
+					"Galio",
+					"Yuumi",
+					"Nunu"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Zed",
+		"Cost": 4,
+		"Health": "1150 / 2070 / 3726",
+		"Damage": "90 / 135 / 203",
+		"Mana": "0/40",
+		"Attack_Speed": 0.85,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 1,
+		"AbilityName": "Empowered Kill Mode",
+		"AbilityDescription": "Zed teleports behind his target and marks them for death, shredding armor for a few seconds. He then enters an Empowered Kill Mode for a few seconds. While active, Zed's attacks deal an additional bouns physical damage and every third attack damages all adjacent enemies, dealing physical damage to adjacent enemies. \n\nArmor Shred : 15 / 20 / 50\n\nBonus Damage : 30 / 45 / 120\n\nDuration : 6 / 6 / 15",
+		"BestItems": [
+			"EdgeofNight",
+			"GiantSlayer",
+			"Deathblade"
+		],
+		"Traits": [
+			{
+				"Name": "LaserCorps",
+				"Champions": [
+					"Ashe",
+					"Renekton",
+					"Yasuo",
+					"Senna",
+					"Sejuani",
+					"Mordekaiser"
+				]
+			},
+			{
+				"Name": "Hacker",
+				"Champions": [
+					"LeBlanc",
+					"Zoe"
+				]
+			},
+			{
+				"Name": "Duelist",
+				"Champions": [
+					"Gangplank",
+					"Kayle",
+					"Fiora",
+					"Yasuo",
+					"Nilah",
+					"Vayne"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Zac",
+		"Cost": 4,
+		"Health": "1050 / 1890 / 3402",
+		"Damage": "75 / 113 / 169",
+		"Mana": "0/100",
+		"Attack_Speed": 0.75,
+		"Armor": 65,
+		"Magic_Resist": 65,
+		"Range": 1,
+		"AbilityName": "Symbiotic Split",
+		"AbilityDescription": "Passive: Upon dying, split into smaller Zac Blobs with % of Zac's maximum Health that taunt nearby enemies.\n\nSpell: Zac bounces into the air and slams back down, dealing magic damage to nearby enemies and healing himself for 20% of his missing Health.\n\nBlobs : 2 / 2 / 4\n\nBlob Health : 40% / 40% / 50%\n\nDamage : 100 / 150 / 1000",
+		"BestItems": [
+			"WarmogsArmor",
+			"GargoylesStoneplate",
+			"Redemption"
+		],
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"Cho'Gath",
+					"Rammus",
+					"Velkoz",
+					"Aurelion Sol",
+					"BelVeth",
+					"FiddleSticks",
+					"Urgot"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Viego",
+		"Cost": 4,
+		"Health": "1050 / 1890 / 3402",
+		"Damage": "60 / 90 / 135",
+		"Mana": "0/75",
+		"Attack_Speed": 0.75,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 1,
+		"AbilityName": "Heartbreaker",
+		"AbilityDescription": "Viego becomes unstoppable, leaping to the largest cluster of nearby enemies and slamming his sword down on the enemy with the lowest health, dealing magic damage to the primary target and magic damage to enemies nearby. If Viego kills an enemy, he casts again with reduced damage.\n\nDamage : 300 / 400 / 900\nAOE Damage : 150 / 225 / 450\nFalloff Percent : 25% / 20% / 1%",
+		"BestItems": [
+			"EdgeofNight",
+			"GiantSlayer",
+			"RabadonsDeathcap"
+		],
+		"Traits": [
+			{
+				"Name": "Ox Force",
+				"Champions": [
+					"Talon",
+					"Annie",
+					"Fiora",
+					"Alistar",
+					"Aphelios"
+				]
+			},
+			{
+				"Name": "Renegade",
+				"Champions": [
+					"Sylas",
+					"Talon",
+					"Camille",
+					"Leona"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Taliyah",
+		"Cost": 4,
+		"Health": "700 / 1260 / 2268",
+		"Damage": "45 / 68 / 101",
+		"Mana": "0/90",
+		"Attack_Speed": 0.75,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityName": "Weaver's Wall",
+		"BestItems": [
+			"ArchangelsStaff",
+			"GiantSlayer",
+			"JeweledGauntlet"
+		],
+		"AbilityDescription": "Taliyah summon a torrent of spiraling rocks in a line of enemy units, dealing magic damage to all enemies it hits. After a brief delay, the wall explodes, dealing additional magic damage to nearby enemies.\n\nDamage : 65 / 100 / 250\nExplosion Damage : 220 / 330 / 800",
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Lux",
+					"Rell",
+					"Yuumi",
+					"KaiSa",
+					"Nilah",
+					"Ekko",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Spellslinger",
+				"Champions": [
+					"Lux",
+					"Annie",
+					"LeBlanc",
+					"Sona"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Soraka",
+		"Cost": 4,
+		"Health": "1000 / 1800 / 3240",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0/200",
+		"Attack_Speed": 0.65,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityName": "Starcall",
+		"AbilityDescription": "Soraka launches a star at her target. Each star deals magic damage and heals Soraka for 10% of her max health. Every 3 casts, she launches stars at the nearest enemies instead.\n\nDamage : 280 / 420 / 650\nEmpowered Stars : 3 / 3 / 6",
+		"BestItems": [
+			"SpearofShojin",
+			"ChaliceofPower",
+			"StatikkShiv"
+		],
+		"Traits": [
+			{
+				"Name": "A.D.M.I.N.",
+				"Champions": [
+					"Nasus",
+					"Camille",
+					"LeBlanc"
+				]
+			},
+			{
+				"Name": "Heart",
+				"Champions": [
+					"Lulu",
+					"LeeSin",
+					"Yuumi",
+					"Sona",
+					"Syndra"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Sett",
+		"Picture": "Sett",
+		"Cost": 4,
+		"Health": "900 / 1620 / 2916",
+		"Damage": "100 / 150 / 225",
+		"Mana": "30 / 100",
+		"Attack_Speed": 0.65,
+		"Armor": 60,
+		"Magic_Resist": 60,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Mecha SLAM!",
+		"AbilityDescription": "Sett begins charging up, becoming immune to crowd control and gaining a health shield for 2.5 seconds. After the shield breaks or at the end of its duration, he unleashes a blast in a cone at the most enemies in range, dealing physical damage to all enemies inside. The damage increases up depending on how long he charged.\n\nShield Health : 400 / 550 / 1500\n\nMin Attack Damage : 120% / 125% / 200%\n\nMax Attack Damage : 240% / 250% / 400%",
+		"BestItems": [
+			"ArchangelsStaff",
+			"InfinityEdge",
+			"TitansResolve"
+		],
+		"Traits": [
+			{
+				"Name": "Mecha: PRIME",
+				"Champions": [
+					"Wukong",
+					"Draven",
+					"Jax",
+					"Leona"
+				]
+			},
+			{
+				"Name": "Defender",
+				"Champions": [
+					"Poppy",
+					"Wukong",
+					"Rell",
+					"Riven"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Sejuani",
+		"Picture": "Sejuani",
+		"Cost": 4,
+		"Health": "900 / 1620 / 2916",
+		"Damage": "70 / 105 / 158",
+		"Mana": "50 / 150",
+		"Attack_Speed": 0.55,
+		"Armor": 60,
+		"Magic_Resist": 60,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Cryo Grenade",
+		"AbilityDescription": "Sejuani throws a cryo grenade at the closest enemy that explodes after a 2-second delay. Enemies within a 3-hex radius are dealt magic damage and are stunned.\n\nDamage : 125 / 200 / 1200\nStun Duration : 1.5 / 2 / 8",
+		"BestItems": [
+			"Morellonomicon",
+			"WarmogsArmor",
+			"ZzRotPortal"
+		],
+		"Traits": [
+			{
+				"Name": "LaserCorps",
+				"Champions": [
+					"Ashe",
+					"Renekton",
+					"Yasuo",
+					"Senna",
+					"Zed",
+					"Mordekaiser"
+				]
+			},
+			{
+				"Name": "Brawler",
+				"Champions": [
+					"Renekton",
+					"LeeSin",
+					"Vi",
+					"Jax",
+					"Riven"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Samira",
+		"Picture": "Samira",
+		"Cost": 4,
+		"Health": "950 / 1710 / 3078",
+		"Damage": "80 / 120 / 180",
+		"Mana": "30 / 100",
+		"Attack_Speed": 0.75,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Flair",
+		"AbilityDescription": "Samira knocks up and juggles her target for 1.5 seconds, rapidly firing bullets that deal a physical damage. The bullets ricochet to nearby enemies, dealing 50% reduced damage.\n\nPercent of Attack Damage : 500% / 525% / 1000%\n\nDamage : 100 / 130 / 666",
+		"BestItems": [
+			"HandofJustice",
+			"Deathblade",
+			"GiantSlayer"
+		],
+		"Traits": [
+			{
+				"Name": "Underground",
+				"Champions": [
+					"Kayle",
+					"Ezreal",
+					"Vi",
+					"Sona"
+				]
+			},
+			{
+				"Name": "Ace",
+				"Champions": [
+					"Draven",
+					"MissFortune",
+					"Mordekaiser"
+				]
+			},
+			{
+				"Name": "Sureshot",
+				"Champions": [
+					"Sivir",
+					"Senna",
+					"Aphelios"
+				]
+			}
+		]
+	},
+	{
+		"Name": "MissFortune",
+		"Picture": "MissFortune",
+		"Cost": 4,
+		"Health": "750 / 1350 / 2430",
+		"Damage": "60 / 90 / 135",
+		"Mana": "0 / 120",
+		"Attack_Speed": 0.7,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Bullet Time",
+		"AbilityDescription": "Miss Fortune channels for 2 seconds, firing 8 waves of bullets in a cone in her target's direction, with each wave dealing magic damage to the first target hit. Enemies hit by bullets in short succession take less magic damage for each bullet instead.\n\nDamage : 45 / 70 / 200\n\nReduce Damage : 25 / 35 / 80",
+		"BestItems": [
+			"RabadonsDeathcap",
+			"JeweledGauntlet",
+			"GiantSlayer"
+		],
+		"Traits": [
+			{
+				"Name": "Anima Squad",
+				"Champions": [
+					"Nasus",
+					"Sylas",
+					"Jinx",
+					"Riven",
+					"Vayne"
+				]
+			},
+			{
+				"Name": "Ace",
+				"Champions": [
+					"Draven",
+					"Samira",
+					"Mordekaiser"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Ekko",
+		"Picture": "Ekko",
+		"Cost": 4,
+		"Health": "1250 / 2250 / 4050",
+		"Damage": "60 / 90 / 135",
+		"Mana": "75 / 175",
+		"Attack_Speed": 0.6,
+		"Armor": 60,
+		"Magic_Resist": 60,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Star Diver",
+		"AbilityDescription": "Ekko dives in, granting himself a shield for 5 seconds and taunts nearby enemies. When the shield breaks, he emits a time field, dealing magic damage to nearby enemies and slowing their attack speed by 50% for 2 seconds.\n\nShield Amount : 500 / 650 / 2000\n\nDamage : 120 / 180 / 1500",
+		"BestItems": [
+			"SpearofShojin",
+			"Morellonomicon",
+			"ProtectorsVow"
+		],
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Lux",
+					"Rell",
+					"Yuumi",
+					"Kai'Sa",
+					"Nilah",
+					"Taliyah",
+					"Syndra"
+				]
+			},
+			{
+				"Name": "Aegis",
+				"Champions": [
+					"Vi",
+					"Alistar",
+					"Leona"
+				]
+			},
+			{
+				"Name": "Prankster",
+				"Champions": [
+					"Jinx",
+					"Zoe"
+				]
+			}
+		]
+	},
+	{
+		"Name": "BelVeth",
+		"Picture": "BelVeth",
+		"Cost": 4,
+		"Health": "1250 / 2250 / 4050",
+		"Damage": "90 / 135 / 203",
+		"Mana": "0 / 20",
+		"Attack_Speed": 0.9,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 2,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Endless Banquet",
+		"AbilityDescription": "Bel'Veth dashes around her target and unleashes a flurry of attacks, each dealing physical damage.\n\nEach time this is cast, Bel'Veth gains 25% bouns Attack Speed for the rest of combat.\n\nDamage : 25 / 40 / 160\n\nDefense Shred : 40% / 50% / 70%\n\nPercent of Attack Damage : 50% / 50% / 100%",
+		"BestItems": [
+			"Bloodthirster",
+			"GuinsoosRageblade",
+			"TitansResolve"
+		],
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"Cho'Gath",
+					"Rammus",
+					"Velkoz",
+					"Aurelion Sol",
+					"Zac",
+					"Fiddlesticks",
+					"Urgot"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Aurelion Sol",
+		"Picture": "Aurelion Sol",
+		"Cost": 4,
+		"Health": "1100 / 1980 / 3564",
+		"Damage": "40 / 60 / 90",
+		"Mana": "0 / 90",
+		"Attack_Speed": 0.7,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Meteor Shower",
+		"AbilityDescription": "Aurelion Sol calls down meteors on random enemies that explode on impact. Each meteor deals magic damage and applies a burn for 10 seconds, dealing % of the target's maximum Health as true damage and reducing incoming healing by 25%.\n\nMeteors : 3 / 3 / 6\n\nDamage : 210 / 320 / 450\n\n% Health as Damage : 10 / 10 / 10",
+		"BestItems": [
+			"HextechGunblade",
+			"ArchangelsStaff",
+			"JeweledGauntlet"
+		],
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"Cho'Gath",
+					"Rammus",
+					"Velkoz",
+					"BelVeth",
+					"Zac",
+					"Fiddlesticks",
+					"Urgot"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Urgot",
+		"Cost": 5,
+		"Health": "1100 / 1980 / 3564",
+		"Damage": "99 / 149 / 223",
+		"Mana": "100/175",
+		"Attack_Speed": 1,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 3,
+		"AbilityName": "Undertow",
+		"BestItems": [
+			"SpearofShojin",
+			"HextechGunblade",
+			"StatikkShiv"
+		],
+		"AbilityDescription": "Passive: Urgot's claw fires 5 attacks per second, each dealing physical damage.\n\nAbility: Urgot summons a gigantic wave behind his enemies that moves towards him, dealing % of their maximum Health as magic damage. The wave collides with enemies knocking them forward 1 hex, stunning them, and grants a chance to dredge up TREASURE.\n\nMax Health : 10% / 15% / 99%\nStun Duration : 1.25 / 1.5 / 5\nTreasure Chance : 12% / 15% / 100%",
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"Cho'Gath",
+					"Rammus",
+					"VelKoz",
+					"Zac",
+					"Aurelion Sol",
+					"BelVeth",
+					"FiddleSticks"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Syndra",
+		"Cost": 5,
+		"Health": "850 / 1530 / 2754",
+		"Damage": "50 / 75 / 113",
+		"Mana": "100/175",
+		"Attack_Speed": 0.8,
+		"Armor": 40,
+		"Magic_Resist": 40,
+		"Range": 3,
+		"AbilityName": "Force of Will",
+		"BestItems": [
+			"SpearofShojin",
+			"BlueBuff",
+			"ArchangelsStaff"
+		],
+		"AbilityDescription": "Syndra enshrounds a random unit on your bench in an orb, granting them a health shield and fllinging them onto the board towards the closest enemy, knocking up and dealing magic damage to any enemies hit. Traits are unaffected except Corrupted.\n\nShield Amount : 30 / 300 / 3000\nStun Duration : 1 / 1 / 8\nDamage : 50 / 250 / 2000",
+		"Traits": [
+			{
+				"Name": "Star Guardian",
+				"Champions": [
+					"Lux",
+					"Rell",
+					"Yuumi",
+					"KaiSa",
+					"Nilah",
+					"Ekko",
+					"Taliyah"
+				]
+			},
+			{
+				"Name": "Heart",
+				"Champions": [
+					"Lulu",
+					"LeeSin",
+					"Yuumi",
+					"Sona",
+					"Soraka"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Nunu",
+		"Picture": "Nunu",
+		"Cost": 5,
+		"Health": "1200 / 2160 / 3888",
+		"Damage": "0 / 0 / 0",
+		"Mana": "0 / 90",
+		"Attack_Speed": 0.2,
+		"Armor": 60,
+		"Magic_Resist": 60,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Biggest Roboball Ever!",
+		"AbilityDescription": "Passive: Nunu and Willump slowly roll a ball around the board, dealing magic damage to all enemies it passes through, and gaining 30 mana per second.\n\nNuNu and Willump grow the ball, increashing their speed, radius of the ball, and its damage dealt by 50%.\n\nDamage : 150 / 225 / 3333",
+		"BestItems": [
+			"TitansResolve",
+			"IonicSpark",
+			"WarmogsArmor"
+		],
+		"Traits": [
+			{
+				"Name": "Gadgeteen",
+				"Champions": [
+					"Lulu",
+					"Poppy",
+					"Annie",
+					"Zoe"
+				]
+			},
+			{
+				"Name": "Defender",
+				"Champions": [
+					"Galio",
+					"Nasus",
+					"Malphite",
+					"Yuumi",
+					"Alistar"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Mordekaiser",
+		"Picture": "Mordekaiser",
+		"Cost": 5,
+		"Health": "1100 / 1980 / 3564",
+		"Damage": "70 / 105 / 158",
+		"Mana": "50 / 150",
+		"Attack_Speed": 0.7,
+		"Armor": 70,
+		"Magic_Resist": 70,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Skylines",
+		"AbilityDescription": "Mordekaiser transports the board into his realm for a few seconds, shredding the Magic Resist of all enemies, before summoning a building behind him and slamming it onto the board, dealing magic damage to all enemies hit.\n\nDamage : 500 / 750 / 3000\n\nMagic Resist Shred : 50% / 50% / 70%\n\nRealm Duration : 4 / 4 / 6",
+		"BestItems": [
+			"WarmogsArmor",
+			"DragonsClaw",
+			"BrambleVest"
+		],
+		"Traits": [
+			{
+				"Name": "LaserCorps",
+				"Champions": [
+					"Ashe",
+					"Renekton",
+					"Yasuo",
+					"Senna",
+					"Zed"
+				]
+			},
+			{
+				"Name": "Ace",
+				"Champions": [
+					"Draven",
+					"MissFortune",
+					"Samira"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Leona",
+		"Picture": "Leona",
+		"Cost": 5,
+		"Health": "1000 / 1800 / 3240",
+		"Damage": "75 / 113 / 169",
+		"Mana": "20 / 80",
+		"Attack_Speed": 0.8,
+		"Armor": 60,
+		"Magic_Resist": 60,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Deus Ex Machina",
+		"AbilityDescription": "Leona locks onto and calls an orbital laser strike onto her target.\n\nAfter a short delay a laser fires on the locked on target dealing true damage per second to the target and dealing magic damage to nearby enemies.\n\nMax Health Reduction Per Sec : 400 / 600 / 5000\n\nDamage : 70 / 100 / 2000",
+		"BestItems": [
+			"WarmogsArmor",
+			"GargoylesStoneplate",
+			"SunfireCape"
+		],
+		"Traits": [
+			{
+				"Name": "Mecha: PRIME",
+				"Champions": [
+					"Wukong",
+					"Draven",
+					"Jax",
+					"Sett"
+				]
+			},
+			{
+				"Name": "Aegis",
+				"Champions": [
+					"Vi",
+					"Alistar",
+					"Ekko"
+				]
+			},
+			{
+				"Name": "Renegade",
+				"Champions": [
+					"Sylas",
+					"Talon",
+					"Camille",
+					"Viego"
+				]
+			}
+		]
+	},
+	{
+		"Name": "Janna",
+		"Picture": "Gangplank",
+		"Cost": 5,
+		"Health": "800 / 1440 / 2592",
+		"Damage": "50 / 75 / 113",
+		"Mana": "0 / 80",
+		"Attack_Speed": 0.75,
+		"Armor": 35,
+		"Magic_Resist": 35,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Twister!",
+		"AbilityDescription": "Janna sends a twister towards the largest group of units. Enemy units caught by the twister are knocked up for 0.5 seconds. When the twister stops, it expands and all nearby enemies are knocked up for a few seconds and take magic damage each second over 1.5 seconds.\n\nDamage : 210 / 320 / 9000\n\nStun Duration : 1.5 / 2 / 3",
+		"BestItems": [
+			"Morellonomicon",
+			"SpearofShojin",
+			"ChaliceofPower"
+		],
+		"Traits": [
+			{
+				"Name": "Civilian",
+				"Champions": [
+					"Galio",
+					"Sivir"
+				]
+			},
+			{
+				"Name": "Forecaster",
+				"Champions": [
+					""
+				]
+			}
+		]
+	},
+	{
+		"Name": "Fiddlesticks",
+		"Picture": "Fiddlesticks",
+		"Cost": 5,
+		"Health": "1200 / 2160 / 3888",
+		"Damage": "50 / 75 / 113",
+		"Mana": "90 / 90",
+		"Attack_Speed": 0.75,
+		"Armor": 50,
+		"Magic_Resist": 50,
+		"Range": 1,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Dark Harvest",
+		"AbilityDescription": "Fiddlesticks teleports into the largest cluster of enemies and fears them. For the next a few seconds, Fiddle drains the life from nearby enemies dealing magic damage per second and healing himself for 20% of the damage dealt.\n\nFear Duration : 1 / 1 / 5\n\nMagic Damage : 120 / 180 / 2000\n\nSpell Duration : 5 / 5 / 30",
+		"BestItems": [
+			"Morellonomicon",
+			"EdgeofNight",
+			"JeweledGauntlet"
+		],
+		"Traits": [
+			{
+				"Name": "Threat",
+				"Champions": [
+					"Cho'Gath",
+					"Rammus",
+					"Velkoz",
+					"Aurelion Sol",
+					"Zac",
+					"Fiddlesticks",
+					"Urgot"
+				]
+			},
+			{
+				"Name": "Corrupted",
+				"Champions": [
+					""
+				]
+			}
+		]
+	},
+	{
+		"Name": "Aphelios",
+		"Picture": "Aphelios",
+		"Cost": 5,
+		"Health": "800 / 1440 / 2592",
+		"Damage": "90 / 135 / 203",
+		"Mana": "40 / 120",
+		"Attack_Speed": 0.9,
+		"Armor": 30,
+		"Magic_Resist": 30,
+		"Range": 4,
+		"AbilityIcon": "abilityIcons/alistar",
+		"AbilityName": "Change Weapons",
+		"AbilityDescription": "Player select a weapon when place Aphelios on board.\n\nBinding Eclipse\n\nAphelios casts forth a lunar spotlight towards the largest group of units, dealing physical damage and stunning all enemies in the area.\n\nDuskwave\n\nAphelios unleashes a wave of energy in a cone in his target's direction, dealing magic damage to all units hit and locking on to them. After a delay, Aplhelios fires a volley of attacks at each locked-on target, dealing physical damage.\n\nOnslaught\n\nAphelion enters an onslaught for 1.75 seconds, automatically performing 6 attacks over the duration at the nearest 2 enemies, dealing physical damage to each enemy.\n\nBinding Eclipse Base Damage : 75 / 110 / 2000\n\nBinding Eclipse Stun Duration : 1.5 / 2 / 15\n\nDuskwave Percent of Attack Damage : 250% / 250% / 800%\n\nDuskwave Magic Damage : 75 / 110 / 600\n\nDuskwave Num Bullets : 7 / 7 / 15\n\nOnslaught Base Damage : 75 / 110 / 2000",
+		"BestItems": [
+			"SpearofShojin",
+			"GiantSlayer",
+			"GuinsoosRageblade"
+		],
+		"Traits": [
+			{
+				"Name": "Arsenal",
+				"Champions": [
+					""
+				]
+			},
+			{
+				"Name": "Ox Force",
+				"Champions": [
+					"Talon",
+					"Annie",
+					"Fiora",
+					"Alistar",
+					"Viego"
+				]
+			},
+			{
+				"Name": "Sureshot",
+				"Champions": [
+					"Sivir",
+					"Senna",
+					"Samira"
+				]
+			}
+		]
+	}
+]

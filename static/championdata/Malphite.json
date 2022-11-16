@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Ground Slam",
   "AbilityDescription": "Malphite slams the ground beneath him, dealing magic damage to nearby enemies and granting himself armor for 4 seconds.\n\nDamage : 140 / 210 / 320\n\nArmor : 80 / 100 / 125",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["ZzRotPortal", "ZzRotPortal", "SunfireCape"],
   "Traits": [
     {
       "Name": "Supers",

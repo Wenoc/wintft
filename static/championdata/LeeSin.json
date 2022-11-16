@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Safeguard",
   "AbilityDescription": "If there is a nearby ally. Lee Sin dashes towards them, shielding both them and himself for 4 seconds. If there are no nearby allies. Lee Sin gains more health shield instead. Afterwards, he dashes back and deals physical damage to his target.\n\nShield Amount : 180 / 220 / 270\n\nPercent Of Attack Damage : 250% / 250% / 275%",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["WarmogsArmor", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Supers",

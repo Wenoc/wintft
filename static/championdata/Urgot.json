@@ -9,7 +9,7 @@
     "Magic_Resist": 50,
     "Range": 3,
     "AbilityName": "Undertow",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["SpearofShojin", "HextechGunblade", "StatikkShiv"],
     "AbilityDescription": "Passive: Urgot's claw fires 5 attacks per second, each dealing physical damage.\n\nAbility: Urgot summons a gigantic wave behind his enemies that moves towards him, dealing % of their maximum Health as magic damage. The wave collides with enemies knocking them forward 1 hex, stunning them, and grants a chance to dredge up TREASURE.\n\nMax Health : 10% / 15% / 99%\nStun Duration : 1.25 / 1.5 / 5\nTreasure Chance : 12% / 15% / 100%",
     "Traits": [
         {

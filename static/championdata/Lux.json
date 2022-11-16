@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Lucent Singularity",
   "AbilityDescription": "Lux sends a lucent singularity at a random enemy's location that detonates after arrival. dealing to nearby enemies and reducing the Attack Damage of the enemy in the center by 40% for 4 seconds\n\nDamage : 200 / 300 / 450",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["SpearofShojin", "JeweledGauntlet", "GiantSlayer"],
   "Traits": [
     {
       "Name": "Star Guardian",

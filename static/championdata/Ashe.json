@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Ranger's Focus",
   "AbilityDescription": "Ashe increases her focus for the next 4 seconds. gaining 47 Attack Damage ( Attack Damage + )\n\nPercent Of Attack Damage : 45% / 50% / 55%\n\nDamage : 15 / 25 / 35",
-  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+  "BestItems": ["StatikkShiv", "ZekesHerald", "RunaansHurricane"],
   "Traits": [
     {
       "Name": "LaserCorps",

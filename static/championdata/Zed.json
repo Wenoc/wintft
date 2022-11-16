@@ -10,7 +10,7 @@
     "Range": 1,
     "AbilityName": "Empowered Kill Mode",
     "AbilityDescription": "Zed teleports behind his target and marks them for death, shredding armor for a few seconds. He then enters an Empowered Kill Mode for a few seconds. While active, Zed's attacks deal an additional bouns physical damage and every third attack damages all adjacent enemies, dealing physical damage to adjacent enemies. \n\nArmor Shred : 15 / 20 / 50\n\nBonus Damage : 30 / 45 / 120\n\nDuration : 6 / 6 / 15",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["EdgeofNight", "GiantSlayer", "Deathblade"],
     "Traits": [
       {
         "Name": "LaserCorps",

@@ -9,7 +9,8 @@
     "Magic_Resist": 25,
     "Range": 4,
     "AbilityName": "Silver Bolt",
-    "AbilityDescription": "Vayne fires a heavy bolt at her target, dealing true damage.\n\nPercent of Attack Damage : 120% / 120% / 130%\nBonus Physical Damage : 20 / 30 /45", "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "AbilityDescription": "Vayne fires a heavy bolt at her target, dealing true damage.\n\nPercent of Attack Damage : 120% / 120% / 130%\nBonus Physical Damage : 20 / 30 /45",
+    "BestItems": ["GuinsoosRageblade", "GiantSlayer", "RunaansHurricane"],
     "Traits": [
       {
         "Name": "Anima Squad",

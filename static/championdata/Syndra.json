@@ -9,7 +9,7 @@
     "Magic_Resist": 40,
     "Range": 3,
     "AbilityName": "Force of Will",
-    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "BestItems": ["SpearofShojin", "BlueBuff", "ArchangelsStaff"],
     "AbilityDescription": "Syndra enshrounds a random unit on your bench in an orb, granting them a health shield and fllinging them onto the board towards the closest enemy, knocking up and dealing magic damage to any enemies hit. Traits are unaffected except Corrupted.\n\nShield Amount : 30 / 300 / 3000\nStun Duration : 1 / 1 / 8\nDamage : 50 / 250 / 2000",     "Traits": [
         {
             "Name": "Star Guardian",
