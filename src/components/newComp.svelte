@@ -85,7 +85,7 @@
   }
 
   function getName(namex) {
-    namex = namex.replaceAll(" ", "-");
+    namex = namex.replaceAll(" ", "");
     namex = namex.toLowerCase();
     return namex;
   }
@@ -127,6 +127,18 @@
   function augNamesf() {
     l++;
     return augNames[l];
+  }
+
+  function traitChange(t) {
+    t = t.replaceAll(" ", "");
+    if (t == "Underground") {
+      return "theunderground";
+    } else if (t == "Mecha:PRIME" || t == "mecha:prime") {
+      return "mechaprime";
+    } else {
+      t = t.toLowerCase();
+      return t;
+    }
   }
 </script>
 
@@ -316,15 +328,19 @@
         >
           <div>
             <div class="traitContainer">
-              <!-- {#each Gtraits as trait}
+              {#each Gtraits as trait}
                 <div class="traitItem" style="background-color: #d5ac38;">
                   <img
-                    src="./Traits/{trait.substring(0, trait.length - 1)}.webp"
+                    src="./Traits/{traitChange(
+                      trait.substring(0, trait.length - 1)
+                    )}.webp"
                     alt={trait.substring(0, trait.length - 1)}
                     title="{trait.slice(-1)} {trait.substring(
                       0,
                       trait.length - 1
                     )}"
+                    height="24px"
+                    width="24px"
                     loading="lazy"
                     decoding="async"
                   />
@@ -333,15 +349,16 @@
               {#each Straits as trait}
                 <div class="traitItem" style="background-color: #8a9c9d">
                   <img
-                    src="./Traits/Set7_{trait.substring(
-                      0,
-                      trait.length - 1
-                    )}_w.svg"
+                    src="./Traits/{traitChange(
+                      trait.substring(0, trait.length - 1)
+                    )}.webp"
                     alt={trait.substring(0, trait.length - 1)}
                     title="{trait.slice(-1)} {trait.substring(
                       0,
                       trait.length - 1
                     )}"
+                    height="24px"
+                    width="24px"
                     loading="lazy"
                     decoding="async"
                   />
@@ -350,20 +367,21 @@
               {#each Btraits as trait}
                 <div class="traitItem" style="background-color: #966b51">
                   <img
-                    src="./Traits/Set7_{trait.substring(
-                      0,
-                      trait.length - 1
-                    )}_w.svg"
+                    src="./Traits/{traitChange(
+                      trait.substring(0, trait.length - 1)
+                    )}.webp"
                     alt={trait.substring(0, trait.length - 1)}
                     title="{trait.slice(-1)} {trait.substring(
                       0,
                       trait.length - 1
                     )}"
+                    height="24px"
+                    width="24px"
                     loading="lazy"
                     decoding="async"
                   />
                 </div>
-              {/each} -->
+              {/each}
             </div>
           </div>
         </div>
@@ -769,7 +787,7 @@
   }
 
   .traitItem img {
-    height: 30px;
+    height: 24px;
   }
 
   .positionContainer div img {
