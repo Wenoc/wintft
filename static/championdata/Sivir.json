@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Pizza Delivery",
   "AbilityDescription": "Sivir throws her pizza at her target, dealing physical damage. It then splits into slices and gets delivered to the nearest allies, healing them for health.\n\nAllies Healed : 3 / 3 / 3\n\nHealing : 80 / 100 / 125\n\nPercent Of Attack Damage : 350% / 350% / 380%",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Civilian",

@@ -1,0 +1,332 @@
+[
+  {
+    "Name": "Ancient Archives 1",
+    "Description": "Gain 1 Tome of Traits.",
+    "Icon": "AncientArchives1.png"
+  },
+  {
+    "Name": "Ascension",
+    "Description": "After 15 seconds of combat, your units deal 75% more damage.",
+    "Icon": "Ascension.png"
+  },
+  {
+    "Name": "Axiom Arc 2",
+    "Description": "When your units kill an enemy they gain 30 Mana.",
+    "Icon": "AxiomArc2.png"
+  },
+  {
+    "Name": "Battlemage 2",
+    "Description": "Your units that start combat in the front 2 rows gain 25 Armor and 25 Ability Power.",
+    "Icon": "Battlemage2.png"
+  },
+  {
+    "Name": "Better Together",
+    "Description": "Aura items that buff your team have their effects increased by 33%. Gain a Locket of the Iron Solari.",
+    "Icon": "BetterTogether.png"
+  },
+  {
+    "Name": "Big Friend 2",
+    "Description": "Your units that start combat next to a unit with over 1650 Health take 18% less damage for the rest of combat.",
+    "Icon": "BigFriend2.png"
+  },
+  {
+    "Name": "Built Different 2",
+    "Description": "Your units with no Traits active gain 400 Health and 65% Attack Speed.",
+    "Icon": "BuiltDifferent2.png"
+  },
+  {
+    "Name": "Calculated Loss",
+    "Description": "After losing your combat, gain 2 gold and a free Shop refresh.",
+    "Icon": "CalculatedLoss.png"
+  },
+  {
+    "Name": "Celestial Blessing 2",
+    "Description": "Your units heal for 15% of the damage dealt by attacks and abilities. Excess healing is converted to a shield up to 450 Health.",
+    "Icon": "CelestialBlessing2.png"
+  },
+  {
+    "Name": "Clear Mind",
+    "Description": "If you have no units on your bench at the end of a round, gain 3 experience points.",
+    "Icon": "ClearMind.png"
+  },
+  {
+    "Name": "Cluttered Mind",
+    "Description": "If your bench is full at the end of a round, gain 4 experience points.",
+    "Icon": "ClutteredMind.png"
+  },
+  {
+    "Name": "Component Grab Bag",
+    "Description": "Gain 3 random item components.",
+    "Icon": "ComponentGrabBag.png"
+  },
+  {
+    "Name": "Cybernetic Implants 2",
+    "Description": "Your units equipped with an item gain 300 Health and 15 Attack Damage.",
+    "Icon": "CyberneticImplants2.png"
+  },
+  {
+    "Name": "Cybernetic Shell 2",
+    "Description": "Your champions holding an item gain 250 Health and 45 Armor.",
+    "Icon": "CyberneticShell2.png"
+  },
+  {
+    "Name": "Cybernetic Uplink 2",
+    "Description": "Your champions holding an item gain 250 Health and restore 3 Mana per second.",
+    "Icon": "CyberneticUplink2.png"
+  },
+  {
+    "Name": "Disintegrator 2",
+    "Description": "Your unit's attacks deal bonus magic damage equal to 2.5% of the target's maximum Health.",
+    "Icon": ""
+  },
+  {
+    "Name": "Double Trouble 2",
+    "Description": "If you have exactly 2 copies of a champion on your board, they both gain 33 Attack Damage, Ability Power, Armor, and Magic Resist. When you 3-star, gain a 2-star copy.",
+    "Icon": "DoubleTrouble2.png"
+  },
+  {
+    "Name": "Electrocharge 2",
+    "Description": "When your units receive a critical strike, they deal 150 magic damage to nearby enemies.",
+    "Icon": "Electrocharge2.png"
+  },
+  {
+    "Name": "Exiles 2",
+    "Description": "Your units that start combat with no adajacent allies gain a 35% maximum Health shield for 10 seconds.",
+    "Icon": "Exiles2.png"
+  },
+  {
+    "Name": "Featherweights 2",
+    "Description": "Your 1 and 2 cost units gain 65% movement and Attack Speed.",
+    "Icon": "Featherweights2.png"
+  },
+  {
+    "Name": "First Aid Kit 2",
+    "Description": "All healing and shielding received by your units is increased by 35%.",
+    "Icon": "FirstAidKit2.png"
+  },
+  {
+    "Name": "Gadget Expert",
+    "Description": "Direct Damage items deal 40% more damage as true damage. Gain a Statikk Shiv.",
+    "Icon": "GadgetExpert.png"
+  },
+  {
+    "Name": "Hustler",
+    "Description": "If you have less than 20 gold at the end of a round, gain 3 gold.",
+    "Icon": "Hustler.png"
+  },
+  {
+    "Name": "Jeweled Lotus",
+    "Description": "Magic and true damage from your units' Abilities can critically strike.",
+    "Icon": "JeweledLotus.png"
+  },
+  {
+    "Name": "Knife's Edge 2",
+    "Description": "Your units that start combat in the front 2 rows gain 25 Attack Damage.",
+    "Icon": "KnifesEdge2.png"
+  },
+  {
+    "Name": "Last Stand",
+    "Description": "The first time you would die, instead drop to 1 Health. After this effect triggers, your units gain 200 Health, 20 Armor and Magic Resist, and 20% Omnivamp.",
+    "Icon": "LastStand.png"
+  },
+  {
+    "Name": "Luden's Echo 2",
+    "Description": "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 225 bonus magic damage.",
+    "Icon": "LudensEcho2.png"
+  },
+  {
+    "Name": "Makeshift Armor 2",
+    "Description": "Your units with no items gain 45 Armor and Magic Resist.",
+    "Icon": "MakeshiftArmor2.png"
+  },
+  {
+    "Name": "Metabolic Accelerator",
+    "Description": "Your Tactician moves faster and heals 2 Health at the start of each round.",
+    "Icon": "MetabolicAccelerator.png"
+  },
+  {
+    "Name": "Phony Frontline",
+    "Description": "Gain 2 Target Dummies.",
+    "Icon": "PhonyFrontline.png"
+  },
+  {
+    "Name": "Portable Forge",
+    "Description": "Open an Armory and choose 1 of 3 unique Artifacts crafted by Ornn.",
+    "Icon": "PortableForge.png"
+  },
+  {
+    "Name": "Preparation 2",
+    "Description": "Champions on your bench permanently gain 8 Attack Damage and Ability Power every round, up to 32.",
+    "Icon": "Preparation2.png"
+  },
+  {
+    "Name": "Rich Get Richer",
+    "Description": "Gain 10 gold. Your maximum interest is increased to 7.",
+    "Icon": "RichGetRicher.png"
+  },
+  {
+    "Name": "Rich Get Richer Plus",
+    "Description": "Gain 15 gold. Your maximum interest is increased to 7.",
+    "Icon": "RichGetRicherPlus.png"
+  },
+  {
+    "Name": "Salvage Bin",
+    "Description": "Gain a random completed item. Selling champions breaks apart their full items into components (excluding Tactician's Crown).",
+    "Icon": "SalvageBin.png"
+  },
+  {
+    "Name": "Scoped Weapons 1",
+    "Description": "Your units that start combat in the back 2 rows gain +2 Attack Range and 15% Attack Speed.",
+    "Icon": "ScopedWeapons1.png"
+  },
+  {
+    "Name": "Second Wind 2",
+    "Description": "After 10 seconds of combat, your units heal 75% of their missing Health.",
+    "Icon": "SecondWind2.png"
+  },
+  {
+    "Name": "Stand United 2",
+    "Description": "Your units gain 3 Attack Damage and Ability Power per Trait active across your team.",
+    "Icon": "StandUnited2.png"
+  },
+  {
+    "Name": "Sunfire Board",
+    "Description": "At the start of combat, burn all enemies for 15% of their maximum HP over 15 seconds and reduce healing received by 50%.",
+    "Icon": "SunfireBoard.png"
+  },
+  {
+    "Name": "Three's Company",
+    "Description": "Gain 3 random 3-cost champions.",
+    "Icon": "ThreesCompany.png"
+  },
+  {
+    "Name": "Thrill Of The Hunt 2",
+    "Description": "Your units heal 500 Health on kill.",
+    "Icon": "ThrillOfTheHunt2.png"
+  },
+  {
+    "Name": "Trade Sector",
+    "Description": "Gain a free Shop refresh each round.",
+    "Icon": "TradeSector.png"
+  },
+  {
+    "Name": "Trade Sector Plus",
+    "Description": "Gain a free Shop refresh each round. Gain 8 golds.",
+    "Icon": "TradeSectorPlus.png"
+  },
+  {
+    "Name": "Tri Force 2",
+    "Description": "Your 3-cost champions gain 333 Health, 23 Mana, and 33% Attack Speed.",
+    "Icon": "TriForce2.png"
+  },
+  {
+    "Name": "True Twos",
+    "Description": "Gain 2 random 2-star Tier 1 champions and 2 gold.",
+    "Icon": "TrueTwos.png"
+  },
+  {
+    "Name": "Ace Crest",
+    "Description": "Gain an Ace Emblem and a 2 gold.",
+    "Icon": ""
+  },
+  {
+    "Name": "A.D.M.I.N Crest",
+    "Description": "Gain an A.D.M.I.N. Emblem and a Blitzcrank.",
+    "Icon": ""
+  },
+  {
+    "Name": "Aegis Crest",
+    "Description": "Gain an Aegis Emblem and a Vi.",
+    "Icon": ""
+  },
+  {
+    "Name": "Anima Squad Crest",
+    "Description": "Gain an Anima Squad Emblem and a Sylas.",
+    "Icon": ""
+  },
+  {
+    "Name": "Brawler Crest",
+    "Description": "Gain a Brawler Emblem and a Lee Sin.",
+    "Icon": ""
+  },
+  {
+    "Name": "Spellslinger Crest",
+    "Description": "Gain a Spellslinger Emblem and an Annie.",
+    "Icon": ""
+  },
+  {
+    "Name": "Civilian Crest",
+    "Description": "Gain a Civilian Emblem and a Galio.",
+    "Icon": ""
+  },
+  {
+    "Name": "Sureshot Crest",
+    "Description": "Gain a Sureshot Emblem and a Sivir.",
+    "Icon": ""
+  },
+  {
+    "Name": "Defender Crest",
+    "Description": "Gain a Defender Emblem and a Poppy.",
+    "Icon": ""
+  },
+  {
+    "Name": "Duelist Crest",
+    "Description": "Gain a Duelist Emblem and a Yasuo.",
+    "Icon": ""
+  },
+  {
+    "Name": "Mecha: PRIME Crest",
+    "Description": "Gain a Mecha: PRIME Emblem and a Draven.",
+    "Icon": ""
+  },
+  {
+    "Name": "Hacker Crest",
+    "Description": "Gain a Hacker Emblem and 2 gold.",
+    "Icon": ""
+  },
+  {
+    "Name": "Heart Crest",
+    "Description": "Gain a Heart Emblem and a Yuumi.",
+    "Icon": ""
+  },
+  {
+    "Name": "LaserCorps Crest",
+    "Description": "Gain an LaserCorps Emblem and a Yasuo.",
+    "Icon": ""
+  },
+  {
+    "Name": "Mascot Crest",
+    "Description": "Gain a Mascot Emblem and a Yuumi.",
+    "Icon": ""
+  },
+  {
+    "Name": "Ox Force Crest",
+    "Description": "Gain an Ox Force Emblem and an Annie.",
+    "Icon": ""
+  },
+  {
+    "Name": "Prankster Crest",
+    "Description": "Gain a Prankster Emblem and a Jinx.",
+    "Icon": ""
+  },
+  {
+    "Name": "Recon Crest",
+    "Description": "Gain a Recon Emblem.",
+    "Icon": ""
+  },
+  {
+    "Name": "Renegade Crest",
+    "Description": "Gain a Renegade Emblem and a Talon.",
+    "Icon": ""
+  },
+  {
+    "Name": "Star Guardian Crest",
+    "Description": "Gain a Star Guardian Emblem and a Rell.",
+    "Icon": ""
+  },
+  {
+    "Name": "Underground Crest",
+    "Description": "Gain an Underground Emblem and a Vi.",
+    "Icon": ""
+  }
+]

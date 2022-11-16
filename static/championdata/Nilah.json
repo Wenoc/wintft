@@ -12,11 +12,11 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Apotheosis",
   "AbilityDescription": "Nilah whirls her whip-blade. dealing magic damage to nearby enemies while healing herself and allies health over 1 seconds. She finishes with a burst that deals magic damage.\n\nHeal : 200 / 250 / 325\n\nDamage : 100 / 150 / 250",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Star Guardian",
-      "Champions": ["Lux", "Rell", "Yummi", "Ekko", "Taliyah", "Syndra"]
+      "Champions": ["Lux", "Rell", "Yuumi", "Ekko", "Taliyah", "Syndra"]
     },
     {
       "Name": "Duelist",

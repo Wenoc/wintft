@@ -1,9 +1,27 @@
 <script context="module">
   export async function preload(page, session) {
-    const res = await this.fetch("/augmentData.json");
-    const augmentData = await res.json();
+    const res1 = await this.fetch("/silverAugments.json");
+    const silverAugments = await res1.json();
 
-    return { augmentData };
+    const res2 = await this.fetch("/goldAugments.json");
+    const goldAugments = await res2.json();
+
+    const res3 = await this.fetch("/prismaticAugments.json");
+    const prismaticAugments = await res3.json();
+
+    const res4 = await this.fetch("/carryAugments.json");
+    const carryAugments = await res4.json();
+
+    const res5 = await this.fetch("/supportAugments.json");
+    const supportAugments = await res5.json();
+
+    let combine = [];
+    combine[0] = silverAugments;
+    combine[1] = goldAugments;
+    combine[2] = prismaticAugments;
+    combine[3] = carryAugments;
+    combine[4] = supportAugments;
+    return { combine };
   }
 </script>
 
@@ -12,7 +30,14 @@
   import Header from "../components/Header.svelte";
   import Augment from "../components/Augment.svelte";
   import PageLayout from "../components/PageLayout.svelte";
-  export let augmentData;
+
+  export let combine;
+
+  let silverAugments = combine[0];
+  let goldAugments = combine[1];
+  let prismaticAugments = combine[2];
+  let carryAugments = combine[3];
+  let supportAugments = combine[4];
 
   let i = 1;
   function isSecond() {
@@ -23,39 +48,45 @@
     i += 1;
     return isIt;
   }
-  var ordering = {};
-  const sortOrder = ["S", "A", "B", "C", "D"];
 
-  for (i = 0; i < sortOrder.length; i++) {
-    ordering[sortOrder[i]] = i;
-  }
-
-  augmentData.sort(function (a, b) {
-    return ordering[a.tier] - ordering[b.tier] || a.tier.localeCompare(b.tier);
-  });
-
+  let actualAugments = silverAugments;
   var kereses = "";
-  let seachedAugments = augmentData;
 
   function augmentkereses() {
-    return augmentData.filter(
+    return actualAugments.filter(
       (line) =>
-        line.name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true
+        line.Name.toLowerCase().includes(kereses.toLocaleLowerCase()) == true ||
+        line.Icon.toLowerCase().includes(kereses.toLocaleLowerCase()) == true
     );
   }
+
+  let seachedAugments;
 
   $: {
     kereses;
     seachedAugments = augmentkereses();
   }
 
-  function findColor(tTier) {
-    if (tTier == "S") return "ff7e83";
-    else if (tTier == "A") return "ffbf7f";
-    else if (tTier == "B") return "ffde7f";
-    else if (tTier == "C") return "feff7f";
-    else if (tTier == "D") return "bffe7f";
+  function converttoChamp(nm) {
+    nm = nm.replaceAll("-", "");
+    nm = nm.replaceAll("'", "");
+    nm = nm.replaceAll(" ", "");
+    nm = nm.toLowerCase();
+
+    nm = "tft8_" + nm + ".webp";
+    return nm;
   }
+
+  function toLink(nm) {
+    nm = nm.replaceAll("-", "");
+    nm = nm.replaceAll("'", "");
+    nm = nm.replaceAll(" ", "");
+    nm = nm.toLowerCase();
+
+    return nm;
+  }
+
+  let karakter = false;
 
   function carryClicked() {
     document.querySelector(".carry").style.background = "#22242f";
@@ -63,6 +94,10 @@
     document.querySelector(".silver").style.background = "#2d2f3a";
     document.querySelector(".gold").style.background = "#2d2f3a";
     document.querySelector(".prismatic").style.background = "#2d2f3a";
+    actualAugments = carryAugments;
+    seachedAugments = carryAugments;
+    kereses = "";
+    karakter = true;
   }
 
   function supportClicked() {
@@ -71,6 +106,10 @@
     document.querySelector(".silver").style.background = "#2d2f3a";
     document.querySelector(".gold").style.background = "#2d2f3a";
     document.querySelector(".prismatic").style.background = "#2d2f3a";
+    actualAugments = supportAugments;
+    seachedAugments = supportAugments;
+    kereses = "";
+    karakter = true;
   }
 
   function silverClicked() {
@@ -79,6 +118,10 @@
     document.querySelector(".prismatic").style.background = "#2d2f3a";
     document.querySelector(".carry").style.background = "#2d2f3a";
     document.querySelector(".support").style.background = "#2d2f3a";
+    actualAugments = silverAugments;
+    seachedAugments = silverAugments;
+    kereses = "";
+    karakter = false;
   }
 
   function goldClicked() {
@@ -87,6 +130,10 @@
     document.querySelector(".prismatic").style.background = "#2d2f3a";
     document.querySelector(".carry").style.background = "#2d2f3a";
     document.querySelector(".support").style.background = "#2d2f3a";
+    actualAugments = goldAugments;
+    seachedAugments = goldAugments;
+    kereses = "";
+    karakter = false;
   }
 
   function prismaticClicked() {
@@ -95,6 +142,10 @@
     document.querySelector(".silver").style.background = "#2d2f3a";
     document.querySelector(".carry").style.background = "#2d2f3a";
     document.querySelector(".support").style.background = "#2d2f3a";
+    actualAugments = prismaticAugments;
+    seachedAugments = prismaticAugments;
+    kereses = "";
+    karakter = false;
   }
 </script>
 
@@ -132,8 +183,8 @@
               <input
                 type="text"
                 class="input-field"
-                placeholder="Search"
                 bind:value={kereses}
+                placeholder="Search"
               />
             </div>
           </div>
@@ -169,12 +220,24 @@
             </div>
           </div>
           {#each seachedAugments as augment}
-            <Augment
-              name={augment.name}
-              Description={augment.description}
-              src={augment.src}
-              isSecond={isSecond()}
-            />
+            {#if karakter == true}
+              <Augment
+                name={augment.Name}
+                Description={augment.Description}
+                src={converttoChamp(augment.Icon)}
+                isSecond={isSecond()}
+                {karakter}
+                link={toLink(augment.Icon)}
+              />
+            {:else}
+              <Augment
+                name={augment.Name}
+                Description={augment.Description}
+                src={augment.Icon}
+                isSecond={isSecond()}
+                {karakter}
+              />
+            {/if}
           {/each}
         </div>
       </div>

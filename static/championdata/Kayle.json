@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Starfire Spellblade",
   "AbilityDescription": "Kayle's next 3 attacks smite her target, dealing physical damage to them and magic to enemies within one hex of them.\n\n% Attack Damage : 150% / 150% / 150%\n\nDamage : 20 / 30 / 45",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Underground",

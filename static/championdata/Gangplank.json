@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Trial by Fire",
   "AbilityDescription": "Gangplank removes all crowd control from himself and fires a flaming bullet at his target. dealing magic damage and reducing healing by 30% for 8 seconds.\n\nDamage : 240 / 360 / 540",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Supers",

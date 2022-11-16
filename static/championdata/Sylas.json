@@ -9,12 +9,12 @@
     "Magic_Resist": 40,
     "Range": 1,
     "AbilityName": "Battle Blast",
-    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
     "AbilityDescription": "Sylas whirls his chains around him, healing himself for health and dealing magic damage to nearby enemies.\n\nDamage : 150 / 225 / 350\nHeal : 160 / 180 / 210",
     "Traits": [
         {
             "Name": "Anima Squad",
-            "Champions": ["Nasus", "Jinx", "Riven", "Riven", "BelVeth", "MissFortune"]
+            "Champions": ["Nasus", "Jinx", "Riven", "BelVeth", "MissFortune"]
         },
         {
             "Name": "Renegade",

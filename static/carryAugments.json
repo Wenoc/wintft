@@ -1,302 +1,302 @@
 [
     {
-        "character" : "Ashe",
-        "name" : "Laser Focus",
-        "description": "Gain an Ashe. She gains 45% Attack Speed, doubled while her Ability is active."
+        "Icon" : "Ashe",
+        "Name" : "Laser Focus",
+        "Description": "Gain an Ashe. She gains 45% Attack Speed, doubled while her Ability is active."
     },
     {
-        "character" : "Blitzcrank",
-        "name" : "Dynamic Defenses",
-        "description": "Gain a Gargoyle Stoneplate and a Blitzcrank. When he casts his Ability, its duration increases by 1 second per enemy targeting him."
+        "Icon" : "Blitzcrank",
+        "Name" : "Dynamic Defenses",
+        "Description": "Gain a Gargoyle Stoneplate and a Blitzcrank. When he casts his Ability, its duration increases by 1 second per enemy targeting him."
     },
     {
-        "character" : "Galio",
-        "name" : "Justice Punch",
-        "description": "Gain a Galio. His Ability deals 50% more damage and knocks up its target for 2 seconds."
+        "Icon" : "Galio",
+        "Name" : "Justice Punch",
+        "Description": "Gain a Galio. His Ability deals 50% more damage and knocks up its target for 2 seconds."
     },
     {
-        "character" : "Gangplank",
-        "name" : "Flaming Ricochet",
-        "description": "Gain a Gangplank. His Ability bounces to a second target dealing 75% damage."
+        "Icon" : "Gangplank",
+        "Name" : "Flaming Ricochet",
+        "Description": "Gain a Gangplank. His Ability bounces to a second target dealing 75% damage."
     },
     {
-        "character" : "Kayle",
-        "name" : "Divine Ascent",
-        "description": "Gain a Kayle. She gains bonuses per star level. 1: 40% Attack Speed 2: +2 Attack Range 3: Attacks fire 2 additional bolts dealing 50% damage."
+        "Icon" : "Kayle",
+        "Name" : "Divine Ascent",
+        "Description": "Gain a Kayle. She gains bonuses per star level. 1: 40% Attack Speed 2: +2 Attack Range 3: Attacks fire 2 additional bolts dealing 50% damage."
     },
     {
-        "character" : "Lulu",
-        "name" : "Growth Spurt",
-        "description": "Gain a Lulu. When she casts her Ability, she gains 100 bonus Health and 30 Ability Power (this can stack)."
+        "Icon" : "Lulu",
+        "Name" : "Growth Spurt",
+        "Description": "Gain a Lulu. When she casts her Ability, she gains 100 bonus Health and 30 Ability Power (this can stack)."
     },
     {
-        "character" : "Lux",
-        "name" : "Illuminating Singularity",
-        "description": "Gain a Lux. Every 2nd cast, her Ability deals 150% increased damage."
+        "Icon" : "Lux",
+        "Name" : "Illuminating Singularity",
+        "Description": "Gain a Lux. Every 2nd cast, her Ability deals 150% increased damage."
     },
     {
-        "character" : "Nasus",
-        "name" : "Stacks on Stacks",
-        "description": "Gain a Nasus. He gains 20% Attack Damage, increased by 3% permanently each time he casts his Ability."
+        "Icon" : "Nasus",
+        "Name" : "Stacks on Stacks",
+        "Description": "Gain a Nasus. He gains 20% Attack Damage, increased by 3% permanently each time he casts his Ability."
     },
     {
-        "character" : "Poppy",
-        "name" : "Bigger, Better Buckler",
-        "description": "Gain a Poppy. She gains 150 Armor."
+        "Icon" : "Poppy",
+        "Name" : "Bigger, Better Buckler",
+        "Description": "Gain a Poppy. She gains 150 Armor."
     },
     {
-        "character" : "Renekton",
-        "name" : "Reign of Anger",
-        "description": "Gain a Renekton. He gains 40% Attack Speed and an additional 4% per 100 missing Health."
+        "Icon" : "Renekton",
+        "Name" : "Reign of Anger",
+        "Description": "Gain a Renekton. He gains 40% Attack Speed and an additional 4% per 100 missing Health."
     },
     {
-        "character" : "Sylas",
-        "name" : "Kingslayer",
-        "description": "Gain a Sylas. His Ability deals 50% more damage and restores 20% of his missing Health."
+        "Icon" : "Sylas",
+        "Name" : "Kingslayer",
+        "Description": "Gain a Sylas. His Ability deals 50% more damage and restores 20% of his missing Health."
     },
     {
-        "character" : "Talon",
-        "name" : "Edgelord",
-        "description": "Gain a Talon. He gains 50 Ability Power. After killing an enemy, he restores 40 Mana."
+        "Icon" : "Talon",
+        "Name" : "Edgelord",
+        "Description": "Gain a Talon. He gains 50 Ability Power. After killing an enemy, he restores 40 Mana."
     },
     {
-        "character" : "Wukong",
-        "name" : "Re-Energize",
-        "description": "Gain a Wukong. When you field him, your team restores 50% of their Mana after their first cast each combat."
+        "Icon" : "Wukong",
+        "Name" : "Re-Energize",
+        "Description": "Gain a Wukong. When you field him, your team restores 50% of their Mana after their first cast each combat."
     },
     {
-        "character" : "Annie",
-        "name" : "Cyclone",
-        "description": "Gain an Annie. While her Ability's shield is active, enemies that attack her take 150 magic damage (once every 0.5 seconds)."
+        "Icon" : "Annie",
+        "Name" : "Cyclone",
+        "Description": "Gain an Annie. While her Ability's shield is active, enemies that attack her take 150 magic damage (once every 0.5 seconds)."
     },
     {
-        "character" : "Camille",
-        "name" : "Adaptive Defensives",
-        "description": "Gain a Camille. She gains 30% Attack Damage. When she casts her Ability, she gains a shield equal to 250% of her Attack Damage for 3 seconds."
+        "Icon" : "Camille",
+        "Name" : "Adaptive Defensives",
+        "Description": "Gain a Camille. She gains 30% Attack Damage. When she casts her Ability, she gains a shield equal to 250% of her Attack Damage for 3 seconds."
     },
     {
-        "character" : "Draven",
-        "name" : "League of Draven",
-        "description": "Gain a Draven. He gains 25% Attack Damage. When he kills an enemy, there is a 40% chance to gain 1 gold."
+        "Icon" : "Draven",
+        "Name" : "League of Draven",
+        "Description": "Gain a Draven. He gains 25% Attack Damage. When he kills an enemy, there is a 40% chance to gain 1 gold."
     },
     {
-        "character" : "Ezreal",
-        "name" : "Raider's Spoils",
-        "description": "Gain an Ezreal. Combat Start: Your strongest Ezreal grants his nearest ally a temporary Artifact for the rest of combat and gains 1 gold."
+        "Icon" : "Ezreal",
+        "Name" : "Raider's Spoils",
+        "Description": "Gain an Ezreal. Combat Start: Your strongest Ezreal grants his nearest ally a temporary Artifact for the rest of combat and gains 1 gold."
     },
     {
-        "character" : "Fiora",
-        "name" : "Frontline Fencing",
-        "description": "Gain a Fiora. While her Ability is active, she gains 100 Armor and Magic Resist."
+        "Icon" : "Fiora",
+        "Name" : "Frontline Fencing",
+        "Description": "Gain a Fiora. While her Ability is active, she gains 100 Armor and Magic Resist."
     },
     {
-        "character" : "Jinx",
-        "name" : "Get Excited!",
-        "description": "Gain a Jinx. When she scores a takedown, she gains 100% Attack Speed and Movement Speed for 5 seconds."
+        "Icon" : "Jinx",
+        "Name" : "Get Excited!",
+        "Description": "Gain a Jinx. When she scores a takedown, she gains 100% Attack Speed and Movement Speed for 5 seconds."
     },
     {
-        "character" : "Lee Sin",
-        "name" : "Flurry",
-        "description": "Gain a Lee Sin. He gains 40% Attack Speed, tripled for 3 seconds after casting his Ability."
+        "Icon" : "Lee Sin",
+        "Name" : "Flurry",
+        "Description": "Gain a Lee Sin. He gains 40% Attack Speed, tripled for 3 seconds after casting his Ability."
     },
     {
-        "character" : "Malphite",
-        "name" : "Rock Solid",
-        "description": "Gain a Malphite. He gains Ability Power equal to 40% of his Armor and his Ability's Armor duration is increased by 2 seconds."
+        "Icon" : "Malphite",
+        "Name" : "Rock Solid",
+        "Description": "Gain a Malphite. He gains Ability Power equal to 40% of his Armor and his Ability's Armor duration is increased by 2 seconds."
     }
     ,    {
-        "character" : "Rell",
-        "name" : "Hold the Line",
-        "description": "Gain a Rell. She gains 30 Ability Power and 20% damage reduction."
+        "Icon" : "Rell",
+        "Name" : "Hold the Line",
+        "Description": "Gain a Rell. She gains 30 Ability Power and 20% damage reduction."
     },
     {
-        "character" : "Sivir",
-        "name" : "Delivery Tips",
-        "description": "Gain a Sivir. Every Ability cast, she gains 1 gold with a 10% chance to gain 3 additional gold."
+        "Icon" : "Sivir",
+        "Name" : "Delivery Tips",
+        "Description": "Gain a Sivir. Every Ability cast, she gains 1 gold with a 10% chance to gain 3 additional gold."
     },
     {
-        "character" : "Vi",
-        "name" : "Unrelenting Force",
-        "description": "Gain a Vi. When Vi takes or deals damage, she gains 2% Attack Damage, 2 Armor, and 2 Magic Resist, stacking up to 25 times."
+        "Icon" : "Vi",
+        "Name" : "Unrelenting Force",
+        "Description": "Gain a Vi. When Vi takes or deals damage, she gains 2% Attack Damage, 2 Armor, and 2 Magic Resist, stacking up to 25 times."
     },
     {
-        "character" : "Yasuo",
-        "name" : "Siphoning Winds",
-        "description": "Gain a Yasuo. He gains 50% Omnivamp."
+        "Icon" : "Yasuo",
+        "Name" : "Siphoning Winds",
+        "Description": "Gain a Yasuo. He gains 50% Omnivamp."
     },
     {
-        "character" : "Yuumi",
-        "name" : "Predatory Precision",
-        "description": "Gain a Yuumi. She gains 75% Critical Strike Chance and her Ability can critically strike."
+        "Icon" : "Yuumi",
+        "Name" : "Predatory Precision",
+        "Description": "Gain a Yuumi. She gains 75% Critical Strike Chance and her Ability can critically strike."
     },
     {
-        "character" : "Alistar",
-        "name" : "Smash!",
-        "description": "Gain an Alistar. He restores 5 Mana per second and his Ability hits all enemies within 1 hex."
+        "Icon" : "Alistar",
+        "Name" : "Smash!",
+        "Description": "Gain an Alistar. He restores 5 Mana per second and his Ability hits all enemies within 1 hex."
     },
     {
-        "character" : "Cho'Gath",
-        "name" : "Energy Void",
-        "description": "Gain a Cho'Gath. Each time his Ability hits an enemy, he steals 25% of their Magic Resist."
+        "Icon" : "Cho'Gath",
+        "Name" : "Energy Void",
+        "Description": "Gain a Cho'Gath. Each time his Ability hits an enemy, he steals 25% of their Magic Resist."
     },
     {
-        "character" : "Jax",
-        "name" : "Relentless Assault",
-        "description": "Gain a Jax. After every 3rd attack, he gains 20% Attack Speed for the rest of combat (this can stack)."
+        "Icon" : "Jax",
+        "Name" : "Relentless Assault",
+        "Description": "Gain a Jax. After every 3rd attack, he gains 20% Attack Speed for the rest of combat (this can stack)."
     },
     {
-        "character" : "Kai'Sa",
-        "name" : "Multi-Shot",
-        "description": "Gain a Kai'Sa. Every 2 attacks, she fires a bonus attack at a nearby enemy."
+        "Icon" : "Kai'Sa",
+        "Name" : "Multi-Shot",
+        "Description": "Gain a Kai'Sa. Every 2 attacks, she fires a bonus attack at a nearby enemy."
     },
     {
-        "character" : "LeBlanc",
-        "name" : "Aim Assist",
-        "description": "Gain a LeBlanc. For every 2 sigils fired by her Ability, she fires an additional sigil at the lowest Health enemy."
+        "Icon" : "LeBlanc",
+        "Name" : "Aim Assist",
+        "Description": "Gain a LeBlanc. For every 2 sigils fired by her Ability, she fires an additional sigil at the lowest Health enemy."
     },
     {
-        "character" : "Nilah",
-        "name" : "Gifted",
-        "description": "Gain a Nilah. She gains 40 Ability Power. Combat Start: Your strongest Nilah grants her nearest ally a temporary copy of one of her normal items."
+        "Icon" : "Nilah",
+        "Name" : "Gifted",
+        "Description": "Gain a Nilah. She gains 40 Ability Power. Combat Start: Your strongest Nilah grants her nearest ally a temporary copy of one of her normal items."
     },
     {
-        "character" : "Rammus",
-        "name" : "Spiked Shell",
-        "description": "Gain a Rammus. When struck by an attack, he deals magic damage equal to 100% of his Armor to all nearby enemies (once every 2.5 seconds)."
+        "Icon" : "Rammus",
+        "Name" : "Spiked Shell",
+        "Description": "Gain a Rammus. When struck by an attack, he deals magic damage equal to 100% of his Armor to all nearby enemies (once every 2.5 seconds)."
     },
     {
-        "character" : "Riven",
-        "name" : "Reverberation",
-        "description": "Gain a Riven. She gains 20 Ability Power and her Ability is additionally cast on her lowest Health ally."
+        "Icon" : "Riven",
+        "Name" : "Reverberation",
+        "Description": "Gain a Riven. She gains 20 Ability Power and her Ability is additionally cast on her lowest Health ally."
     },
     {
-        "character" : "Senna",
-        "name" : "Absolution",
-        "description": "Gain a Senna. She gains 20% Attack Speed and an additional 20% every 5 seconds."
+        "Icon" : "Senna",
+        "Name" : "Absolution",
+        "Description": "Gain a Senna. She gains 20% Attack Speed and an additional 20% every 5 seconds."
     },
     {
-        "character" : "Sona",
-        "name" : "Power Grid",
-        "description": "Gain a Sona. She gains 20 Ability Power and her Ability fires 1 additional beam."
+        "Icon" : "Sona",
+        "Name" : "Power Grid",
+        "Description": "Gain a Sona. She gains 20 Ability Power and her Ability fires 1 additional beam."
     },
     {
-        "character" : "Vayne",
-        "name" : "Spread Shot",
-        "description": "Gain a Vayne. Her Ability additionally fires at 2 other nearby enemies dealing 35% damage."
+        "Icon" : "Vayne",
+        "Name" : "Spread Shot",
+        "Description": "Gain a Vayne. Her Ability additionally fires at 2 other nearby enemies dealing 35% damage."
     },
     {
-        "character" : "Vel'Koz",
-        "name" : "Frostburn",
-        "description": "Gain a Vel'Koz. His Ability deals an additional 200% of its damage over the next 30 seconds (this can stack)."
+        "Icon" : "Vel'Koz",
+        "Name" : "Frostburn",
+        "Description": "Gain a Vel'Koz. His Ability deals an additional 200% of its damage over the next 30 seconds (this can stack)."
     },
     {
-        "character" : "Zoe",
-        "name" : "Double Bubble",
-        "description": "Gain a Zoe. Her Ability launches a second bubble at a different target, dealing 70% damage."
+        "Icon" : "Zoe",
+        "Name" : "Double Bubble",
+        "Description": "Gain a Zoe. Her Ability launches a second bubble at a different target, dealing 70% damage."
     },
     {
-        "character" : "Aurelion Sol",
-        "name" : "Extinction Event",
-        "description": "Gain an Aurelion Sol. He gains 30 Ability Power and his Ability's meteors are larger."
+        "Icon" : "Aurelion Sol",
+        "Name" : "Extinction Event",
+        "Description": "Gain an Aurelion Sol. He gains 30 Ability Power and his Ability's meteors are larger."
     },
     {
-        "character" : "Bel'Veth",
-        "name" : "Back for Blood",
-        "description": "Gain a Bel'Veth. She gains 20% Omnivamp, tripled while under 50% Health."
+        "Icon" : "Bel'Veth",
+        "Name" : "Back for Blood",
+        "Description": "Gain a Bel'Veth. She gains 20% Omnivamp, tripled while under 50% Health."
     },
     {
-        "character" : "Ekko",
-        "name" : "Resonance",
-        "description": "Gain an Ekko. He gains 20% Attack Speed and his attacks deal 50 bonus magic damage."
+        "Icon" : "Ekko",
+        "Name" : "Resonance",
+        "Description": "Gain an Ekko. He gains 20% Attack Speed and his attacks deal 50 bonus magic damage."
     },
     {
-        "character" : "Miss Fortune",
-        "name" : "Bunny Mercenary",
-        "description": "Gain a Miss Fortune. Her Ability covers a wider cone and she gains a 400 Health shield while channeling."
+        "Icon" : "Miss Fortune",
+        "Name" : "Bunny Mercenary",
+        "Description": "Gain a Miss Fortune. Her Ability covers a wider cone and she gains a 400 Health shield while channeling."
     },
     {
-        "character" : "Samira",
-        "name" : "Style & Flair",
-        "description": "Gain a Samira. She gains 20% Attack Damage. When she scores a takedown, she restores 35% of her maximum Mana."
+        "Icon" : "Samira",
+        "Name" : "Style & Flair",
+        "Description": "Gain a Samira. She gains 20% Attack Damage. When she scores a takedown, she restores 35% of her maximum Mana."
     },
     {
-        "character" : "Sejuani",
-        "name" : "Glacial Prison",
-        "description": "Gain a Sejuani. Her Ability stuns for 0.5 seconds longer and enemies take 20% more damage while stunned."
+        "Icon" : "Sejuani",
+        "Name" : "Glacial Prison",
+        "Description": "Gain a Sejuani. Her Ability stuns for 0.5 seconds longer and enemies take 20% more damage while stunned."
     },
     {
-        "character" : "Sett",
-        "name" : "Shatter",
-        "description": "Gain a Sejuani. She gains 20 Armor and Magic Resist and her Ability hits the entire board."
+        "Icon" : "Sett",
+        "Name" : "Shatter",
+        "Description": "Gain a Sejuani. She gains 20 Armor and Magic Resist and her Ability hits the entire board."
     },
     {
-        "character" : "Sett",
-        "name" : "Punch Protocol",
-        "description": "Gain a Sett. He gains 20 Armor and Magic Resist. His Ability knocks back the first enemy struck, destroying them if knocked off the battlefield."
+        "Icon" : "Sett",
+        "Name" : "Punch Protocol",
+        "Description": "Gain a Sett. He gains 20 Armor and Magic Resist. His Ability knocks back the first enemy struck, destroying them if knocked off the battlefield."
     },
     {
-        "character" : "Soraka",
-        "name" : "Upgrade: Berserk",
-        "description": "Gain a Soraka. After 15 seconds of combat, all of her Ability casts are empowered."
+        "Icon" : "Soraka",
+        "Name" : "Upgrade: Berserk",
+        "Description": "Gain a Soraka. After 15 seconds of combat, all of her Ability casts are empowered."
     },
     {
-        "character" : "Taliyah",
-        "name" : "Stoneweaver",
-        "description": "Gain a Taliyah. She gains 30 Ability Power and her Ability deals 20% more damage to enemies above 1800 maximum Health."
+        "Icon" : "Taliyah",
+        "Name" : "Stoneweaver",
+        "Description": "Gain a Taliyah. She gains 30 Ability Power and her Ability deals 20% more damage to enemies above 1800 maximum Health."
     },
     {
-        "character" : "Viego",
-        "name" : "Heartstopper",
-        "description": "Gain a Viego. He gains 20 Ability Power and his Ability deals up to 50% increased damage based on the enemy's missing Health."
+        "Icon" : "Viego",
+        "Name" : "Heartstopper",
+        "Description": "Gain a Viego. He gains 20 Ability Power and his Ability deals up to 50% increased damage based on the enemy's missing Health."
     },
     {
-        "character" : "Zac",
-        "name" : "Supersize",
-        "description": "Gain a Zac. He gains 800 bonus Health and is immune to crowd control."
+        "Icon" : "Zac",
+        "Name" : "Supersize",
+        "Description": "Gain a Zac. He gains 800 bonus Health and is immune to crowd control."
     },
     {
-        "character" : "Zed",
-        "name" : "Shadow Jutsu",
-        "description": "Gain a Zed. He gains 10% Attack Damage. When he kills an enemy, he gains 10% of their Attack Damage for the rest of combat."
+        "Icon" : "Zed",
+        "Name" : "Shadow Jutsu",
+        "Description": "Gain a Zed. He gains 10% Attack Damage. When he kills an enemy, he gains 10% of their Attack Damage for the rest of combat."
     },
     {
-        "character" : "Aphelios",
-        "name" : "Armor Piercing Rounds",
-        "description": "Gain an Aphelios. His attacks reduce the target's Armor by 10% for the rest of combat (this can stack)."
+        "Icon" : "Aphelios",
+        "Name" : "Armor Piercing Rounds",
+        "Description": "Gain an Aphelios. His attacks reduce the target's Armor by 10% for the rest of combat (this can stack)."
     },
     {
-        "character" : "Fiddlesticks",
-        "name" : "Traumatic Memories",
-        "description": "Gain a Fiddlesticks. When an ally dies, it gains 200 bonus Health for the rest of combat."
+        "Icon" : "Fiddlesticks",
+        "Name" : "Traumatic Memories",
+        "Description": "Gain a Fiddlesticks. When an ally dies, it gains 200 bonus Health for the rest of combat."
     },
     {
-        "character" : "Janna",
-        "name" : "Rapid Reporting",
-        "description": "Gain a Janna. Her Ability restores 10 Mana per enemy hit."
+        "Icon" : "Janna",
+        "Name" : "Rapid Reporting",
+        "Description": "Gain a Janna. Her Ability restores 10 Mana per enemy hit."
     },
     {
-        "character" : "Leona",
-        "name" : "Perfected Solar Flare",
-        "description": "Gain a Leona. She gains 30 Ability Power and her maximum Mana is reduced by 20."
+        "Icon" : "Leona",
+        "Name" : "Perfected Solar Flare",
+        "Description": "Gain a Leona. She gains 30 Ability Power and her maximum Mana is reduced by 20."
     },
     {
-        "character" : "Mordekaiser",
-        "name" : "Not So Heavy Metal",
-        "description": "Gain a Mordekaiser. He gains 30 Ability Power every 5 seconds."
+        "Icon" : "Mordekaiser",
+        "Name" : "Not So Heavy Metal",
+        "Description": "Gain a Mordekaiser. He gains 30 Ability Power every 5 seconds."
     },
     {
-        "character" : "Nunu & Willump",
-        "name" : "They See Me Rolling",
-        "description": "Gain a Nunu. He gains 20 Ability Power and restores 10 Mana per second."
+        "Icon" : "Nunu",
+        "Name" : "They See Me Rolling",
+        "Description": "Gain a Nunu. He gains 20 Ability Power and restores 10 Mana per second."
     },
     {
-        "character" : "Syndra",
-        "name" : "Power Overwhelming",
-        "description": "Gain a Syndra. Allies summoned by her Ability gain 30% Attack Damage and 30 Ability Power, Armor, and Magic Resist."
+        "Icon" : "Syndra",
+        "Name" : "Power Overwhelming",
+        "Description": "Gain a Syndra. Allies summoned by her Ability gain 30% Attack Damage and 30 Ability Power, Armor, and Magic Resist."
     },
     {
-        "character" : "Undertow",
-        "name" : "Shiny",
-        "description": "Gain an Urgot. His Ability has an additional 25% chance to dredge up treasure."
+        "Icon" : "Urgot",
+        "Name" : "Shiny",
+        "Description": "Gain an Urgot. His Ability has an additional 25% chance to dredge up treasure."
     }
 ]

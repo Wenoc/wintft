@@ -1,11 +1,23 @@
+<script context="module">
+  export async function preload(page, session) {
+    const res = await this.fetch("traitData.json");
+    const TraitData = await res.json();
+
+    return { TraitData };
+  }
+</script>
+
 <script>
-  import ItemDetails from "../components/ItemDetails.svelte";
-  import Champ from "../components/Champ.svelte";
-  import ChampDetails from "../components/champDetails.svelte";
+  export let TraitData;
+  import TraitDetails from "../components/TraitDetails.svelte";
 </script>
 
 <div>
-  <ChampDetails />
+  <TraitDetails
+    name={TraitData[0].Name}
+    description={TraitData[0].Description}
+    bonuses={TraitData[0].Bonus}
+  />
 </div>
 
 <style>

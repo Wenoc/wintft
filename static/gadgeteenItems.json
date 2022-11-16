@@ -1,0 +1,65 @@
+[
+    {
+        "name" : "Chainsword Bloodthirster",
+        "icon" : "tbloodthirster",
+        "description" : "Grant 20% Omnivamp.\n\nOnce per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 8 seconds. While the shield is active, the holder gains 40% AD.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Hand of Nondeterministic Justice",
+        "icon" : "thoj",
+        "description" : "Grant 2 effects:\n\nAD 25% Attack Damage and AP 25 Ability Power.\n15% Omnivamp.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Induction-Powered Warmog's Armor",
+        "icon" : "twarmog",
+        "description" : "Grant Health 900 bonus Health. Regenerate 2% max Health per second.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Jump-Started Spear of Shojin",
+        "icon" : "tshojin",
+        "description" : "Grant Mana 30 bonus starting Mana and AP 20 bonus Ability Power. Every 3rd attack restores Mana 10 additional Mana.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Magnetized Ionic Spark",
+        "icon" : "tionicspark",
+        "description" : "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped for magic damage equal to 185% of their maximum Mana. Every 4 seconds, the holder taunts all enemies in range to attack the holder.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "OVERFLOW ERROR // Giant Slayer",
+        "icon" : "tgiantslayer",
+        "description" : "Grant AD 20% bonus Attack Damage and AP 20 bonus Ability Power. If the target has more than 1 maximum Health, deal 25% more damage with Abilities and attacks.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Overclocked Sunfire Cape",
+        "icon" : "tsunfire",
+        "description" : "Grant Health 150 bonus Health. Every 1 second, an enemy within 3 hexes is burned for 10% of their maximum Health as true damage over 10 seconds, and receive 30% reduced healing for the duration.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Shroud of Even Still-erness",
+        "icon" : "tshroud",
+        "description" : "Combat start: Shoot a beam that increases the maxiumum Mana of affected enemies by 35% until they cast. Additionally, affected enemies have their Attack and Movement Speed slowed by 20% for 1.5 seconds.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Spring-Loaded Rapid Firecannon",
+        "icon" : "trfc",
+        "description" : "Grant AS 30% bonus Attack Speed and Range 3 Attack Range.\n\nAttacks cannot miss.\n\nSelf-destructs after 2 combats.",
+        "component1" : "-",
+        "component2" : "-"
+    }
+]

@@ -1,0 +1,27 @@
+{
+    "Name": "Sejuani",
+    "Picture": "Sejuani",
+    "Cost": 4,
+    "Health": "900 / 1620 / 2916",
+    "Damage": "70 / 105 / 158",
+    "Mana": "50 / 150",
+    "Attack_Speed": 0.55,
+    "Armor": 60,
+    "Magic_Resist": 60,
+    "Range": 1,
+    "AbilityIcon": "abilityIcons/alistar",
+    "AbilityName": "Cryo Grenade",
+    "AbilityDescription": "Sejuani throws a cryo grenade at the closest enemy that explodes after a 2-second delay. Enemies within a 3-hex radius are dealt magic damage and are stunned.\n\nDamage : 125 / 200 / 1200\nStun Duration : 1.5 / 2 / 8",
+    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "LaserCorps",
+        "Champions": ["Ashe", "Renekton", "Yasuo", "Senna", "Zed", "Mordekaiser"]
+      },
+      {
+        "Name": "Brawler",
+        "Champions": ["Renekton", "LeeSin", "Vi", "Jax", "Riven"]
+      }
+    ]
+  }
+  

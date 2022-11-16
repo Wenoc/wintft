@@ -201,8 +201,11 @@
   }
 
   @media (max-width: 1100px) {
+    .searchContainer {
+      justify-content: center;
+    }
     .champPageContainer {
-      width: 644px;
+      width: 680px;
     }
   }
 
@@ -210,15 +213,18 @@
     .searchContainer {
       justify-content: center;
     }
-  }
-
-  @media (max-width: 670px) {
-    .champPageContainer {
-      max-width: 370px;
-    }
-
     .championsContainer .divinContainer {
       gap: 12px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .champPageContainer {
+      width: 100%;
+    }
+    .championsContainer .divinContainer {
+      gap: 12px;
+      flex-direction: column;
     }
 
     .searchContainer {

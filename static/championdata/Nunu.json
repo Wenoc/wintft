@@ -12,15 +12,15 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Biggest Roboball Ever!",
   "AbilityDescription": "Passive: Nunu and Willump slowly roll a ball around the board, dealing magic damage to all enemies it passes through, and gaining 30 mana per second.\n\nNuNu and Willump grow the ball, increashing their speed, radius of the ball, and its damage dealt by 50%.\n\nDamage : 150 / 225 / 3333",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Gadgeteen",
       "Champions": ["Lulu", "Poppy", "Annie", "Zoe"]
     },
     {
-      "Name": " Defender",
-      "Champions": ["Galio", "Nasus", "Malphite", "Yummi", "Alistar"]
+      "Name": "Defender",
+      "Champions": ["Galio", "Nasus", "Malphite", "Yuumi", "Alistar"]
     }
   ]
 }

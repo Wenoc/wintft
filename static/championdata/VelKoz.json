@@ -10,7 +10,7 @@
     "Range": 4,
     "AbilityName": "Frozen Tomb",
     "AbilityDescription": "Vel'koz freezes the enemy champion that has dealt the most damage this round for a few seconds, dealing magic damage.\n\nDamage : 280 / 400 / 620\nStun Duration : 1.5 / 2 / 2.5",
-    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
     "Traits": [
       {
         "Name": "Threat",

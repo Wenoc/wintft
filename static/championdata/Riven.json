@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Bunny Blade",
   "AbilityDescription": "Riven gains a Health Shield for 4 seconds and empowers her next 3 basic attacks with bonus magic damage. If her attack target currently has less health than her, her bonus magic damage is increased by 100%.\n\nShield Amount : 400 / 500 / 650\n\nDamage : 80 / 120 / 210",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Anima Squad",

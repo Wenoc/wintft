@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Twister!",
   "AbilityDescription": "Janna sends a twister towards the largest group of units. Enemy units caught by the twister are knocked up for 0.5 seconds. When the twister stops, it expands and all nearby enemies are knocked up for a few seconds and take magic damage each second over 1.5 seconds.\n\nDamage : 210 / 320 / 9000\n\nStun Duration : 1.5 / 2 / 3",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Civilian",

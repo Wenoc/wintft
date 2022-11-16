@@ -199,7 +199,7 @@
   p {
     margin: 2px;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .champCard {
@@ -309,13 +309,17 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 2px;
+    gap: 4px;
   }
 
-  @media (max-width: 800px) {
+  .champCost p {
+    font-size: 16px;
+  }
+
+  @media (max-width: 670px) {
     .champCard {
-      width: 160px;
-      height: 112px;
+      width: 300px;
+      height: 130px;
     }
 
     .champName {
@@ -327,11 +331,11 @@
     }
 
     .traitItem img {
-      height: 18px;
+      height: 20px;
     }
 
     .traitItem p {
-      font-size: 13px;
+      font-size: 15px;
     }
 
     .champItems {

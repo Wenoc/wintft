@@ -8,9 +8,9 @@
     "Armor": 20,
     "Magic_Resist": 20,
     "Range": 4,
-    "AbilityName": "Safeguard",
+    "AbilityName": "Trouble Bubble",
     "AbilityDescription": "Zoe launches a bubble at the nearest non-infected enemy's location, infecting all enemies hit with a virus that deals magic damage over 10 seconds. Infected enemies take more damage.\n\nDamage : 500 / 750 / 1337\n\nPercent Bonus Damage : 10% / 10% / 20%",
-    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
     "Traits": [
       {
         "Name": "Gadgeteen",

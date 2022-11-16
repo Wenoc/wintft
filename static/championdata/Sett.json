@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Mecha SLAM!",
   "AbilityDescription": "Sett begins charging up, becoming immune to crowd control and gaining a health shield for 2.5 seconds. After the shield breaks or at the end of its duration, he unleashes a blast in a cone at the most enemies in range, dealing physical damage to all enemies inside. The damage increases up depending on how long he charged.\n\nShield Health : 400 / 550 / 1500\n\nMin Attack Damage : 120% / 125% / 200%\n\nMax Attack Damage : 240% / 250% / 400%",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Mecha: PRIME",

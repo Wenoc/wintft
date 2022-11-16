@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Dark Harvest",
   "AbilityDescription": "Fiddlesticks teleports into the largest cluster of enemies and fears them. For the next a few seconds, Fiddle drains the life from nearby enemies dealing magic damage per second and healing himself for 20% of the damage dealt.\n\nFear Duration : 1 / 1 / 5\n\nMagic Damage : 120 / 180 / 2000\n\nSpell Duration : 5 / 5 / 30",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Threat",

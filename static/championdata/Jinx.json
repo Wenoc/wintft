@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Fishbones",
   "AbilityDescription": "Jinx fires a rocket at her target that explodes on impact, damaging all nearby enemies for magic damage and stunning them for 1.5 seconds.\n\nDamage : 225 / 350 / 525",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Anima Squad",

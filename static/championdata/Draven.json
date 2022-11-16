@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Whirling Death",
   "AbilityDescription": "Draven hurls two massive axes at his target's direction that deal physical damage to all enemies in its path, reduced by 25% for each enemy they pass through. The axes reverse direction at the end of their path, dealing damage to enemies hit along the way back.\n\nDamage : 65 / 100 / 175",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Mecha: PRIME",

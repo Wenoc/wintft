@@ -36,6 +36,14 @@
       <a
         sapper:prefetch
         rel="external"
+        href="items/"
+        class:selected={segment === "items"}
+      >
+        <div class="navItem">Items</div>
+      </a>
+      <a
+        sapper:prefetch
+        rel="external"
         href="champions/"
         class:selected={segment === "champions"}
       >
@@ -69,6 +77,14 @@
       <div class="navItem">Augments</div>
     </a>
     <a
+      sapper:prefetch
+      rel="external"
+      href="items/"
+      class:selected={segment === "items"}
+    >
+      <div class="navItem">Items</div>
+    </a>
+    <a
       rel="external"
       href="champions/"
       class:selected={segment === "champions"}
@@ -94,11 +110,11 @@
   }
 
   #grow {
-    -moz-transition: height 0.4s;
-    -ms-transition: height 0.4s;
-    -o-transition: height 0.4s;
-    -webkit-transition: height 0.4s;
-    transition: height 0.4s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s;
     height: 0;
     overflow: hidden;
   }
@@ -212,7 +228,7 @@
     }
   }
 
-  @media (max-width: 940px) {
+  @media (max-width: 1000px) {
     .linkContainer {
       display: none;
     }
@@ -220,7 +236,7 @@
       display: block;
     }
     #demo:checked + label .expand {
-      height: 150px;
+      height: 190px;
       border-bottom: 1px solid #22242f;
     }
   }

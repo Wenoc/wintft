@@ -4,6 +4,7 @@
   export let itemData;
 
   export let cc = false;
+  export let inCdetails = false;
 
   let description;
   let actualName;
@@ -37,7 +38,11 @@
 </script>
 
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-<div class="absoluteContainer" class:absoluteContainerChange={cc}>
+<div
+  class="absoluteContainer"
+  class:absoluteContainerChange={cc}
+  class:inCdetails
+>
   <div
     class="itemDetailContainer"
     class:hidden={hidden == true}
@@ -103,6 +108,10 @@
 </div>
 
 <style>
+  .inCdetails {
+    top: 60px !important;
+    right: -160px !important;
+  }
   .hidden {
     display: none;
   }

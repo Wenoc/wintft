@@ -1,0 +1,150 @@
+[
+    {
+        "name" : "A.D.M.I.N. Crest",
+        "icon" : "admin",
+        "description" : "The holder gains the A.D.M.I.N. Trait.",
+        "component1" : "spatula",
+        "component2" : "cloak"
+    },
+    {
+        "name" : "Anima Squad Emblem",
+        "icon" : "animasquad",
+        "description" : "The holder gains the Anima Squad trait.",
+        "component1" : "spatula",
+        "component2" : "rod"
+    },
+    {
+        "name" : "Duelist Emblem",
+        "icon" : "duelist",
+        "description" : "The holder gains the Duelist trait.",
+        "component1" : "spatula",
+        "component2" : "bow"
+    },
+    {
+        "name" : "Heart Emblem",
+        "icon" : "heart",
+        "description" : "The holder gains the Heart trait.",
+        "component1" : "spatula",
+        "component2" : "tear"
+    },
+    {
+        "name" : "LaserCorps Emblem",
+        "icon" : "lasercorps",
+        "description" : "The holder gains the LaserCorps trait.",
+        "component1" : "spatula",
+        "component2" : "sword"
+    },
+    {
+        "name" : "Mascot Emblem",
+        "icon" : "mascot",
+        "description" : "The holder gains the Mascot trait.",
+        "component1" : "spatula",
+        "component2" : "belt"
+    },
+    {
+        "name" : "Ox Force Emblem",
+        "icon" : "oxforce",
+        "description" : "The holder gains the Ox Force trait.",
+        "component1" : "spatula",
+        "component2" : "chain"
+    },
+    {
+        "name" : "Renegade Emblem",
+        "icon" : "renegade",
+        "description" : "The holder gains the Renegade trait..",
+        "component1" : "spatula",
+        "component2" : "gloves"
+    },
+    {
+        "name" : "Ace Emblem",
+        "icon" : "ace",
+        "description" : "The holder gains the Ace trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Brawler Emblem",
+        "icon" : "brawler",
+        "description" : "The holder gains the Brawler trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Civilian Emblem",
+        "icon" : "civilian",
+        "description" : "The holder gains the Civilian trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Defender Emblem",
+        "icon" : "defender",
+        "description" : "The holder gains the Defender trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Gadgeteen Emblem",
+        "icon" : "gadgeteen",
+        "description" : "The holder gains the Gadgeteen trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Mecha: PRIME Emblem",
+        "icon" : "mecha",
+        "description" : "The holder gains the Mecha: PRIME trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Prankster Emblem",
+        "icon" : "prankster",
+        "description" : "The holder gains the Prankster trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Recon Emblem",
+        "icon" : "recon",
+        "description" : "The holder gains the Recon trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Prankster Emblem",
+        "icon" : "prankster",
+        "description" : "The holder gains the Prankster trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Spellslinger Emblem",
+        "icon" : "mage",
+        "description" : "The holder gains the Spellslinger trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Star Guardian Emblem",
+        "icon" : "starguardian",
+        "description" : "The holder gains the Star Guardian trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Sureshot Emblem",
+        "icon" : "sureshot",
+        "description" : "The holder gains the Sureshot trait.",
+        "component1" : "-",
+        "component2" : "-"
+    },
+    {
+        "name" : "Underground Emblem",
+        "icon" : "underground",
+        "description" : "The holder gains the Underground trait.",
+        "component1" : "-",
+        "component2" : "-"
+    }
+    
+]

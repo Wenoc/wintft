@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Endless Banquet",
   "AbilityDescription": "Bel'Veth dashes around her target and unleashes a flurry of attacks, each dealing physical damage.\n\nEach time this is cast, Bel'Veth gains 25% bouns Attack Speed for the rest of combat.\n\nDamage : 25 / 40 / 160\n\nDefense Shred : 40% / 50% / 70%\n\nPercent of Attack Damage : 50% / 50% / 100%",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Threat",

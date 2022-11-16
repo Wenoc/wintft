@@ -10,7 +10,7 @@
     "Range": 5,
     "AbilityName": "Prowling Projectile",
     "AbilityDescription": "Yuumi fires a curved missile at the furthest target in her attack range, dealing magic damage to the first unit hit.\n\nDamage : 250 / 375 / 575",
-    "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
     "Traits": [
       {
         "Name": "Star Guardian",

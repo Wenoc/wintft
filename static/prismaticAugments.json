@@ -1,0 +1,347 @@
+[
+  {
+    "Name": "Ancient Archives 2",
+    "Description": "Gain 2 Tome of Traits.",
+    "Icon": "AncientArchives2.png"
+  },
+  {
+    "Name": "Band Of Thieves 2",
+    "Description": "Gain 2 Thief's Gloves.",
+    "Icon": "BandOfThieves2.png"
+  },
+  {
+    "Name": "Battlemage 3",
+    "Description": "Your units that start combat in the front 2 rows gain 35 Armor and 35 Ability Power.",
+    "Icon": "Battlemage3.png"
+  },
+  {
+    "Name": "Binary Airdrop",
+    "Description": "Your champions equipped with 2 items temporarily gain a random completed item at the start of combat.",
+    "Icon": "BinaryAirdrop.png"
+  },
+  {
+    "Name": "Birthday Present",
+    "Description": "Gain a 2-star champion every time you level up. The champion's tier is your level minus 4 (min: Tier 1).",
+    "Icon": "BirthdayPresent.png"
+  },
+  {
+    "Name": "Built Different 3",
+    "Description": "Your units with no Traits active gain 500 Health and 80% Attack Speed.",
+    "Icon": "BuiltDifferent3.png"
+  },
+  {
+    "Name": "Celestial Blessing 3",
+    "Description": "Your units heal for 20% of the damage dealt by attacks and abilities. Excess healing is converted to a shield up to 600 Health.",
+    "Icon": "CelestialBlessing3.png"
+  },
+  {
+    "Name": "Cruel Pact",
+    "Description": "Buying XP costs 3 Health instead of gold.",
+    "Icon": "CruelPact.png"
+  },
+  {
+    "Name": "Cursed Crown",
+    "Description": "Gain +2 maximum team size, but take 100% increased player damage.",
+    "Icon": "CursedCrown.png"
+  },
+  {
+    "Name": "Cybernetic Implants 3",
+    "Description": "Your units equipped with an item gain 400 Health and 25 Attack Damage",
+    "Icon": "CyberneticImplants3.png"
+  },
+  {
+    "Name": "Cybernetic Shell 3",
+    "Description": "Your units holding an item gain 350 Health and 60 Armor.",
+    "Icon": "CyberneticShell3.png"
+  },
+  {
+    "Name": "Cybernetic Uplink 3",
+    "Description": "Your units holding an item gain 350 Health and restore 4 Mana per second.",
+    "Icon": "CyberneticUplink3.png"
+  },
+  {
+    "Name": "Disintegrator 3",
+    "Description": "Your unit's attacks deal bonus magic damage equal to 3.5% of the target's maximum Health.",
+    "Icon": ""
+  },
+  {
+    "Name": "Double Trouble 3",
+    "Description": "If you have exactly 2 copies of a champion on your board, they both gain 44 Attack Damage, Ability Power, Armor, and Magic Resist. When you upgrade to 3-star, gain a 2-star copy.",
+    "Icon": "DoubleTrouble3.png"
+  },
+  {
+    "Name": "Electrocharge 3",
+    "Description": "Whenever your units receive a critical strike, they deal 200 magic damage to nearby enemies.",
+    "Icon": "Electrocharge3.png"
+  },
+  {
+    "Name": "Exiles 3",
+    "Description": "Your units that start combat with no adajacent allies gain a 50% maximum Health shield for 10 seconds.",
+    "Icon": "Exiles3.png"
+  },
+  {
+    "Name": "Featherweights 3",
+    "Description": "Your 1 and 2 cost units gain 90% movement and Attack Speed.",
+    "Icon": "Featherweights3.png"
+  },
+  {
+    "Name": "Future Sight 2",
+    "Description": "Know who you fight next. Gain a Radiant Zephyr.",
+    "Icon": "FutureSight2.png"
+  },
+  {
+    "Name": "Golden Ticket",
+    "Description": "Each time your Shop is refreshed, you have a 50% chance to gain a free refresh.",
+    "Icon": "GoldenTicket.png"
+  },
+  {
+    "Name": "High End Shopping",
+    "Description": "Champions appear in your Shop as if you were 1 level higher.",
+    "Icon": "HighEndShopping.png"
+  },
+  {
+    "Name": "High Roller",
+    "Description": "Gain 3 Loaded Dice and 8 gold.",
+    "Icon": "HighRoller.png"
+  },
+  {
+    "Name": "Item Grab Bag 2",
+    "Description": "Gain 2 random completed items and 2 Reforgers.",
+    "Icon": "ItemGrabBag2.png"
+  },
+  {
+    "Name": "Knife's Edge 3",
+    "Description": "Your units that start combat in the first 2 rows gain 40 Attack Damage.",
+    "Icon": "KnifesEdge3.png"
+  },
+  {
+    "Name": "Level Up!",
+    "Description": "When you buy experience points, gain an additional 4 experience points. You can now reach level 10.",
+    "Icon": "LevelUp!.png"
+  },
+  {
+    "Name": "Living Forge",
+    "Description": "Gain a random Ornn item now and after every 10 player combats.",
+    "Icon": "LivingForge.png"
+  },
+  {
+    "Name": "Lucky Gloves",
+    "Description": "Thief's Gloves will always give your champions items that they can use well. Gain a Thief's Gloves.",
+    "Icon": "LuckyGloves.png"
+  },
+  {
+    "Name": "Luden's Echo 3",
+    "Description": "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 300 bonus magic damage.",
+    "Icon": "LudensEcho3.png"
+  },
+  {
+    "Name": "Makeshift Armor 3",
+    "Description": "Your units with no items gain 65 Armor and Magic Resist.",
+    "Icon": "MakeshiftArmor3.png"
+  },
+  {
+    "Name": "March Of Progress",
+    "Description": "Gain 5 bonus experience points per round. You can no longer use gold to level up.",
+    "Icon": "MarchOfProgress.png"
+  },
+  {
+    "Name": "New Recruit",
+    "Description": "Gain +1 team size.",
+    "Icon": "NewRecruit.png"
+  },
+  {
+    "Name": "Preparation 3",
+    "Description": "Champions on your bench permanently gain 12 Attack Damage and Ability Power every round, up to 48.",
+    "Icon": "Preparation3.png"
+  },
+  {
+    "Name": "Radiant Relics",
+    "Description": "Open an Armory and choose 1 of 4 unique Radiant items.",
+    "Icon": "RadiantRelics.png"
+  },
+  {
+    "Name": "Scoped Weapons 2",
+    "Description": "Your units that start combat in the back 2 rows gain infinite Attack Range and 25% Attack Speed.",
+    "Icon": "ScopedWeapons2.png"
+  },
+  {
+    "Name": "Stand United 3",
+    "Description": "Your units gain 4 Attack Damage and Ability Power per Trait active across your team.",
+    "Icon": "StandUnited3.png"
+  },
+  {
+    "Name": "The Golden Egg",
+    "Description": "Gain a massive golden egg that hatches in 10 turns.",
+    "Icon": "TheGoldenEgg.png"
+  },
+  {
+    "Name": "Think Fast",
+    "Description": "Shop refreshes are free until the end of this round. Traits and other augments do not benefit from these free shops. Gain 8 gold.",
+    "Icon": "ThinkFast.png"
+  },
+  {
+    "Name": "Threat Level: Maximum",
+    "Description": "TBD",
+    "Icon": ""
+  },
+  {
+    "Name": "Tri Force 3",
+    "Description": "Your 3-cost champions gain 433 Health, 33 Mana, and 43% Attack Speed.",
+    "Icon": "TriForce3.png"
+  },
+  {
+    "Name": "Urf's Grab Bag 2",
+    "Description": "Gain 1 Spatula and 2 random item components.",
+    "Icon": "UrfsGrabBag2.png"
+  },
+  {
+    "Name": "Verdant Veil",
+    "Description": "Your units are immune to crowd control effects for the first 15 seconds of combat.",
+    "Icon": "VerdantVeil.png"
+  },
+  {
+    "Name": "Windfall",
+    "Description": "Gain 20 gold.",
+    "Icon": "Windfall.png"
+  },
+  {
+    "Name": "Windfall Plus",
+    "Description": "Gain 30 gold.",
+    "Icon": "WindfallPlus.png"
+  },
+  {
+    "Name": "Windfall Plus Plus",
+    "Description": "Gain 40 gold.",
+    "Icon": "WindfallPlusPlus.png"
+  },
+  {
+    "Name": "Wise Spending",
+    "Description": "Gain 2 experience points when you refresh your Shop.",
+    "Icon": "WiseSpending.png"
+  },
+  {
+    "Name": "Woodland Charm",
+    "Description": "Your highest Health champion is cloned. Clones cannot hold items.",
+    "Icon": "WoodlandCharm.png"
+  },
+  {
+    "Name": "Ace Crown",
+    "Description": "Gain an Ace Emblem, a Runaan's Hurricane, and 2 gold.",
+    "Icon": ""
+  },
+  {
+    "Name": "A.D.M.I.N Crown",
+    "Description": "Gain an A.D.M.I.N. Emblem, a Hand of Justice, and a Camille.",
+    "Icon": ""
+  },
+  {
+    "Name": "Aegis Crown",
+    "Description": "Gain an Aegis Emblem, a Redemption, and an Alistar.",
+    "Icon": ""
+  },
+  {
+    "Name": "Anima Squad Crown",
+    "Description": "Gain an Anima Squad Emblem, an Ionic Spark, and a Riven.",
+    "Icon": ""
+  },
+  {
+    "Name": "Brawler Crown",
+    "Description": "Gain a Brawler Emblem, a Redemption, and a Riven.",
+    "Icon": ""
+  },
+  {
+    "Name": "Spellslinger Crown",
+    "Description": "Gain a Spellslinger Emblem, a Jewled Gauntlet, and a Sona.",
+    "Icon": ""
+  },
+  {
+    "Name": "Civilian Crown",
+    "Description": "Gain a Civilian Emblem, a Guinsoo's Rageblade, and a Sivir.",
+    "Icon": ""
+  },
+  {
+    "Name": "Sureshot Crown",
+    "Description": "Gain a Sureshot Emblem, an Infinity Edge, and a Senna.",
+    "Icon": ""
+  },
+  {
+    "Name": "Defender Crown",
+    "Description": "Gain a Defender Emblem, a Protector's Vow, and a Riven.",
+    "Icon": ""
+  },
+  {
+    "Name": "Duelist Crown",
+    "Description": "Gain a Duelist Emblem, an Edge of Night, and a Nilah.",
+    "Icon": ""
+  },
+  {
+    "Name": "Mecha: PRIME Crown",
+    "Description": "Gain a Mecha: PRIME Emblem, a Titan's Resolve , and a Jax.",
+    "Icon": ""
+  },
+  {
+    "Name": "Hacker Crown",
+    "Description": "Gain a Hacker Emblem, a Hand of Justice, and a Leblanc.",
+    "Icon": ""
+  },
+  {
+    "Name": "Heart Crown",
+    "Description": "Gain a Heart Emblem, a ZZ'rot Portal, and a Sona.",
+    "Icon": ""
+  },
+  {
+    "Name": "LaserCorps Crown",
+    "Description": "Gain a LaserCorps Emblem, a Hand of Justice, and a Senna.",
+    "Icon": ""
+  },
+  {
+    "Name": "Mascot Crown",
+    "Description": "Gain a Mascot Emblem, a Gargoyle Stoneplate, and an Malphite.",
+    "Icon": ""
+  },
+  {
+    "Name": "Ox Force Crown",
+    "Description": "Gain an Ox Force Emblem, a Titan's Resolve, and an Alistar.",
+    "Icon": ""
+  },
+  {
+    "Name": "Prankster Crown",
+    "Description": "Gain a Prankster Emblem, an Edge of Night, and a Zoe.",
+    "Icon": ""
+  },
+  {
+    "Name": "Recon Crown",
+    "Description": "Gain a Recon Emblem, a Zeke's Herald, and a Ezreal.",
+    "Icon": ""
+  },
+  {
+    "Name": "Renegade Crown",
+    "Description": "Gain a Renegade Crown, a Bloodthirster, and a Camille.",
+    "Icon": ""
+  },
+  {
+    "Name": "Star Guardian Crown",
+    "Description": "Gain a Star Guardian Emblem, a Chalice of Power and a Nilah.",
+    "Icon": ""
+  },
+  {
+    "Name": "Underground Crown",
+    "Description": "Gain an Underground Emblem, a Hextech Gunblade, and a Sona.",
+    "Icon": ""
+  },
+  {
+    "Name": "Gadgeteen Soul",
+    "Description": "Your team counts as having 1 additional Gadgeteen. Gain an Ionic Spark and an Annie.",
+    "Icon": ""
+  },
+  {
+    "Name": "Supers Soul",
+    "Description": "Your team counts as having 1 additional Super. Gain a Titan's Resolve and a Lee Sin.",
+    "Icon": ""
+  },
+  {
+    "Name": "Underground Soul",
+    "Description": "Your team counts as having 1 additional Underground. Gain a Hextech Gunblade and an Ezreal.",
+    "Icon": ""
+  }
+]

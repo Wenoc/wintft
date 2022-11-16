@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Buckler Toss",
   "AbilityDescription": "Poppy throws her buckler at the farthest enemy, dealing % of her Armor as magic damage. The buckler then bounces back. granting Poppy a shield that blocks damage.\n\nPercent of Armor as Damage : 175% / 250% / 375%\n\nShield Amount : 250/ 300 / 375",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Gadgeteen",

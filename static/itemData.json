@@ -14,9 +14,9 @@
         "component2" : "tear"
     },
     {
-        "name" : "Banshee's Claw",
-        "icon" : "BansheesClaw",
-        "description" : "Combat start: Grant a shield to the holder and allies within 1 hex in the same row that blocks the first enemy Ability, up to 600 damage.",
+        "name" : "Guardbreaker",
+        "icon" : "guardbreaker",
+        "description" : "Grant 15% bonus Attack Damage and 15 bonus Ability Power. Abilities and attacks deal 25% more damage to shielded enemies.",
         "component1" : "belt",
         "component2" : "gloves"
     },
@@ -30,7 +30,7 @@
     {
         "name" : "Blue Buff",
         "icon" : "BlueBuff",
-        "description" : "Combat Start: Grant 20 bonus starting Mana. After casting an Ability, set Mana to 20.",
+        "description" : "Grant 10 bonus starting Mana and 20 bonus Ability Power. Reduce the holder's maximum Mana by 10. If the holder gets at least 1 takedown within 3 seconds of casting, gain 20 Mana.",
         "component1" : "tear",
         "component2" : "tear"
     },
@@ -51,7 +51,7 @@
     {
         "name" : "Deathblade",
         "icon" : "Deathblade",
-        "description" : "Grant 15/30/45★ bonus Attack Damage.",
+        "description" : "Grant 40% bonus Attack Damage.",
         "component1" : "sword",
         "component2" : "sword"
     },
@@ -72,7 +72,7 @@
     {
         "name" : "Giant Slayer",
         "icon" : "GiantSlayer",
-        "description" : "Abilities and attacks deal 20% bonus damage. If the target has more than 2200 maximum Health, the bonus increases to 45%.",
+        "description" : "Grant 15% bonus Attack Damage and 15 bonus Ability Power. Abilities and attacks deal 25% more damage to enemies with more than 1900 maximum Health.",
         "component1" : "sword",
         "component2" : "bow"
     },
@@ -100,7 +100,7 @@
     {
         "name" : "Infinity Edge",
         "icon" : "InfinityEdge",
-        "description" : "Grant 60% bonus Critical Strike Chance and 10% bonus Critical Strike Damage. Each point of Critical Strike Chance above 100% converts to 1% Critical Strike Damage. ",
+        "description" : "Grant 15% bonus Attack Damage and 15% bonus Critical Strike Chance. Damage from an Ability can critically strike.",
         "component1" : "sword",
         "component2" : "gloves"
     },
@@ -114,7 +114,7 @@
     {
         "name" : "Jeweled Gauntlet",
         "icon" : "JeweledGauntlet",
-        "description" : "Grant 10% Critical Strike Damage and 30 bonus Ability Power. \n\nMagic and true damage from an Ability can critically strike.",
+        "description" : "Grants 15 bonus Ability Power and 15% Critical Strike Chance. Damage from an Ability can critically strike.",
         "component1" : "rod",
         "component2" : "gloves"
     },
@@ -141,7 +141,7 @@
     },
     {
         "name" : "Protector's Vow",
-        "icon" : "ProtectorsVow",
+        "icon" : "protectorsvow",
         "description" : "Grant 15 bonus starting Mana. \n\nOnce per combat: At 50% Health, allies within 3 hexes gain a 10% maximum Health shield that lasts up to 2 seconds. Shielded allies gain 15 Armor and 15 Magic Resist for the rest of combat.",
         "component1" : "chain",
         "component2" : "tear"
@@ -191,7 +191,7 @@
     {
         "name" : "Spear of Shojin",
         "icon" : "SpearofShojin",
-        "description" : "Grant 20 bonus Ability Power. Attacks restore 5 additional Mana.",
+        "description" : "Grant 20 bonus Ability Power. Every 3rd attack restores 10 additional Mana.",
         "component1" : "sword",
         "component2" : "tear"
     },
@@ -257,69 +257,6 @@
         "description" : "Combat start: taunt enemies within 4 hexes. On death, a Voidspawn arises, taunting nearby enemies. Voidspawns that arise from summoned units are 25% effective.",
         "component1" : "belt",
         "component2" : "bow"
-    },
-    {
-        "name" : "Lagoon Emblem",
-        "icon" : "LagoonEmblem",
-        "description" : "The holder gains the Lagoon trait.",
-        "component1" : "spatula",
-        "component2" : "gloves"
-    },
-    {
-        "name" : "Shimmerscale Emblem",
-        "icon" : "ShimmerscaleEmblem",
-        "description" : "The holder gains the Shimmerscale trait.",
-        "component1" : "sword",
-        "component2" : "spatula"
-    },
-    {
-        "name" : "Cavalier Emblem",
-        "icon" : "CavalierEmblem",
-        "description" : "The holder gains the Cavalier trait.",
-        "component1" : "spatula",
-        "component2" : "chain"
-    },
-    {
-        "name" : "Mage Emblem",
-        "icon" : "MageEmblem",
-        "description" : "The holder gains the Mage trait.",
-        "component1" : "spatula",
-        "component2" : "tear"
-    },
-    {
-        "name" : "Swiftshot Emblem",
-        "icon" : "SwiftshotEmblem",
-        "description" : "The holder gains the Swiftshot trait.",
-        "component1" : "spatula",
-        "component2" : "bow"
-    },
-    {
-        "name" : "Mirage Emblem",
-        "icon" : "MirageEmblem",
-        "description" : "The holder gains the Mirage trait.",
-        "component1" : "spatula",
-        "component2" : "cloak"
-    },
-    {
-        "name" : "Guardian Emblem",
-        "icon" : "GuardianEmblem",
-        "description" : "The holder gains the Guardian trait.",
-        "component1" : "spatula",
-        "component2" : "belt"
-    },
-    {
-        "name" : "Dragonmancer Emblem",
-        "icon" : "DragonmancerEmblem",
-        "description" : "The holder gains the Dragonmancer trait.",
-        "component1" : "spatula",
-        "component2" : "rod"
-    },
-    {
-        "name" : "Guild Emblem",
-        "icon" : "GuildEmblem",
-        "description" : "The holder gains the Guild trait.",
-        "component1" : "",
-        "component2" : ""
     }
     
 ]

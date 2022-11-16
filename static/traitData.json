@@ -1,0 +1,441 @@
+[
+    {
+        "Name" : "A.D.M.I.N.",
+        "Description" : "A.D.M.I.N. configuration varies for each player each game.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "Configure the cause and the effect for your A.D.M.I.N. program"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "Configure an additional effect for your A.D.M.I.N. program"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "Outputs of the above tiers are increased by 160%"
+            }
+        ]
+    },
+    {
+        "Name" : "Recon",
+        "Description" : "Innate: Recon Units gain attack range. Before casting, if there is a nearby enemy, Recon units will dash to safety. They also gain bonus Critical Strike Chance.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+10% Crit Chance"
+            },
+            {
+                "Value" : "3",
+                "Desc" : "+35% Crit Chance"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+60% Crit Chance. Recon spells can crit"
+            }
+        ]
+    },
+    {
+        "Name" : "Anima Squad",
+        "Description" : "When an Anima Squad champion kills another champion, they pause to celebrate and your team builds fame. Anima Squad champions gain Attack Damage and Ability Power, +4 additional maximum Health according to their shared fame.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "20% Attack Damage and 20 Ability Power"
+            },
+            {
+                "Value" : "5",
+                "Desc" : "40% Attack Damage and 40 Ability Power"
+            },
+            {
+                "Value" : "7",
+                "Desc" : "99% Attack Damage and 99 Ability Power"
+            }
+        ]
+    },
+    {
+        "Name" : "Civilian",
+        "Description" : "If there is a Civilian alive, all allies are inspired to fight harder to protect them, gaining mana every 2 seconds.",
+        "Bonus" : [
+            {
+                "Value" : "1",
+                "Desc" : "+2 mana"
+            },
+            {
+                "Value" : "2",
+                "Desc" : "+5 mana"
+            },
+            {
+                "Value" : "3",
+                "Desc" : "+10 mana"
+            }
+        ]
+    },
+    {
+        "Name" : "Corrupted",
+        "Description" : "Fiddlesticks starts combat dormant. When ally champions die during this time, Fiddlesticks absorbs their soul granting him 15 Ability Power. After falling below 40% Health or when all allies have died, Fiddlesticks comes alive",
+        "Bonus" : [
+            {
+                "Value" : "1",
+                "Desc" : "-"
+            }
+        ]
+    },
+    {
+        "Name" : "Gadgeteen",
+        "Description" : "Every round, Gadgeteens generate a random modified weapon that can be equipped by any unit. These weapons are powerful, but not durable, and fall apart after 2 rounds of use. Gadgeteens will not make new items to replace items left on the bench.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "Create 1 item every round"
+            },
+            {
+                "Value" : "5",
+                "Desc" : "Create 2 item every round"
+            }
+        ]
+    },
+    {
+        "Name" : "LaserCorps",
+        "Description" : "All LaserCorps agents are assigned a combat drone. When attacking or being hit by an attack, the drone has a 50% chance to deal magic damage to the agent's target (0.5 second cooldown). When a LaserCorps agent dies, their drone is re-assigned to the nearest living LaserCorps agent.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "Drone lasers deal 50 magic damage."
+            },
+            {
+                "Value" : "6",
+                "Desc" : "Drone lasers deal 130 magic damage."
+            },
+            {
+                "Value" : "9",
+                "Desc" : "Drone lasers deal 210 magic damage. Each LaserCorps agent gets another drone."
+            }
+        ]
+    },
+    {
+        "Name" : "Mecha: PRIME",
+        "Description" : "Use the PRIME selector to designate a PRIME. At the start of combat, the PRIME combines with the two closest other Mecha units, taking a portion of their base Health and Attack Damage.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "75% Health, 75% Attack Damage"
+            },
+            {
+                "Value" : "5",
+                "Desc" : "100% Health, 100% Attack Damage"
+            }
+        ]
+    },
+    {
+        "Name" : "Ox Force",
+        "Description" : "Ox Force units gain Attack Speed that increases with their missing percent health. Ox Force units will fight to their dying breath to defend their city, becoming invulnerable for 1.5 seconds the first time they would die in combat.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "5% - 15% Attack Speed."
+            },
+            {
+                "Value" : "4",
+                "Desc" : "30% - 60% Attack Speed."
+            },
+            {
+                "Value" : "6",
+                "Desc" : "60% - 120% Attack Speed."
+            }
+        ]
+    },
+    {
+        "Name" : "Star Guardian",
+        "Description" : "When Star Guardians gain mana, they gain more.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "35% additional mana"
+            },
+            {
+                "Value" : "5",
+                "Desc" : "60% additional mana"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "100% additional mana"
+            },
+            {
+                "Value" : "9",
+                "Desc" : "150% additional mana"
+            }
+        ]
+    },
+    {
+        "Name" : "Supers",
+        "Description" : "Supers strike a pose at the start of combat, granting allies 30% bonus damage. For every three-star unit on your team, the bonus damage % is increased by 5%.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "-"
+            }
+        ]
+    },
+    {
+        "Name" : "Threat",
+        "Description" : "Threats are more powerful than other units. You may field any number of Threats, but they do not gain bonuses for being fielded with other Threats",
+        "Bonus" : [
+            {
+                "Value" : "1",
+                "Desc" : "-"
+            }
+        ]
+    },
+    {
+        "Name" : "Underground",
+        "Description" : "The Underground periodically checks in with the loot from their current heist. You may choose to cut and run and take the current loot, or continue the heist to get even better rewards. After completing a heist, a new one begins. It takes 9 total progress for a heist to complete.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "The Underground makes 1 progress after each Player Combat Round. After a loss, they make 3 progress."
+            },
+            {
+                "Value" : "5",
+                "Desc" : "The Underground makes 2 progress after each Player Combat Round. After a loss, they make 5 progress."
+            }
+        ]
+    },
+    {
+        "Name" : "Ace",
+        "Description" : "This trait is only active when you have exactly 1 or 4 unique Aces",
+        "Bonus" : [
+            {
+                "Value" : "1",
+                "Desc" : "Execute enemies under 15% health"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "Execute enemies under 30% health"
+            }
+        ]
+    },
+    {
+        "Name" : "Aegis",
+        "Description" : "All allies gain bonus Magic Resist. Aegis units gain more.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+25 Magic Resist, +50 for Aegis Units"
+            },
+            {
+                "Value" : "3",
+                "Desc" : "+40 Magic Resist, +80 for Aegis Units"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+60 Magic Resist, +120 for Aegis Units"
+            },
+            {
+                "Value" : "5",
+                "Desc" : "+85 Magic Resist, +170 for Aegis Units"
+            }
+        ]
+    },
+    {
+        "Name" : "Arsenal",
+        "Description" : "Arsenal units pick the weapons they equip when placed on the board, changing their spell's effects.",
+        "Bonus" : [
+            {
+                "Value" : "1",
+                "Desc" : "-"
+            }
+        ]
+    },
+    {
+        "Name" : "Brawler",
+        "Description" : "Brawlers gain additional maximum Health.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+20% Max Health"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+30% Max Health"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "+50% Max Health"
+            },
+            {
+                "Value" : "8",
+                "Desc" : "+89% Max Health"
+            }
+        ]
+    }
+    ,
+    {
+        "Name" : "Defender",
+        "Description" : "Innate: Shortly after the start of combat, Defenders taunt nearby enemies. All allies gain bonus Armor. Defenders gain more.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+30 Armor, +60 for Defenders"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+60 Armor, +120 for Defenders"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "+100 Armor, +200 for Defenders"
+            }
+        ]
+    },
+    {
+        "Name" : "Duelist",
+        "Description" : "Duelists' basic attacks grant them bonus attack speed, up to 10 stacks.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+6% AS per stack"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+12% AS per stack"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "+20% AS per stack"
+            },
+            {
+                "Value" : "8",
+                "Desc" : "+35% AS per stack"
+            }
+        ]
+    },
+    {
+        "Name" : "Forecaster",
+        "Description" : "Janna grants a different buff to all adjacent allies depending on the current weather, which changes every game.",
+        "Bonus" : [
+            {
+                "Value" : "1",
+                "Desc" : "-"
+            }
+        ]
+    },
+    {
+        "Name" : "Hacker",
+        "Description" : "Hackers gain omnivamp and summon a H4ckerr!m that takes the unit in the Rider Hex into the enemy backline. The Rider is untargetable for the first seconds of combat.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "15% Omnivamp"
+            },
+            {
+                "Value" : "3",
+                "Desc" : "30% Omnivamp"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "50% Omnivamp"
+            }
+        ]
+    },
+    {
+        "Name" : "Heart",
+        "Description" : "When Heart units cast their spell, all allies gain stacking Ability Power for the rest of combat.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+5 Ability Power"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+10 Ability Power"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "+15 Ability Power"
+            }
+        ]
+    },
+    {
+        "Name" : "Mascot",
+        "Description" : "When Mascots die, they retreat to the sidelines to cheer on their team. Allies regenerate a percentage of their maximum health every 3 seconds, increased by 1% for each cheering Mascot. Mascots regenerate double this amount.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "Regain 1.5% Health"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "Regain 2.5% Health"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "Regain 4.5% Health"
+            },
+            {
+                "Value" : "8",
+                "Desc" : "Regain 7% Health"
+            }
+        ]
+    },
+    {
+        "Name" : "Prankster",
+        "Description" : "Pranksters spawn a target dummy, when they would first fall below 50% health.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "Restore 500 health and move to a safe location."
+            },
+            {
+                "Value" : "3",
+                "Desc" : "The enemy who kills a target dummy is stunned for 1.5 seconds"
+            }
+        ]
+    },
+    {
+        "Name" : "Renegade",
+        "Description" : "Renegade units deal bonus damage. The last Renegade standing deals more.",
+        "Bonus" : [
+            {
+                "Value" : "3",
+                "Desc" : "30%, 10% Bonus Damage"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "60%, 20% Bonus Damage"
+            }
+        ]
+    },
+    {
+        "Name" : "Spellslinger",
+        "Description" : "Every 6 seconds, Spellslingers replace their next attack with an orb of magic flung at a random target, dealing 75% of their Ability Power as magic damage. Spellslingers have increased Ability Power",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+30 AP"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+60 AP"
+            },
+            {
+                "Value" : "6",
+                "Desc" : "+100 AP"
+            }
+        ]
+    },
+    {
+        "Name" : "Sureshot",
+        "Description" : "Every 5 seconds, Sureshots gain bonus Attack Damage for the rest of combat.",
+        "Bonus" : [
+            {
+                "Value" : "2",
+                "Desc" : "+25% Attack Damage"
+            },
+            {
+                "Value" : "4",
+                "Desc" : "+50% Attack Damage"
+            }
+        ]
+    }
+]

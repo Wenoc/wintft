@@ -12,10 +12,10 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Tactical Sweep",
   "AbilityDescription": "Camille sweeps with her leg, dealing physical damage and disarming enemies hit.\n\nPercent of Attack Damage : 202% / 222% / 252%\n\nBonus Damage : 60 / 75 / 100\n\nDisarm Duration : 1.5 / 1.6 / 1.75",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
-      "Name": " A.D.M.I.N.",
+      "Name": "A.D.M.I.N.",
       "Champions": ["Blitzcrank", "LeBlanc", "Soraka"]
     },
     {

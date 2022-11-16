@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Glitterlance",
   "AbilityDescription": "Lulu fires a bolt of magic energy at her target, dealing magic damage to the first enemy and to subsequent enemies.\n\nDamage : 240 / 360 / 540\n\nSecondary Damage : 120 / 180 / 270",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Gadgeteen",

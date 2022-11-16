@@ -4,7 +4,6 @@
   export let actualNamename;
   export let name;
   export let opt;
-
   let items = [];
   let cost;
   let traits = [];
@@ -181,7 +180,7 @@
     font-size: 16px;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 800px) {
     .ChampDetailContainer {
       display: none;
     }

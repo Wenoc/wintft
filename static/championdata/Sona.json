@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Crescendo Sequence",
   "AbilityDescription": "Sona cycles between 3 phases, firing 2 beams that:\n\n1: Deals magic damage to the closest enemies.\n\n2. Heals the lowest health allies.\n\n3. Deals magic damage and stuns the closest enemies.\n\nPhase 1 Damage : 140 / 210 / 360\n\nHealing : 180 / 220 / 300\n\nPhase 3 Damage : 100 / 150 / 225",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Underground",

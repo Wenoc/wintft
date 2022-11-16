@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Sigil of Malice",
   "AbilityDescription": "Leblanc fires sigils at her target each dealing magic damage. If the target dies, she continues casting at the nearest target and casts 1 more sigil.\n\nDamage : 80 / 100 / 130\n\nNumber of Sigils : 5 / 6 / 8",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "A.D.M.I.N.",

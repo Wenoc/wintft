@@ -406,7 +406,7 @@
     {
        "Name":"Ekko",
        "Picture":"Ekko",
-       "Cost":2,
+       "Cost":4,
        "Health":"1250 / 2250 / 4050",
        "Damage":"60 / 90 / 135",
        "Mana":"75 / 175",
@@ -2185,6 +2185,113 @@
           }
        ]
     },
+    {
+      "Name": "Nilah",
+      "Picture": "Nilah",
+      "Cost": 3,
+      "Health": "800 / 1440 / 2592",
+      "Damage": "50 / 75 / 113",
+      "Mana": "50 / 150",
+      "Attack_Speed": 0.7,
+      "Armor": 40,
+      "Magic_Resist": 40,
+      "Range": 1,
+      "AbilityIcon": "abilityIcons/alistar",
+      "AbilityName": "Apotheosis",
+      "AbilityDescription": "Nilah whirls her whip-blade. dealing magic damage to nearby enemies while healing herself and allies health over 1 seconds. She finishes with a burst that deals magic damage.\n\nHeal : 200 / 250 / 325\n\nDamage : 100 / 150 / 250",
+      "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+      "Traits": [
+        {
+          "Name": "Star Guardian",
+          "Champions": ["Lux", "Rell", "Yuumi", "Ekko", "Taliyah", "Syndra"]
+        },
+        {
+          "Name": "Duelist",
+          "Champions": ["Gangplank", "Kayle", "Yasuo", "Vayne", "Zed"]
+        }
+      ]
+    }
+,    
+{
+   "Name": "Sejuani",
+   "Picture": "Sejuani",
+   "Cost": 4,
+   "Health": "900 / 1620 / 2916",
+   "Damage": "70 / 105 / 158",
+   "Mana": "50 / 150",
+   "Attack_Speed": 0.55,
+   "Armor": 60,
+   "Magic_Resist": 60,
+   "Range": 1,
+   "AbilityIcon": "abilityIcons/alistar",
+   "AbilityName": "Cryo Grenade",
+   "AbilityDescription": "Sejuani throws a cryo grenade at the closest enemy that explodes after a 2-second delay. Enemies within a 3-hex radius are dealt magic damage and are stunned.\n\nDamage : 125 / 200 / 1200\nStun Duration : 1.5 / 2 / 8",
+   "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+   "Traits": [
+     {
+       "Name": "LaserCorps",
+       "Champions": ["Ashe", "Renekton", "Yasuo", "Senna", "Zed", "Mordekaiser"]
+     },
+     {
+       "Name": "Brawler",
+       "Champions": ["Renekton", "LeeSin", "Vi", "Jax", "Riven"]
+     }
+   ]
+ },
+ {
+   "Name": "Senna",
+   "Picture": "Senna",
+   "Cost": 3,
+   "Health": "650 / 1170 / 2106",
+   "Damage": "75 / 113 / 169",
+   "Mana": "0 / 80",
+   "Attack_Speed": 0.7,
+   "Armor": 25,
+   "Magic_Resist": 25,
+   "Range": 4,
+   "AbilityIcon": "abilityIcons/alistar",
+   "AbilityName": "Piercing Darkness",
+   "AbilityDescription": "Senna fires a laser beam in the direction of a nearby enemy. dealing physical damage to all enemies in a line.\n\nPercent of Attack Damage : 150% / 160% / 180%\n\nBonus Damage : 55 / 75 / 140",
+   "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+   "Traits": [
+     {
+       "Name": "LaserCorps",
+       "Champions": ["Ashe", "Renekton", "Yasuo", "Zed", "Mordekaiser", "Sejuani"]
+     },
+     {
+       "Name": "Sureshot",
+       "Champions": ["Sivir", "Samira", "Aphelios"]
+     }
+   ]
+ }
+ ,
+    {
+      "Name": "Nunu",
+      "Picture": "Nunu",
+      "Cost": 5,
+      "Health": "1200 / 2160 / 3888",
+      "Damage": "0 / 0 / 0",
+      "Mana": "0 / 90",
+      "Attack_Speed": 0.2,
+      "Armor": 60,
+      "Magic_Resist": 60,
+      "Range": 1,
+      "AbilityIcon": "abilityIcons/alistar",
+      "AbilityName": "Biggest Roboball Ever!",
+      "AbilityDescription": "Passive: Nunu and Willump slowly roll a ball around the board, dealing magic damage to all enemies it passes through, and gaining 30 mana per second.\n\nNuNu and Willump grow the ball, increashing their speed, radius of the ball, and its damage dealt by 50%.\n\nDamage : 150 / 225 / 3333",
+      "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+      "Traits": [
+        {
+          "Name": "Gadgeteen",
+          "Champions": ["Lulu", "Poppy", "Annie", "Zoe"]
+        },
+        {
+          "Name": "Defender",
+          "Champions": ["Galio", "Nasus", "Malphite", "Yuumi", "Alistar"]
+        }
+      ]
+    }
+,    
     {
        "Name":"Zed",
        "Cost":4,

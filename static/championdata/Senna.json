@@ -1,0 +1,26 @@
+{
+    "Name": "Senna",
+    "Picture": "Senna",
+    "Cost": 3,
+    "Health": "650 / 1170 / 2106",
+    "Damage": "75 / 113 / 169",
+    "Mana": "0 / 80",
+    "Attack_Speed": 0.7,
+    "Armor": 25,
+    "Magic_Resist": 25,
+    "Range": 4,
+    "AbilityIcon": "abilityIcons/alistar",
+    "AbilityName": "Piercing Darkness",
+    "AbilityDescription": "Senna fires a laser beam in the direction of a nearby enemy. dealing physical damage to all enemies in a line.\n\nPercent of Attack Damage : 150% / 160% / 180%\n\nBonus Damage : 55 / 75 / 140",
+    "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
+    "Traits": [
+      {
+        "Name": "LaserCorps",
+        "Champions": ["Ashe", "Renekton", "Yasuo", "Zed", "Mordekaiser", "Sejuani"]
+      },
+      {
+        "Name": "Sureshot",
+        "Champions": ["Sivir", "Samira", "Aphelios"]
+      }
+    ]
+  }

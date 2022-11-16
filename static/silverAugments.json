@@ -1,0 +1,262 @@
+[
+  {
+    "Name": "AFK",
+    "Description": "You cannot perform actions for the next 3 rounds. Afterwards, gain 20 gold.",
+    "Icon": "AFK.png"
+  },
+  {
+    "Name": "Axiom Arc 1",
+    "Description": "When your units kill an enemy they gain 20 Mana.",
+    "Icon": "AxiomArc1.png"
+  },
+  {
+    "Name": "Band Of Thieves 1",
+    "Description": "Gain 1 Thief's Gloves.",
+    "Icon": "BandOfThieves1.png"
+  },
+  {
+    "Name": "Battlemage 1",
+    "Description": "Your units that start combat in the front 2 rows gain 15 Armor and 15 Ability Power.",
+    "Icon": "Battlemage1.png"
+  },
+  {
+    "Name": "Big Friend 1",
+    "Description": "Your units that start combat next to a unit with over 2000 Health take 10% less damage for the rest of combat.",
+    "Icon": "BigFriend1.png"
+  },
+  {
+    "Name": "Blue Battery 1",
+    "Description": "After casting their Ability, your units restore 20 Mana.",
+    "Icon": "BlueBattery1.png"
+  },
+  {
+    "Name": "Built Different 1",
+    "Description": "Your units with no Traits active gain 300 Health and 50% Attack Speed.",
+    "Icon": "BuiltDifferent1.png"
+  },
+  {
+    "Name": "Celestial Blessing 1",
+    "Description": "Your units heal for 10% of the damage dealt by attacks and abilities. Excess healing is converted to a shield up to 300 Health.",
+    "Icon": "CelestialBlessing1.png"
+  },
+  {
+    "Name": "Combat Training",
+    "Description": "Your Champions permanently gain 1 Attack Damage every time they kill an enemy unit. Champions start with 2 Attack Damage.",
+    "Icon": "CombatTraining.png"
+  },
+  {
+    "Name": "Consistency",
+    "Description": "Gain double streak gold.",
+    "Icon": "Consistency.png"
+  },
+  {
+    "Name": "Cybernetic Implants 1",
+    "Description": "Your units equipped with an item gain 200 Health and 8 Attack Damage.",
+    "Icon": "CyberneticImplants1.png"
+  },
+  {
+    "Name": "Cybernetic Shell 1",
+    "Description": "Your champions holding an item gain 150 Health and 30 Armor.",
+    "Icon": "CyberneticShell1.png"
+  },
+  {
+    "Name": "Cybernetic Uplink 1",
+    "Description": "Your champions holding an item gain 150 Health and restore 2 Mana per second.",
+    "Icon": "CyberneticUplink1.png"
+  },
+  {
+    "Name": "Disintegrator 1",
+    "Description": "Your unit's attacks deal bonus magic damage equal to 1.5% of the target's maximum Health.",
+    "Icon": ""
+  },
+  {
+    "Name": "Double Trouble 1",
+    "Description": "If you have exactly 2 copies of a champion on your board, they both gain 22 Attack Damage, Ability Power, Armor, and Magic Resist. When you upgrade to 3-star, gain a 2-star copy.",
+    "Icon": "DoubleTrouble1.png"
+  },
+  {
+    "Name": "Electrocharge 1",
+    "Description": "When your units receive a critical strike, they deal 100 magic damage to nearby enemies.",
+    "Icon": "Electrocharge1.png"
+  },
+  {
+    "Name": "Exiles 1",
+    "Description": "Your units that start combat with no adajacent allies gain a 25% maximum Health shield for 10 seconds.",
+    "Icon": "Exiles1.png"
+  },
+  {
+    "Name": "Featherweights 1",
+    "Description": "Your 1 and 2 cost units gain 45% movement and Attack Speed.",
+    "Icon": "Featherweights1.png"
+  },
+  {
+    "Name": "First Aid Kit 1",
+    "Description": "All healing and shielding received by your units is increased by 25%.",
+    "Icon": "FirstAidKit1.png"
+  },
+  {
+    "Name": "Future Sight 1",
+    "Description": "Know who you will fight next. Gain a Zephyr.",
+    "Icon": ""
+  },
+  {
+    "Name": "Item Grab Bag 1",
+    "Description": "Gain 1 random completed item and 1 Reforger.",
+    "Icon": "ItemGrabBag1.png"
+  },
+  {
+    "Name": "Knife's Edge 1",
+    "Description": "Your units that start combat in the front 2 rows gain 15 Attack Damage.",
+    "Icon": "KnifesEdge1.png"
+  },
+  {
+    "Name": "Lategame Specialist",
+    "Description": "Gain 40 gold when you reach Level 9.",
+    "Icon": "LategameSpecialist.png"
+  },
+  {
+    "Name": "Luden's Echo 1",
+    "Description": "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 150 bonus magic damage.",
+    "Icon": "LudensEcho1.png"
+  },
+  {
+    "Name": "Makeshift Armor 1",
+    "Description": "Your units with no items gain 30 Armor and Magic Resist.",
+    "Icon": "MakeshiftArmor1.png"
+  },
+  {
+    "Name": "Pandora's Bench",
+    "Description": "Gain 5 gold. At the start of every turn, Champions in your 3 rightmost bench slots transform into random Champions of the same cost.",
+    "Icon": "PandorasBench.png"
+  },
+  {
+    "Name": "Pandora's Items",
+    "Description": "Gain a random component. At the start of each turn, items on your bench are randomized (excluding Tactician's Crown, Spatula, and consumables).",
+    "Icon": "PandorasItems.png"
+  },
+  {
+    "Name": "Preparation 1",
+    "Description": "Champions on your bench permanently gain 6 Attack Damage and Ability Power every round, up to 24.",
+    "Icon": "Preparation1.png"
+  },
+  {
+    "Name": "Recombobulator",
+    "Description": "Champions on your board permanently transform into random champions that cost 1 more. Gain 3 Magnetic Removers.",
+    "Icon": "Recombobulator.png"
+  },
+  {
+    "Name": "Second Wind 1",
+    "Description": "After 10 seconds of combat, your units heal 50% of their missing Health.",
+    "Icon": "SecondWind1.png"
+  },
+  {
+    "Name": "Stand United 1",
+    "Description": "Your units gain 2 Attack Damage and Ability Power per Trait active across your team.",
+    "Icon": "StandUnited1.png"
+  },
+  {
+    "Name": "Thrill Of The Hunt 1",
+    "Description": "Your units heal 300 Health on kill.",
+    "Icon": "ThrillOfTheHunt1.png"
+  },
+  {
+    "Name": "Tiny Titans",
+    "Description": "Your Tactician heals 35 Health, grows larger, and has 135 maximum Health.",
+    "Icon": "TinyTitans.png"
+  },
+  {
+    "Name": "Tri Force 1",
+    "Description": "Your 3-cost champions gain 233 Health, 13 starting Mana, and 23% Attack Speed.",
+    "Icon": "TriForce1.png"
+  },
+  {
+    "Name": "A.D.M.I.N. Heart",
+    "Description": "Your team counts as having 1 additional A.D.M.I.N. Gain a Camille.",
+    "Icon": ""
+  },
+  {
+    "Name": "Anima Squad Heart",
+    "Description": "Your team counts as having 1 additional Anima Squad. Gain a Jinx.",
+    "Icon": "AnimaSquadHeart.png"
+  },
+  {
+    "Name": "Brawler Heart",
+    "Description": "Your team counts as having 1 additional Brawler. Gain a Vi.",
+    "Icon": "BrawlerHeart.png"
+  },
+  {
+    "Name": "Spellslinger Heart",
+    "Description": "Your team counts as having 1 additional Spellslinger. Gain an Annie.",
+    "Icon": "SpellslingerHeart.png"
+  },
+  {
+    "Name": "Sureshot Heart",
+    "Description": "Your team counts as having 1 additional Sureshot. Gain a Sivir.",
+    "Icon": "SureshotHeart.png"
+  },
+  {
+    "Name": "Defender Heart",
+    "Description": "Your team counts as having 1 additional Defender. Gain a Rell.",
+    "Icon": "DefenderHeart.png"
+  },
+  {
+    "Name": "Duelist Heart",
+    "Description": "Your team counts as having 1 additional Duelist. Gain a Fiora.",
+    "Icon": "DuelistHeart.png"
+  },
+  {
+    "Name": "Gadgeteen Heart",
+    "Description": "Your team counts as having 1 additional Gadgeteen. Gain an Annie.",
+    "Icon": ""
+  },
+  {
+    "Name": "Hacker Heart",
+    "Description": "Your team counts as having 1 additional Hacker. Gain 2 gold.",
+    "Icon": "HackerHeart.png"
+  },
+  {
+    "Name": "Heart Heart",
+    "Description": "Your team counts as having 1 additional Heart. Gain a Lee Sin.",
+    "Icon": "HeartHeart.png"
+  },
+  {
+    "Name": "Lasercorps Heart",
+    "Description": "Your team counts as having 1 additional LaserCorps. Gain a Yasuo.",
+    "Icon": "LasercorpsHeart.png"
+  },
+  {
+    "Name": "Mascot Heart",
+    "Description": "Your team counts as having 1 additional Mascot. Gain a Yuumi.",
+    "Icon": "MascotHeart.png"
+  },
+  {
+    "Name": "Ox Force Heart",
+    "Description": "Your team counts as having 1 additional Ox Force. Gain a Fiora.",
+    "Icon": "OxForceHeart.png"
+  },
+  {
+    "Name": "Recon Heart",
+    "Description": "Your team counts as having 1 additional Recon. Gain an Ezreal.",
+    "Icon": "ReconHeart.png"
+  },
+  {
+    "Name": "Renegade Heart",
+    "Description": "Your team counts as having 1 additional Renegade. Gain a Camille.",
+    "Icon": "RenegadeHeart.png"
+  },
+  {
+    "Name": "Star Guardian Heart",
+    "Description": "Your team counts as having 1 additional Star Guardian. Gain a Yuumi.",
+    "Icon": "StarGuardianHeart.png"
+  },
+  {
+    "Name": "Supers Heart",
+    "Description": "Your team counts as having 1 additional Super. Gain a Malphite.",
+    "Icon": "SupersHeart.png"
+  },
+  {
+    "Name": "Underground Heart",
+    "Description": "Your team counts as having 1 additional Underground. Gain a Vi.",
+    "Icon": ""
+  }
+]

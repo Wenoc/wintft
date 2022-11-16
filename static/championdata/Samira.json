@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Flair",
   "AbilityDescription": "Samira knocks up and juggles her target for 1.5 seconds, rapidly firing bullets that deal a physical damage. The bullets ricochet to nearby enemies, dealing 50% reduced damage.\n\nPercent of Attack Damage : 500% / 525% / 1000%\n\nDamage : 100 / 130 / 666",
-  "BestItems": ["BrambleVest", "GargoylesPlate", "SunfireCape"],
+  "BestItems": ["BrambleVest", "GargoylesStoneplate", "SunfireCape"],
   "Traits": [
     {
       "Name": "Underground",

@@ -3,6 +3,10 @@
   export let name = "";
   export let Description = "";
   export let src = "";
+
+  export let link = "";
+
+  export let karakter;
 </script>
 
 <div class="augment" class:second={isSecond}>
@@ -13,13 +17,44 @@
           style="display: flex; justify-content: start; align-items: center; min-height: 73px;"
         >
           <div class="augImg">
-            <img
-              src="/augments/{src}.png"
-              alt={name}
-              decoding="async"
-              style="height: 100%; width:100%"
-              loading="lazy"
-            />
+            {#if src == ""}
+              <div style="margin-left:10px">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="40" height="40" fill="#13141B" />
+                  <path
+                    d="M31.4284 8.57141L8.57129 31.4286M8.57129 8.57141L31.4284 31.4286"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            {:else if karakter == false}
+              <img
+                src="/augments/{src}"
+                alt={name}
+                decoding="async"
+                style="height: 100%; width:100%"
+                loading="lazy"
+              />
+            {:else}
+              <a href="champions/{link}" rel="external">
+                <img
+                  src="/ChampIcons/{src}"
+                  alt={name}
+                  decoding="async"
+                  style="height: 50px; width:50px"
+                  loading="lazy"
+                /></a
+              >
+            {/if}
           </div>
           <div>
             <p>{name}</p>
