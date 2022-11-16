@@ -172,7 +172,7 @@
 
   .desc p {
     white-space: pre-line;
-    font-size: 16px;
+    font-size: 18px;
   }
   .iconName {
     display: flex;

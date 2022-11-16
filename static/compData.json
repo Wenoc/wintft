@@ -33,7 +33,7 @@
         "champions" : ["Kayle", "Sivir", "Lee Sin", "Vi", "Ezreal", "Sona", "Samira", "Leona"],
         "carries" : [
             { "name": "Leona" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
-            { "name": "Ezreal" ,"items": ["spearofshojin", "Statikk Shiv", "Guinsoosrageblade"]},
+            { "name": "Ezreal" ,"items": ["SpearofShojin", "StatikkShiv", "GuinsoosRageblade"]},
             { "name": "" ,"items": [""]}
         ],
         "threeStar" : ["Ezreal"],
@@ -59,7 +59,7 @@
         "champions" : ["Wukong", "Draven", "Jax", "MissFortune", "Samira", "Sett", "Leona", "Mordekaiser"],
         "carries" : [
             { "name": "Leona" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
-            { "name": "MissFortune" ,"items": ["archangelsstaff", "Morellonomicon", "spearofshojin"]},
+            { "name": "MissFortune" ,"items": ["ArchangelsStaff", "Morellonomicon", "SpearofShojin"]},
             { "name": "" ,"items": [""]}
         ],
         "threeStar" : [""],
@@ -91,7 +91,7 @@
         "threeStar" : ["Vayne"],
         "difficulty": "Medium",
         "type": "Standard",
-        "augments" : ["CombatTraining", "ThrillOfTheHunt2", "CelestialBlessing3"],
+        "augments" : ["CombatTraining", "ThrillOfTheHunt2", "ScopedWeapons1"],
         "traits" : [
             {"gold" : ["Duelist6"]},
             {"silver" : []},
@@ -111,7 +111,7 @@
         "champions" : ["Nasus", "Sylas", "Jinx", "Zoe", "Riven", "Alistar", "Ekko", "MissFortune"],
         "carries" : [
             { "name": "Alistar" ,"items": ["WarmogsArmor", "SunfireCape", "GargoylesStoneplate"]},
-            { "name": "Jinx" ,"items": ["StatikkShiv", "spearofshojin", "Guinsoosrageblade"]},
+            { "name": "Jinx" ,"items": ["StatikkShiv", "SpearofShojin", "GuinsoosRageblade"]},
             { "name": "" ,"items": [""]}
         ],
         "threeStar" : ["Jinx"],
@@ -137,7 +137,7 @@
         "champions" : ["Ashe", "Renekton", "Gangplank", "Yasuo", "Ezreal", "Lee Sin", "Malphite", "Alistar"],
         "carries" : [
             { "name": "Alistar" ,"items": ["SunfireCape"]},
-            { "name": "Ashe" ,"items": ["LastWhisper", "RunaansHurricane", "Guinsoosrageblade"]},
+            { "name": "Ashe" ,"items": ["LastWhisper", "RunaansHurricane", "GuinsoosRageblade"]},
             { "name": "Renekton" ,"items": ["WarmogsArmor", "BrambleVest", "GargoylesStoneplate"]}
         ],
         "threeStar" : ["Ashe", "Renekton", "Gangplank", "Yasuo", "Ezreal", "Lee Sin", "Malphite"],
