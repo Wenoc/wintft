@@ -1,6 +1,6 @@
 <script context="module">
   export async function preload(page, session) {
-    const res = await this.fetch("championdata/Velkoz.json");
+    const res = await this.fetch("championdata/VelKoz.json");
     const Championdata = await res.json();
 
     const res2 = await this.fetch("data.json");
