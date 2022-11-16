@@ -12,7 +12,7 @@
   "AbilityIcon": "abilityIcons/alistar",
   "AbilityName": "Star Diver",
   "AbilityDescription": "Ekko dives in, granting himself a shield for 5 seconds and taunts nearby enemies. When the shield breaks, he emits a time field, dealing magic damage to nearby enemies and slowing their attack speed by 50% for 2 seconds.\n\nShield Amount : 500 / 650 / 2000\n\nDamage : 120 / 180 / 1500",
-  "BestItems": ["SpearofShojin", "Morellonomicon", "ProtectorsVow"],
+  "BestItems": ["SpearofShojin", "Morellonomicon", "ProtectorsVowx"],
   "Traits": [
     {
       "Name": "Star Guardian",

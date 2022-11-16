@@ -1401,7 +1401,7 @@
 		"AbilityDescription": "Nilah whirls her whip-blade. dealing magic damage to nearby enemies while healing herself and allies health over 1 seconds. She finishes with a burst that deals magic damage.\n\nHeal : 200 / 250 / 325\n\nDamage : 100 / 150 / 250",
 		"BestItems": [
 			"HandofJustice",
-			"Guardbreaker",
+			"Guardbreakerx",
 			"Bloodthirster"
 		],
 		"Traits": [
@@ -1523,7 +1523,7 @@
 		"AbilityDescription": "Passive: Every third attack, Jax leaps to his target and deals bonus magic damage. The bonus damage increases every third attack up to 10 times.\n\nBase Damage : 120 / 180 / 300\n\nStacking Damage : 50 / 70 / 130",
 		"BestItems": [
 			"WarmogsArmor",
-			"Guardbreaker",
+			"Guardbreakerx",
 			"SunfireCape"
 		],
 		"Traits": [
@@ -2018,7 +2018,7 @@
 		"BestItems": [
 			"SpearofShojin",
 			"Morellonomicon",
-			"ProtectorsVow"
+			"ProtectorsVowx"
 		],
 		"Traits": [
 			{

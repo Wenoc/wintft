@@ -1,13 +1,13 @@
 [
     {
         "id" : "2",
-        "name" : "Seraphine Reroll",
+        "name" : "Aegis Defenders",
         "guide" : "",
-        "tier" : "S",
-        "champions" : ["Zac", "Annie", "Alistar", "Ashe", "Draven", "Ekko", "Poppy", "Blitzcrank"],
+        "tier" : "?",
+        "champions" : ["Wukong", "Rell", "Vi", "Riven", "BelVeth", "Ekko", "Sett", "Leona"],
         "carries" : [
-            { "name": "Zac" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
-            { "name": "Alistar" ,"items": ["Archangel's Staff", "Morellonomicon", "RabadonsDeathcap"]},
+            { "name": "Leona" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
+            { "name": "BelVeth" ,"items": ["Bloodthirster", "Infinity Edge", "Titans Resolve"]},
             { "name": "Draven" ,"items": ["Edge of Night", "Titans Resolve","Bloodthirster"]}
         ],
         "threeStar" : ["Annie"],
