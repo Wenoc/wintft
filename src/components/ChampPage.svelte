@@ -10,6 +10,12 @@
   let itemData = combine[2];
   let traitData = combine[3];
 
+  export let carrya;
+  export let carryadesc;
+
+  export let suppa;
+  export let suppadesc;
+
   function toBg(x) {
     x = x.toLowerCase();
     x = x.replaceAll("'", "");
@@ -256,12 +262,53 @@
             </div>
           </div>
         </div>
+        <div class="downm">
+          <div class="downm-content">
+            <p class="BigTitle">Hero Augments</p>
+            <div class="augmnt">
+              <img
+                src="/champIcons/tft8_{toBg(Championdata.Name)}.webp"
+                alt={Championdata.Name}
+                height="50px"
+                width="50px"
+              />
+              <p>{carrya}</p>
+            </div>
+            <p class="adesc">{carryadesc}</p>
+            <div class="augmnt" style="margin-top:24px">
+              <img
+                src="/champIcons/tft8_{toBg(Championdata.Name)}.webp"
+                alt={Championdata.Name}
+                height="50px"
+                width="50px"
+              />
+              <p>{suppa}</p>
+            </div>
+            <p class="adesc">{suppadesc}</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </PageLayout>
 
 <style>
+  .adesc {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .augmnt {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .downm-content {
+    padding: 15px;
+  }
+  .downm {
+    border: 1px solid #5e5d5d;
+    width: 100%;
+  }
   .arrowContainer {
     text-align: left;
     width: 340px;

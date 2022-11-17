@@ -61,12 +61,12 @@
     },
     {
         "Icon" : "Wukong",
-        "Name" : "Re-Energize",
+        "Name" : "Cyclone",
         "Description": "Gain a Wukong. When you field him, your team restores 50% of their Mana after their first cast each combat."
     },
     {
         "Icon" : "Annie",
-        "Name" : "Cyclone",
+        "Name" : "Reflector Shield",
         "Description": "Gain an Annie. While her Ability's shield is active, enemies that attack her take 150 magic damage (once every 0.5 seconds)."
     },
     {

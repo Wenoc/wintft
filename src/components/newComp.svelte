@@ -1,18 +1,7 @@
-<script context="module">
-  export async function preload(page, session) {
-    const res1 = await this.fetch("traitData.json");
-    const traitData = await res1.json();
-
-    return { traitData };
-  }
-</script>
-
 <script>
   import Champ from "./Champ.svelte";
   import { onMount } from "svelte";
   import TraitDetails from "./TraitDetails.svelte";
-
-  export let traitData;
   export let itemData;
 
   export let AllChampions;
