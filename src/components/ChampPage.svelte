@@ -277,7 +277,7 @@
             <p class="adesc">{carryadesc}</p>
             <div class="augmnt" style="margin-top:24px">
               <img
-                src="/champIcons/tft8_{toBg(Championdata.Name)}.webp"
+                src="champIcons/tft8_{toBg(Championdata.Name)}.webp"
                 alt={Championdata.Name}
                 height="50px"
                 width="50px"
