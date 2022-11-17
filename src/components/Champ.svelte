@@ -110,15 +110,17 @@
     style="outline: 3px solid {borderColor};"
   >
     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-    <img
-      src="ChampIcons/tft8_{name}.webp"
-      alt={name}
-      loading="lazy"
-      decoding="async"
-      style="max-width:100%;"
-      on:mouseover={hover1y}
-      on:mouseleave={leave1y}
-    />
+    <a href="champions/{name}" rel="external">
+      <img
+        src="ChampIcons/tft8_{name}.webp"
+        alt={name}
+        loading="lazy"
+        decoding="async"
+        style="max-width:100%;"
+        on:mouseover={hover1y}
+        on:mouseleave={leave1y}
+      />
+    </a>
   </div>
   <div class="stars" class:dontShow={!ThreeStar}>
     <div style="position: relative;">

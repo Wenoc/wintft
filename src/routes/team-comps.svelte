@@ -32,6 +32,7 @@
   let compData = combine[1];
   let augmentData = combine[2];
   let itemData = combine[3];
+  let traitData = combine[4];
 
   function reverseComp(comp) {
     let reversed = Object.values(comp);
@@ -49,7 +50,7 @@
 </script>
 
 <svelte:head>
-  <title>TFT Comp Tier List for Patch 12.21, Set 7.5 - WinTFT</title>
+  <title>TFT Comp Tier List for Set 8 - WinTFT</title>
   <meta
     name="description"
     content="Discover the strongest TFT team comps that the best players have been playing to always be ahead of your opponents with WinTFT - Patch 12.21, Set 7.5"

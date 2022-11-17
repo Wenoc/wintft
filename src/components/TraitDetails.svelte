@@ -69,7 +69,7 @@
     border-radius: 3px;
   }
   .traitContainer {
-    z-index: 5;
+    z-index: auto;
     position: absolute;
     bottom: 60px;
     right: -210px;
