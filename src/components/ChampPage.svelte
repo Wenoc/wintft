@@ -266,23 +266,11 @@
           <div class="downm-content">
             <p class="BigTitle">Hero Augments</p>
             <div class="augmnt">
-              <img
-                src="/champIcons/tft8_{toBg(Championdata.Name)}.webp"
-                alt={Championdata.Name}
-                height="50px"
-                width="50px"
-              />
-              <p>{carrya}</p>
+              <p>Carry: {carrya}</p>
             </div>
             <p class="adesc">{carryadesc}</p>
             <div class="augmnt" style="margin-top:24px">
-              <img
-                src="champIcons/tft8_{toBg(Championdata.Name)}.webp"
-                alt={Championdata.Name}
-                height="50px"
-                width="50px"
-              />
-              <p>{suppa}</p>
+              <p>Support: {suppa}</p>
             </div>
             <p class="adesc">{suppadesc}</p>
           </div>
