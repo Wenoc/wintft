@@ -1,56 +1,287 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
   <loc>https://wintft.com/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2022-11-21</lastmod>
 </url>
 <url>
   <loc>https://wintft.com/team-comps/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-11-21</lastmod>
 </url>
 <url>
   <loc>https://wintft.com/augments/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/items/</loc>
+  <lastmod>2022-11-21</lastmod>
 </url>
 <url>
   <loc>https://wintft.com/champions/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-11-21</lastmod>
 </url>
 <url>
   <loc>https://wintft.com/guides/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-11-21</lastmod>
 </url>
 <url>
-  <loc>https://wintft.com/guides/kaisa-reroll/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://wintft.com/champions/leona</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/sett</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/ekko</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/belveth</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/riven</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/vi</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/rell</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/wukong</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/fiddlesticks</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/urgot</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/samira</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/sona</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/ezreal</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/leesin</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/sivir</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/kayle</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/mordekaiser</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/missfortune</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/jax</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/draven</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/vayne</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/zed</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/zoe</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/yasuo</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/fiora</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/nilah</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/gangplank</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/ashe</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/aphelios</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/nasus</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/sylas</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/alistar</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/jinx</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/malphite</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/renekton</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/talon</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/poppy</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/lux</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/lulu</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/blitzcrank</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/yuumi</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/galio</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/camille</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/annie</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/velkoz</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/senna</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/rammus</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/leblanc</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/kaisa</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/chogath</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/zac</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/viego</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/taliyah</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/soraka</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/sejuani</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/aurelionsol</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/syndra</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/nunu</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/champions/janna</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/guides/guild-xayah-guide/</loc>
+  <lastmod>2022-11-21</lastmod>
 </url>
 <url>
   <loc>https://wintft.com/guides/level-and-economy-guide/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://wintft.com/guides/soyfen/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-21</lastmod>
 </url>
 <url>
   <loc>https://wintft.com/guides/5-tips-to-improve/</loc>
-  <lastmod>2022-11-07T17:14:27+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-21</lastmod>
 </url>
-
-
+<url>
+  <loc>https://wintft.com/guides/kaisa-reroll/</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/guides/soyfen/</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
+<url>
+  <loc>https://wintft.com/./champions</loc>
+  <lastmod>2022-11-21</lastmod>
+</url>
 </urlset>
