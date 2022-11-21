@@ -282,6 +282,10 @@
     align-items: center;
   }
 
+  .generalAugments div:nth-child(1) {
+    background-color: #22242f;
+  }
+
   .generalAugments div {
     background-color: #2d2f3a;
     border: 1px solid #5e5d5d;
@@ -302,7 +306,7 @@
   }
 
   .heroAugments p {
-    font-weight: 400;
+    font-weight: 700;
   }
 
   .searchContainer {

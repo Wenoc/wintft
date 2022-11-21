@@ -247,7 +247,9 @@
     }
 
     .up {
-      gap: 3px;
+      gap: 6px;
+      box-sizing: border-box;
+      flex-wrap: nowrap;
       justify-content: center;
     }
 
