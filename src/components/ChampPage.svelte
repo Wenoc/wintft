@@ -247,21 +247,15 @@
                   <div class="TraitsChampions">
                     {#if tr.Champions.length > 1}
                       {#each tr.Champions as trc}
-                        <a
-                          href="/champions/{toBg(trc)}"
-                          rel="external"
-                          style="height: 54px; width:54px"
-                        >
-                          <Champ
-                            actualNamename={getActual(trc)}
-                            AllChampions={AllChamp}
-                            {itemData}
-                            name={toBg(trc)}
-                            Items={[]}
-                            cost={determineValue(trc)}
-                            ThreeStar={false}
-                          />
-                        </a>
+                        <Champ
+                          actualNamename={getActual(trc)}
+                          AllChampions={AllChamp}
+                          {itemData}
+                          name={toBg(trc)}
+                          Items={[]}
+                          cost={determineValue(trc)}
+                          ThreeStar={false}
+                        />
                       {/each}
                     {/if}
                   </div>
@@ -445,6 +439,8 @@
 
   .ChampTraits {
     display: flex;
+    justify-content: start;
+    max-height: 60px;
     align-items: center;
     gap: 8px;
   }

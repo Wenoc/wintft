@@ -12,8 +12,8 @@
 		"AbilityName": "Stone Skin",
 		"AbilityDescription": "Wukong spins his staff around him, dealing magic damage to nearby enemies and gaining Armor and Magic Resist for each enemy hit for 3 seconds\n\nDamage : 160 / 240 / 360\nArmor and Magic Resist : 50 / 75 / 100",
 		"BestItems": [
-			"ZzRotPortal",
-			"ZzRotPortal",
+			"JeweledGauntlet",
+			"TitansResolve",
 			"SunfireCape"
 		],
 		"Traits": [
@@ -131,7 +131,7 @@
 		"AbilityDescription": "Renekton empowers himself for 8 seconds, gaining maximun Health, and causing his attacks to deal 6% of his maximum Health as bonus magic damage.\n\nHealth Increase : 250 / 325 / 400",
 		"BestItems": [
 			"ThiefsGloves",
-			"ZzRotPortal",
+			"HandofJustice",
 			"WarmogsArmor"
 		],
 		"Traits": [

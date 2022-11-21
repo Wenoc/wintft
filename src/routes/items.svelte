@@ -66,7 +66,7 @@
 
 <PageLayout>
   <div slot="middle">
-    <Header headerText="Items" />
+    <Header headerText="Item Builder" />
     <div class="itemContainer">
       <div class="up">
         <div class="selectItem" on:click={standard}>
@@ -248,6 +248,7 @@
 
     .up {
       gap: 3px;
+      justify-content: center;
     }
 
     .selectItem {

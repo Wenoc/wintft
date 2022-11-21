@@ -11,6 +11,13 @@
   export let AllChampions;
   export let actualNamename;
 
+  function toBg(x) {
+    x = x.toLowerCase();
+    x = x.replaceAll("'", "");
+    x = x.replaceAll(" ", "");
+    return x;
+  }
+
   export let cost;
 
   let borderColor = "#878aa2";

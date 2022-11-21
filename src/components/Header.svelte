@@ -13,7 +13,7 @@
   <div class="up" class:homepage1={home}>
     <div class="brandtext" style="text-align: right;">
       <img
-        src="finalbrand.png"
+        src="finalbrandx.png"
         alt=""
         height="96"
         style="margin-bottom: 14px;"
@@ -91,8 +91,8 @@
   }
 
   .homepage {
-    font-size: 22px;
-    margin-left: 00px !important;
+    font-size: 26px;
+    margin-left: 0px !important;
   }
 
   @media (max-width: 1100px) {
