@@ -106,7 +106,7 @@
   <title>TFT {Championdata.Name} Best Items & Buids</title>
   <meta
     name="description"
-    content="WinTFT helps you with TFT Team Compositions and Guides so that you'll always be able to start your games one step ahead of your opponents."
+    content="TFT {Championdata.Name} Best Items, Traits, Abilities, Synergies and Hero Augments"
   />
 </svelte:head>
 
@@ -311,6 +311,7 @@
     gap: 22px;
   }
   .TraitsChampions {
+    height: 60px;
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
@@ -440,7 +441,6 @@
   .ChampTraits {
     display: flex;
     justify-content: start;
-    max-height: 60px;
     align-items: center;
     gap: 8px;
   }
