@@ -13,10 +13,6 @@
   <h1>Guild Xayah Guide</h1>
   <div class="blogBody">
     <p>
-      Hey everyone! Welcome to this Guild Xayah guide. <br /> Let me show you how
-      to win more games with this amazing comp.
-    </p>
-    <p>
       The strength of this team comp is that you can easily access the font and
       backline. <br /> However, it's quite popular, so the chances are high that
       you will be contested.
@@ -181,6 +177,9 @@
   }
 
   @media (max-width: 750px) {
+    strong {
+      font-size: 16px;
+    }
     img {
       height: 130px;
     }
