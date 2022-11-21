@@ -794,8 +794,9 @@
     overflow: hidden;
   }
 
-  .traitItem img {
-    height: 24px;
+  .traitItem {
+    height: 50px;
+    width: 50px;
   }
 
   .positionContainer div img {

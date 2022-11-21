@@ -16,7 +16,7 @@
 <PageLayout>
   <div slot="middle" style="margin-bottom: 100px;">
     <Header
-      headerText="A website dedicated to TFT Team Comps and Guides."
+      headerText="The best TFT Comps and Guides"
       home={true}
       description={true}
     />

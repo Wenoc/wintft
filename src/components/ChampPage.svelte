@@ -102,6 +102,14 @@
   }
 </script>
 
+<svelte:head>
+  <title>TFT {Championdata.Name} Best Items & Buids</title>
+  <meta
+    name="description"
+    content="WinTFT helps you with TFT Team Compositions and Guides so that you'll always be able to start your games one step ahead of your opponents."
+  />
+</svelte:head>
+
 <PageLayout>
   <div slot="middle">
     <div class="container">
