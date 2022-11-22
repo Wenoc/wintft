@@ -311,7 +311,6 @@
     gap: 22px;
   }
   .TraitsChampions {
-    height: 60px;
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
