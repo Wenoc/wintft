@@ -33,8 +33,6 @@
     return x;
   }
 
-  let borderColor = "#878aa2";
-
   function determineValue(ch) {
     let cost;
     for (let i = 0; i < AllChamp.length; i++) {

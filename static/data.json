@@ -1127,7 +1127,7 @@
 		]
 	},
 	{
-		"Name": "Vel'koz",
+		"Name": "Velkoz",
 		"Cost": 3,
 		"Health": "750 / 1350 / 2430",
 		"Damage": "50 / 75 / 113",
@@ -1147,10 +1147,10 @@
 			{
 				"Name": "Threat",
 				"Champions": [
-					"Cho'Gath",
+					"ChoGath",
 					"Rammus",
 					"Zac",
-					"Aurelion Sol",
+					"AurelionSol",
 					"BelVeth",
 					"FiddleSticks",
 					"Urgot"
@@ -1550,7 +1550,7 @@
 		]
 	},
 	{
-		"Name": "Cho'Gath",
+		"Name": "ChoGath",
 		"Picture": "Cho'Gath",
 		"Cost": 3,
 		"Health": "1200 / 2160 / 3888",
@@ -1574,7 +1574,7 @@
 				"Champions": [
 					"Rammus",
 					"Velkoz",
-					"Aurelion Sol",
+					"AurelionSol",
 					"BelVeth",
 					"Zac",
 					"Fiddlesticks",
@@ -1702,10 +1702,10 @@
 			{
 				"Name": "Threat",
 				"Champions": [
-					"Cho'Gath",
+					"ChoGath",
 					"Rammus",
 					"Velkoz",
-					"Aurelion Sol",
+					"AurelionSol",
 					"BelVeth",
 					"FiddleSticks",
 					"Urgot"
@@ -2073,10 +2073,10 @@
 			{
 				"Name": "Threat",
 				"Champions": [
-					"Cho'Gath",
+					"ChoGath",
 					"Rammus",
 					"Velkoz",
-					"Aurelion Sol",
+					"AurelionSol",
 					"Zac",
 					"Fiddlesticks",
 					"Urgot"
@@ -2085,7 +2085,7 @@
 		]
 	},
 	{
-		"Name": "Aurelion Sol",
+		"Name": "AurelionSol",
 		"Picture": "Aurelion Sol",
 		"Cost": 4,
 		"Health": "1100 / 1980 / 3564",
@@ -2107,7 +2107,7 @@
 			{
 				"Name": "Threat",
 				"Champions": [
-					"Cho'Gath",
+					"ChoGath",
 					"Rammus",
 					"Velkoz",
 					"BelVeth",
@@ -2139,11 +2139,11 @@
 			{
 				"Name": "Threat",
 				"Champions": [
-					"Cho'Gath",
+					"ChoGath",
 					"Rammus",
 					"VelKoz",
 					"Zac",
-					"Aurelion Sol",
+					"AurelionSol",
 					"BelVeth",
 					"FiddleSticks"
 				]
@@ -2379,10 +2379,10 @@
 			{
 				"Name": "Threat",
 				"Champions": [
-					"Cho'Gath",
+					"ChoGath",
 					"Rammus",
 					"Velkoz",
-					"Aurelion Sol",
+					"AurelionSol",
 					"Zac",
 					"Fiddlesticks",
 					"Urgot"

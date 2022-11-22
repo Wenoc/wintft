@@ -16,7 +16,7 @@
   "Traits": [
     {
       "Name": "Threat",
-      "Champions": ["Rammus", "Velkoz", "Aurelion Sol", "BelVeth", "Zac", "Fiddlesticks", "Urgot"]
+      "Champions": ["Rammus", "Velkoz", "AurelionSol", "BelVeth", "Zac", "Fiddlesticks", "Urgot"]
     }
   ]
 }

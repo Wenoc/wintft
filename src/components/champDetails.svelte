@@ -6,9 +6,9 @@
   export let opt;
 
   let items = [];
-  items = AllChampions.BestItems;
 
-  if (AllChampions.BestItems) {
+  if (AllChampions) {
+    items = AllChampions.BestItems;
     for (let i = 0; i < items.length; i++) {
       items[i] = items[i].replaceAll("'", "");
       items[i] = items[i].replaceAll(" ", "");
@@ -41,17 +41,19 @@
       </div>
     </div>
     <div class="right">
-      {#each AllChampions.Traits as trait}
-        <div class="trait">
-          <img
-            src="./Traits/{traitChange(trait.Name)}.webp"
-            alt="s"
-            height="32"
-            width="32"
-          />
-          <p>{trait.Name}</p>
-        </div>
-      {/each}
+      {#if AllChampions}
+        {#each AllChampions.Traits as trait}
+          <div class="trait">
+            <img
+              src="./Traits/{traitChange(trait.Name)}.webp"
+              alt="s"
+              height="32"
+              width="32"
+            />
+            <p>{trait.Name}</p>
+          </div>
+        {/each}
+      {/if}
     </div>
   </div>
   <div class="down">
@@ -70,7 +72,9 @@
         width="22"
         loading="lazy"
       />
-      <p>{AllChampions.Cost}</p>
+      {#if AllChampions}
+        <p>{AllChampions.Cost}</p>
+      {/if}
     </div>
   </div>
 </div>

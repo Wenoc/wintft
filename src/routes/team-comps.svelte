@@ -24,7 +24,7 @@
 
 <script>
   import Header from "../components/Header.svelte";
-  import NewComp from "../components/newComp.svelte";
+  import Comp from "../components/Comp.svelte";
   import PageLayout from "../components/PageLayout.svelte";
 
   export let combine;
@@ -73,7 +73,7 @@
       </div>
       {#each compData as comp}
         <div class="singleCompContainer">
-          <NewComp
+          <Comp
             {itemData}
             tiercolor={findColor(comp.tier)}
             {augmentData}

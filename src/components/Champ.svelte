@@ -5,6 +5,7 @@
 
   export let itemData;
   export let name;
+  export let cost;
   export let Items = [];
   export let ThreeStar = false;
   export let augment = false;
@@ -18,10 +19,6 @@
     return x;
   }
 
-  export let cost;
-
-  let borderColor = "#878aa2";
-
   if (Items.length > 1) {
     for (let i = 0; i < Items.length; i++) {
       Items[i] = Items[i].replaceAll("'", "");
@@ -29,9 +26,9 @@
     }
   }
 
-  if (cost == 1) {
-    borderColor = "#878aa2";
-  } else if (cost == 2) {
+  let borderColor = "#878aa2";
+
+  if (cost == 2) {
     borderColor = "#11b88e";
   } else if (cost == 3 || cost == 6) {
     borderColor = "#417deb";

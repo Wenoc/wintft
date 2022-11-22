@@ -1,29 +1,30 @@
 <script>
   import Champ from "./Champ.svelte";
-  import { onMount } from "svelte";
-  import TraitDetails from "./TraitDetails.svelte";
-  export let itemData;
 
+  export let itemData;
   export let AllChampions;
 
-  export let id;
-  export let name;
-  export let tier;
-  export let positions;
-  export let carries;
-  export let difficulty;
-  export let type;
-  export let carousel;
-  export let augments;
-  export let lvl9;
-  export let guide = "";
-  let hasGude = false;
+  export let id,
+    name,
+    tier,
+    positions,
+    carries,
+    difficulty,
+    type,
+    carousel,
+    augments,
+    lvl9,
+    champions,
+    guide = "",
+    threeStar,
+    optionsChampionsRight,
+    optionsChampionsLeft;
+
+  let hasGuide = false;
+
   if (guide != "") {
-    hasGude = true;
+    hasGuide = true;
   }
-  export let threeStar;
-  export let optionsChampionsRight;
-  export let optionsChampionsLeft;
 
   let dColor;
   let bdColor;
@@ -66,31 +67,36 @@
     tColor = "#FFF38B";
     btColor = "#7A6D44";
   }
-  export let champions;
 
   let growid = "grow" + id;
-
   let rotate = false;
-  function clickonArrow() {
-    rotate = !rotate;
-    growDivv();
+  let growDiv;
+
+  function lenyitas() {
+    growDiv = document.querySelector("." + growid);
+    if (growDiv.clientHeight) {
+      csokkentes();
+    } else {
+      noveles();
+    }
   }
 
-  function growDivv() {
-    let growDiv = document.querySelector("." + growid);
-    if (growDiv.clientHeight) {
-      growDiv.style.height = 0;
-      growDiv.style.borderBottom = 0;
+  function noveles() {
+    rotate = !rotate;
+    if (growDiv.clientWidth < 400) {
+      growDiv.style.height = 470 + "px";
     } else {
-      if (growDiv.clientWidth < 400) {
-        growDiv.style.height = 470 + "px";
-      } else {
-        growDiv.style.height = 230 + "px";
-      }
-      growDiv.style.border = "1px solid #5e5d5d";
-
-      growDiv.style.borderTop = 0;
+      growDiv.style.height = 230 + "px";
     }
+    growDiv.style.border = "1px solid #5e5d5d";
+
+    growDiv.style.borderTop = 0;
+  }
+
+  function csokkentes() {
+    rotate = !rotate;
+    growDiv.style.height = 0;
+    growDiv.style.borderBottom = 0;
   }
 
   function getName(namex) {
@@ -138,7 +144,7 @@
     return augNames[l];
   }
 
-  function traitChange(t) {
+  function traitSrc(t) {
     t = t.replaceAll(" ", "");
     if (t == "Underground") {
       return "theunderground";
@@ -149,20 +155,12 @@
       return t;
     }
   }
-
-  function findTrait(nm) {
-    for (let i = 0; i < traitData.length; i++) {
-      if (traitData[i].Name == nm) {
-        return traitData[i];
-      }
-    }
-  }
 </script>
 
 <div class="mainCompContainer">
   <div class="compHead">
     <p>{name}</p>
-    <div class="guidePic" class:hasGude={!hasGude}>
+    <div class="guidePic" class:hasGuide={!hasGuide}>
       <a href={guide} style="display: flex; align-items:center;" rel="external">
         <img src="guidePic.png" alt="linktoguide" height="20" />
       </a>
@@ -181,7 +179,7 @@
           <p style="color: {tColor};">{type}</p>
         </div>
       </div>
-      <div class="arrowa" on:click={clickonArrow} class:fordul={rotate}>
+      <div class="arrowa" on:click={lenyitas} class:fordul={rotate}>
         <svg
           stroke="currentColor"
           fill="currentColor"
@@ -239,7 +237,7 @@
           {/if}
         {/each}
       </div>
-      <div class="arrow" on:click={clickonArrow} class:fordul={rotate}>
+      <div class="arrow" on:click={lenyitas} class:fordul={rotate}>
         <svg
           stroke="currentColor"
           fill="currentColor"
@@ -348,7 +346,7 @@
               {#each Gtraits as trait}
                 <div class="traitItem" style="background-color: #d5ac38;">
                   <img
-                    src="./Traits/{traitChange(
+                    src="./Traits/{traitSrc(
                       trait.substring(0, trait.length - 1)
                     )}.webp"
                     alt={trait.substring(0, trait.length - 1)}
@@ -366,7 +364,7 @@
               {#each Straits as trait}
                 <div class="traitItem" style="background-color: #8a9c9d">
                   <img
-                    src="./Traits/{traitChange(
+                    src="./Traits/{traitSrc(
                       trait.substring(0, trait.length - 1)
                     )}.webp"
                     alt={trait.substring(0, trait.length - 1)}
@@ -384,7 +382,7 @@
               {#each Btraits as trait}
                 <div class="traitItem" style="background-color: #966b51">
                   <img
-                    src="./Traits/{traitChange(
+                    src="./Traits/{traitSrc(
                       trait.substring(0, trait.length - 1)
                     )}.webp"
                     alt={trait.substring(0, trait.length - 1)}
@@ -481,7 +479,7 @@
 </div>
 
 <style>
-  .hasGude {
+  .hasGuide {
     display: none;
   }
 

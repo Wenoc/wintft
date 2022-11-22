@@ -16,7 +16,7 @@
   "Traits": [
     {
       "Name": "Threat",
-      "Champions": ["Cho'Gath", "Rammus", "Velkoz", "Aurelion Sol", "Zac", "Fiddlesticks", "Urgot"]
+      "Champions": ["ChoGath", "Rammus", "Velkoz", "AurelionSol", "Zac", "Fiddlesticks", "Urgot"]
     },
     {
       "Name": "Corrupted",
