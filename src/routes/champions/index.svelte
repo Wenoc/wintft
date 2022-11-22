@@ -142,7 +142,7 @@
   }
 
   .championsContainer .divinContainer {
-    max-width: 980px;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
