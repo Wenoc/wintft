@@ -37,12 +37,16 @@
         </div>
       </div>
       <div class="imgCon">
-        <img src="compimg.png" alt="exaple of a comp" width="600" />
+        <img src="./LandingEx/compEx.png" alt="example of a comp" width="600" />
       </div>
     </div>
     <div class="element2">
       <div class="imgCon">
-        <img src="aag1.png" alt="exaple of a augments" width="600" />
+        <img
+          src="./LandingEx/augmentsEx.png"
+          alt="example of a augments"
+          width="600"
+        />
       </div>
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
@@ -77,12 +81,20 @@
         </div>
       </div>
       <div class="imgCon">
-        <img src="champimg.webp" alt="exaple of a comp" width="600" />
+        <img
+          src="./LandingEx/championsEx.webp"
+          alt="example of a champions"
+          width="600"
+        />
       </div>
     </div>
     <div class="element2">
       <div class="imgCon">
-        <img src="blogimg.webp" alt="exaple of a augments" width="600" />
+        <img
+          src="./LandingEx/blogEx.webp"
+          alt="example of a augments"
+          width="600"
+        />
       </div>
       <div
         style="width: 100%; display:flex; justify-content:center; align-items:center"
