@@ -123,7 +123,7 @@
         alt={name}
         loading="lazy"
         decoding="async"
-        style="max-width:100%;"
+        style="max-width:100%; border-radius: 2px;"
         on:mouseover={hover1y}
         on:mouseleave={leave1y}
       />
