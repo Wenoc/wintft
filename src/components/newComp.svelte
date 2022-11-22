@@ -31,6 +31,15 @@
   let tColor;
   let btColor;
 
+  function getChampDetails(champName) {
+    let res = AllChampions.find((obj) => {
+      if (obj.Name == champName) {
+        return obj;
+      }
+    });
+    return res;
+  }
+
   export let tiercolor;
 
   dColor = "#FD5C62";
@@ -190,7 +199,7 @@
         {#each champions as champ}
           {#if champ == carries[0].name}
             <Champ
-              {AllChampions}
+              AllChampions={getChampDetails(champ)}
               {itemData}
               actualNamename={champ}
               name={getName(champ)}
@@ -200,7 +209,7 @@
             />
           {:else if champ == carries[1].name}
             <Champ
-              {AllChampions}
+              AllChampions={getChampDetails(champ)}
               actualNamename={champ}
               {itemData}
               name={getName(champ)}
@@ -211,7 +220,7 @@
           {:else if champ == carries[2].name}
             <Champ
               actualNamename={champ}
-              {AllChampions}
+              AllChampions={getChampDetails(champ)}
               {itemData}
               name={getName(champ)}
               Items={carries[2].items}
@@ -221,7 +230,7 @@
           {:else}
             <Champ
               actualNamename={champ}
-              {AllChampions}
+              AllChampions={getChampDetails(champ)}
               {itemData}
               name={getName(champ)}
               cost={determineValue(champ)}
@@ -275,7 +284,7 @@
             <div class="lvl9">Lvl 9</div>
             <Champ
               actualNamename="0"
-              {AllChampions}
+              AllChampions={getChampDetails(lvl9)}
               {itemData}
               name={getName(lvl9)}
               augment={true}
@@ -287,7 +296,7 @@
               {#each optionsChampionsLeft as ocl}
                 <Champ
                   actualNamename="0"
-                  {AllChampions}
+                  AllChampions={getChampDetails(ocl)}
                   {itemData}
                   name={getName(ocl)}
                   augment={true}
@@ -311,7 +320,7 @@
               {#each optionsChampionsRight as ocr}
                 <Champ
                   actualNamename="0"
-                  {AllChampions}
+                  AllChampions={getChampDetails(ocr)}
                   {itemData}
                   name={getName(ocr)}
                   augment={true}

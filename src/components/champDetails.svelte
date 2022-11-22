@@ -4,21 +4,11 @@
   export let actualNamename;
   export let name;
   export let opt;
+
   let items = [];
-  let cost;
-  let traits = [];
+  items = AllChampions.BestItems;
 
-  AllChampions.forEach((item) => {
-    if (item.Name == actualNamename) {
-      cost = item.Cost;
-      items = item.BestItems;
-      for (let i = 0; i < item.Traits.length; i++) {
-        traits.push(item.Traits[i].Name);
-      }
-    }
-  });
-
-  if (items.length > 1) {
+  if (AllChampions.BestItems) {
     for (let i = 0; i < items.length; i++) {
       items[i] = items[i].replaceAll("'", "");
       items[i] = items[i].replaceAll(" ", "");
@@ -51,10 +41,10 @@
       </div>
     </div>
     <div class="right">
-      {#each traits as trait}
+      {#each AllChampions.Traits as trait}
         <div class="trait">
           <img
-            src="./Traits/{traitChange(trait)}.webp"
+            src="./Traits/{traitChange(trait.Name)}.webp"
             alt="s"
             height="32"
             width="32"
@@ -80,7 +70,7 @@
         width="22"
         loading="lazy"
       />
-      <p>{cost}</p>
+      <p>{AllChampions.Cost}</p>
     </div>
   </div>
 </div>
