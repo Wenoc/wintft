@@ -129,21 +129,21 @@
   <div class="stars" class:dontShow={!ThreeStar}>
     <div style="position: relative;">
       <img
-        src="star.svg"
+        src="./random/star.svg"
         alt={name}
         loading="lazy"
         decoding="async"
         style="position: absolute; left: -55px;"
       />
       <img
-        src="star.svg"
+        src="./random/star.svg"
         alt={name}
         loading="lazy"
         decoding="async"
         style="position: absolute; left: -40px;"
       />
       <img
-        src="star.svg"
+        src="./random/star.svg"
         alt={name}
         loading="lazy"
         decoding="async"

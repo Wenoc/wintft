@@ -10,11 +10,11 @@
   <div class="navContainer">
     <div style="padding-top: 8px;">
       <a rel="external" sapper:prefetch href="/">
-        <img src="navbrand.png" alt="home" height="48" />
+        <img src="./random/navlogo.png" alt="home" height="48" />
       </a>
     </div>
     <div class="burger" id="burger" style="position: relative;">
-      <img src="menu.svg" alt="" />
+      <img src="./random/menu.svg" alt="" />
     </div>
     <div class="linkContainer">
       <a

@@ -13,7 +13,7 @@
   <div class="up" class:homepage1={home}>
     <div class="brandtext" style="text-align: right;">
       <img
-        src="finalbrandx.png"
+        src="./random/brand.png"
         alt=""
         height="96"
         style="margin-bottom: 14px;"

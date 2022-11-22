@@ -7,13 +7,13 @@
 	"start_url": "",
 	"icons": [
 		{
-			"src": "favi.png",
+			"src": "./favicon_package_v0.16/android-chrome-144x144.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "favi.png",
+			"src": "./favicon_package_v0.16/android-chrome-144x144.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any maskable"

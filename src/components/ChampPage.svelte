@@ -123,7 +123,7 @@
     <div class="container">
       <div class="arrowContainer">
         <a href="./champions" rel="external">
-          <img src="arrow.svg" alt="back arrow" /></a
+          <img src="./random/arrow.svg" alt="back arrow" /></a
         >
       </div>
       <div class="left">

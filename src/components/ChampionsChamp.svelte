@@ -115,7 +115,7 @@
         <div class="rightUp">
           <div class="champCost">
             <img
-              src="coins.svg"
+              src="./random/coins.svg"
               alt="coin"
               decoding="async"
               height="20"

@@ -53,14 +53,14 @@
       slam items and always play "strongest board."
     </p>
 
-    <img src="early.webp" alt="early game board" />
+    <img src="./random/early.webp" alt="early game board" />
 
     <h2>Mid Game:</h2>
     <p>If you are on a winstreak, try to keep it.</p>
     <p>Add more frontline units to your board</p>
     <p>If you find Zippy, you can use him as Shyvana item holder.</p>
 
-    <img src="midgame.webp" alt="mid game board" />
+    <img src="./random/midgame.webp" alt="mid game board" />
 
     <h2>Late Game:</h2>
     <p>
@@ -68,7 +68,7 @@
       units (Xayah, Jayce, Hecarim, Shyvana, Bard).
     </p>
     <p>If you're stable, you can go to level 9 and put in Soraka.</p>
-    <img src="lategame.webp" alt="late game board" />
+    <img src="./random/lategame.webp" alt="late game board" />
     <h2>Positioning</h2>
     <p>Keep Twitch next to Xayah (extra armor reduction).</p>
     <p>
