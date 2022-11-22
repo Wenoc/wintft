@@ -1,12 +1,12 @@
 <script context="module">
   export async function preload(page, session) {
-    const res = await this.fetch("/itemData.json");
+    const res = await this.fetch("./ItemsData/itemData.json");
     const standardItems = await res.json();
 
-    const res2 = await this.fetch("/gadgeteenItems.json");
+    const res2 = await this.fetch("./ItemsData/gadgeteenItems.json");
     const gadgeteenItems = await res2.json();
 
-    const res3 = await this.fetch("/emblems.json");
+    const res3 = await this.fetch("./ItemsData/emblems.json");
     const emblems = await res3.json();
     let combine = [];
 

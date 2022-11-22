@@ -1,6 +1,6 @@
 <script context="module">
   export async function preload(page, session) {
-    const res = await this.fetch("/data.json");
+    const res = await this.fetch("/ChampData.json");
     const AllChampions = await res.json();
 
     const res2 = await this.fetch("/compData.json");
@@ -10,7 +10,7 @@
     const res3 = await this.fetch("./AugmentsData/goldAugments.json");
     const augmentData = await res3.json();
 
-    const res4 = await this.fetch("/itemData.json");
+    const res4 = await this.fetch("./ItemsData/itemData.json");
     const itemData = await res4.json();
 
     combine[0] = AllChampions;

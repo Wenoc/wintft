@@ -3,19 +3,19 @@
     const res = await this.fetch("championdata/Zoe.json");
     const Championdata = await res.json();
 
-    const res2 = await this.fetch("data.json");
+    const res2 = await this.fetch("ChampData.json");
     const AllChamp = await res2.json();
 
-    const res3 = await this.fetch("itemData.json");
+    const res3 = await this.fetch("./ItemsData/itemData.json");
     const itemData = await res3.json();
 
     const res4 = await this.fetch("traitData.json");
     const traitData = await res4.json();
 
-    const res5 = await this.fetch("carryAugments.json");
+    const res5 = await this.fetch("./AugmentsData/carryAugments.json");
     const carryAugs = await res5.json();
 
-    const res6 = await this.fetch("supportAugments.json");
+    const res6 = await this.fetch("./AugmentsData/supportAugments.json");
     const supportAugments = await res6.json();
 
     let combine = [];

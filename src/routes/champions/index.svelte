@@ -1,10 +1,10 @@
 <script context="module">
   // console.log('module script');
   export async function preload(page, session) {
-    const res = await this.fetch("/data.json");
+    const res = await this.fetch("/ChampData.json");
     const AllChampions = await res.json();
 
-    const res2 = await this.fetch("/itemData.json");
+    const res2 = await this.fetch("./ItemsData/itemData.json");
     const ItemData = await res2.json();
 
     let combine = [];
