@@ -4,9 +4,7 @@
 </script>
 
 <svelte:head>
-  <title
-    >TFT Comp Comps, Guides and More for Patch 12.21, Set 7.5 - WinTFT</title
-  >
+  <title>TFT Comp Comps, Guides and More, Set 78 - WinTFT</title>
   <meta
     name="description"
     content="WinTFT helps you with TFT Team Compositions and Guides so that you'll always be able to start your games one step ahead of your opponents."
@@ -16,7 +14,7 @@
 <PageLayout>
   <div slot="middle" style="margin-bottom: 100px;">
     <Header
-      headerText="The best Team Comps and Guides in TFT"
+      headerText="The best Team Comps and Guides for TFT"
       home={true}
       description={true}
     />

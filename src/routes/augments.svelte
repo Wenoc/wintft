@@ -1,18 +1,18 @@
 <script context="module">
   export async function preload(page, session) {
-    const res1 = await this.fetch("/silverAugments.json");
+    const res1 = await this.fetch("./AugmentsData/silverAugments.json");
     const silverAugments = await res1.json();
 
-    const res2 = await this.fetch("/goldAugments.json");
+    const res2 = await this.fetch("./AugmentsData/goldAugments.json");
     const goldAugments = await res2.json();
 
-    const res3 = await this.fetch("/prismaticAugments.json");
+    const res3 = await this.fetch("./AugmentsData/prismaticAugments.json");
     const prismaticAugments = await res3.json();
 
-    const res4 = await this.fetch("/carryAugments.json");
+    const res4 = await this.fetch("./AugmentsData/carryAugments.json");
     const carryAugments = await res4.json();
 
-    const res5 = await this.fetch("/supportAugments.json");
+    const res5 = await this.fetch("./AugmentsData/supportAugments.json");
     const supportAugments = await res5.json();
 
     let combine = [];

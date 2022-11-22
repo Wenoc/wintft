@@ -7,7 +7,7 @@
     const compData = await res2.json();
     let combine = [];
 
-    const res3 = await this.fetch("/goldAugments.json");
+    const res3 = await this.fetch("./AugmentsData/goldAugments.json");
     const augmentData = await res3.json();
 
     const res4 = await this.fetch("/itemData.json");
@@ -32,7 +32,6 @@
   let compData = combine[1];
   let augmentData = combine[2];
   let itemData = combine[3];
-  let traitData = combine[4];
 
   function reverseComp(comp) {
     let reversed = Object.values(comp);
