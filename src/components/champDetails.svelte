@@ -65,7 +65,7 @@
     </div>
     <div class="dright">
       <img
-        src="coins.svg"
+        src="./random/coins.svg"
         alt="coin"
         decoding="async"
         height="22"
