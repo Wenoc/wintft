@@ -49,7 +49,7 @@
             height="32"
             width="32"
           />
-          <p>{trait}</p>
+          <p>{trait.Name}</p>
         </div>
       {/each}
     </div>

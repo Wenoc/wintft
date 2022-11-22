@@ -8,6 +8,16 @@
   let Championdata = combine[0];
   let AllChamp = combine[1];
   let itemData = combine[2];
+
+  function getChampDetails(champName) {
+    let res = AllChamp.find((obj) => {
+      if (obj.Name == champName) {
+        return obj;
+      }
+    });
+    return res;
+  }
+
   let traitData = combine[3];
 
   export let carrya;
@@ -249,7 +259,7 @@
                       {#each tr.Champions as trc}
                         <Champ
                           actualNamename={getActual(trc)}
-                          AllChampions={AllChamp}
+                          AllChampions={getChampDetails(trc)}
                           {itemData}
                           name={toBg(trc)}
                           Items={[]}
