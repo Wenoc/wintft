@@ -52,7 +52,7 @@
   <title>TFT Comp Tier List for Set 8 - WinTFT</title>
   <meta
     name="description"
-    content="Discover the strongest TFT team comps that the best players have been playing to always be ahead of your opponents with WinTFT - Patch 12.21, Set 7.5"
+    content="Discover the strongest TFT team comps that the best players have been playing to always be ahead of your opponents with WinTFT - Set 8"
   />
 </svelte:head>
 

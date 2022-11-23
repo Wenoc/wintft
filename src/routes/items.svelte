@@ -60,7 +60,7 @@
   <title>TFT Set 8 Item Recipes and Descriptions - WinTFT</title>
   <meta
     name="description"
-    content="TFT Item builder and guide. Standard Items, Gadgeteen items, Radiant items, Emblems"
+    content="TFT Set 8 Item builder and guide. Standard Items, Gadgeteen items, Radiant items, Emblems - WinTFT"
   />
 </svelte:head>
 

@@ -150,7 +150,7 @@
 </script>
 
 <svelte:head>
-  <title>TFT Augment Tier List for Patch 12.21, Set 7.5 - WinTFT</title>
+  <title>TFT Hero Augments and General Augments List for Set 8 - WinTFT</title>
   <meta
     name="description"
     content="In TFT, there are a lot of augments. WinTFT helps you to choose by giving each augments a ranking. It also displays information about them."
