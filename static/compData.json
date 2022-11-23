@@ -3,7 +3,7 @@
         "id" : "2",
         "name" : "Aegis Defenders",
         "guide" : "",
-        "tier" : "?",
+        "tier" : "S",
         "champions" : ["Wukong", "Rell", "Vi", "Riven", "BelVeth", "Ekko", "Sett", "Leona"],
         "carries" : [
             { "name": "Leona" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
@@ -26,36 +26,36 @@
         "positions" : ["rell", "ekko", "wukong", "leona", "sett", "riven", "vi", "", "", "", "", "belveth", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
     },
     {
-        "id" : "1",
-        "name" : "Ezreal Reroll",
+        "id" : "4",
+        "name" : "Duelist Vayne",
         "guide" : "",
-        "tier" : "?",
-        "champions" : ["Kayle", "Sivir", "Lee Sin", "Vi", "Ezreal", "Sona", "Samira", "Leona"],
+        "tier" : "S",
+        "champions" : ["Ashe", "Gangplank", "Nilah", "Fiora", "Yasuo", "Vayne", "Zoe", "Zed"],
         "carries" : [
-            { "name": "Leona" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
-            { "name": "Ezreal" ,"items": ["SpearofShojin", "StatikkShiv", "GuinsoosRageblade"]},
-            { "name": "" ,"items": [""]}
+            { "name": "Fiora" ,"items": ["ZzRotPortal", "SunfireCape"]},
+            { "name": "Vayne" ,"items": ["GiantSlayer", "InfinityEdge", "LastWhisper"]},
+            { "name": "Zed" ,"items": ["Guardbreakerx"]}
         ],
-        "threeStar" : ["Ezreal"],
-        "difficulty": "Medium",
-        "type": "Standard",
-        "augments" : ["AFK", "TradeSector", "Windfall"],
+        "threeStar" : ["Vayne"],
+        "difficulty": "Easy",
+        "type": "Slow Roll",
+        "augments" : ["CombatTraining", "ThrillOfTheHunt2", "ScopedWeapons1"],
         "traits" : [
-            {"gold" : ["Underground5"]},
+            {"gold" : ["Duelist6"]},
             {"silver" : []},
-            {"bronze" : ["Aegis2", "Brawler2", "Heart2", "Sureshot2", "Ace1", "Civilian1"]}
+            {"bronze" : ["LaserCorps3", "Hacker2", "Recon2"]}
         ],
-        "carousel" : ["bow", "sword", "tear"],
-        "optionsChampionsRight" : ["BelVeth"],
-        "optionsChampionsLeft" : ["Sivir"],
-        "lvl9" : "Fiddlesticks",
-        "positions" : ["", "vi", "", "leona", "", "leesin", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "kayle", "ezreal", "", "", "sona", "samira", "sivir"]
+        "carousel" : ["bow", "sword", "gloves"],
+        "optionsChampionsRight" : ["Nasus", "Sylas"],
+        "optionsChampionsLeft" : ["Gangplank", "Nilah"],
+        "lvl9" : "Aphelios",
+        "positions" : ["", "gangplank", "nilah", "fiora", "yasuo", "", "", "", "", "", "", "mordekaiser", "", "", "", "", "", "", "", "", "", "vayne", "zoe", "", "", "", "", "ashe"]
     },
     {
         "id" : "3",
         "name" : "Mecha Ace",
         "guide" : "",
-        "tier" : "?",
+        "tier" : "A",
         "champions" : ["Wukong", "Draven", "Jax", "MissFortune", "Samira", "Sett", "Leona", "Mordekaiser"],
         "carries" : [
             { "name": "Leona" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
@@ -63,7 +63,7 @@
             { "name": "" ,"items": [""]}
         ],
         "threeStar" : [""],
-        "difficulty": "Medium",
+        "difficulty": "Hard",
         "type": "Standard",
         "augments" : ["AFK", "TradeSector", "Windfall"],
         "traits" : [
@@ -78,36 +78,36 @@
         "positions" : ["", "", "jax", "leona", "wukong", "sett", "", "", "", "", "", "mordekaiser", "", "", "", "", "", "", "", "", "", "", "", "", "", "draven", "samira", "missfortune"]
     },
     {
-        "id" : "4",
-        "name" : "Duelist Vayne",
+        "id" : "1",
+        "name" : "Ezreal Reroll",
         "guide" : "",
-        "tier" : "?",
-        "champions" : ["Ashe", "Gangplank", "Nilah", "Fiora", "Yasuo", "Vayne", "Zoe", "Zed"],
+        "tier" : "A",
+        "champions" : ["Kayle", "Sivir", "Lee Sin", "Vi", "Ezreal", "Sona", "Samira", "Leona"],
         "carries" : [
-            { "name": "Fiora" ,"items": ["ZzRotPortal", "SunfireCape"]},
-            { "name": "Vayne" ,"items": ["GiantSlayer", "InfinityEdge", "LastWhisper"]},
-            { "name": "Zed" ,"items": ["Guardbreakerx"]}
+            { "name": "Leona" ,"items": ["Gargoyle's Stoneplate", "Sunfire Cape", "Warmog's Armor"]},
+            { "name": "Ezreal" ,"items": ["SpearofShojin", "StatikkShiv", "GuinsoosRageblade"]},
+            { "name": "" ,"items": [""]}
         ],
-        "threeStar" : ["Vayne"],
-        "difficulty": "Medium",
-        "type": "Standard",
-        "augments" : ["CombatTraining", "ThrillOfTheHunt2", "ScopedWeapons1"],
+        "threeStar" : ["Ezreal"],
+        "difficulty": "Easy",
+        "type": "Slow Roll",
+        "augments" : ["AFK", "TradeSector", "Windfall"],
         "traits" : [
-            {"gold" : ["Duelist6"]},
+            {"gold" : ["Underground5"]},
             {"silver" : []},
-            {"bronze" : ["LaserCorps3", "Hacker2", "Recon2"]}
+            {"bronze" : ["Aegis2", "Brawler2", "Heart2", "Sureshot2", "Ace1", "Civilian1"]}
         ],
-        "carousel" : ["bow", "sword", "gloves"],
-        "optionsChampionsRight" : ["Nasus", "Sylas"],
-        "optionsChampionsLeft" : ["Gangplank", "Nilah"],
-        "lvl9" : "Aphelios",
-        "positions" : ["", "gangplank", "nilah", "fiora", "yasuo", "", "", "", "", "", "", "mordekaiser", "", "", "", "", "", "", "", "", "", "vayne", "zoe", "", "", "", "", "ashe"]
+        "carousel" : ["bow", "sword", "tear"],
+        "optionsChampionsRight" : ["BelVeth"],
+        "optionsChampionsLeft" : ["Sivir"],
+        "lvl9" : "Fiddlesticks",
+        "positions" : ["", "vi", "", "leona", "", "leesin", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "kayle", "ezreal", "", "", "sona", "samira", "sivir"]
     },
     {
         "id" : "5",
         "name" : "Jinx Reroll",
         "guide" : "",
-        "tier" : "?",
+        "tier" : "B",
         "champions" : ["Nasus", "Sylas", "Jinx", "Zoe", "Riven", "Alistar", "Ekko", "MissFortune"],
         "carries" : [
             { "name": "Alistar" ,"items": ["WarmogsArmor", "SunfireCape", "GargoylesStoneplate"]},
@@ -116,7 +116,7 @@
         ],
         "threeStar" : ["Jinx"],
         "difficulty": "Medium",
-        "type": "Standard",
+        "type": "Slow Roll",
         "augments" : ["TradeSector", "Preparation3", "ThinkFast"],
         "traits" : [
             {"gold" : ["Prankster3"]},
@@ -133,7 +133,7 @@
         "id" : "6",
         "name" : "Super Ashe",
         "guide" : "",
-        "tier" : "?",
+        "tier" : "B",
         "champions" : ["Ashe", "Renekton", "Gangplank", "Yasuo", "Ezreal", "Lee Sin", "Malphite", "Alistar"],
         "carries" : [
             { "name": "Alistar" ,"items": ["SunfireCape"]},
@@ -142,7 +142,7 @@
         ],
         "threeStar" : ["Ashe", "Renekton", "Gangplank", "Yasuo", "Ezreal", "Lee Sin", "Malphite"],
         "difficulty": "Medium",
-        "type": "Standard",
+        "type": "Hyper Roll",
         "augments" : ["TradeSector", "Preparation3", "ThinkFast"],
         "traits" : [
             {"gold" : ["Supers3"]},
